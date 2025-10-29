@@ -19,6 +19,9 @@ If you are developing a production application, we recommend using TypeScript wi
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 npm run dev
 
+## any issues run this !!!
+npm run dev -- --host 127.0.0.1
+
 
 ## open
 http://localhost:5173/
