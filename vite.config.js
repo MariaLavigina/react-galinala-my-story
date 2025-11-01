@@ -8,4 +8,5 @@ export default defineConfig({
     react(),        // React plugin
     tailwindcss(),  // Tailwind plugin
   ],
+    base: '/react-galinala-my-story/', // 👈 this is essential for GitHub Pages
 })

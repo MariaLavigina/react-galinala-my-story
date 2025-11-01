@@ -3,6 +3,7 @@ import TextOneOnly from "../components/TextOneOnly.jsx";
 import TextTwoIndexOnly from "../components/TextTwoIndexOnly.jsx";
 import TextThreeIndexOnly from "../components/TextThreeIndexOnly.jsx";
 import  ForwardButton from "../components/ForwardButton.jsx";
+import BackwardButton from "../components/BackwardButton.jsx";
 
 
 const Index = () => {
@@ -11,13 +12,13 @@ const Index = () => {
       {/* ---------- Desktop-only Hero section ---------- */}
       <div className="w-full hidden lg:block">
         <img
-          src="/images/desktop-images/GL_HeroPhoto_Desktop_withText.jpg"
+          src="images/desktop-images/GL_HeroPhoto_Desktop_withText.jpg"
           alt="Hero"
           className="w-full h-auto block"
         />
         <div className="relative w-full -mt-[300px]">
           <img
-            src="/images/desktop-images/wave-index-entro.svg"
+            src="images/desktop-images/wave-index-entro.svg"
             alt="Wave"
             className="w-full h-auto block"
           />
@@ -46,7 +47,7 @@ const Index = () => {
  {/* 3rd text + SVG */}
 <div className="relative w-full hidden lg:block mt-8">
   <img
-    src="/images/desktop-images/second-wave-index-desktop.svg"
+    src="images/desktop-images/second-wave-index-desktop.svg"
     alt="Wave Two"
     className="w-full h-auto block"
   />
@@ -64,20 +65,28 @@ const Index = () => {
 
 </div>
       
-
-
       {/* -------- end of desktop-only hero -------- */}
+
+
+
+
+
+
+
+
+
+
 
       {/* ---------- Tablet-only Hero section ---------- */}
       <div className="hidden md:block lg:hidden w-full">
         <img
-          src="/images/ipad-images/GL-HeroPhoto-ipad.jpg"
+          src="images/ipad-images/GL-HeroPhoto-ipad.jpg"
           alt="Hero"
           className="w-full h-auto block"
         />
         <div className="relative w-full -mt-[200px]">
           <img
-            src="/images/ipad-images/first-wave-tablet.svg"
+            src="images/ipad-images/first-wave-tablet.svg"
             alt="Wave"
             className="w-full h-auto block"
           />
@@ -91,19 +100,30 @@ const Index = () => {
             <TextOneOnly />
           </div>
         </div>
+
+
+
       </div>
       {/* -------- end of tablet-only hero -------- */}
+
+
+
+
+
+
+
+
 
       {/* ---------- Mobile-only Hero section ---------- */}
       <div className="block md:hidden w-full">
         <img
-          src="/images/mobile-images/GL-HeroPhoto-Mobile.jpg"
+          src="images/mobile-images/GL-HeroPhoto-Mobile.jpg"
           alt="Hero"
           className="w-full h-auto block"
         />
         <div className="relative w-full -mt-[100px]">
           <img
-            src="/images/mobile-images/wave-index-entro-mobile.svg"
+            src="images/mobile-images/wave-index-entro-mobile.svg"
             alt="Wave"
             className="w-full h-auto block"
           />
@@ -119,8 +139,48 @@ const Index = () => {
             <TextOneOnly />
           </div>
         </div>
+
+                    {/* Second text under SVG */}
+                 <div className="text-center text-black mt-8 px-4 max-w-[720px] mx-auto [&>h2]:text-[4.5vw]">
+                     <TextTwoIndexOnly />
+                </div>
+                    {/* Second text under SVG */}
+
+
+<div className="mt-8 relative">
+  {/* SVG Image */}
+  <img
+    src="images/mobile-images/wave-pageTwo-mobile.svg" // Update the path to your image
+    alt="Additional Image"
+    className="w-full h-auto block"
+  />
+
+  {/* Text on top of the SVG */}
+  <div
+   
+            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white 
+                       w-[95%] sm:w-[98%] 
+                       [&>h1]:text-[clamp(23px,8vw,80px)]
+                       [&>h2]:text-[clamp(65px,14vw,200px)]
+                       [&>h3]:text-[clamp(23px,6vw,35px)] [&>h3]:mt-16 [&>h3]:mb-16
+                       [&>p]:text-[clamp(16px,5vw,25px)] [&>p]:mt-8"
+     
+          >
+    <TextThreeIndexOnly />
+  </div>
+</div>
+
+
+
       </div>
       {/* -------- end of mobile-only hero -------- */}
+
+
+
+
+
+
+
 
 
 
@@ -132,7 +192,7 @@ const Index = () => {
           </h1>
 
                <img
-            src="/images/desktop-images/threeWomen-desktop.jpg"
+            src="images/desktop-images/threeWomen-desktop.jpg"
             alt="Wave"
             className="w-full h-auto block mb-16"
           />
@@ -179,8 +239,9 @@ const Index = () => {
           </div>
 
          <div className="flex justify-center mt-12">
-  <ForwardButton />
-</div>
+         <ForwardButton />
+       
+         </div>
 
         </div>
       </section>
