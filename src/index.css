@@ -10,6 +10,11 @@
 /* Tailwind base, components, and utilities */
 @import "tailwindcss";
 
+
+body {
+  background-color: #302024;
+}
+
 /* Apply fonts */
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;

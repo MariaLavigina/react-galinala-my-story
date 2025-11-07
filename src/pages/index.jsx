@@ -4,11 +4,16 @@ import TextTwoIndexOnly from "../components/TextTwoIndexOnly.jsx";
 import TextThreeIndexOnly from "../components/TextThreeIndexOnly.jsx";
 import  ForwardButton from "../components/ForwardButton.jsx";
 import BackwardButton from "../components/BackwardButton.jsx";
+import Navbar from "../components/Navbar.jsx";
+import ChapterSectionDesktop from "../components/ChapterSectionDesktop.jsx"
+import Footer from '../components/Footer';
 
 
 const Index = () => {
   return (
     <>
+     <Navbar /> 
+     <div className="h-20"></div>
       {/* ---------- Desktop-only Hero section ---------- */}
       <div className="w-full hidden lg:block">
         <img
@@ -16,7 +21,7 @@ const Index = () => {
           alt="Hero"
           className="w-full h-auto block"
         />
-        <div className="relative w-full -mt-[300px]">
+        <div className="relative w-full -mt-[380px]">
           <img
             src="images/desktop-images/wave-index-entro.svg"
             alt="Wave"
@@ -38,14 +43,14 @@ const Index = () => {
 
 
          {/* Second text under SVG */}
-    <div className="text-center text-black mt-8 px-4 max-w-[720px] mx-auto [&>h2]:text-[3vw]">
+    <div className="text-center text-white mt-8 px-4 max-w-[920px] mx-auto [&>h2]:text-[3vw]">
       <TextTwoIndexOnly />
     </div>
       {/* Second text under SVG */}
 
 
  {/* 3rd text + SVG */}
-<div className="relative w-full hidden lg:block mt-8">
+<div className="relative w-full hidden lg:block mt-8 text-white ">
   <img
     src="images/desktop-images/second-wave-index-desktop.svg"
     alt="Wave Two"
@@ -101,6 +106,31 @@ const Index = () => {
           </div>
         </div>
 
+         {/* Second text under SVG */}
+    <div className="text-center  text-white mt-8 px-4 max-w-[720px] mx-auto [&>h2]:text-[3.4vw]">
+      <TextTwoIndexOnly />
+    </div>
+      {/* Second text under SVG */}
+
+
+
+   {/* 3rd text + SVG */}
+<div className="relative hidden md:block lg:hidden w-full mt-8 text-white ">
+  <img
+    src="images/desktop-images/second-wave-index-desktop.svg"
+    alt="Wave Two"
+    className="w-full h-auto block"
+  />
+  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+    <div className="    [&>h1]:text-[5vw] [&>h1]:mt-16
+                        [&>h2]:text-[2.5vw] [&>h2]:mt-8
+                        [&>p]:text-[2vw] [&>p]:mt-8">
+      <TextThreeIndexOnly />
+    </div>
+  </div>
+</div>
+{/* 3rd text + SVG */}
+
 
 
       </div>
@@ -141,7 +171,7 @@ const Index = () => {
         </div>
 
                     {/* Second text under SVG */}
-                 <div className="text-center text-black mt-8 px-4 max-w-[720px] mx-auto [&>h2]:text-[4.5vw]">
+                 <div className="text-center text-white  mt-8 px-4 max-w-[720px] mx-auto [&>h2]:text-[4.5vw]">
                      <TextTwoIndexOnly />
                 </div>
                     {/* Second text under SVG */}
@@ -160,8 +190,8 @@ const Index = () => {
    
             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white 
                        w-[95%] sm:w-[98%] 
-                       [&>h1]:text-[clamp(23px,8vw,80px)]
-                       [&>h2]:text-[clamp(65px,14vw,200px)]
+                       [&>h1]:text-[clamp(28px,9vw,85px)]
+                       [&>h2]:text-[clamp(20px,7vw,70px)] [&>h2]:mt-4 [&>h2]:mb-16
                        [&>h3]:text-[clamp(23px,6vw,35px)] [&>h3]:mt-16 [&>h3]:mb-16
                        [&>p]:text-[clamp(16px,5vw,25px)] [&>p]:mt-8"
      
@@ -185,9 +215,9 @@ const Index = () => {
 
 
       {/* ---------- Text section below SVG (same for all) ---------- */}
-      <section className="bg-white px-[16px] sm:px-[24px] md:px-[32px] mt-[48px]">
+      <section className=" px-[16px] sm:px-[24px] md:px-[32px] mt-[48px] ">
         <div className="max-w-[720px] mx-auto text-center">
-          <h1 className="text-gray-700 text-[25px] sm:text-[30px] md:text-[33px] lg:text-[35px]  mb-8">
+          <h1 className=" text-white text-[25px] sm:text-[30px] md:text-[33px] lg:text-[35px]  mb-8">
             Вот они эти три женщины
           </h1>
 
@@ -197,12 +227,12 @@ const Index = () => {
             className="w-full h-auto block mb-16"
           />
 
-             <h2 className="text-gray-700 text-[25px] sm:text-[30px] md:text-[33px] lg:text-[35px]  mb-8">
+             <h2 className=" text-white text-[25px] sm:text-[30px] md:text-[33px] lg:text-[35px]  mb-8">
             Для кого это написанно?
           </h2>
 
 
-          <div className="text-gray-800 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] ">
+          <div className=" text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] ">
           <p className= "mb-8" >
            Для Маши. Она не уехала, ее увезли.
            Для ее семьи. Они, британцы, не имеют представления ни о Советском Союзе, ни об Израиле, ни о том, что значит быть олим ходашим ми Русия в Израиле.
@@ -212,17 +242,20 @@ const Index = () => {
               Маша давно и упорно просила: "Пиши, как всё это было". Даже тетрадку для этого купила - очень красивую. Я начала писать и время от времени читала Маше. И однажды она сказала: "Я хочу сделать из этого фильм." Мы начали снимать, но, увы, вскоре пришли к выводу: Маша - не Стивен Спилберг, а я - не Морган Фриман. Так родился этот сайт "Каждый выбирает для себя". Я ходила и бормотала эти стихи  ("Каждый выбирает для себя" стихи Юрия Левитанского)  то так, то сяк. И вдруг осознала - ну так я последние зо лет и живу в стране где у человека действительно есть выбор. Он - и только он - решает: "Дьяволу cлужить или пророку..." Я не хочу сказать что в Израиле нет жуликов, ловкачей и прочих . Но в Израиле есть возможность жить без всего этого, и при этом не нужно быть ни героем, ни борцом, а просто - в лучшем смысле этого слова - обывателем.
               У нас есть возможность. Именно возможность. И уже наше дело - воспользоваться ею или нет.
           </p>
+               <p className= "mb-8">
+           
+          </p>
            </div>
 
 
-            <h3 className="text-gray-700 text-[25px] sm:text-[30px] md:text-[33px] lg:text-[35px]  mb-8 mt-16">
+            <h3 className=" text-white text-[25px] sm:text-[30px] md:text-[33px] lg:text-[35px]  mb-8 mt-16">
             Моя история состоит из четырёх частей.
           </h3>
 
 
 
 
-           <div className="text-gray-800 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]  mb-[16px]">
+           <div className=" text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]  mb-[16px]">
           <p className="mb-8">
            Первая глава рассказывает о том, как ко мне пришло ощущение невозможности продолжать жить в России - стране с её законами, а точнее, с беззаконием, где несчастное, унижаемое на каждом шагу общество забыло о чувстве собственного достоинства.   
           </p>
@@ -240,13 +273,23 @@ const Index = () => {
 
          <div className="flex justify-center mt-12">
          <ForwardButton />
-       
          </div>
-
         </div>
       </section>
+
+      {/* ---------- Chapters Section (desktop & tablet only) ---------- */}
+<div className="">
+  <ChapterSectionDesktop />
+</div>
+
+   {/* ---------- Footer ---------- */}
+      <Footer />
     </>
+    
   );
 };
 
 export default Index;
+
+
+
