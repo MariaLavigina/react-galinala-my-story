@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50 bg-gradient-to-l from-[#9399F0] to-[#2C192C] h-20 font-[Roboto] ">
       <div className="flex items-center justify-between h-full px-6 text-white">
         {/* ---------- Desktop Navigation Links ---------- */}
-        <div className="hidden space-x-5 text-xl lg:flex md:text-lg lg:text-base navbartop">
+        <div className="hidden space-x-5 text-xl lg:flex md:text-lg lg:text-[22px] navbartop">
           <a href="/index.html" className="px-6 text-white hover:text-gray-400">
             главная страница
           </a>
