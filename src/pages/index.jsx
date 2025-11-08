@@ -5,8 +5,10 @@ import TextThreeIndexOnly from "../components/TextThreeIndexOnly.jsx";
 import  ForwardButton from "../components/ForwardButton.jsx";
 import BackwardButton from "../components/BackwardButton.jsx";
 import Navbar from "../components/Navbar.jsx";
-import ChapterSectionDesktop from "../components/ChapterSectionDesktop.jsx"
+import ChapterSectionDesktop from "../components/ChapterSectionDesktop.jsx";
 import Footer from '../components/Footer';
+import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
+
 
 
 const Index = () => {
@@ -122,9 +124,10 @@ const Index = () => {
     className="w-full h-auto block"
   />
   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-    <div className="    [&>h1]:text-[5vw] [&>h1]:mt-16
-                        [&>h2]:text-[2.5vw] [&>h2]:mt-8
-                        [&>p]:text-[2vw] [&>p]:mt-8">
+    <div className="
+                   [&>h1]:text-[5vw] [&>h1]:mt-16
+                   [&>h2]:text-[2.5vw] [&>h2]:mt-8
+                   [&>p]:text-[2vw] [&>p]:mt-8">
       <TextThreeIndexOnly />
     </div>
   </div>
@@ -171,7 +174,7 @@ const Index = () => {
         </div>
 
                     {/* Second text under SVG */}
-                 <div className="text-center text-white  mt-8 px-4 max-w-[720px] mx-auto [&>h2]:text-[4.5vw]">
+                 <div className="text-center text-white  mt-8 px-4 max-w-[720px] mx-auto [&>h2]:text-[6vw]">
                      <TextTwoIndexOnly />
                 </div>
                     {/* Second text under SVG */}
@@ -180,7 +183,7 @@ const Index = () => {
 <div className="mt-8 relative">
   {/* SVG Image */}
   <img
-    src="images/mobile-images/wave-pageTwo-mobile.svg" // Update the path to your image
+    src="images/mobile-images/secondWave-index-mobile.svg" // Update the path to your image
     alt="Additional Image"
     className="w-full h-auto block"
   />
@@ -189,7 +192,7 @@ const Index = () => {
   <div
    
             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white 
-                       w-[95%] sm:w-[98%] 
+                       w-[93%] sm:w-[90%] 
                        [&>h1]:text-[clamp(28px,9vw,85px)]
                        [&>h2]:text-[clamp(20px,7vw,70px)] [&>h2]:mt-4 [&>h2]:mb-16
                        [&>h3]:text-[clamp(23px,6vw,35px)] [&>h3]:mt-16 [&>h3]:mb-16
@@ -217,7 +220,7 @@ const Index = () => {
       {/* ---------- Text section below SVG (same for all) ---------- */}
       <section className=" px-[16px] sm:px-[24px] md:px-[32px] mt-[48px] ">
         <div className="max-w-[720px] mx-auto text-center">
-          <h1 className=" text-white text-[25px] sm:text-[30px] md:text-[33px] lg:text-[35px]  mb-8">
+          <h1 className=" text-white text-[35px] sm:text-[40px] md:text-[45px] lg:text-[50px]  mb-8">
             Вот они эти три женщины
           </h1>
 
@@ -227,7 +230,7 @@ const Index = () => {
             className="w-full h-auto block mb-16"
           />
 
-             <h2 className=" text-white text-[25px] sm:text-[30px] md:text-[33px] lg:text-[35px]  mb-8">
+             <h2 className=" text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[50px]  mb-8">
             Для кого это написанно?
           </h2>
 
@@ -248,7 +251,7 @@ const Index = () => {
            </div>
 
 
-            <h3 className=" text-white text-[25px] sm:text-[30px] md:text-[33px] lg:text-[35px]  mb-8 mt-16">
+            <h3 className=" text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[50px]  mb-8 mt-20">
             Моя история состоит из четырёх частей.
           </h3>
 
@@ -281,6 +284,13 @@ const Index = () => {
 <div className="">
   <ChapterSectionDesktop />
 </div>
+
+
+      {/* ---------- Chapters Section (mobile only) ---------- */}
+<div className="">
+  <ChapterSectionMobile />
+</div>
+
 
    {/* ---------- Footer ---------- */}
       <Footer />

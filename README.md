@@ -25,3 +25,14 @@ npm run dev -- --host 127.0.0.1
 
 ## open
 http://localhost:5173/
+
+
+## deply git hub
+
+to me on the main
+
+git add .
+git commit -m "Update navbar styles"
+git push origin main
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+npm run deploy

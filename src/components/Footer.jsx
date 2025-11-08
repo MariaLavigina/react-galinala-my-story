@@ -2,13 +2,29 @@ export default function Footer() {
   return (
     <footer className="w-full bg-transparent text-white py-12 text-center">
       {/* Contact button + socials */}
-      <div className="flex flex-col items-center justify-center space-y-6">
-        <a
-          href="contact-me.html"
-          className="group relative overflow-hidden px-6 py-3 border border-white rounded-full font-['Roboto'] text-base tracking-wide transition-all duration-300 ease-in-out hover:bg-white/10 hover:scale-[1.02] active:bg-[#FADADD] active:text-[#412744]"
-        >
-          Свяжитесь со мной
-        </a>
+<div className="flex flex-col items-center justify-center space-y-6">
+  <a
+    href="contact-me.html"
+    className="
+      group relative flex items-center justify-center
+      px-10 py-5 mt-8 mb-12
+      rounded-full
+      text-xl font-medium text-white
+      bg-gradient-to-r from-[#9399F0]/90 to-[#2C192C]/80
+      border border-white/40
+      shadow-inner shadow-[#2C192C]/50
+      backdrop-blur-sm
+      tracking-wide
+      transition-all duration-300
+      hover:from-[#9399F0]/100 hover:to-[#2C192C]/90
+      hover:border-white/60
+      hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]
+      hover:scale-[1.05]
+      active:bg-[#FADADD] active:text-[#412744]
+    "
+  >
+    свяжитесь со мной
+  </a>
 
         <div className="flex items-center justify-center space-x-8">
           <a href="mailto:galinala.mystory@gmail.com" aria-label="Email">
@@ -41,30 +57,33 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Copyright */}
-      <div className="mt-12 max-w-[720px] mx-auto text-white text-sm sm:text-base">
-        <p>© 2025 Галина Лавигина — все права защищены.</p>
-        <p className="mt-2">
-          Мы будем рады, если эта история затронет вас и вы захотите поделиться
-          ею, перепостить или опубликовать.
-        </p>
-        <p className="mt-2">
-          Пожалуйста, делайте это только с точным сохранением текста и с явным
-          указанием автора — Галины Лавигиной.
-        </p>
-        <p className="mt-2">
-          Если у вас есть вопросы, мысли или добрые слова — пишите:
-        </p>
-        <p className="mt-1">galinala.mystory@gmail.com</p>
-        <p className="mt-4 text-xs">
-          Когда вы пишете нам через форму обратной связи или напрямую на Gmail,
-          мы видим ваше имя, email и сообщение, чтобы ответить вам лично.
-        </p>
-        <p className="mt-1 text-xs">
-          Эти данные используются только для переписки с вами и никуда не
-          передаются.
-        </p>
-      </div>
+{/* Copyright */}
+<div className="px-[16px] sm:px-[24px] md:px-[32px] mt-[48px]">
+  <div className="max-w-[720px] mx-auto text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-center">
+    <p className="mb-8">© 2025 Галина Лавигина — все права защищены.</p>
+    <p className="mb-8">
+     Мы будем рады, если эта история затронет вас и вы захотите поделиться ею, перепостить или опубликовать. Пожалуйста, делайте это только с точным сохранением текста и с явным указанием автора — Галины Лавигиной.
+     Если у вас есть вопросы, мысли или добрые слова — пишите:
+    </p>
+  <p className="mb-16">
+  <a href="mailto:galinala-mystory@gmail.com" className="underline hover:text-gray-300">
+    galinala-mystory@gmail.com
+  </a>
+</p>
+    <p className="mb-8 text-sm">
+     <strong>Конфиденциальность и GDPR: </strong>
+   При обращении через форму или Gmail мы видим только имя, email и сообщение для личного ответа. Данные не передаются третьим лицам и используются только для переписки.
+    </p>
+    <p className="mb-8"></p>
+    <p className="mb-8 text-xs">
+     
+    </p>
+    <p className="mb-8 text-xs">
+   
+    </p>
+  </div>
+</div>
+
     </footer>
   );
 }

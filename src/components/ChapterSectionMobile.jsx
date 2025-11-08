@@ -1,0 +1,70 @@
+import React from "react";
+
+const chapters = [
+  { number: "01", title: "Почему я уехала", img: "images/heading-chapter01.webp", link: "#" },
+  { number: "02", title: "Прилетели мы в Израиль", img: "images/heading-chapter02.webp", link: "#" },
+  { number: "03", title: "Mоя Маша", img: "images/heading-chapter03.webp", link: "#" },
+  { number: "04", title: "Mоя мама", img: "images/heading-chapter04.webp", link: "#" },
+];
+
+const ChapterSectionMobile = () => {
+  return (
+    <div className="relative w-full block md:hidden overflow-hidden mt-4">
+      {/* SVG Background */}
+      <img
+        src="images/mobile-images/chapter-mobile.svg"
+        alt="All Chapters Wave"
+        className="w-full h-auto block"
+      />
+
+      {/* Content vertically centered over the SVG */}
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center gap-12">
+        {chapters.map((chapter) => (
+          <div key={chapter.number} className="flex flex-col items-center text-center w-full">
+            
+            {/* Text container limited to 95% */}
+            <div className="w-[95%] mx-auto flex flex-col items-center">
+              
+              {/* Chapter Number */}
+              <h1 className="text-[5rem] sm:text-[7rem] font-bold mb-2 text-white">
+                {chapter.number}
+              </h1>
+
+              {/* Chapter Title */}
+              <h2 className="text-[2rem] sm:text-[4rem] mb-4 text-white">
+                {chapter.title}
+              </h2>
+
+              {/* Button */}
+              <a href={chapter.link} className="mb-4 w-full flex justify-center">
+                <div
+                  className="
+                    group relative rounded-full text-white font-['Roboto'] bg-white/10 backdrop-blur-md border border-white/30 
+                    tracking-wide transition-all duration-300 ease-in-out 
+                    hover:bg-white/20 hover:scale-[1.03] active:bg-white/30 
+                    px-[clamp(24px,6vw,40px)] py-[clamp(10px,3.5vw,20px)] text-[clamp(1.5rem,5vw,2.5rem)] text-center
+                  "
+                >
+                  читать далее
+                </div>
+              </a>
+
+            </div>
+
+            {/* Chapter Image */}
+            <a href={chapter.link} className="block w-full">
+              <img
+                src={chapter.img}
+                alt={chapter.title}
+                className="w-full h-auto block transform transition-transform duration-300 hover:scale-105"
+              />
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default ChapterSectionMobile;
+

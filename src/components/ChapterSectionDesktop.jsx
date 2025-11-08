@@ -1,10 +1,10 @@
 import React from "react";
 
 const chapters = [
-  { number: "01", title: "Почему я уехала", img: "images/heading-chapter01.webp", link: "#" },
-  { number: "02", title: "Прилетели мы в Израиль", img: "images/heading-chapter02.webp", link: "#" },
-  { number: "03", title: "Mоя Маша", img: "images/heading-chapter03.webp", link: "#" },
-  { number: "04", title: "Mоя мама", img: "images/heading-chapter04.webp", link: "#" },
+  { number: "01", title: <>Почему я <br />уехала</>, img: "images/heading-chapter01.webp", link: "#" },
+  { number: "02", title: <>Прилетели мы <br />в Израиль</>, img: "images/heading-chapter02.webp", link: "#" },
+  { number: "03", title: <>Mоя <br />Маша</>, img: "images/heading-chapter03.webp", link: "#" },
+  { number: "04", title: <>Mоя <br />мама</>, img: "images/heading-chapter04.webp", link: "#" },
 ];
 
 const ChapterSectionDesktop = () => {
@@ -29,12 +29,12 @@ const ChapterSectionDesktop = () => {
             <div key={chapter.number} className="flex flex-col items-center text-center w-[21%]">
               
               {/* Chapter Number */}
-              <h1 className="text-[clamp(36px,5vw,60px)] font-bold mb-1 text-white">
+              <h1 className="text-[clamp(40px,5vw,65px)] font-bold mb-1 text-white">
                 {chapter.number}
               </h1>
 
               {/* Chapter Title */}
-            <h2 className="text-sm md:text-[0.7rem] lg:text-[1.2rem] xl:text-[1.7rem] mb-2 text-white break-words min-h-[50px]">
+            <h2 className="text-sm md:text-[1rem] lg:text-[1.5rem] xl:text-[1.8rem] mb-2 text-white break-words min-h-[50px]">
             {chapter.title}
             </h2>
 
