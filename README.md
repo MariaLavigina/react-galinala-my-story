@@ -36,3 +36,14 @@ git commit -m "Update navbar styles"
 git push origin main
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 npm run deploy
+
+
+
+
+
+
+## if any errors in text
+
+Press Ctrl+F → enable regex search (.*)
+
+Search for \u2028   \u00A0 

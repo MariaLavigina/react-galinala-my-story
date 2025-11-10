@@ -12,7 +12,7 @@ const ChapterSectionMobile = () => {
     <div className="relative w-full block md:hidden overflow-hidden mt-4">
       {/* SVG Background */}
       <img
-        src="images/mobile-images/chapter-mobile.svg"
+        src="images/mobile-images/index-chapters-mobile.svg"
         alt="All Chapters Wave"
         className="w-full h-auto block"
       />

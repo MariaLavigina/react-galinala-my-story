@@ -1,9 +1,12 @@
+import React from "react";
+
 export default function ForwardButton() {
   return (
     <button
       className="
-        group relative flex items-center justify-center gap-4
-        px-12 py-5
+        w-48                /* same fixed width */
+        group relative flex items-center justify-center gap-2
+        px-6 py-5           /* increased vertical padding */
         rounded-full
         text-xl font-medium text-white
         bg-gradient-to-r from-[#9399F0]/90 to-[#2C192C]/80
