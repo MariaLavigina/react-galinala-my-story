@@ -1,25 +1,37 @@
-// import React from 'react';
-// import Index from './pages/index.jsx';
-
-// function App() {
-//   return <Index />;
-// }
-
-// export default App;
-
-
-
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Index from './pages/index.jsx';
+import WhyILeft from "./pages/WhyILeft.jsx";
 import DecisionToLeave from './pages/DecisionToLeave.jsx';
+import OurJourney from './pages/OurJourney.jsx';
+import WeArrived from './pages/WeArrived.jsx';
+// import FirstSteps from './pages/FirstSteps.jsx';
+// import LifeInIsrael from './pages/LifeInIsrael.jsx';
+// import GalinaGrew from './pages/GalinaGrew.jsx';
+// import MashasFirstDays from './pages/MashasFirstDays.jsx';
+// import MothersStory from './pages/MothersStory.jsx';
+// import ContactMe from './pages/ContactMe.jsx';
+// import ThankYou from './pages/ThankYou.jsx';
 
 function App() {
   return (
     <Router basename="/react-galinala-my-story/">
-      <Routes>
-        <Route path="/" element={<Index />} />
-        <Route path="/decision-to-leave" element={<DecisionToLeave />} />
+    <Routes>
+    <Route path="/" element={<Index />} /> 
+    <Route path="/why-i-left" element={<WhyILeft />} />
+    <Route path="/decision-to-leave" element={<DecisionToLeave/>} />
+    <Route path="/our-journey" element={<OurJourney />} />
+    <Route path="/we-arrived" element={<WeArrived />} />
+
+
+    {/* <Route path="/first-steps" element={<FirstSteps />} />
+    <Route path="/life-in-israel" element={<LifeInIsrael />} />
+    <Route path="/galina-grew" element={<GalinaGrew />} />
+    <Route path="/mashas-first-days" element={<MashasFirstDays />} />
+    <Route path="/mothers-story" element={<MothersStory />} />
+    <Route path="/contact-me" element={<ContactMe />} />
+    <Route path="/thank-you" element={<ThankYou />} /> */}
+                          
       </Routes>
     </Router>
   );

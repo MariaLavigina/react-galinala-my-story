@@ -4,9 +4,9 @@ export default function BackwardButton() {
   return (
     <button
       className="
-        w-48                /* fixed width */
+        w-48
         group relative flex items-center justify-center gap-2
-        px-6 py-5           /* increased vertical padding */
+        px-6 py-5
         rounded-full
         text-xl font-medium text-white
         bg-gradient-to-r from-[#9399F0]/90 to-[#2C192C]/80
@@ -20,7 +20,7 @@ export default function BackwardButton() {
         hover:scale-[1.05]
       "
     >
-      <span className="tracking-wide leading-none">назад</span>
+      {/* Arrow on the left */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="w-6 h-6 flex-shrink-0 transform transition-transform duration-300 group-hover:-translate-x-1"
@@ -31,6 +31,8 @@ export default function BackwardButton() {
       >
         <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
       </svg>
+
+      <span className="tracking-wide leading-none">назад</span>
     </button>
   );
 }

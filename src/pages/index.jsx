@@ -3,7 +3,6 @@ import TextOneOnly from "../components/TextOneOnly.jsx";
 import TextTwoIndexOnly from "../components/TextTwoIndexOnly.jsx";
 import TextThreeIndexOnly from "../components/TextThreeIndexOnly.jsx";
 import  ForwardButton from "../components/ForwardButton.jsx";
-import BackwardButton from "../components/BackwardButton.jsx";
 import Navbar from "../components/Navbar.jsx";
 import ChapterSectionDesktop from "../components/ChapterSectionDesktop.jsx";
 import Footer from '../components/Footer';
