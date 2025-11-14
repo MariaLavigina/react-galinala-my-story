@@ -51,7 +51,7 @@ const DecisionToLeave = () => {
             <img
               src="images/desktop-images/sammer-house-desktop.jpg"
               alt="------------"
-              className="w-full h-auto block mb-6 mt-22"
+              className="w-full h-auto block mb-6 mt-24"
             />
             <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
               <p className="mb-8">
