@@ -209,14 +209,16 @@ const FirstSteps = () => {
           </div>
        
 
-       </div>
-    </section>
+  
 
 
       <div className="flex justify-center gap-4 mt-24">
         <BackwardButton />
         <ForwardButton />
       </div>
+
+           </div>
+    </section>
 
       {/* ---------- Chapters Section (desktop & tablet only) ---------- */}
       <ChapterSectionDesktop />

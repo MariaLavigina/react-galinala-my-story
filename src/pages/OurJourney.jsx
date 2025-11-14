@@ -238,17 +238,6 @@ const OurJourney = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
       <div className="flex justify-center gap-4 mt-24">
         <BackwardButton />
         <ForwardButton />
