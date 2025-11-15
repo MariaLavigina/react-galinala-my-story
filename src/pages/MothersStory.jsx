@@ -6,6 +6,8 @@ import ChapterSectionDesktop from "../components/ChapterSectionDesktop.jsx";
 import Footer from '../components/Footer';
 import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
 import TextFifthPage from "../components/TextFifthPage.jsx";
+import DesktopFromLetters from "../components/DesktopFromLetters.jsx";
+import MobileFromLetters from "../components/mobileFromLetters.jsx";
 
 const MothersStory = () => {
   return (
@@ -142,100 +144,8 @@ const MothersStory = () => {
         </div>
       </section>
 
-{/* ----------  Из писем моей мамы  ---------- */}
-<section className="hidden lg:relative lg:overflow-hidden lg:block">
-  <img
-    src="images/desktop-images/lettersBackground.jpg"
-    alt="Letters Background"
-    className="w-full h-auto block"
-  />
-
-
-
-  {/* --- 1 --- */}
-  <div className="absolute inset-0 flex flex-col items-center justify-center px-4 py-12">
-    <div className="bg-[#302024]/90 px-6 py-4 max-w-3xl text-center">
-
-   
-    
-      <h4 className="text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] text-white font-[Playfair Display] italic leading-[1.5]">
-      “Ну хлопоты эти радостные.  А я уж стараюсь, чтобы к ее приходу Маша была уложена и ужин готов.”
-      </h4>
-    </div>
-
-     {/* --- 2 --- */}
-    <div className="bg-[#302024]/90 mt-8 px-6 py-6 max-w-3xl text-center">
-      <h4 className="text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] text-white font-[Playfair Display] font-normal italic leading-[1.5]">
-      “Пятого января отметили Машенькино десятилетие. Пришли девочки и два мальчика. Взрослых не было. Решили этот день целиком посвятить детям. И они этим воспользовались. Было весело и шумно. Одна девочка изображала клоуна. Маша в галином махровом халате с теплым платком на голове и с закрытом зонтиком вместо клюки изображала бабу ягу. Согнулась вдвое и потом в этом положении лихо отплясывала. Воздушные шары, подталкиваемые ребятами летали по всей комнате и дети визжали от восторга.Да была еще музыка. Родители одной девочки принесли орган, плюс наше пианино -можете вообразить какой шум, зато весело. И никто нам не указывает, не упрекает, что шумно, много ребят и вообще.”
-      </h4>
-    </div>
-
-         {/* --- 3 --- */}
-    <div className="bg-[#302024]/90 mt-8 px-6 py-6 max-w-3xl text-center">
-      <h4 className="text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] text-white font-[Playfair Display] font-normal italic leading-[1.5]">
-     “Здесь почему - то все очень устают. Говорят климат такой и тяжелая дорога. Вот я перемогаясь, отлеживаясь по несколько раз за день,  все же веду наше несложное хозяйство.”
-      </h4>
-    </div>
-
-         {/* --- 4 --- */}
-    <div className="bg-[#302024]/90 mt-8 px-6 py-6 max-w-3xl text-center">
-      <h4 className="text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] text-white font-[Playfair Display] font-normal italic leading-[1.5]">
-     “Такая радость, что хочется бесконечно повторять: покупаем квартиру. Мечтали о двухкомнатной, а получилась трехкомнатная!”
-      </h4>
-    </div>
-
-         {/* --- 5 --- */}
-    <div className="bg-[#302024]/90 mt-8 px-6 py-6 max-w-3xl text-center">
-      <h4 className="text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] text-white font-[Playfair Display] font-normal italic leading-[1.5]">
-     “И хоть многого не хватает, но мы совершенно счастливы. Все радует. И то, что мы одни своей семьей и что комнаты светлые и соседи хорошие и что из окон чудесный вид.  Вплоть до горизонта холмы увитые зеленью, белые дома с красными черепичными крышами и белые ленты дорог. Галя даже не хочет закрыть окна занавесами, да по првде говоря сказать их у нас нет. Это не огорчает.”
-      </h4>
-    </div>
-
-         {/* --- 6 --- */}
-    <div className="bg-[#302024]/90 mt-8 px-6 py-6 max-w-3xl text-center">
-      <h4 className="text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] text-white font-[Playfair Display] font-normal italic leading-[1.5]">
-      “Я стараюсь, чтобы ей  меньше оставалось дел по дому.”
-      </h4>
-    </div>
-
-             {/* --- 7 --- */}
-    <div className="bg-[#302024]/90 mt-8 px-6 py-6 max-w-3xl text-center">
-      <h4 className="text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] text-white font-[Playfair Display] font-normal italic leading-[1.5]">
-      “Стараюсь заниматься с Машей русским языком. Хоть немного читать и писать.”
-      </h4>
-    </div>
-
-             {/* --- 8 --- */}
-    <div className="bg-[#302024]/90 mt-8 px-6 py-6 max-w-3xl text-center">
-      <h4 className="text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] text-white font-[Playfair Display] font-normal italic leading-[1.5]">
-    “Как то нормальнее стала жизнь.”
-      </h4>
-    </div>
-
-             {/* --- 9 --- */}
-    <div className="bg-[#302024]/90 mt-8 px-6 py-6 max-w-3xl text-center">
-      <h4 className="text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] text-white font-[Playfair Display] font-normal italic leading-[1.5]">
-       “Рассчитываем от безработного оптимизма перейти на реальную работу с зарплатой. Наверное с апреля. Сейчас зачитываюсь автобиографией Натальи Ильиной "Дороги и судьбы" И как мне теперь понятны описываемые ею тяготы и переживания эмигрантской жизни в Шанхае.”
-      </h4>
-    </div>
-
-             {/* --- 10 --- */}
-    <div className="bg-[#302024]/90 mt-8 px-6 py-6 max-w-3xl text-center">
-      <h4 className="text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] text-white font-[Playfair Display] font-normal italic leading-[1.5]">
-     “Очень добрые отношения с хозяином и его женой. Кстати,  его жена занимается  с  Машей торой. Маша охотно к ней ходит. На днях хозяин с женой и родителями были у нас в гостях. Интеллигентные и видимо хорошие люди.”
-      </h4>
-    </div>
-
-             {/* --- 11 --- */}
-    <div className="bg-[#302024]/90 mt-8 px-6 py-6 max-w-3xl text-center">
-      <h4 className="text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] text-white font-[Playfair Display] font-normal italic leading-[1.5]">
-       “Спасибо огромное за поздравление с днем рождения. Думаем,  вернее Галя хочет, собрать наших соседей по площадке отметить этот день. Соседи у нас очень хорошие. Одни очень заботливо и внимательно к нам относятся, а с другими не  только добрососедские отношения, но и дружеские. Интересные люди и я бесконечно рада, что рядом такие люди. У них еще отличная библиотека.”
-      </h4>
-    </div>
-  </div>
-</section>
-{/* ----------  Из писем моей мамы  ---------- */}
-
+         <DesktopFromLetters /> 
+         <MobileFromLetters />
 
             {/* ---------- Text ---------- */}
           <div className="max-w-[720px] mx-auto mt-[48px] text-center">

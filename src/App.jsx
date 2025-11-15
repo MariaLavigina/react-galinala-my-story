@@ -10,8 +10,8 @@ import LifeInIsrael from './pages/LifeInIsrael.jsx';
 import GalinaGrew from './pages/GalinaGrew.jsx';
 import MashasFirstDays from './pages/MashasFirstDays.jsx';
 import MothersStory from './pages/MothersStory.jsx';
-// import ContactMe from './pages/ContactMe.jsx';
-// import ThankYou from './pages/ThankYou.jsx';
+import ContactMe from './pages/ContactMe.jsx';
+import ThankYou from './pages/ThankYou.jsx';
 
 function App() {
   return (
@@ -22,15 +22,13 @@ function App() {
     <Route path="/decision-to-leave" element={<DecisionToLeave/>} />
     <Route path="/our-journey" element={<OurJourney />} />
     <Route path="/we-arrived" element={<WeArrived />} />
-
-
-   <Route path="/first-steps" element={<FirstSteps />} />
-   <Route path="/life-in-israel" element={<LifeInIsrael />} />
-   <Route path="/galina-grew" element={<GalinaGrew />} />
-   <Route path="/mashas-first-days" element={<MashasFirstDays />} />
+    <Route path="/first-steps" element={<FirstSteps />} />
+    <Route path="/life-in-israel" element={<LifeInIsrael />} />
+    <Route path="/galina-grew" element={<GalinaGrew />} />
+    <Route path="/mashas-first-days" element={<MashasFirstDays />} />
     <Route path="/mothers-story" element={<MothersStory />} />
-   {/* <Route path="/contact-me" element={<ContactMe />} />
-    <Route path="/thank-you" element={<ThankYou />} /> */}
+    <Route path="/contact-me" element={<ContactMe />} />
+    <Route path="/thank-you" element={<ThankYou />} /> 
                           
       </Routes>
     </Router>

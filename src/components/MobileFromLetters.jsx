@@ -1,21 +1,8 @@
-// DesktopFromLetters.jsx
+// MobileFromLetters.jsx
 import React from "react";
 
-// Reusable single letter component
-const Letter = ({ text, first = false }) => (
-  <div
-    className={`bg-[#302024]/90 px-6 py-4 max-w-3xl text-center ${
-      !first ? "mt-8 py-6" : ""
-    }`}
-  >
-    <h4 className="text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] text-white font-[Playfair Display] font-normal italic leading-[1.5]">
-      {text}
-    </h4>
-  </div>
-);
-
-const DesktopFromLetters = () => {
-  const letters = [
+const MobileFromLetters = () => {
+   const letters = [
     "“Ну хлопоты эти радостные.  А я уж стараюсь, чтобы к ее приходу Маша была уложена и ужин готов.”",
     "“Пятого января отметили Машенькино десятилетие. Пришли девочки и два мальчика. Взрослых не было. Решили этот день целиком посвятить детям. И они этим воспользовались. Было весело и шумно. Одна девочка изображала клоуна. Маша в галином махровом халате с теплым платком на голове и с закрытом зонтиком вместо клюки изображала бабу ягу. Согнулась вдвое и потом в этом положении лихо отплясывала. Воздушные шары, подталкиваемые ребятами летали по всей комнате и дети визжали от восторга.Да была еще музыка. Родители одной девочки принесли орган, плюс наше пианино - можете вообразить какой шум, зато весело. И никто нам не указывает, не упрекает, что шумно, много ребят и вообще.”",
     "“Здесь почему - то все очень устают. Говорят климат такой и тяжелая дорога. Вот я перемогаясь, отлеживаясь по несколько раз за день,  все же веду наше несложное хозяйство.”",
@@ -30,20 +17,19 @@ const DesktopFromLetters = () => {
   ];
 
   return (
-    <section className="hidden lg:relative lg:overflow-hidden lg:block">
-      <img
-        src="images/desktop-images/lettersBackground.jpg"
-        alt="Letters Background"
-        className="w-full h-auto block"
-      />
-
-      <div className="absolute inset-0 flex flex-col items-center justify-center px-4 py-12">
+    <section className="block lg:hidden px-4 sm:px-6 md:px-8 mt-8 text-center">
+      <div className="max-w-[720px] mx-auto text-white">
         {letters.map((text, index) => (
-          <Letter key={index} text={text} first={index === 0} />
+          <h4
+            key={index}
+            className="mb-8 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-[Playfair Display] font-normal italic leading-[1.5]"
+          >
+            {text}
+          </h4>
         ))}
       </div>
     </section>
   );
 };
 
-export default DesktopFromLetters;
+export default MobileFromLetters;
