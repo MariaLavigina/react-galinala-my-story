@@ -22,7 +22,7 @@ const MobileFromLetters = () => {
         {letters.map((text, index) => (
           <h4
             key={index}
-            className="mb-8 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-[Playfair Display] font-normal italic leading-[1.5]"
+            className="mb-8 text-[23px] sm:text-[25px] md:text-[27px] lg:text-[40px] font-[Playfair Display] font-normal italic leading-[1.5]"
           >
             {text}
           </h4>

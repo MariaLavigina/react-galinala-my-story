@@ -191,11 +191,28 @@ const FirstSteps = () => {
             
               {/* ---------- Image + Text section ---------- */}
             <div>
+               
+                 {/* ---------- desktop ---------- */}
                <img
                src="images/desktop-images/tikoa-desktop.jpg"
               alt="------------"
-              className="w-full h-auto block mb-6 mt-24"
+              className="w-full h-auto hidden sm:block mb-6 mt-24"
             />
+
+               {/* ---------- mobile ---------- */}
+                 <img
+               src="images/mobile-images/tikoa-drawing-01.jpg"
+              alt="------------"
+              className="w-full h-auto block sm:hidden mb-6 mt-16"
+            />
+
+                 {/* ---------- mobile ---------- */}
+                 <img
+               src="images/mobile-images/tikoa-drawing-02.jpg"
+              alt="------------"
+              className="w-full h-auto block sm:hidden mb-6 mt-4"
+            />
+
                <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
               <p className="mb-8">
                Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа — Иродион в рисунках Маши.

@@ -133,12 +133,20 @@ const MashasFirstDays = () => {
           <h1 className=" text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 text-center ">
            мои пальмы
           </h1>
-
-            <img
+      {/* ---------- desktop ---------- */}
+    <img
     src="images/desktop-images/palm-desktop.webp"
     alt="Коллекция пальм, созданная в рамках очных занятий под руководством художника-графика Ильи Богдановского."
-    className="w-full h-auto block mb-6 mt-22 "
+    className="w-full h-auto hidden sm:block  mb-6 mt-22 "
   />
+
+       {/* ---------- mobile ---------- */}
+     <img
+    src="images/mobile-images/palm-mobile.webp"
+    alt="Коллекция пальм, созданная в рамках очных занятий под руководством художника-графика Ильи Богдановского."
+    className="w-full h-auto block sm:hidden mb-6 mt-8 "
+  />
+
         <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
               <p className="mb-8">
             Коллекция пальм, созданная в рамках очных занятий под руководством художника-графика Ильи Богдановского.
@@ -173,12 +181,30 @@ const MashasFirstDays = () => {
 
                              {/* ---------- Image + Text section ---------- */}
           <div className="max-w-[720px] mx-auto mt-[48px]">
-          
+                  {/* ---------- desktop ---------- */}
                <img
                src="images/desktop-images/masha-moscow-desktop.jpg"
               alt="Москва, 1990 год, рядом с нашим домом."
-              className="w-full h-auto block mb-6 mt-24"
+              className="w-full h-auto hidden sm:block mb-6 mt-24"
             />
+                   {/* ---------- mobile ---------- */}
+                 <img
+               src="images/mobile-images/masha-moscow-01.jpg"
+              alt="Москва, 1990 год, рядом с нашим домом."
+              className="w-full h-auto block sm:hidden mb-6 mt-16"
+            />
+                  <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] block sm:hidden ">
+              <p className="mb-8">
+           Москва, 1990 год, рядом с нашим домом.
+              </p>
+          </div> 
+                    {/* ---------- mobile ---------- */}
+                 <img
+               src="images/mobile-images/masha-moscow-02.jpg"
+              alt="Москва, 1990 год, рядом с нашим домом."
+              className="w-full h-auto block sm:hidden mb-6 mt-4"
+            />
+
                <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
               <p className="mb-8">
            Москва, 1990 год, рядом с нашим домом.

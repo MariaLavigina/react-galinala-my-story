@@ -109,12 +109,20 @@ const MothersStory = () => {
 
                             {/* ---------- Image + Text section ---------- */}
           <div className="max-w-[720px] mx-auto mt-[48px]">
-          
+                   {/* ---------- desktop ---------- */}
                <img
                src="images/desktop-images/documentations-desktop.webp"
               alt="------------------"
-              className="w-full h-auto block mb-6 mt-24"
+              className="w-full h-auto hidden sm:block mb-6 mt-24"
             />
+                    {/* ---------- mobile ---------- */}
+                  <img
+               src="images/mobile-images/documentations-mobile.jpg"
+              alt="------------------"
+              className="w-full h-auto block sm:hidden mb-6 mt-16"
+            />
+
+
                <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
               <p className="mb-8">
           Мама как-то попросила купить ей блокнот —  С тех пор она вела его с нашими расходами, как бухгалтер на миссии. Даже мороженое за 3 шекеля туда попадало.
@@ -138,17 +146,55 @@ const MothersStory = () => {
           </p>
           </div>
 
-               <h4 className=" text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px]  mb-24 mt-32 text-center">
+               <h4 className=" text-white text-[45px] sm:text-[50px] md:text-[55px] lg:text-[60px]  mb-16 mt-28 text-center hidden sm:block">
          Из писем моей мамы 
           </h4>
+
+<div className="relative w-full">
+
+{/* MOBILE IMAGE */}
+<img
+  src="images/mobile-images/letters-mobile02.jpg"
+  alt="Letters"
+  className="w-full h-auto block sm:hidden"
+/>
+
+{/* TEXT OVER IMAGE */}
+<h4
+  className="
+    absolute inset-0 
+    flex items-center justify-center 
+    sm:hidden
+  "
+>
+  <span
+    className="
+      text-white
+      text-[clamp(28px,13vw,77px)]
+      bg-[#302024]/85
+      w-[96%]
+      mx-auto
+      px-6 py-3
+      text-center
+    "
+  >
+    Из писем моей мамы
+  </span>
+</h4>
+
+</div>
+
+
         </div>
       </section>
 
          <DesktopFromLetters /> 
+         
          <MobileFromLetters />
 
             {/* ---------- Text ---------- */}
-          <div className="max-w-[720px] mx-auto mt-[48px] text-center">
+      <div className="max-w-[720px] mx-auto mt-[48px] text-center px-[16px] sm:px-0">
+
             <h4 className="text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-20">
                “Понемногу обживаемся, купили платяной шкаф, шкаф для книг и шкафчик для обуви. А вот стулья еще не можем купить. Зато вид из окна потрясающий. окно, как большая рама чудесной картины. Не можем налюбоваться.”
             </h4>
@@ -161,6 +207,38 @@ const MothersStory = () => {
           src="images/desktop-images/window-view-desktop.webp"
           alt="----------------------"
           className="w-full h-auto block"
+        />
+      </div>
+      {/* ---------- Image + Text section ---------- */}
+
+
+               {/* ---------- Text ---------- */}
+       <div className="max-w-[720px] mx-auto mt-[48px] text-center px-[16px] sm:px-0">
+
+            <h4 className="text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-20">
+             “Я вспомнила свои молодые, а протом и зрелые годы, когда была неоднократно членом редколегии стенной газеты. Тайком от Гали сделала юмористическую газету.Никаких фотографий типа в кругу родных, знакомых и т. п. Почти все заголовки подобрала и вырезала из газет и журналов, и к ним рисунки тоже оттуда. Газета всем понравилась, а Галя вообще была потрясена,  когда это я успела. Тем более, что за неделю до этого сделала газету для самой близкой подруги Гали.”
+            </h4>
+               <h4 className="text-white text-[45px] sm:text-[50px] md:text-[55px] lg:text-[60px] mb-32 mt-32">
+            Вот они, эти газеты
+            </h4>
+          </div>
+
+                {/* ---------- FULL-WIDTH IMAGE ONLY ---------- */}
+      <div className="w-full overflow-hidden">
+        <img
+          src="images/Birthday-Magazines-01.jpg"
+          alt="----------------------"
+          className="w-full h-auto block"
+        />
+            <img
+          src="images/Birthday-Magazines-02.jpg"
+          alt="----------------------"
+          className="w-full h-auto block"
+        />
+            <img
+          src="images/Birthday-Magazines-03.jpg"
+          alt="----------------------"
+          className="w-full h-auto block mb-16 "
         />
       </div>
       {/* ---------- Image + Text section ---------- */}

@@ -47,11 +47,21 @@ const DecisionToLeave = () => {
           </div>
 
           {/* ---------- Image + Text section ---------- */}
+
+
+            {/* ---------- desktop ---------- */}
           <div className="max-w-[720px] mx-auto mt-[48px]">
             <img
               src="images/desktop-images/sammer-house-desktop.jpg"
               alt="------------"
-              className="w-full h-auto block mb-6 mt-24"
+                className="w-full h-auto block mb-6 mt-22 hidden sm:block"
+            />
+              {/* ---------- mobile ---------- */}
+              <img
+              src="images/mobile-images/summer-house-mobile.jpg"
+              alt="------------"
+             
+              className="w-full h-auto block mb-4 sm:hidden"
             />
             <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
               <p className="mb-8">
@@ -113,10 +123,18 @@ const DecisionToLeave = () => {
 
       {/* ---------- FULL-WIDTH IMAGE ONLY ---------- */}
       <div className="w-full overflow-hidden">
+
+         {/* ---------- desktop ---------- */}
         <img
           src="images/desktop-images/bet-shemesh-hills-desktop.webp"
           alt="Живописная гора возле Бейт-Шемеша"
-          className="w-full h-auto block"
+          className="w-full h-auto hidden sm:block"
+        />
+           {/* ---------- mobile ---------- */}
+           <img
+          src="images/mobile-images/bet-shemesh-hills-mobile.webp"
+          alt="Живописная гора возле Бейт-Шемеша"
+          className="w-full h-auto mb-4 block sm:hidden"
         />
       </div>
       {/* ---------- Image + Text section ---------- */}

@@ -192,11 +192,27 @@ const WeArrived = () => {
 
         {/* ---------- Image + Text section ---------- */}
 <div className="max-w-[720px] mx-auto mt-[48px]">
+
+ {/* ---------- desktop ---------- */}
   <img
     src="images/desktop-images/cockroch01-desktop.jpg"
     alt="------------"
-    className="w-full h-auto block mb-6 mt-22 "
+    className="w-full h-auto hidden sm:block mb-6 mt-16 "
   />
+     {/* ---------- mobile ---------- */}
+   <img
+    src="images/mobile-images/cockroch01.jpg"
+    alt="------------"
+    className="w-full h-auto block sm:hidden mb-6 mt-12 "
+  />
+     {/* ---------- mobile ---------- */}
+   <img
+    src="images/mobile-images/cockroch02.jpg"
+    alt="------------"
+    className="w-full h-auto block sm:hidden mb-6 mt-4 "
+  />
+
+
   <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
     <p className="mb-8">
      Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год
@@ -230,11 +246,27 @@ const WeArrived = () => {
 
                  {/* ---------- Image + Text section ---------- */}
 <div className="max-w-[720px] mx-auto mt-[48px]">
+
+    {/* ---------- desktop ---------- */}
   <img
     src="images/desktop-images/first-days-in-israel.webp"
     alt="------------"
-    className="w-full h-auto block mb-6 mt-22 "
+    className="w-full h-auto hidden sm:block mb-6 mt-22 "
   />
+      {/* ---------- mobile ---------- */}
+    <img
+    src="images/mobile-images/first-days-in-isreal-01.webp"
+    alt="------------"
+    className="w-full h-auto block sm:hidden mb-6 mt-16 "
+  />
+     
+       {/* ---------- mobile ---------- */}
+    <img
+    src="images/mobile-images/first-days-in-isreal-02.webp"
+    alt="------------"
+    className="w-full h-auto block sm:hidden mb-6 mt-4 "
+  />
+
   <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
     <p className="mb-8">
      Наши первые фото в нашем первом городе. Реховот 1991год

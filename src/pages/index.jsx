@@ -161,7 +161,7 @@ const Index = () => {
           />
           <div
             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white 
-                       w-[95%] sm:w-[98%] 
+                       w-[95%] sm:w-[70%] 
                        [&>h1]:text-[clamp(23px,8vw,80px)]
                        [&>h2]:text-[clamp(65px,14vw,200px)]
                        [&>h3]:text-[clamp(23px,6vw,35px)] [&>h3]:mt-16 [&>h3]:mb-16
@@ -223,11 +223,17 @@ const Index = () => {
             Вот они эти три женщины
           </h1>
 
-               <img
-            src="images/desktop-images/threeWomen-desktop.jpg"
-            alt="Wave"
-            className="w-full h-auto block mb-16"
-          />
+        <img
+  src="images/desktop-images/threeWomen-desktop.jpg"
+  alt="------------"
+  className="w-full h-auto hidden sm:block mb-16"
+/>
+<img
+  src="images/mobile-images/threeWomen-mobile.webp"
+  alt="--------------"
+  className="w-full h-auto block mb-16 sm:hidden"
+/>
+
 
              <h2 className=" text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[50px]  mb-8">
             Для кого это написанно?

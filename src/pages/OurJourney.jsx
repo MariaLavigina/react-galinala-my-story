@@ -27,11 +27,21 @@ const OurJourney = () => {
           </div>
           {/* ---------- Image + Text section ---------- */}
           <div className="max-w-[720px] mx-auto mt-[48px]">
+
+             {/* ---------- desktop ---------- */}
             <img
               src="images/desktop-images/Masha-at-the-country-house-desktop.jpg"
               alt="------------"
-              className="w-full h-auto block mb-6 mt-22"
+              className="w-full h-auto mb-6 mt-22 hidden sm:block"
             />
+               {/* ---------- mobile ---------- */}
+               <img
+              src="images/mobile-images/Masha-at-the-country-house-mobile-01.jpg"
+              alt="------------"
+              className="w-full h-auto mb-6 mt-22 block sm:hidden"
+            />
+
+
             <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
               <p className="mb-8">
                 ---------------------------
@@ -90,11 +100,22 @@ const OurJourney = () => {
 
                               {/* ---------- Image + Text section ---------- */}
           <div className="max-w-[720px] mx-auto mt-[48px]">
+
+             {/* ---------- desktop ---------- */}
             <img
                src="images/desktop-images/our-luggage-desktop.webp"
               alt="------------"
-              className="w-full h-auto block mb-6 mt-22"
+              className="w-full h-auto mb-6 mt-22 hidden sm:block"
             />
+
+              {/* ---------- mobile ---------- */}
+             <img
+               src="images/mobile-images/our-luggage-mobile.jpg"
+              alt="------------"
+              className="w-full h-auto mb-6 mt-22 block sm:hidden"
+            />
+
+
             <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
               <p className="mb-8">
                 Наше почтовое отправление из Москвы в Реховот. Кстати, одеяло, на котором стоит мешок мы купили уже в Израиле по олимовской скидке. Пользуемся им до сих пор. “Эйхут меод това!”
@@ -163,11 +184,21 @@ const OurJourney = () => {
 
       {/* ---------- FULL-WIDTH IMAGE ONLY ---------- */}
       <div className="w-full overflow-hidden">
+
+           {/* ---------- desktop ---------- */}
         <img
           src="images/desktop-images/view-sunset-bet-shemesh-desktop.webp"
           alt="--------------------"
-          className="w-full h-auto block"
+          className="w-full h-auto hidden sm:block"
         />
+            {/* ---------- mobile ---------- */}
+           <img
+          src="images/mobile-images/view-sunset-bet-shemesh-mobile.webp"
+          alt="--------------------"
+          className="w-full h-auto block sm:hidden"
+        />
+
+
       </div>
       {/* ---------- Image + Text section ---------- */}
 
@@ -175,7 +206,7 @@ const OurJourney = () => {
 
         
           {/* ---------- Image + Text section ---------- */}
-          <div className="max-w-[720px] mx-auto mt-[48px]">
+         <div className="max-w-[720px] mx-auto mt-[48px] px-[16px] sm:px-0">
                <h4 className="text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-20">
             Нам повезло
             </h4>
@@ -194,11 +225,22 @@ const OurJourney = () => {
             <p className="mb-8">
             Раз в полгода отказники подавали новую просьбу на выезд и получали ответ “Ваш отъезд мы считаем нецелесообразным”. И так много лет. Я знаю таких, кто 9 лет был в отказе и таких, кто 16. 
             </p>
+
+                 {/* ---------- desktop ---------- */}
                <img
                src="images/desktop-images/israel-visa-desktop.jpg"
               alt="------------"
-              className="w-full h-auto block mb-6 mt-22"
+              className="w-full h-auto mb-6 mt-22 hidden sm:block"
             />
+
+                   {/* ---------- mobile ---------- */}
+                 <img
+               src="images/mobile-images/israel-visa-mobile.jpg"
+              alt="------------"
+              className="w-full h-auto mb-6 mt-22 block sm:hidden"
+            />
+
+
           </div> 
           </div>
           {/* ---------- Image + Text section ---------- */}
@@ -207,7 +249,7 @@ const OurJourney = () => {
 
 
                     {/* ---------- Image + Text section ---------- */}
-          <div className="max-w-[720px] mx-auto mt-[48px]">
+         <div className="max-w-[720px] mx-auto mt-[48px] px-[16px] sm:px-0">
                <h4 className="text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-20">
             Хранитель истории
             </h4>
@@ -225,11 +267,22 @@ const OurJourney = () => {
             <p className="mb-8">
              Ну как было не взять с собой эту семейную реликвию!? И вот осколки, наш любимый чайник тоже пострадал. Я его подклеила, пользоваться им нельзя, а выбросить не могу - хранитель истории.
             </p>
+
+                 {/* ---------- desktop ---------- */}
                <img
                src="images/desktop-images/memory-keeper-desktop.jpg"
               alt="------------"
-              className="w-full h-auto block mb-6 mt-22"
+              className="w-full h-auto mb-6 mt-22 hidden sm:block"
             />
+
+               {/* ---------- mobile ---------- */}
+               <img
+               src="images/mobile-images/memory-keeper-mobile.jpg"
+              alt="------------"
+              className="w-full h-auto mb-6 mt-22 block sm:hidden"
+            />
+
+
           </div> 
           </div>
           {/* ---------- Image + Text section ---------- */}

@@ -144,11 +144,19 @@ const WhyILeft = () => {
 
 {/* ---------- Image + Text section ---------- */}
 <div className="max-w-[720px] mx-auto mt-[48px]">
+  {/* ---------- desktop ---------- */}
   <img
     src="images/desktop-images/Moscow-State-University-01-desktop.jpg"
     alt="Moscow State University"
-    className="w-full h-auto block mb-6 mt-22 "
+    className="w-full h-auto block mb-6 mt-22 hidden sm:block"
   />
+    {/* ---------- mobile ---------- */}
+    <img
+    src="images/mobile-images/Moscow-State-University-01-mobile.jpg"
+    alt="Moscow State University"
+      className="w-full h-auto block mb-4 sm:hidden"
+  />
+
   <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
     <p className="mb-8">
      Московский государственный университет (МГУ), официально — Московский государственный университет имени М. В. Ломоносова — где я училась и работала
@@ -164,11 +172,28 @@ const WhyILeft = () => {
   <img
     src="images/desktop-images/Moscow-State-University-02-desktop.jpg"
     alt="Moscow State University"
-    className="w-full h-auto block mb-6 mt-22 "
+    className="w-full h-auto block mb-6 mt-22 hidden sm:block"
+  />
+    {/* ---------- mobile ---------- */}
+    <img
+    src="images/mobile-images/MoscowUniversity02-mobile.jpg"
+    alt="Moscow State University"
+    className="w-full h-auto block mb-4 sm:hidden"
+  />
+    <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]  block sm:hidden">
+    <p className="mb-8">
+    Вот я посередине, спускаюсь по ступеням моего московского университета — во время одной из наших поездок в Москву, в Москве 2000-х. …и мои университетские ордена МГУ.
+    </p>
+  </div>
+    {/* ---------- mobile ---------- */}
+    <img
+    src="images/mobile-images/MoscowUniversity03-mobile.jpg"
+    alt="Moscow State University"
+   className="w-full h-auto block mb-4 sm:hidden"
   />
   <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
     <p className="mb-8">
-    Вот я посередине, спускаюсь по ступеням моего московского университета — во время одной из наших поездок в Москву, в Москве 2000-х. …и мои университетские ордена МГУ.
+ …и мои университетские ордена МГУ.
     </p>
   </div>
 </div>
