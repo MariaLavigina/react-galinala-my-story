@@ -29,18 +29,24 @@ const Navbar = ({ lang, setLang }) => {
           </a>
 
           {/* ---------- Language toggle in desktop nav ---------- */}
-          <div className="inline-flex ml-6 gap-2">
+          <div className="inline-flex ml-6 gap-2 text-sm">
             <button
               onClick={() => setLang("ru")}
-              className={`px-3 py-1 rounded ${lang === "ru" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
+              className={`px-2 py-0.5 rounded ${lang === "ru" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
             >
               Русский
             </button>
             <button
               onClick={() => setLang("en")}
-              className={`px-3 py-1 rounded ${lang === "en" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
+              className={`px-2 py-0.5 rounded ${lang === "en" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
             >
               English
+            </button>
+            <button
+              onClick={() => setLang("he")}
+              className={`px-2 py-0.5 rounded ${lang === "he" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
+            >
+              עברית
             </button>
           </div>
         </div>
@@ -92,18 +98,24 @@ const Navbar = ({ lang, setLang }) => {
           </div>
 
           {/* Language toggle for mobile */}
-          <div className="flex justify-center gap-2 mt-4">
+          <div className="flex justify-center gap-2 mt-4 text-sm">
             <button
               onClick={() => setLang("ru")}
-              className={`px-3 py-1 rounded ${lang === "ru" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
+              className={`px-2 py-0.5 rounded ${lang === "ru" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
             >
               Русский
             </button>
             <button
               onClick={() => setLang("en")}
-              className={`px-3 py-1 rounded ${lang === "en" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
+              className={`px-2 py-0.5 rounded ${lang === "en" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
             >
               English
+            </button>
+            <button
+              onClick={() => setLang("he")}
+              className={`px-2 py-0.5 rounded ${lang === "he" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
+            >
+              עברית
             </button>
           </div>
         </div>

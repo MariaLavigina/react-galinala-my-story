@@ -10,6 +10,8 @@ import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
 
 
 
+
+      /* -------- Russian -------- */
 const texts = {
   ru: {
     h1: `Мы имеем возможность, именно возможность и уже наше дело воспользоваться ею или нет.`,
@@ -41,6 +43,10 @@ const texts = {
       `И, наконец, последняя глава  принадлежит моей маме. Через её письма вы увидите наш путь её глазами. Эти письма совсем не похожи на послания старой, очень больной женщины, оказавшейся на склоне лет в совершенно ином мире: другой климат, еда, одежда, праздники - да и вообще всё, всё другое. Она нисколько не растеряна, с радостью подмечает всё хорошее, не жалуется и не сетует на вполне естественные трудности.`
     ]
   },
+
+
+
+         /* -------- English -------- */
 
   en: {
     h1: `We’re given the opportunity, the real opportunity, and it’s up to us whether we use it or not.`,
@@ -83,8 +89,83 @@ const texts = {
       `The third chapter is a collection of little stories told by my daughter—sometimes funny, sometimes deeply touching.`,
       `And finally, the last chapter belongs to my mother. Through her letters, you will see our journey through her eyes. These letters are nothing like the messages you might expect from an elderly, very ill woman, suddenly living in a completely different world: a new climate, new food, new clothes, new holidays—everything, really, was different. She is far from lost; she delights in the good, never complains, and never dwells on the natural hardships.`
     ]
+  },
+
+
+   he: {
+    h1: `יש לנו אפשרות — כן, אפשרות אמיתית — ומה שנעשה איתה, תלוי רק בנו. `,
+    h2: `על העלייה שלנו`,
+    
+ 
+
+    h3: `מה משמעות "שלנו"?`,
+    paragraphs1: [
+      `הרעיון לספר על העלייה שלנו היה של מָאשָׁה, הבת שלי.
+שלוש נשים - אמא, מאשה ואני - נכתוב על אותה תקופה.  
+
+אבל מה עם סבתא? הרי הסיפור הוא גם שלה…  
+נכתוב בשמה, דרך המכתבים שלה.  
+
+יש לי את המכתבים שכתבה לֶטוֹמוֹצ'קָה ולֶאֶרִיק (הם שלחו לי אותם לפי בקשתי), וגם את המכתבים ששלחה לאִיגוֹר, בעלי.  
+אלו מכתבים שנכתבו מן החזית - ישירים, מרגשים, כנים עד כאב. 
+טוֹמוֹצ'קָה ואני כמעט לא מצליחות לקרוא אותם מבלי לבכות.  
+אבל אין ברירה. 
+`
+    ],
+
+    h3_2: `הנה אנחנו - שלוש נשים, שלוש דורות, סיפור אחד. 
+`,
+    photoDesktop: "images/desktop-images/threeWomen-desktop.jpg",
+    photoMobile: "images/mobile-images/threeWomen-mobile.webp",
+
+    h4: `ולמי כל זה נכתב? `,
+    paragraphs2: [
+      `למָאשָׁה.`,
+      `היא לא עזבה - לקחו אותה.  `,
+      `למשפחה שלה.  
+הם בריטים, ואין להם מושג אמיתי לא על ברית המועצות, לא על ישראל, ולא על מה פירוש להיות עולים חדשים מרוסיה בישראל.  
+`,
+      `הבנתי כמה ההיסטוריה שלנו שונה מההיסטוריה האירופית כשסיפרתי לקרובי המשפחה החדשים שלי שתעודת הלידה שלי הונפקה ביום הראשון של מלחמת העולם השנייה.  
+הם שאלו: "ספטמבר 1939?"  
+עבורם המלחמה כבר נמשכה שנתיים - בשבילנו היא התחילה רק ביוני 1941. 
+`,
+       `וקצת - גם עבור אלה שעדיין ברוסיה.  `,
+        `מָאשָׁה ביקשה ממני שוב ושוב: "תכתבי איך זה באמת היה."  
+אפילו קנתה בשביל זה מחברת יפהפייה.  
+`,
+         `התחלתי לכתוב, ולפעמים קראתי לה את מה שיצא.  
+יום אחד היא אמרה: "אני רוצה לעשות מזה סרט."  `,
+          `ניסינו לצלם, אבל מהר מאוד הבנו -  
+מָאשָׁה לא סטיבן ספילברג, ואני לא מורגן פרימן.  
+`,
+           `כך נולד האתר הזה: "כל אחד בוחר לעצמו".  `,
+            `
+הלכתי ומללתי לעצמי את השיר של יוּרִי לַבֶּטַנְסְקִי – "כָּל אֶחָד בּוֹחֵר לְעַצְמוֹ". 
+פעם כך, ופעם אחרת.  
+ופתאום הבנתי:  
+כך אני חיה כבר כמעט שלושים שנה — בארץ שבה לאדם באמת יש בחירה.  
+`,
+             `"...הוא, ורק הוא, מחליט: "אם לשמש את השטן — או את הנביא."  `,
+              `אני לא טוענת שבישראל אין רמאים, ערמומיים ושאר טיפוסים כאלה.  
+אבל בישראל יש אפשרות לחיות בלי כל זה.  
+ואין צורך להיות לא גיבורה ולא לוחמת —  
+רק פשוט, במובן היפה ביותר של המילה, אדם רגיל.  
+`,
+               `יש לנו אפשרות. אפשרות אמיתית. ומה נעשה איתה – זה כבר תלוי בנו.`
+                
+    ],
+
+    h4_2: `הסיפור שלי מחולק לארבעה חלקים`,
+    paragraphs3: [
+      `הפרק הראשון מספר כיצד הרגשתי שאני כבר לא יכולה להמשיך לחיות ברוסיה — מדינה עם חוקיה, או נכון יותר, חוסר החוק — שם החברה, המסכנה והמושפלת בכל צעד, שכחה מהי כבוד עצמי.`,
+      `הפרק השני עוסק בתחילתנו החדש במדינה אחרת — חיים מלאים אתגרים אך גם פלאים, יופי וגילויים. זו הייתה ארץ שבה היה עלינו לבנות הכל מאפס, וכל צעד קטן קדימה הרגיש כניצחון אמיתי.`,
+      `הפרק השלישי הוא אוסף סיפורים קטנים שנאמרו על ידי בתי — לפעמים מצחיקים, לפעמים נוגעים ללב.`,
+      `ולבסוף, הפרק האחרון שייך לאמי. דרך מכתביה, תראו את דרכנו דרך עיניה. המכתבים הללו שונים לחלוטין ממה שהייתם מצפים מנשים זקנה וחולה מאוד, שחיה פתאום בעולם שונה לחלוטין: אקלים חדש, אוכל חדש, בגדים חדשים, חגים חדשים - הכל שונה. היא רחוקה מהתבלבלות; היא שמחה בטוב, אינה מתלוננת, ואינה מתעכבת על הקשיים הטבעיים.`
+    ]
   }
 };
+
+
 
 
 
@@ -102,87 +183,136 @@ const Index = () => {
       <Navbar lang={lang} setLang={setLang} />
       <div className="h-20"></div>
 
-      {/* ---------- Desktop-only Hero section ---------- */}
-      <div className="w-full hidden lg:block">
-        <img
-          src="images/desktop-images/GL_HeroPhoto_Desktop_withText.jpg"
-          alt="Hero"
-          className="w-full h-auto block"
-        />
-        <div className="relative w-full -mt-[380px]">
-          <img
-            src="images/desktop-images/wave-index-entro.svg"
-            alt="Wave"
-            className="w-full h-auto block"
-          />
-          <div
-            className="
-              absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white
-              [&>h1]:text-[4.5vw]
-              [&>h2]:text-[10vw]
-              [&>h3]:text-[2.5vw] [&>h3]:mt-10 [&>h3]:mb-16
-              [&>p]:text-[1.25vw] [&>p]:mt-6
-              md:[&>p]:text-[1.38vw] lg:[&>p]:text-[1.55vw]
-            "
-          >
-            <TextOneOnly lang={lang} />
-          </div>
-        </div>
-      </div>
-      {/* -------- end of desktop-only hero -------- */}
+  {/* ---------- Desktop-only Hero section ---------- */}
+<div className="w-full hidden lg:block">
+  <img
+    src="images/desktop-images/GL_HeroPhoto_Desktop_withText.jpg"
+    alt="Hero"
+    className="w-full h-auto block"
+  />
 
-      {/* ---------- Tablet-only Hero section ---------- */}
-      <div className="hidden md:block lg:hidden w-full">
-        <img
-          src="images/ipad-images/GL-HeroPhoto-ipad.jpg"
-          alt="Hero"
-          className="w-full h-auto block"
-        />
-        <div className="relative w-full -mt-[200px]">
-          <img
-            src="images/ipad-images/first-wave-tablet.svg"
-            alt="Wave"
-            className="w-full h-auto block"
-          />
-          <div
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white w-[85%] px-2 sm:px-4 [&>h1]:text-[5vw] [&>h2]:text-[11vw] [&>h3]:text-[3.5vw] [&>h3]:mt-8 [&>h3]:mb-12 [&>p]:text-[2vw] [&>p]:mt-6 leading-relaxed"
-          >
-            <TextOneOnly lang={lang} />
-          </div>
-        </div>
-      </div>
-      {/* -------- end of tablet-only hero -------- */}
+  <div className="relative w-full -mt-[380px]">
+    <img
+      src="images/desktop-images/wave-index-entro.svg"
+      alt="Wave"
+      className="w-full h-auto block"
+    />
 
-      {/* ---------- Mobile-only Hero section ---------- */}
-      <div className="block md:hidden w-full">
-        <img
-          src="images/mobile-images/GL-HeroPhoto-Mobile.jpg"
-          alt="Hero"
-          className="w-full h-auto block"
-        />
-        <div className="relative w-full -mt-[100px]">
-          <img
-            src="images/mobile-images/wave-index-entro-mobile.svg"
-            alt="Wave"
-            className="w-full h-auto block"
-          />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white w-[95%] sm:w-[70%] [&>h1]:text-[clamp(23px,8vw,80px)] [&>h2]:text-[clamp(65px,14vw,200px)] [&>h3]:text-[clamp(23px,6vw,35px)] [&>h3]:mt-16 [&>h3]:mb-16 [&>p]:text-[clamp(16px,5vw,25px)] [&>p]:mt-8">
-            <TextOneOnly lang={lang} />
-          </div>
-        </div>
-      </div>
-      {/* -------- end of mobile-only hero -------- */}
+<div
+  dir={lang === "he" ? "rtl" : "ltr"}
+  className={`
+    absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+    text-center text-white
+    [&>h1]:text-[4.5vw]
+    [&>h3]:text-[2.5vw] [&>h3]:mt-10 [&>h3]:mb-16
+    [&>p]:text-[1.25vw] [&>p]:mt-6
+    md:[&>p]:text-[1.38vw] lg:[&>p]:text-[1.55vw]
+    ${lang === "ru" ? "[&>h2]:text-[10vw]" : "[&>h2]:text-[7vw]"}
+  `}
+>
+  <TextOneOnly lang={lang} />
+</div>
 
 
+  </div>
+</div>
+{/* -------- end of desktop-only hero -------- */}
 
+
+{/* ---------- Tablet-only Hero section ---------- */}
+<div className="hidden md:block lg:hidden w-full">
+  <img
+    src="images/ipad-images/GL-HeroPhoto-ipad.jpg"
+    alt="Hero"
+    className="w-full h-auto block"
+  />
+  <div className="relative w-full -mt-[200px]">
+    <img
+      src="images/ipad-images/first-wave-tablet.svg"
+      alt="Wave"
+      className="w-full h-auto block"
+    />
+   <div
+  dir={lang === "he" ? "rtl" : "ltr"} // RTL for Hebrew
+  className={`
+    absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+    text-center text-white w-[85%] px-2 sm:px-4
+    ${lang === "he" ? "font-rubik" : ""}
+    [&>h1]:text-[5vw]
+    [&>h3]:text-[3.5vw] [&>h3]:mt-8 [&>h3]:mb-12
+    [&>p]:text-[2vw] [&>p]:mt-6 leading-relaxed
+    ${lang === "ru" 
+      ? "[&>h2]:text-[11vw]" 
+      : "[&>h2]:text-[7vw]"}
+  `}
+>
+  <TextOneOnly lang={lang} />
+</div>
+  </div>
+</div>
+{/* -------- end of tablet-only hero -------- */}
+
+
+  
 
 
 
 
 
-      {/* ---------- styles for text json ---------- */}
-      <section className=" px-[16px] sm:px-[24px] md:px-[32px] mt-[48px] ">
-  <div className="max-w-[720px] mx-auto text-center ">
+{/* ---------- Mobile-only Hero section ---------- */}
+<div className="block md:hidden w-full">
+  <img
+    src="images/mobile-images/GL-HeroPhoto-Mobile.jpg"
+    alt="Hero"
+    className="w-full h-auto block"
+  />
+
+  <div className="relative w-full -mt-[100px]">
+    <img
+      src="images/mobile-images/wave-index-mobile.svg"
+      alt="Wave"
+      className="w-full h-auto block"
+    />
+
+<div
+  dir={lang === "he" ? "rtl" : "ltr"} // keep RTL for Hebrew
+  className={`
+    absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+    text-center text-white w-[95%] sm:w-[70%]
+
+    [&>h1]:text-[clamp(23px,8vw,80px)]
+    [&>h3]:text-[clamp(23px,6vw,35px)] 
+    [&>h3]:mt-16 [&>h3]:mb-16
+
+    [&>p]:text-[clamp(16px,5vw,25px)] 
+    [&>p]:mt-8
+
+    ${lang === "ru" 
+      ? "[&>h2]:text-[clamp(65px,14vw,200px)]" 
+      : "[&>h2]:text-[clamp(50px,12vw,140px)]"}
+  `}
+>
+  <TextOneOnly lang={lang} />
+</div>
+
+  </div>
+</div>
+{/* -------- end of mobile-only hero -------- */}
+
+
+
+
+
+
+
+
+
+{/* ---------- styles for text json ---------- */}
+<section className="px-[16px] sm:px-[24px] md:px-[32px] mt-[48px]">
+  <div
+    className={`max-w-[720px] mx-auto text-center ${lang === "he" ? "font-rubik" : ""}`}
+    dir={lang === "he" ? "rtl" : "ltr"} // RTL for Hebrew
+  >
 
     {/* H1 - quote */}
     <h1 className="text-white text-[22px] sm:text-[30px] md:text-[35px] lg:text-[45px] mb-8 italic">
@@ -194,16 +324,14 @@ const Index = () => {
       {texts[lang].h2}
     </h2>
 
-
-     {/* New paragraph block (English only) */}
-   {texts[lang].paragraphsBeforeH3 && (
-  <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mb-8 leading-relaxed">
-    {texts[lang].paragraphsBeforeH3.map((p, i) => (
-      <p key={i} className="mb-6">{p}</p>
-    ))}
-  </div>
-)} 
-
+    {/* Paragraphs before H3 (English only) */}
+    {texts[lang].paragraphsBeforeH3 && (
+      <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mb-8 leading-relaxed">
+        {texts[lang].paragraphsBeforeH3.map((p, i) => (
+          <p key={i} className="mb-6">{p}</p>
+        ))}
+      </div>
+    )}
 
     {/* H3 - intro */}
     <h3 className="text-white text-[25px] sm:text-[28px] md:text-[30px] lg:text-[35px] mb-8">
@@ -217,7 +345,7 @@ const Index = () => {
       ))}
     </div>
 
-    {/* H3 - second heading (title above photo) */}
+    {/* H3 - second heading */}
     <h3 className="text-white text-[28px] sm:text-[3px] md:text-[35px] lg:text-[40px] mb-8 mt-20">
       {texts[lang].h3_2}
     </h3>
@@ -257,7 +385,9 @@ const Index = () => {
         <p key={i} className="mb-6">{p}</p>
       ))}
     </div>
-       {/* ---------- styles for text json ---------- */}
+
+{/* -------- end of styles for text json ---------- */}
+
 
 
 
