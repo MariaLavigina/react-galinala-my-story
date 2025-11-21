@@ -5,46 +5,60 @@ const Navbar = ({ lang, setLang }) => {
   const toggleMenu = () => setMenuOpen((prev) => !prev);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-gradient-to-l from-[#9399F0] to-[#2C192C] h-20 font-[Roboto] ">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-gradient-to-l from-[#9399F0] to-[#2C192C] h-20 font-[Roboto]">
       <div className="flex items-center justify-between h-full px-6 text-white">
 
         {/* ---------- Desktop Navigation Links ---------- */}
-        <div className="hidden space-x-5 text-xl lg:flex md:text-lg lg:text-[22px] navbartop">
-          <a href="/index.html" className="px-6 text-white hover:text-gray-400">
-            главная страница
-          </a>
-          <span className="text-white rotate-[35deg]">|</span>
-          <a
-            href="/index.html#link-to-four-chapters-desktop"
-            className="px-6 text-white hover:text-gray-400"
-          >
-            списки глав
-          </a>
-          <span className="text-white rotate-[35deg]">|</span>
-          <a
-            href="/contact-me.html"
-            className="px-6 text-white hover:text-gray-400"
-          >
-            свяжитесь со мной
-          </a>
+        <div className="hidden lg:flex items-center space-x-5 text-xl md:text-lg lg:text-[22px] navbartop w-full">
+          <div className="flex space-x-5">
+            <a href="/index.html" className="px-6 text-white hover:text-gray-400">
+              главная страница
+            </a>
+            <span className="text-white rotate-[35deg]">|</span>
+            <a
+              href="/index.html#link-to-four-chapters-desktop"
+              className="px-6 text-white hover:text-gray-400"
+            >
+              списки глав
+            </a>
+            <span className="text-white rotate-[35deg]">|</span>
+            <a
+              href="/contact-me.html"
+              className="px-6 text-white hover:text-gray-400"
+            >
+              свяжитесь со мной
+            </a>
+          </div>
 
           {/* ---------- Language toggle in desktop nav ---------- */}
-          <div className="inline-flex ml-6 gap-2 text-sm">
+          <div className="hidden lg:flex ml-auto gap-3 text-base pr-2">
             <button
               onClick={() => setLang("ru")}
-              className={`px-2 py-0.5 rounded ${lang === "ru" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
+              className={`w-24 py-1 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 ${
+                lang === "ru"
+                  ? "bg-white text-black"
+                  : "bg-[#302024] text-white hover:bg-[#433034]"
+              }`}
             >
               Русский
             </button>
             <button
               onClick={() => setLang("en")}
-              className={`px-2 py-0.5 rounded ${lang === "en" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
+              className={`w-24 py-1 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 ${
+                lang === "en"
+                  ? "bg-white text-black"
+                  : "bg-[#302024] text-white hover:bg-[#433034]"
+              }`}
             >
               English
             </button>
             <button
               onClick={() => setLang("he")}
-              className={`px-2 py-0.5 rounded ${lang === "he" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
+              className={`w-24 py-1 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 ${
+                lang === "he"
+                  ? "bg-white text-black"
+                  : "bg-[#302024] text-white hover:bg-[#433034]"
+              }`}
             >
               עברית
             </button>
@@ -69,9 +83,7 @@ const Navbar = ({ lang, setLang }) => {
 
         {/* ---------- Mobile Dropdown Menu ---------- */}
         <div
-          className={`lg:hidden absolute top-16 left-4 w-80 bg-[#362222] shadow-2xl shadow-black/40 font-['Roboto'] text-white p-6 rounded-lg transition-transform duration-300 ease-in-out origin-top ${
-            menuOpen ? "scale-y-100" : "hidden scale-y-0"
-          }`}
+          className={`lg:hidden absolute top-16 left-4 w-80 bg-[#362222] shadow-2xl shadow-black/40 font-['Roboto'] text-white p-6 rounded-lg transition-transform duration-300 ease-in-out origin-top ${menuOpen ? "scale-y-100" : "hidden scale-y-0"}`}
         >
           <div className="flex flex-col divide-y divide-white divide-opacity-20">
             <a href="/index.html" className="py-[15px] active:scale-95 active:bg-white/10 transition-transform duration-150 ease-in-out">
@@ -97,23 +109,35 @@ const Navbar = ({ lang, setLang }) => {
             </a>
           </div>
 
-          {/* Language toggle for mobile */}
-          <div className="flex justify-center gap-2 mt-4 text-sm">
+          {/* ---------- Mobile Language toggle ---------- */}
+          <div className="flex flex-col lg:hidden justify-center gap-3 mt-4 text-base">
             <button
               onClick={() => setLang("ru")}
-              className={`px-2 py-0.5 rounded ${lang === "ru" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
+              className={`px-4 py-3 rounded-full transition-all duration-200 ease-in-out transform
+                ${lang === "ru"
+                  ? "bg-white text-black"
+                  : "bg-gray-700 text-white hover:bg-gray-600 active:scale-95 active:shadow-inner"
+                }`}
             >
               Русский
             </button>
             <button
               onClick={() => setLang("en")}
-              className={`px-2 py-0.5 rounded ${lang === "en" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
+              className={`px-4 py-3 rounded-full transition-all duration-200 ease-in-out transform
+                ${lang === "en"
+                  ? "bg-white text-black"
+                  : "bg-gray-700 text-white hover:bg-gray-600 active:scale-95 active:shadow-inner"
+                }`}
             >
               English
             </button>
             <button
               onClick={() => setLang("he")}
-              className={`px-2 py-0.5 rounded ${lang === "he" ? "bg-white text-black" : "bg-gray-700 text-white"}`}
+              className={`px-4 py-3 rounded-full transition-all duration-200 ease-in-out transform
+                ${lang === "he"
+                  ? "bg-white text-black"
+                  : "bg-gray-700 text-white hover:bg-gray-600 active:scale-95 active:shadow-inner"
+                }`}
             >
               עברית
             </button>
