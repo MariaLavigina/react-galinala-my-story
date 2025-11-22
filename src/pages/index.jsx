@@ -202,11 +202,21 @@ const Index = () => {
 
   {/* ---------- Desktop-only Hero section ---------- */}
 <div className="w-full hidden lg:block">
+  
   <img
-    src="images/desktop-images/GL_HeroPhoto_Desktop_withText.jpg"
+    src={
+      lang === "ru"
+        ? "images/desktop-images/hero-ru-desktop.webp"
+        : lang === "en"
+        ? "images/desktop-images/hero-en-desktop.webp"
+        : "images/desktop-images/hero-he-desktop.webp"
+    }
     alt="Hero"
     className="w-full h-auto block"
   />
+
+
+  
 
   <div className="relative w-full -mt-[380px]">
     <img
@@ -238,11 +248,24 @@ const Index = () => {
 
 {/* ---------- Tablet-only Hero section ---------- */}
 <div className="hidden md:block lg:hidden w-full">
+
+
+
   <img
-    src="images/ipad-images/GL-HeroPhoto-ipad.jpg"
+    src={
+      lang === "ru"
+        ? "images/ipad-images/hero-ru-ipad.webp"
+        : lang === "en"
+        ? "images/ipad-images/hero-en-ipad.webp"
+        : "images/ipad-images/hero-he-ipad.webp"
+    }
     alt="Hero"
     className="w-full h-auto block"
   />
+
+
+
+  
   <div className="relative w-full -mt-[200px]">
     <img
       src="images/ipad-images/first-wave-tablet.svg"
@@ -279,12 +302,12 @@ const Index = () => {
 {/* ---------- Mobile-only Hero section ---------- */}
 <div className="block md:hidden w-full">
   <img
-    src="images/mobile-images/GL-HeroPhoto-Mobile.jpg"
+    src="images/mobile-images/hero-mobile.jpg"
     alt="Hero"
     className="w-full h-auto block"
   />
 
-  <div className="relative w-full -mt-[100px]">
+  <div className="relative w-full -mt-[115px]">
     <img
       src="images/mobile-images/wave-index-mobile.svg"
       alt="Wave"
