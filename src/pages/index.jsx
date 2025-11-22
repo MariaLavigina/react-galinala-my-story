@@ -202,7 +202,9 @@ const Index = () => {
 
   {/* ---------- Desktop-only Hero section ---------- */}
 <div className="w-full hidden lg:block">
-  
+
+
+    {/* logic for hero desktop */}
   <img
     src={
       lang === "ru"
@@ -250,7 +252,7 @@ const Index = () => {
 <div className="hidden md:block lg:hidden w-full">
 
 
-
+  {/* logic for hero tablet */}
   <img
     src={
       lang === "ru"
