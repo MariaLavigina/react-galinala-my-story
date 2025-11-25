@@ -142,7 +142,7 @@ We started the process: went to the American embassy, stood in some line, filled
   {
   type: "paragraphs",
   paragraphs: [
-    `Summer ended.`,
+    `The summer ended.`,
     `We returned to Moscow - and found out that the policy had changed: America was no longer accepting Jewish immigrants.`,
     `And just like that, Israel entered the picture.`,
      `I started getting curious about a country I had only ever heard of in negative terms - things like “Israeli military aggression,” “criminal actions of the Zionists,” and so on.`,
@@ -169,7 +169,7 @@ Because of the denial, they became trapped: they couldn’t leave, but also coul
 },
       {
         type: "h4",
-        text: `The Ogonyok Magazin "`
+        text: `The Ogonyok Magazine`
       },
       {
         type: "paragraphs",
