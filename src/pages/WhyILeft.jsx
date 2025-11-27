@@ -25,7 +25,7 @@ const WhyILeft = () => {
 <div className="w-full hidden lg:block">
 
 
-    {/* logic for hero desktop */}
+    {/* logic for images hero desktop */}
   <img
     src={
       lang === "ru"
@@ -163,6 +163,12 @@ const WhyILeft = () => {
   </div>
 </div>
 {/* -------- end of mobile-only hero -------- */}
+
+
+
+
+
+
 
 
 
