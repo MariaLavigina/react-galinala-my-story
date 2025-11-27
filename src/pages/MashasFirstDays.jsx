@@ -6,7 +6,7 @@ import ChapterSectionDesktop from "../components/ChapterSectionDesktop.jsx";
 import Footer from '../components/Footer';
 import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
 import TextForthPage from "../components/TextForthPage.jsx";
-
+import { useNavigate } from "react-router-dom";
 
 
 const MashasFirstDays = () => {

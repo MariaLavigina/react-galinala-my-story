@@ -1,8 +1,10 @@
+// ForwardButton.jsx
 import React from "react";
 
-export default function ForwardButton() {
+export default function ForwardButton({ onClick }) {
   return (
     <button
+      onClick={onClick}   // <-- now this works
       className="
         w-48                /* same fixed width */
         group relative flex items-center justify-center gap-2

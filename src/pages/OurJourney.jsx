@@ -6,9 +6,11 @@ import ChapterSectionDesktop from "../components/ChapterSectionDesktop.jsx";
 import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
 import Footer from "../components/Footer.jsx";
 import textsOurJourney from "../text/textsOurJourney.js";
+import { useNavigate } from "react-router-dom";
 
 const OurJourney = () => {
   const [lang, setLang] = useState("ru");
+    const navigate = useNavigate(); // for navigation 
   const content = textsOurJourney[lang];
   const isRTL = lang === "he";
 
@@ -70,8 +72,8 @@ const OurJourney = () => {
           })}
 
           <div className="flex justify-center gap-4 mt-24">
-            <BackwardButton />
-            <ForwardButton />
+             <BackwardButton onClick={() => navigate("/decision-to-leave")}/>
+            <ForwardButton onClick={() => navigate("/we-arrived")}/>
           </div>
         </div>
       </section>

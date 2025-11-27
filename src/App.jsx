@@ -12,10 +12,12 @@ import MashasFirstDays from './pages/MashasFirstDays.jsx';
 import MothersStory from './pages/MothersStory.jsx';
 import ContactMe from './pages/ContactMe.jsx';
 import ThankYou from './pages/ThankYou.jsx';
+import ScrollToTop from './components/ScrollToTop.jsx';
 
 function App() {
   return (
     <Router basename="/react-galinala-my-story/">
+        <ScrollToTop />
     <Routes>
     <Route path="/" element={<Index />} /> 
     <Route path="/why-i-left" element={<WhyILeft />} />

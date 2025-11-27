@@ -1,8 +1,9 @@
 import React from "react";
 
-export default function BackwardButton() {
+export default function BackwardButton({ onClick }) {
   return (
     <button
+     onClick={onClick}   // <-- now this works
       className="
         w-48
         group relative flex items-center justify-center gap-2

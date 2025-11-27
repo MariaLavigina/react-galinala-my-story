@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar.jsx";
 import ChapterSectionDesktop from "../components/ChapterSectionDesktop.jsx";
 import Footer from '../components/Footer';
 import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
-
+import { useNavigate } from "react-router-dom";
 
 const FirstSteps = () => {
   return (

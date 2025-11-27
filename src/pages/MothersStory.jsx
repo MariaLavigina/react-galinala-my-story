@@ -8,6 +8,8 @@ import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
 import TextFifthPage from "../components/TextFifthPage.jsx";
 import DesktopFromLetters from "../components/DesktopFromLetters.jsx";
 import MobileFromLetters from "../components/mobileFromLetters.jsx";
+import { useNavigate } from "react-router-dom";
+
 
 const MothersStory = () => {
   return (

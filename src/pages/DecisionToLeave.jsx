@@ -6,14 +6,14 @@ import ChapterSectionDesktop from "../components/ChapterSectionDesktop.jsx";
 import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
 import Footer from "../components/Footer.jsx";
 import textsDecisionToLeave from "../text/textsDecisionToLeave";
+import { useNavigate } from "react-router-dom";
 
 const DecisionToLeave = () => {
-  // State to manage the selected language, default is Russian ("ru")
+
   const [lang, setLang] = useState("ru"); 
-  // Get the content for the current language from the imported text file
+  const navigate = useNavigate(); // for navigation 
   const content = textsDecisionToLeave[lang];
-  // Determine if the language is right-to-left (e.g., Hebrew)
-  const isRTL = lang === "he"; //  added for RTL handling
+  const isRTL = lang === "he"; 
 
   return (
     <>
@@ -112,8 +112,8 @@ const DecisionToLeave = () => {
 
           {/* Navigation buttons at the bottom of content */}
           <div className="flex justify-center gap-4 mt-24">
-            <BackwardButton />
-            <ForwardButton />
+                   <BackwardButton onClick={() => navigate("/why-i-left")}/>
+                     <ForwardButton onClick={() => navigate("/our-journey")}/>
           </div>
         </div>
       </section>
