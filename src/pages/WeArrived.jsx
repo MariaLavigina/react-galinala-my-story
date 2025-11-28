@@ -150,7 +150,7 @@ const WeArrived = () => {
           {block.image && (
             Array.isArray(block.image)
               ? block.image.map((img, idx) => (
-                  <div key={idx} className="mb-12 text-center ">
+                  <div key={idx} className={`mb-12 ${lang === "he" ? "text-right" : "text-left"}`}>
                     {/* Desktop */}
                     {img.desktopSrc && (
                       <>
@@ -160,7 +160,7 @@ const WeArrived = () => {
                           className="w-full h-auto mt-[6px] hidden md:block" 
                         />
                         {img.textDesktop && (
-                          <p className="hidden md:block text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mt-4 ">
+                          <p className="hidden md:block text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mt-4">
                             {img.textDesktop}
                           </p>
                         )}
@@ -185,7 +185,7 @@ const WeArrived = () => {
                   </div>
                 ))
               : (
-                <div className="mb-12 text-center">
+                <div className={`mb-12 ${lang === "he" ? "text-right" : "text-left"}`}>
                   {/* Desktop */}
                   {block.image.desktopSrc && (
                     <>

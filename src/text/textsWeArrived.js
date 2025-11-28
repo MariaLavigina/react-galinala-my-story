@@ -7,10 +7,11 @@ const textsWeArrived = {
         `Израиль встречал нас улыбками, детишек одарили сладостями. Пока оформлялись первые документы, нам предложили сделать бесплатный звонок своим близким в Россию. Мы с мамой позвонили Игорю. Затем наши вещи погрузили  в такси, спросили нас куда вести и мы поехали в Реховот, где, всегда готовые придти на помощь, Магазанники сняли нам квартиру. `
       ],
       image: {
-        desktopSrc: "images/teudatOle.jpg",
-        mobileSrc: "images/teudatOle.jpg",
-        alt: "Теудат Оле",
-        text: "-----------------------------"
+       desktopSrc: "images/teudatOle.jpg",
+    mobileSrc: "images/teudatOle.jpg",
+    alt: "Теудат Оле",
+    textDesktop: "Теудат Оле",
+    textMobile: "Теудат Оле"
       }
     },
     {
@@ -116,14 +117,13 @@ const textsWeArrived = {
 - другая, потом ещё одна, и ещё… Все по очереди плюхались на
 скамеечку. Маша вежливо уступала им место, сдвигалась, пока в
  конце концов не оказалась на самом её краешке.`,
-      text: [
-        `Наши первые фото в нашем первом городе. Реховот 1991 год`
-      ],
+  
       image: {
-        desktopSrc: "images/Masha-and-the-kids-Rehovot.jpg",
-        mobileSrc: "images/Masha-and-the-kids-Rehovot-mobile.jpg",
-        alt: "Фото в Реховоте",
-        text: "Наши первые фото в нашем первом городе. Реховот 1991 год"
+     desktopSrc: "images/Masha-and-the-kids-Rehovot.jpg",
+    mobileSrc: "images/Masha-and-the-kids-Rehovot-mobile.jpg",
+    alt: "Фото в Реховоте",
+    textDesktop: "Наши первые фото в нашем первом городе. Реховот 1991 год",
+    textMobile: "Наши первые фото в нашем первом городе. Реховот 1991 год"
       }
     }
   ],
@@ -134,31 +134,44 @@ const textsWeArrived = {
 
   he: [
     {
-      h1: "ישראל קיבלה אותנו בחיוכים",
+      h1:  `ישראל קיבלה אותנו בחיוכים`,
       text: [
-        `ישראל קיבלה אותנו בחיוכים, הילדים קיבלו ממתקים. בזמן שהתקדמו המסמכים הראשונים, הציעו לנו לבצע שיחת טלפון חינם למשפחתנו ברוסיה. אני ואמי התקשרנו לאיגור. לאחר מכן העמיסו את הדברים שלנו למונית, שאלו לאן לנסוע, ונסענו לרחובות, שם, תמיד מוכנים לעזור, המגאזניקים השכירו לנו דירה.`
+        `ישראל קיבלה אותנו בחיוכים, ונתנו לילדים ממתקים.`,
+         `כשסידנרו את המסמכים הראשונים, הציעו לנו לבצע שיחה חינם לקרובים שלנו ברוסיה.
+ אני ואמא התקשרנו לאִיגוֹר.`,
+          `אחר כך העמיסו את החפצים שלנו על מונית, שאלו לאן לנסוע, ונסענו לרחובות.`,
+           `שם, מַגָּזָּנִיקִים שתמיד מוכנים לעזור, השכירו לנו דירה.`
       ],
       image: {
-        desktopSrc: "images/teudatOle.jpg",
-        mobileSrc: "images/teudatOle.jpg",
-        alt: "תעודת אולה",
-        text: "-----------------------------"
+          desktopSrc: "images/teudatOle.jpg",
+    mobileSrc: "images/teudatOle.jpg",
+    alt: "תעודת אולה",
+    textDesktop: "תעודת אולה",
+    textMobile: "תעודת אולה"
       }
     },
     {
       text: [
-        `הנהג, כפי שאני מבינה עכשיו, לא היה מכיר את העיר ולא יכול היה לזכור את הכתובת. הוא עצר בכל עמוד חשמל (כבר היה חשוך), הביא פתק עם הכתובת לאור, השווה אותו עם מספר הבית הקרוב ושם הרחוב, ונסע לעמוד הבא.`,
-        `נטשה מגזניק קיבלה אותנו, היא עזרה לנו עם החפצים. כבר השעה הייתה 2 בלילה, נטשה איחלה לנו לילה טוב והלכה הביתה, גרה במרחק 15–20 דקות הליכה. אגב, שימו לב – השעה 2 בלילה, ואישה אחת הולכת ברחוב ללא פחד כלל.`,
-        `עדיין קשה לי להתרגל לזה ואני נהנית במיוחד לצאת לבד בלילה. לאחרונה עלה לי לראש ש忘תי לפחד להיכנס לבניין שלי בשעות מאוחרות ולא להסתכל אחורה. במוסקבה אחרי עשר בלילה תמיד מישהו היה מחכה לי בתחנת האוטובוס.`
+  `הנהג, כפי שאני מבינה היום, לא היה הכיר את העיר ולא היה כנראה יכול לזכור את הכתובת. הוא עצר ליד כל עמוד תאורה (כבר היה חשוך),  הושיט את הפתק עם הכתובת אל האור, בדק אותו מול מספר הבית הקרוב ושם הרחוב, ואז נסע לעמוד התאורה הבא...`,
+   `פגשה אותנו נַטָשָׁה מַגָּזָנִיק, היא עזרה לנו עם הדברים.`,
+    ` כבר היה שתיים בלילה, נַטָשָׁה איחלה לנו לילה טוב ויצאה לדרכה - היא הייתה גרה לא רחוק, כ-15-20 דקות הליכה.`,
+     ` אגב, שימו לב - שתיים בלילה, אישה הולכת ברחוב לבד, בלי פחד בכלל…`,
+      `עד היום אני לא מצליחה להתרגל לזה, ואני מרגישה הנאה מיוחדת כשאני יוצאת לבד בלילה אל הרחוב.
+ לא מזמן עבר לי בראש - שכחתי בכלל לפחד להיכנס לבניין שלי בשעות מאוחרות, מבלי להסתובב ולהקשיב אם מישהו צועד מאחורי.`,
+      ` במוסקבה, אחרי עשר בערב, תמיד מישהו היה ממתין לי בתחנת האוטובוס.`
       ]
     },
     {
-      h4: "זו היא המדינה שחלמתי עליה בצורה בלתי נתפסת",
+      h4:  `זו היא הארץ, שבאה אליי בחלום בלתי נתפס.`,
       text: [
-        `אמי ומשה הלכו לישון, ואני, לפני שהלכתי לישון, החלטתי לסובב את הבית ולבדוק שהכל בסדר. ואז קרה משהו שלא אוכל לא לספר.`,
-        `במוסקבה חלמתי פעמים רבות חלומות: כאילו אני נכנסת למעבדה, רואה ג׳וק ליד הקיר, מפזרת עליו אבקה – ופתאום לג׳וק נפתחות כנפיים והוא עף. חלומות אלו חזרו בתוקף. אפילו שאלתי מכרים – האם קיימים ג׳וקים מעופפים? אף אחד לא ידע. כולם רק צחקו.`,
-        `ואז, בישראל, כבר בלילה הראשון ראיתי ג׳וק על הארון העליון במטבח. טיפסתי על הכיסא, התכוונתי להרים אותו בעדינות עם מפית – ופתאום, כמו בחלומות שלי: טְק – הכנפיים נפתחו והג׳וק עף. כמעט נפלטתי מהכיסא.`,
-        `זו היא – המדינה שחלמתי עליה בצורה בלתי נתפסת.`
+      `אמי ומַאַשָׁה הלכו לישון, ואני, לפני שאני שוכבת, החלטתי לעשות סיבוב בבית ולבדוק שהכל בסדר. ואז קרה משהו שאני פשוט חייבת לספר עליו.`,
+      
+        `עוד במוסקבה, היו לי תקופות שבהן חלמתי חלומות… כאילו אני נכנסת למעבדה, רואה ג'וק ליד הקיר, מפזרת עליו אבקה - ופתאום, בקול קליק, נפתחות לו הכנפיים והוא עף. החלומות האלה חזרו על עצמם בהתמדה שוב ושוב.`,
+         `התחלתי אפילו לשאול אנשים שאני מכירה - יש בכלל תיקונים שעפים? אף אחד לא ידע, רק צחקו.`,
+          `ועכשיו, בישראל, כבר בלילה הראשון פה, אני רואה ג'וק על הארון העליון במטבח.`,
+           `אני מטפסת על שרפרף, מתכוונת לתפוס אותו בזהירות עם מפית - ואז, בדיוק כמו בחלומות שלי, נשמע קליק; הכנפיים נפתחות, והג'וק עף.`,
+            `כמעט נפלתי מהשרפרף...`,
+               `זו היא הארץ, שבאה אליי בחלום בלתי נתפס.`
       ]
     },
     {
@@ -187,12 +200,17 @@ const textsWeArrived = {
       ]
     },
     {
-      h1: "“תגידי בבקשה איפה קופת חולים”",
+      h1:  `תגידי בבקשה איפה קופת חולים?`,
       text: [
-        `למחרת הגיעה נטשה מגזניק, סיפרה מה עלינו לעשות תחילה. כמעט בכל מקום היא ליוותה אותי והרגשתי כאילו היא כבר הרבה זמן בארץ ויודעת הכל. היא הגיעה רק שלושה חודשים לפניי, ידעה בעברית כנראה רק את המילה "בסדר", אך ידעה אותה היטב והמילה הזו פתחה כל דלת. נטשה לקחה אותי לבנק ועזרה לי לפתוח חשבון.`,
-        `לקופת חולים הלכתי בעצמי. שכנים דוברי רוסית הסבירו לי את הדרך. כל הדרך חזרתי על המשפט שלימדו אותי לשאול אם צריך: "תגידי בבקשה איפה קופת חולים". בקופת החולים הבינו מיד שאני עולה חדשה ועשו כל מה שצריך.`,
-        `בצעדים הראשונים שלי בישראל התפלאתי כמה אנשים זרים ומגוונים מוכנים לעזור. אפילו היה "אופנתי" שיהיה לך משפחה אומנת לעולים. שאלתי איך אני יכולה להחזיר טובה, והם ענו: "תעזרי לעולים החדשים הבאים". אני זוכרת ומנסה ככל יכולתי.`,
-        `אני זוכרת שנסעתי לתל אביב בשביל מסמכים. המדינה הסובייטית לא אפשרה לנו לקחת את המסמכים שלנו, אבל יכולנו לשלוח אותם לשגרירות ההולנדית ודיפלומטית לשלוחם לישראל.`
+         `למחרת נַטָשָׁה מַגָּזָנִיק הגיעה, היא הסבירה לנו מה הצעדים הראשונים שצריך לעשות.`,
+          ` כמעט לכל מקום היא ליוותה אותי, וחשבתי שהיא כבר הרבה שנים בארץ, שהכל מובן לה וידוע לה. אבל למעשה היא הגיעה רק שלושה חודשים לפניי, וידעה בעברית, כנראה, רק מילה אחת - “בסדר”. עם זאת, היא שלטה במילה הזו כ"כ  היטב, ומילה אחת זו פתחה כל דלת. נטשה לקחה אותי לבנק ועזרה לי לפתוח חשבון.`,
+           `אבל הפעם הלכתי לקופת חולים לבד. השכנים דוברי רוסית הסבירו לי את הדרך, ובכל הדרך חזרתי על המשפט שהם לימדו אותי, למקרה שאצטרך לשאול:`,
+            ` “תגידי בבקשה איפה קופת חולים?”`,
+             ` בקופת החולים הבינו מיד שאני עולה חדשה, ועזרו לי מאוד.`,
+              `בשלבים הראשונים שלי בארץ התפעלתי כמה אנשים זרים, מרקעים שונים, היו מוכנים לעזור. גם היה מקובל לקבל “משפחה אומנת” — משפחה שתומכת בעולה החדש. פעם שאלתי איך אוכל להחזיר להם טובה על העזרה, וענו לי: `,
+               `“את תעזרי לעולים החדשים שיגיעו אחרייך.”`,
+                ` אני זוכרת את זה ומנסה לעזור כפי שאני יכולה.`,
+                 `אני גם זוכרת שנסעתי לתל אביב להביא מסמכים חשובים. ברית המועצות לא אפשרה לנו לקחת את המסמכים שלנו כשעלינו, אבל יכולנו להביא אותם לשגרירות הולנד, ומשם שלחו אותם בדואר דיפלומטי לישראל.`
       ]
     },
     {
@@ -214,30 +232,44 @@ const textsWeArrived = {
       ]
     },
     {
-      h4: "פעם ראשונה בתל אביב",
+      h4:  `פעם ראשונה בתל אביב.`,
       text: [
-        `והנה, בפעם הראשונה בתל אביב. מחפשת במפה את בניין משרד הפנים. רוצה למצוא בעצמי. מעניין אותי למצוא בעצמי. אך ברגע שאני פותחת את המפה, מישהו תמיד ליד: "צריך עזרה?"`,
-        `במשרד הפנים הזה חוויתי הרפתקה טרגיקומית. נכנסתי למעלית, לחצתי על הכפתור, המעלית הגיעה לקומה הנדרשת, נעצרה, והדלתות – אוי נורא – לא נפתחו. אלוהים, היום שישי! כלומר אצטרך לשבת כאן היום ומחר. האוטובוסים יפעלו רק ביום ראשון. ואני ואמי לבד ברחובות. ואז, למרות שהבנתי שטיפשות, בכל זאת דחפתי את הדלת. ו… היא נפתחה. התנהגותי המגוחכת במעלית תל אביב מוסברת בכך שאני רגילה למעליות אוניברסיטאיות, שהדלתות שלהן נפתחו אוטומטית.`
+         ` על המפה אני מחפשת את הבניין של משרד הפנים. רוצה למצוא את המקום לבד. זה מעניין אותי, לא רק להסתמך על מישהו שילווה אותי. אבל ברגע שאני פותחת את המפה, מיד מישהו מופיע לידי ושואל: “אפשר לעזור?”`, 
+      `במשרד הפנים עברתי חוויה קצת אבסורדית, שילוב של טראגי וקומי.`,
+       ` עליתי למעלית, לחצתי על הקומה הרצויה, המעלית הגיעה, עצרה, אבל… הדלתות, לא יאומן, לא נפתחו!
+ ואז נזכרתי - היום שישי! אז כנראה אשאר פה גם היום וגם מחר.`,
+        ` האוטובוסים לא חוזרים לעבוד לפני יום ראשון, ואני חושבת על אמא ומָאשָׁה שרק הן בבית ברחובות - מה יהיה איתן?!`,
+         ` התייאשתי לגמרי.`,
+          ` ואז, למרות שהבנתי שזה טיפשי, דחפתי את הדלת.`,
+           ` ופתאום… היא נפתחה.`,
+            ` ההתנהגות המוזרה שלי במעלית בתל אביב נבעה מזה שאני רגילה למעליות באוניברסיטה, שבהן הדלתות נפתחות אוטומטית.`
+             
       ]
     },
     {
-      h4: "בסביבה של קרובים, אף שאינם מוכרים",
+      h4:  `בסביבה של נפשות קרובות`,
       text: [
-        `בתה של חברתה של אמי, ג׳ניה פיניקובה, כתבה עלינו לכמה מכרים שגרו בישראל. לינה הגיעה מיד. היא לא רק עזרה לנו בכל מה שיכלה, אלא גם הפכה לאדם קרוב ויקר לנו. היא הביאה גם את מאיה – וזה היה אושר אמיתי.`,
-        `תודה להם, היינו בסביבה של "עולים" רוסים משנות ה-70, מאוד קרובים לנו ברוח. לפעמים חשבתי כאילו לא עזבתי לשום מקום, כל כך רגילה הייתה לנו הסביבה הזו עם אמי. בחלקם אפילו ראיתי דמיון לאנשים מחיי הקודמים.`
+        `בת של חברה של אמא שלי,ז׳ָנִיָּה פִּינִיקוֹבָה, כתבה עלינו לכמה אנשים שהיא מכירה שגרו כאן בישראל.
+ לינה הייתה הראשונה שהגיעה אלינו מיד. היא לא רק עזרה לנו בכל מה שיכלה, אלא גם הפכה לאדם קרוב ויקר לנו מאוד.  היא גם הכירה לנו את מאיה - וזה היה פשוט אושר גדול.`,
+         `תודות להן מצאנו את עצמנו בתוך קהילה של עולים מרוסיה משנות השבעים, אנשים שהיו מאוד קרובים אלינו ברוח ובנפש. העולים האלה הגיעו לישראל בתקופה שבה העלייה מברית המועצות הייתה מוגבלת וקשה, ולכן הקהילה שלהם הייתה מאוד דומה, עם תחושת שייכות חזקה. לפעמים אפילו הרגשתי כאילו לא עזבתי את עיר הולדתי - זו הייתה סביבה מוכרת לי ולאמי. בחלק מהאנשים האלה אפילו ראיתי דמיון לאנשים שהכרתי מהחיים לפני העלייה.`
+  
       ]
     },
     {
-      h4: `יאניק, בנו של מאיה, אמר: תנו לי לצלם אתכם. 
-מאשה ישבה יפה באמצע הספסל. ואז רצה ילדה אחת וצעקה – אני גם רוצה! – וישבה ליד מאשה. אחריה – אחרת, עוד אחת, ועוד… כולם לפי סדר על הספסל. מאשה נעה בעדינות כדי לפנות להן מקום, עד שבסוף נותרה על קצה הספסל.`,
-      text: [
-        `היום הראשון בעירנו הראשונה. רחובות 1991`
-      ],
+      h4:  `יַנִּיק, הבן של מָאִיָה, הגיע ואמר:
+ - בואו אני אצלם אתכם!
+מָאשָׁה התיישבה בנימוס על הספסל באמצע.
+ ופתאום רצה ילדה אחת וקראה: - גם אני רוצה! - וישבה לידה.
+ אחריה הגיעו עוד ילדה, ואחרת, ועוד…
+ הן התיישבו אחת אחרי השנייה על הספסל.
+ מאשה נעה בעדינות הצידה כדי לפנות להן מקום, עד שבסוף היא נשארה יושבת בקצה הכי רחוק של הספסל.`,
+   
       image: {
-        desktopSrc: "images/Masha-and-the-kids-Rehovot.jpg",
-        mobileSrc: "images/Masha-and-the-kids-Rehovot-mobile.jpg",
-        alt: "צילום ברחובות",
-        text: "היום הראשון בעירנו הראשונה. רחובות 1991"
+      desktopSrc: "images/Masha-and-the-kids-Rehovot.jpg",
+      mobileSrc: "images/Masha-and-the-kids-Rehovot-mobile.jpg",
+      alt: "Фото в Реховоте",
+      textDesktop:    `היום הראשון בעירנו הראשונה. רחובות 1991`,
+      textMobile:    `היום הראשון בעירנו הראשונה. רחובות 1991`
       }
     }
   ],
@@ -252,31 +284,52 @@ const textsWeArrived = {
 
  en: [
     {
-      h1: "Israel welcomed us with smiles",
+      h1:  `Israel welcomed us with smiles.`,
       text: [
-        `Israel welcomed us with smiles, and the children were given sweets. While the first documents were being processed, we were offered to make a free call to our relatives in Russia. My mother and I called Igor. Then our belongings were loaded into a taxi, they asked us where to go, and we went to Rehovot, where the Magazannik family, always ready to help, rented us an apartment.`
+       `Israel welcomed us with smiles and the children were given sweets.`,
+        `While our initial paperwork was being processed, they offered us a free phone call to our loved ones back in Russia. My mother and I called Igor.`,
+         `Then our luggage was loaded into a taxi.`,
+          `They asked us where we wanted to go, and we said Rehovot - where the Magazannik family lived and always so kind and ready to help, had already found us an apartment to rent.`,
       ],
       image: {
         desktopSrc: "images/teudatOle.jpg",
-        mobileSrc: "images/teudatOle.jpg",
-        alt: "Teudat Ole",
-        text: "-----------------------------"
+    mobileSrc: "images/teudatOle.jpg",
+    alt: "Teudat Ole",
+    textDesktop: "Teudat Ole",
+    textMobile: "Teudat Ole"
       }
     },
     {
       text: [
-        `The driver, as I understand now, was not familiar with the city and, apparently, could not remember the address either. He stopped at every streetlight (it was already dark), held the note with the address up to the light, compared it with the number of the nearest house and the street name, and drove to the next streetlight.`,
-        `Natasha Magazannik met us and helped us with our things. It was already 2 a.m., and Natasha wished us a good night and went home; she lived about 15–20 minutes away by walking. By the way, notice – 2 a.m., and a woman walks alone in the street without any fear.`,
-        `I still cannot get used to it, and I find special pleasure in going out alone at night. Recently, it occurred to me that I forgot to be afraid of entering my building late at night and not looking back at footsteps behind me. In Moscow, after 10 p.m., someone was always waiting for me at the bus stop.`
+      `The driver, as I now realize, clearly didn’t know the city - and probably couldn’t remember the address either.`,
+       `It was already dark. He kept stopping under every streetlight, holding the slip of paper with our address up to the light, checking it against the house number and street name - and then driving on to the next lamppost to repeat the process.`,
+        `We were met by Natasha Magazannik. She helped us with our bags.`,
+         `By then, it was already 2 a.m. Natasha wished us goodnight and walked home. She lived about 15-20 minutes away, on foot.`,
+          `And by the way - just think about that: 2 a.m., and a woman walking alone through the streets, completely unafraid.`,
+           `Even now, I still haven’t fully gotten used to that.`,
+            `It gives me a quiet kind of joy - the freedom of being able to walk alone at night.`,
+             `Not long ago, it suddenly hit me: I’ve actually forgotten to be afraid of entering my own building late at night. Forgotten to keep checking for footsteps behind me.`,
+              `In Moscow, if I came home after 10 p.m., someone always had to meet me at the bus stop.`
+
+
+
+
       ]
     },
     {
-      h4: "Here is the country that I dreamt of in an incomprehensible way",
+      h4:  `Here it was - the country that, in some strange, inexplicable way, had visited me in my dreams.`,
       text: [
-        `Mother and Masha went to bed, and I, before going to bed, decided to walk around the house and check if everything was in order. And then something happened that I cannot help but tell.`,
-        `Back in Moscow, I had dreams for a while: as if I enter a laboratory, see a cockroach by the wall, sprinkle powder on it—and suddenly the cockroach snaps its wings and flies. These dreams repeated persistently. I even asked acquaintances if flying cockroaches exist. No one knew. Everyone just laughed.`,
-        `And then, in Israel, on the very first night, I saw a cockroach on the top kitchen cabinet. I climbed on a stool, intending to remove it gently with a napkin—and suddenly, as in my dreams: snap—the wings opened, and the cockroach flew. I almost fell off the stool.`,
-        `Here it is—the country I dreamt of in an incomprehensible way.`
+       `My mother and Masha had already gone to bed, but before lying down myself, I decided to walk through the apartment and check that everything was in order.`,
+        `And that’s when something happened - something I can’t not tell.`,
+         `Back in Moscow, I used to have this recurring dream:`,
+          `I’d walk into a lab, spot a cockroach near the baseboard, sprinkle some powder on it - and suddenly, with a click, its wings would open and it would fly.`,
+           `The dream kept coming back, over and over. It started bothering me so much that I began asking friends, “Do flying cockroaches actually exist?”`,
+            `No one knew. They just laughed.`,
+             `And then - my very first night in Israel - I spotted a cockroach sitting on top of the kitchen cabinet.`,
+              `I climbed up on a stool, planning to gently scoop it up with a napkin...`,
+               `And suddenly - just like in my dream - click went the wings, and the cockroach flew.`,
+               `I nearly fell off the stool.`,
+               `This - this was the country I had dreamed of in ways I couldn’t understand.`
       ]
     },
     {
@@ -305,12 +358,30 @@ const textsWeArrived = {
       ]
     },
     {
-      h1: "“Please tell me where the health fund is”",
+      h1:  `“Tagidi bevakasha, eifo Kupat Holim?” (“Can you please tell me where the health clinic is?”)`,
       text: [
-        `The next day Natasha Magazannik came and told us what we should do first. She accompanied me almost everywhere, and it seemed to me that she had been in the country for a long time and understood everything. She had arrived only three months before me and knew, in Hebrew, probably only the word "beseder". But she knew it firmly, and this one word opened all doors. Natasha took me to the bank and helped me open an account.`,
-        `I went to the health fund on my own. Russian-speaking neighbors explained the way. All the way I repeated the phrase they taught me to ask directions: "Please tell me where the health fund is." At the health fund, they immediately understood that I was a new olah and did everything necessary.`,
-        `In these first steps in Israel, I was amazed at how many completely unfamiliar, different people were ready to help. It was even fashionable to have a host family for Olim. I once asked how I could repay the help, and they answered: "You will help the next new Olim." I remember and try, as much as possible.`,
-        `I recall traveling to Tel Aviv for documents. The Soviet government did not allow us to take our documents, but we could bring them to the Dutch Embassy and send them diplomatically to Israel.`
+ `The next day, Natasha Magazannik came over and told us what we needed to do first. 
+`,
+ `She accompanied me almost everywhere. To me, she seemed like a veteran - like she’d been in Israel for years. It felt like she understood everything and knew exactly how the
+system worked. But in reality, she had arrived just three months before me.`,
+  `At the time, I think she only knew one Hebrew word: “beseder” (which means “okay” or “all right”). But she said it with such confidence - and with that one word, she seemed able to open any door.`,
+   `Natasha Magazannik took me to the bank and helped me open an account.`,
+    `But I went to Kupat Holim (the public health clinic) on my own.`,
+     `Some Russian-speaking neighbors gave me directions and taught me the Hebrew phrase to ask if I got lost: “Tagidi bevakasha, eifo Kupat Holim?” (“Can you please tell me where the health clinic is?”)`,
+      `I repeated it the entire way there like a mantra.`,
+       `When I arrived at the clinic, they immediately understood that I was a new immigrant - an
+olah hadasha - and they helped me with everything I needed.
+`,
+        `In those first steps in Israel, I was amazed by how many complete strangers were ready to help. People from all different backgrounds.`,
+         `At the time, it was almost fashionable to "adopt" a new immigrant family - to help them find their feet.`,
+          `I remember asking once, “How can I ever repay all this kindness?”`,
+           `And the answer I got was:`,
+            `“You’ll help the next ‘olim hadashim’ (‘ the new immigrants’).`,
+             `I remember that - and I try, in my own way, to live up to it.`,
+              `I also remember when I traveled to Tel Aviv to collect our documents.`,
+               `The Soviet government didn’t allow us to take our personal documents with us - diplomas, birth certificates, and so on. But we were allowed to bring them to the Dutch embassy in Moscow, which acted as a representative for Israel at the time (since there were no diplomatic relations between the USSR and Israel).`,
+                `From there, they were sent to Israel via diplomatic mail.`
+         
       ]
     },
     {
@@ -332,30 +403,74 @@ const textsWeArrived = {
       ]
     },
     {
-      h4: "First time in Tel Aviv",
+      h4:  `My first time in Tel Aviv`,
       text: [
-        `And so, it was my first time in Tel Aviv. I looked for the Ministry of Interior building on the map. I wanted to find it myself. I was curious to find it myself. But as soon as I opened the map, someone was immediately nearby: "Do you need help?"`,
-        `In this very Ministry of Interior, I had a tragicomic adventure. I entered the elevator, pressed the button, the elevator reached the desired floor, stopped, and the doors—oh no—the doors did not open. God, it was Friday! That means I would have to sit here today and tomorrow. Buses would run only on Sunday. And mother and Masha alone in Rehovot, what would happen to them?! Complete despair. And then, although I understood it was foolish, I still pushed the door. And... it opened. My ridiculous behavior in the Tel Aviv elevator is explained by the fact that I am used to university elevators, whose doors opened automatically.`
+       `And so, there I was - in Tel Aviv for the first time.`,
+        `I had a map in hand, looking for the Ministry of Interior building. I wanted to find it on my own. It felt important - something I needed to do myself.`,
+         `But the moment I opened the map, someone was instantly beside me:`,
+          `"Do you need help?"`,
+           `That’s Tel Aviv for you.`,
+            `And at that same Ministry of Interior, I had one of those absurd, tragicomic moments that stay with you forever.`,
+             `I stepped into the elevator, pressed the button, and rode up to the right floor. The elevator stopped… but the doors - oh no - they didn’t open.`,
+              `Panic set in.`,
+               `“Oh God, it’s Friday!” - which meant no one would come until Sunday. The building would be locked all weekend.`,
+               
+                 `“I’m going to be stuck in here for two days!” My mother and Masha were all alone back in Rehovot. What would happen to them? What if they think I’ve disappeared?`,
+              
+                   `I spiraled into full despair.`,
+                    `And then - even though I knew it made no sense - I pushed the door.`,
+                     `And… it opened.`,
+                         `
+That ridiculous moment - me, panicking in the Tel Aviv elevator - makes perfect sense when you realize where I came from.
+`,
+                             `Back in my university, the elevators had automatic doors. I had no idea you had to open them
+yourself.
+`
+                              
       ]
     },
     {
-      h4: "Among loved ones, even if unfamiliar",
+      h4:  `Surrounded by strangers who felt like family`,
       text: [
-        `The daughter of my mother's friend, Zhenya Finikova, wrote about us to several acquaintances living in Israel. Lina was the one who immediately came to us. She not only helped us in everything she could but also became a very close, dear person to us. She also brought Maya to us—and it was pure happiness.`,
-        `Thanks to them, we were in the midst of the "Russian" Olim of the 70s, very close to us in spirit. Sometimes it even seemed to me that I hadn’t left anywhere; this environment with my mother was so familiar. In some cases, I even saw similarities with people from my previous life.`
+       `The daughter of my mother’s friend - Zhenya Finikova - had written to several of her friends in Israel to let them know we were coming.`,
+        `One of them, Lina, showed up almost immediately. She didn’t just help us with everything she could - she quickly became someone very dear to us. She was the first person in Israel who felt like home.`,
+         `And then Lina introduced Maya to meet us - and that was pure joy.`,
+          `Thanks to both of them, we found ourselves embraced by a community of Russian-speaking
+olim (immigrants) who had come to Israel back in the 1970s - people who felt incredibly familiar to us.
+`,
+           `At times, it honestly felt like we had never even left home.`,
+            `This environment, this spirit - it was so similar to the life my mother and I had known. I even started noticing resemblances between these new friends and people from our past - in their gestures, their humor, their warmth.`
+        
       ]
     },
     {
-      h4: `Yanik, Maya's son, said: Let me photograph you. 
-Masha sat properly in the middle of the bench. Then a girl ran up and shouted - I want too! - and sat next to Masha. After her – another, then another, and another… All took turns sitting on the bench. Masha politely moved to make room for them, until in the end she was at the very edge of the bench.`,
-      text: [
-        `Our first photos in our first city. Rehovot 1991`
-      ],
+      h4: `One day, Maya’s son, Yanik, came over and said,
+
+“Let me take your picture.”
+
+Masha sat properly on a little bench, right in the middle, ready for the photo.
+
+Then suddenly, a little girl ran over and shouted,
+
+“I want to be in the picture too!” - and plopped down next to Masha.
+
+And then another girl came running.
+
+And another.
+
+And another…
+
+Each one, in turn, happily jumped onto the bench.
+
+Masha, being polite, kept scooting over to make space - until, in the end, she was sitting right on the very edge of it.
+`,
+   
       image: {
-        desktopSrc: "images/Masha-and-the-kids-Rehovot.jpg",
-        mobileSrc: "images/Masha-and-the-kids-Rehovot-mobile.jpg",
-        alt: "Photo in Rehovot",
-        text: "Our first photos in our first city. Rehovot 1991"
+          desktopSrc: "images/Masha-and-the-kids-Rehovot.jpg",
+    mobileSrc: "images/Masha-and-the-kids-Rehovot-mobile.jpg",
+    alt: "Photo in Rehovot",
+    textDesktop: "Our first photos in our first city. Rehovot 1991",
+    textMobile: "Our first photos in our first city. Rehovot 1991"
       }
     }
   ]
@@ -376,207 +491,3 @@ export default textsWeArrived;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const textsWeArrived = {
-//   ru: {
-//     h1: "Израиль встречал нас улыбками",
-// paragraphs1: [
-//       `Израиль встречал нас улыбками, детишек одарили сладостями. Пока оформлялись первые документы, нам предложили сделать бесплатный звонок своим близким в Россию. Мы с мамой позвонили Игорю. Затем наши вещи погрузили  в такси, спросили нас куда вести и мы поехали в Реховот, где, всегда готовые придти на помощь, Магазанники сняли нам квартиру. `
-   
-//     ],
-
-//      secondImage: {
-//       desktopSrc: "images/teudatOle.jpg",
-//       mobileSrc: "images/teudatOle.jpg",
-//       alt: "Теудат Оле",
-//       text: "-----------------------------"
-//     },
-
-
-
-//     textBlock: {
-//       h4: "Новый текстовый блок после Теудат Оле",
-//       paragraphs: [
-//         `Это первый абзац нового текстового блока.`,
-//         `Это второй абзац нового текстового блока.`,
-//         `Это третий абзац нового текстового блока.`
-//       ]
-//     },
-
-
-
-//     imageTextSections: [
-//       {
-//         desktopSrc: "images/desktop-images/first-days-in-israel.webp",
-//         mobileSrc: "images/mobile-images/first-days-in-isreal-01.webp",
-//         alt: "Первый день в Израиле",
-//         text: "Наши первые фото в нашем первом городе. Реховот 1991год"
-//       },
-//       {
-//         desktopSrc: null,
-//         mobileSrc: "images/mobile-images/first-days-in-isreal-02.webp",
-//         alt: "Первый день в Израиле",
-//         text: ""
-//       },
-//       {
-//         textBlock: {
-//           h4: "первый раз в Тель-Авиве",
-//           paragraphs: [
-//             `И вот, я первый раз в Тель-Авиве. По карте ищу здание МВД. Хочу сама найти. Мне интересно самой найти. Но как только разворачиваю карту, сразу же кто-то оказывается рядом: “Вам помочь?”`,
-//             `В этом самом МВД пережила я трагикомическое приключение. Вхожу в лифт, нажимаю на кнопку, лифт доезжает до нужного этажа, останавливается, а двери, о ужас, двери не открываются. Боже, сегодня пятница! Значит сидеть мне здесь и сегодня и завтра. Автобусы пойдут только в воскресенье. А мама и Маша одни в Реховоте, что с ними будет?! Полное отчаяние. И тут, хотя понимаю, что глупость, но все же толкаю дверь. И ... она открывается. Нелепое мое поведение в Тель-Авивском лифте объясняется тем, что я привыкла к университетским лифтам, двери которых открывались автоматически.`
-//           ]
-//         }
-//       },
-//       {
-//         textBlock: {
-//           h4: `"В окружении близких, хоть и незнакомых"`,
-//           paragraphs: [
-//             `Дочь маминой подруги Женя Финикова написала о нас нескольким своим знакомым живущим в Израиле. Лина была та, что мгновенно пришла к нам. Она не только стала помогать нам во всем, чем только могла, но и стала нам очень близким, дорогим человеком. Она же привела к нам Маю - и это было сплошное счастье.`,
-//             `Благодаря им, мы оказались в среде “русских” олим 70-х годов, очень близких нам по духу. Мне даже порой казалось, что я никуда не уезжала, так привычна была для нас с мамой эта среда. В некоторых я даже видела сходство с людьми из той моей жизни.`
-//           ]
-//         }
-//       },
-//       {
-//         textBlock: {
-//           h4: "Пришёл Яник, сын Маи, и сказал: - Давайте я вас сфотографирую...",
-//           paragraphs: [
-//             `Маша чинно села на скамеечку посередине. И тут прибежала одна девочка и крикнула - Я тоже хочу! - и села рядом с Машей.А за ней - другая, потом ещё одна, и ещё… Все по очереди плюхались на скамеечку. Маша вежливо уступала им место, сдвигалась, пока в конце концов не оказалась на самом её краешке.`
-//           ]
-//         }
-//       },
-//       {
-//         desktopSrc: null,
-//         mobileSrc: "images/Masha-and-the-kids-Rehovot.jpg",
-//         alt: "Фото в Реховоте",
-//         text: "Наши первые фото в нашем первом городе. Реховот 1991 год"
-//       }
-//     ]
-//   },
-
-//   he: {
-//     h1: `תגידי בבקשה איפה קופת חולים`,
-//     paragraphs1: [
-//       `למחרת באה נטע מַגָזַנְניק וסיפרה לנו מה יש לעשות קודם כל. כמעט בכל מקום היא ליוותה אותי והרגשתי כאילו היא כבר הייתה בארץ הרבה זמן ויודעת הכל. היא הגיעה רק שלושה חודשים לפניי, והכירה בעברית רק את המילה “בסדר”. אבל היא ידעה אותה היטב, והמילה הזו פתחה לי כל דלת.`,
-//       `לקופת חולים הלכתי בעצמי. שכנים דוברי רוסית הסבירו לי את הדרך. כל הדרך חזרתי על המשפט שהם לימדו אותי אם צריך לשאול את הדרך: “תגידי בבקשה איפה קופת חולים”. בקופת חולים מיד הבינו שאני עולה חדשה ועשו את כל מה שצריך.`,
-//       `בצעדים הראשונים שלי בישראל התפעלתי כמה אנשים זרים ומגוונים היו מוכנים לעזור. היה אף אופנתי שיהיה לך משפחה מאולצת ע"י האולימים. שאלתי כיצד אני יכולה להחזיר טובה, והשיבו לי: “את תעזרי לאולימ החדשים הבאים”. אני זוכרת ומשתדלת ככל יכולתי.`,
-//       `אני זוכרת שנסעתי לתל אביב כדי להביא מסמכים. המדינה הסובייטית לא אפשרה לנו לקחת את המסמכים שלנו, אבל יכולנו להביא אותם לשגרירות הולנדית ושליח דיפלומטי שלח אותם לישראל.`
-//     ],
-//     imageTextSections: [
-//       {
-//         desktopSrc: "images/desktop-images/first-days-in-israel.webp",
-//         mobileSrc: "images/mobile-images/first-days-in-isreal-01.webp",
-//         alt: "יום ראשון בישראל",
-//         text: "התמונות הראשונות בעיר הראשונה שלנו, רחובות 1991"
-//       },
-//       {
-//         desktopSrc: null,
-//         mobileSrc: "images/mobile-images/first-days-in-isreal-02.webp",
-//         alt: "יום ראשון בישראל",
-//         text: ""
-//       },
-//       {
-//         textBlock: {
-//           h4: "לראשונה בתל אביב",
-//           paragraphs: [
-//             `והנה אני לראשונה בתל אביב. מחפשת את בניין משרד הפנים במפה. רוצה למצוא לבד. אבל ברגע שאני פותחת את המפה, מיד מישהו מתקרב: “תרצי עזרה?”`,
-//             `במשרד הפנים עצמו חוויתי הרפתקה טראגיקומית. נכנסת למעלית, לוחצת על הקומה, המעלית מגיעה, ועוצרת, והדלתות... לא נפתחות. אוי, היום שישי! עליי לשבת כאן היום ומחר. האוטובוסים יתחילו רק ביום ראשון. אמא ומאשה לבד ברחובות, מה יקרה איתן?! ייאוש מוחלט. ואז, למרות שהבנתי שזה טיפשי, דוחפת את הדלת. והיא נפתחת. התנהגותי המגוחכת במעלית תל אביבית מוסברת בכך שהתרגלתי למעליות באוניברסיטה, שהדלתות שלהן נפתחות אוטומטית.`
-//           ]
-//         }
-//       },
-//       {
-//         textBlock: {
-//           h4: `"בסביבה של קרובים, גם אם זרים"`,
-//           paragraphs: [
-//             `בתה של חברה של אמא, ג׳ניה פיניקובה, כתבה עלינו לכמה מכרים שלה בישראל. לינה הייתה זאת שהגיעה אלינו מיד. היא לא רק עזרה לנו בכל מה שהיא יכלה, אלא גם הפכה לאדם יקר מאוד לנו. היא גם הביאה את מאיה – וזה היה אושר גמור.`,
-//             `בזכותן, היינו בסביבה של האולימים הרוסים משנות ה-70, מאוד קרובים לרוחנו. לפעמים הרגשתי כאילו לא נסענו לשום מקום, הסביבה הייתה כל כך מוכרת לנו עם אמא. בחלק מהאנשים אפילו ראיתי דמיון לאנשים מחיי הקודמים שלי.`
-//           ]
-//         }
-//       },
-//       {
-//         textBlock: {
-//           h4: "יאניק בא ואמר: - אני אצלם אתכם...",
-//           paragraphs: [
-//             `מאשה התיישבה בכסא באמצע. ואז רצה ילדה אחת וקראה - אני גם רוצה! - וישבה ליד מאשה. אחריה – עוד אחת, ועוד אחת… כולם התיישבו בתור על הספסל. מאשה נעתרה בנימוס, הזיזה את עצמה עד שהתיישבה בקצה.`
-//           ]
-//         }
-//       },
-//       {
-//         desktopSrc: null,
-//         mobileSrc: "images/Masha-and-the-kids-Rehovot.jpg",
-//         alt: "תמונה ברחובות",
-//         text: "התמונות הראשונות בעיר הראשונה שלנו, רחובות 1991"
-//       }
-//     ]
-//   },
-
-//   en: {
-//     h1: "Please tell me where the health clinic is",
-//     paragraphs1: [
-//       `The next day Natasha Magazannik came and told us what we needed to do first. Almost everywhere she accompanied me, and it seemed to me that she had been in the country for a long time and knew everything. She had arrived only three months before me and knew only one word in Hebrew: "Beseder". But she knew it firmly, and with this one word, she opened all doors. N.A. Magazannik took me to the bank and helped me open an account.`,
-//       `I went to the health clinic on my own. Russian-speaking neighbors showed me the way. I repeated the phrase they taught me in case I had to ask for directions: "Please tell me where the health clinic is". At the clinic, they immediately understood I was a new immigrant and did everything that was needed.`,
-//       `In these first steps in Israel, I was amazed at how many completely unfamiliar, different people were willing to help. It was even fashionable to have a family of olim under your care. I once asked how I could repay the help, and they answered: "You will help the next new olim." I remember and try to do so as much as I can.`,
-//       `I remember going to Tel Aviv for documents. The Soviet state did not allow us to take our documents with us, but we could bring them to the Dutch embassy and they were sent to Israel by diplomatic mail.`
-//     ],
-//     imageTextSections: [
-//       {
-//         desktopSrc: "images/desktop-images/first-days-in-israel.webp",
-//         mobileSrc: "images/mobile-images/first-days-in-isreal-01.webp",
-//         alt: "First day in Israel",
-//         text: "Our first photos in our first city, Rehovot, 1991"
-//       },
-//       {
-//         desktopSrc: null,
-//         mobileSrc: "images/mobile-images/first-days-in-isreal-02.webp",
-//         alt: "First day in Israel",
-//         text: ""
-//       },
-//       {
-//         textBlock: {
-//           h4: "First time in Tel Aviv",
-//           paragraphs: [
-//             `And here I am in Tel Aviv for the first time. I’m looking for the Ministry of Interior building on the map. I want to find it myself. But as soon as I unfold the map, someone immediately appears: "Need help?"`,
-//             `At the Ministry itself, I experienced a tragicomic adventure. I entered the elevator, pressed the button, the elevator reached the floor, stopped, and the doors, oh horror, didn’t open. God, today is Friday! So I had to stay here today and tomorrow. The buses would only run on Sunday. And Mom and Masha were alone in Rehovot—what would happen to them?! Complete despair. And then, although I knew it was silly, I pushed the door. And... it opened. My ridiculous behavior in the Tel Aviv elevator is explained by the fact that I was used to university elevators, whose doors opened automatically.`
-//           ]
-//         }
-//       },
-//       {
-//         textBlock: {
-//           h4: `"Among close ones, even if strangers"`,
-//           paragraphs: [
-//             `The daughter of my mother's friend, Zhenya Finikova, wrote about us to several acquaintances living in Israel. Lina was the one who came to us immediately. She not only helped us with everything she could, but also became a very close, dear person to us. She also brought Maya to us — and it was pure happiness.`,
-//             `Thanks to them, we found ourselves among Russian olim from the 70s, very close to us in spirit. Sometimes I even felt like I hadn’t left anywhere; this environment was so familiar to my mother and me. In some people, I even saw similarities with people from my previous life.`
-//           ]
-//         }
-//       },
-//       {
-//         textBlock: {
-//           h4: "Yanik came and said: - I'll take a photo of you...",
-//           paragraphs: [
-//             `Masha sat politely on a bench in the middle. Then a girl ran up and shouted - I want to too! - and sat next to Masha. Then another, and another… All took turns plopping on the bench. Masha politely gave them space, moving until she finally ended up at the very edge.`
-//           ]
-//         }
-//       },
-//       {
-//         desktopSrc: null,
-//         mobileSrc: "images/Masha-and-the-kids-Rehovot.jpg",
-//         alt: "Photo in Rehovot",
-//         text: "Our first photos in our first city, Rehovot 1991"
-//       }
-//     ]
-//   }
-// };
-
-// export default textsWeArrived;
