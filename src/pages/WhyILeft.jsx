@@ -178,82 +178,70 @@ const WhyILeft = () => {
 
 
 
-      {/* Text Section */}
-
-      
-  <section
+{/* Text Section */}
+<section
   dir={lang === "he" ? "rtl" : "ltr"}
-  className={`
-    px-[16px] sm:px-[24px] md:px-[32px] mt-[48px]
-    ${lang === "he" ? "font-rubik text-right" : ""}
-  `}
+  className={`px-[16px] sm:px-[24px] md:px-[32px] mt-[48px] ${lang === "he" ? "font-rubik" : ""}`}
 >
-        <div className="max-w-[720px] mx-auto">
-          <h1 className="text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8">
-            {textsWhyILeft[lang].h1}
-          </h1>
-          <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
-            {textsWhyILeft[lang].paragraphs1.map((p, i) => (
-              <p key={i} className="mb-8">{p}</p>
+  <div className="max-w-[720px] mx-auto text-white">
+
+    {/* First H1 + Paragraphs */}
+    <div className="mb-12">
+      {textsWhyILeft[lang].h1 && (
+        <h1 className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8">
+          {textsWhyILeft[lang].h1}
+        </h1>
+      )}
+
+      {textsWhyILeft[lang].paragraphs1.map((p, i) => (
+        <p key={i} className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mb-6 leading-relaxed">
+          {p}
+        </p>
+      ))}
+    </div>
+
+    {/* Image + text sections */}
+    {textsWhyILeft[lang].imageTextSections.map((section, i) => (
+      <div key={i} className="mb-12 ">
+        {/* Desktop */}
+        {section.desktopSrc && (
+          <>
+            <img src={section.desktopSrc} alt={section.alt} className="w-full h-auto mt-[6px] hidden md:block" />
+            {section.text && (
+              <p className="hidden md:block text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mt-4">
+                {section.text}
+              </p>
+            )}
+          </>
+        )}
+
+        {/* Mobile */}
+        {section.mobileSrc && (
+          <>
+            <img src={section.mobileSrc} alt={section.alt} className="w-full h-auto mb-4 block md:hidden" />
+            {section.text && (
+              <p className="block md:hidden text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mt-4">
+                {section.text}
+              </p>
+            )}
+          </>
+        )}
+
+        {/* Optional H4 + Paragraphs */}
+        {section.textBlock && (
+          <div className="mb-8 text-white">
+            <h4 className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-8 font-semibold">
+              {section.textBlock.h4}
+            </h4>
+            {section.textBlock.paragraphs.map((p, idx) => (
+              <p key={idx} className="mb-4 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
+                {p}
+              </p>
             ))}
           </div>
-
-
-
-
-{textsWhyILeft[lang].imageTextSections.map((section, i) => (
-  <div key={i} className="max-w-[720px] mx-auto mt-[48px] px-4">
-
-    {/* Desktop Section */}
-    {section.desktopSrc && (
-      <div className="hidden sm:block">
-        <img
-          src={section.desktopSrc}
-          alt={section.alt}
-          className="w-full h-auto mb-4"
-        />
-        {section.text && (
-          <p className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mb-8">
-            {section.text}
-          </p>
         )}
       </div>
-    )}
-
-    {/* Mobile Section */}
-    {section.mobileSrc && (
-      <div className="sm:hidden">
-        <img
-          src={section.mobileSrc}
-          alt={section.alt}
-          className="w-full h-auto mb-4"
-        />
-        {section.text && (
-          <p className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mb-8">
-            {section.text}
-          </p>
-        )}
-      </div>
-    )}
-
-    {/* Optional H4 + 5 Paragraphs block */}
-    {section.textBlock && (
-      <div className="mb-8 text-white">
-        <h4 className="text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-8 font-semibold">
-          {section.textBlock.h4}
-        </h4>
-        {section.textBlock.paragraphs.map((p, idx) => (
-          <p key={idx} className="mb-4 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
-            {p}
-          </p>
-        ))}
-      </div>
-    )}
-
-  </div>
-))}
-
-
+    ))}
 
 
 

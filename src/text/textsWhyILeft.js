@@ -33,7 +33,7 @@ const textsWhyILeft = {
 
 
 
-// ✅ Бесконечное бытовое унижение
+
 {
   textBlock: {
     h4: `Бесконечное бытовое унижение`,
@@ -51,7 +51,7 @@ const textsWhyILeft = {
 
 
 
-      // ✅ Гуляю с маленькой Машей около нашего дома
+
   {
     textBlock: {
       h4: "Гуляю с маленькой Машей около нашего дома",
@@ -78,7 +78,6 @@ const textsWhyILeft = {
 
 
 
-// ✅ Cкажут сажать мы будем сажать.
 {
   textBlock: {
     h4: `Cкажут сажать мы будем сажать.`,
@@ -92,7 +91,7 @@ const textsWhyILeft = {
 
 
 
-// ✅ Да она, всего лишь жена референта!
+
 {
   textBlock: {
     h4: `Да она, всего лишь жена референта!`,
@@ -113,7 +112,7 @@ const textsWhyILeft = {
 
 
 
-  //------------------------ ✅ Hebrew version
+  //------------------------  Hebrew version ----------------------------//
 
 
 he: {
@@ -159,9 +158,8 @@ he: {
       text: "…וגם העיטורים האוניברסיטאיים שלי."
     },
 
-    // -----------------------------
-    // ✔️ Бесконечное бытовое унижение
-    // -----------------------------
+
+
     {
  textBlock: {
   h4: `השפלה יומיומית אינסופית`,
@@ -196,9 +194,7 @@ he: {
       }
     },
 
-    // -----------------------------
-    // ✔️ Гуляю с маленькой Машей…
-    // -----------------------------
+
     {
    textBlock: {
   h4: `הסתכלה עלי בשתיקה`,
@@ -224,9 +220,7 @@ he: {
       text: "הכניסה לביתנו במוסקבה"
     },
 
-    // -----------------------------
-    // ✔️ Скажут сажать — мы будем сажать
-    // -----------------------------
+
     {
    textBlock: {
   h4: `“אם יאמרו לנו לשים בכלא - נשים, ואם יאמרו לא לשים - לא נשים.”`,
@@ -242,9 +236,7 @@ he: {
       }
     },
 
-    // -----------------------------
-    // ✔️ Да она, всего лишь жена референта!
-    // -----------------------------
+
     {
   textBlock: {
   h4: `כן, היא… סתם אשת פקיד.`,
@@ -260,9 +252,123 @@ he: {
   ]
       }
     }
+    
   ]
-},
+  
+}, // THIS CLOSING BRACE ENDS HEBREW 
 
-};
+
+
+
+
+
+
+
+
+
+ en: {
+    h1: `And I stayed silent...`,
+    paragraphs1: [
+      `In the late ‘70s, my husband and I wanted to take our recovering child to the seaside - not as wanderers, but with a proper voucher that guaranteed housing and meals. These vouchers could only be “gotten” through the workplace unions. My husband was told they
+didn’t have any at his job, so I went to my faculty’s union committee. There, they said they didn’t have any either and suggested I try the university-wide union committee.
+`,
+      `At the university union, they listened sympathetically and offered me a choice of two vouchers. Honestly, neither was great, so I asked if I could think it over. That’s when a union official said something I still can’t forget. He said, “Think, but not for too long. You understand, this isn’t meant for you.”`,
+      `He said it exactly like that: “You understand...”`,
+      `By then, I’d worked at the university for ten years and never once used the union’s vouchers. By all official rules, I qualified. But this union official dared to say, without fear or shame, plainly and openly, that the vouchers were for the connected, the “important,” the “insiders” - and that I was supposed to understand that.`,
+      `The union and that official were my last and only chance to take my child to the sea under better conditions. And I stayed silent...`
+    ],
+    imageTextSections: [
+      {
+        desktopSrc: "images/desktop-images/Moscow-State-University-01-desktop.jpg",
+        mobileSrc: "images/mobile-images/Moscow-State-University-01-mobile.jpg",
+        alt: "Moscow State University",
+        text: "Moscow State University (MSU) — where I studied and worked"
+      },
+      {
+        desktopSrc: "images/desktop-images/Moscow-State-University-02-desktop.jpg",
+        mobileSrc: "images/mobile-images/MoscowUniversity02-mobile.jpg",
+        alt: "Moscow State University",
+        text: "That's me in the middle, walking down the steps of my university during one of our trips to Moscow in the 2000s …and my MSU awards."
+      },
+      {
+        desktopSrc: null,
+        mobileSrc: "images/mobile-images/MoscowUniversity03-mobile.jpg",
+        alt: "Moscow State University",
+        text: "…and my MSU awards."
+      },
+
+      {
+        textBlock: {
+          h4: `Endless Everyday Humiliation`,
+          paragraphs: [
+            `Of course, I didn’t leave because of the union official - though that moment stays with me. Somehow, a bigger picture of life in the country came together. Endless everyday humiliation. And most of all, the very idea of human dignity had completely vanished from this place.`,
+            `Stealing became normal. Otherwise decent people took whatever they could from work, without shame - some even bragged about it. Shopkeepers stole and cheated customers, and that was expected. Their wages seemed deliberately kept low, as if to push them toward stealing and selling through the “back door.”`,
+            `My cousin once bragged about buying boneless meat “through the back door.” Writing this now, I imagine a modern reader thinking, “So what? I buy whatever I want.” But back then, stores only sold one kind of meat - with bones - all at one price. If my cousin
+paid extra under the table, he got boneless meat, and the butcher slipped the leftover bones to someone else. And that unlucky person could complain all they wanted about the extra bones in their meat - but the seller wouldn’t budge.
+`,
+            `I remember telling my cousin, “Who do you think buys your bones? I do!” He’s a good guy, my cousin really, but he was bragging about cheating.`,
+              `It felt like everything was set up so people would cheat and cut corners. Even those who had nothing to gain had to bend the rules. My mother worked as an economist-financier. She was responsible for providing geological exploration teams with equipment, housing,
+and more. She said that if she hadn’t broken the rules, it would have been impossible to supply the teams properly. The system itself pushed people toward all kinds of rule-breaking - often forced and completely selfless - and that meant everyone lived under
+constant suspicion. If someone became inconvenient, they could be easily taken down. There was always something to accuse them of.
+`,
+                `My husband used to joke about stealing at work when it came to me:`,
+            `“What could Galina possibly steal? An integral - and even that wouldn’t be hers!”`
+          ]
+        }
+      },
+
+      {
+        textBlock: {
+          h4: "Walking with Little Masha near our home",
+          paragraphs: [
+            `I’m walking with little Masha near our home in Matveyevsky. An elderly woman sitting on a bench starts talking: “I worked at the factory for 30 years, at the machine.” Then, proudly, she says, “And finally, they gave me an apartment with all the comforts.”`,
+             `I can’t hold back and say, “You earned several apartments over those 30 years. They just paid you pennies and then gave you a little. You didn’t get to choose where to live, what neighborhood, what building - as if you weren’t the one working at that machine
+for 30 years. You were robbed all those years.”
+`,
+              `I don’t remember her face or her name, but I’ll never forget the fierce hatred in her eyes as she silently stared at me.`
+          
+          ]
+        }
+      },
+
+      {
+        desktopSrc: "images/matveevskaya-street.jpg",
+        mobileSrc: "images/matveevskaya-street.jpg",
+        alt: "Apartment entrance",
+        text: "The entrance of our Moscow building"
+      },
+
+      {
+        textBlock: {
+          h4: `They’ll say “lock them up,” so we’ll lock them up`,
+          paragraphs: [
+            `This happened in the late ‘70s. Oleg, my son, had his bike stolen - he was playing in the schoolyard, turned away for just a moment, and the bike was gone.`,
+             `We knew going to the police would be pointless, but we went anyway. The officer was a nice young guy, and we ended up having a good chat about life.`,
+              `What stuck with me was when he said, “Look, if they tell us to lock someone up for this - whatever ‘this’ means - then we’ll lock them up. If they say not to, then we won’t.”`,
+               `He said it so matter-of-factly - no bitterness, no judgment, no bravado - probably without even realizing how awful that really is.`,
+                `That’s how the legal system worked: not by law, but by whatever “they say.”`
+          ]
+        }
+      },
+
+      {
+        textBlock: {
+          h4: `"But she's just a referent’s wife!"`,
+          paragraphs: [
+            `My school friend Tima (that was her nickname in school, and that's what my family and I always called her) once worked as a neurologist in the 4th Department of the USSR Ministry of Health, which served the top-ranking Soviet party officials.`,
+            `She once told me how her superiors called her in and questioned her about why she had referred a certain patient to a particular medical facility. Tima explained that, medically, that was the best place for the woman to receive treatment.`,
+            `To which the boss indignantly replied:`,
+            `"But she's just a referent’s wife!"`,
+            `In other words, treatment wasn't supposed to depend on the patient’s condition, but on their social rank or position.`,
+            `Tima didn’t stay there much longer after that.`
+          ]
+        }
+      }
+
+    ]
+  }
+
+};  // END of main object
+
 
 export default textsWhyILeft;
