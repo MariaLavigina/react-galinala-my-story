@@ -15,90 +15,98 @@ const WeArrived = () => {
 
   // ⚡ FIX: fallback to Russian if lang key doesn't exist
   const textForLang = textsWeArrived[lang] || textsWeArrived["ru"];
+return (
+  <>
+    <Navbar lang={lang} setLang={setLang} />
+    <div className="h-20"></div>
 
-  return (
-    <>
-      <Navbar lang={lang} setLang={setLang} />
-      <div className="h-20"></div>
-
-      {/* Desktop-only Hero */}
-      <div className="w-full hidden lg:block">
+    {/* Desktop-only Hero */}
+    <div className="w-full hidden lg:block">
+      <img
+        src="images/desktop-images/chapter02-desktop.webp"
+        alt="Hero"
+        className="w-full h-auto block"
+      />
+      <div className="relative w-full -mt-[300px]">
         <img
-          src="images/desktop-images/chapter02-desktop.webp"
-          alt="Hero"
+          src="images/desktop-images/entroChapter-arrivedToIsrael-desktop.svg"
+          alt="Wave"
           className="w-full h-auto block"
         />
-        <div className="relative w-full -mt-[300px]">
-          <img
-            src="images/desktop-images/entroChapter-arrivedToIsrael-desktop.svg"
-            alt="Wave"
-            className="w-full h-auto block"
-          />
-          <div
-            className="
-              absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white
-              [&>h1]:text-[4vw]
-              [&>h2]:text-[6vw]
-              [&>h3]:text-[2.5vw] [&>h3]:mt-10 [&>h3]:mb-16
-              [&>p]:text-[1.25vw] [&>p]:mt-6
-              md:[&>p]:text-[1.38vw] lg:[&>p]:text-[1.55vw]
-            "
-          >
-            <TextSecondPage lang={lang} />
-          </div>
+        <div
+          dir={lang === "he" ? "rtl" : "ltr"}
+          className={`
+            absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white
+            ${lang === "he" ? "font-rubik" : ""}
+            [&>h1]:text-[4vw]
+            [&>h2]:text-[6vw]
+            [&>h3]:text-[2.5vw] [&>h3]:mt-10 [&>h3]:mb-16
+            [&>p]:text-[1.25vw] [&>p]:mt-6
+            md:[&>p]:text-[1.38vw] lg:[&>p]:text-[1.55vw]
+          `}
+        >
+          <TextSecondPage lang={lang} />
         </div>
       </div>
+    </div>
 
-      {/* Tablet-only Hero */}
-      <div className="hidden md:block lg:hidden w-full">
+    {/* Tablet-only Hero */}
+    <div className="hidden md:block lg:hidden w-full">
+      <img
+        src="images/mobile-images/chapter02-arrived-to-israel-mobile.webp"
+        alt="Hero"
+        className="w-full h-auto block"
+      />
+      <div className="relative w-full -mt-[120px]">
         <img
-          src="images/mobile-images/chapter02-arrived-to-israel-mobile.webp"
-          alt="Hero"
+          src="images/ipad-images/chapter2-arrived.svg"
+          alt="Wave"
           className="w-full h-auto block"
         />
-        <div className="relative w-full -mt-[120px]">
-          <img
-            src="images/ipad-images/chapter2-arrived.svg"
-            alt="Wave"
-            className="w-full h-auto block"
-          />
-          <div
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white 
-                       w-[85%]  px-2 sm:px-4 
-                       [&>h1]:text-[4vw] [&>h2]:text-[7vw] [&>h3]:text-[3.5vw] [&>h3]:mt-8 [&>h3]:mb-12 
-                       [&>p]:text-[2vw] [&>p]:mt-6 leading-relaxed"
-          >
-            <TextSecondPage lang={lang} />
-          </div>
+        <div
+          dir={lang === "he" ? "rtl" : "ltr"}
+          className={`
+            absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white 
+            w-[85%] px-2 sm:px-4
+            ${lang === "he" ? "font-rubik" : ""}
+            [&>h1]:text-[4vw] [&>h2]:text-[7vw] [&>h3]:text-[3.5vw] [&>h3]:mt-8 [&>h3]:mb-12
+            [&>p]:text-[2vw] [&>p]:mt-6 leading-relaxed
+          `}
+        >
+          <TextSecondPage lang={lang} />
         </div>
       </div>
+    </div>
 
-      {/* Mobile-only Hero */}
-      <div className="block md:hidden w-full">
+    {/* Mobile-only Hero */}
+    <div className="block md:hidden w-full">
+      <img
+        src="images/mobile-images/chapter02-arrived-to-israel-mobile.webp"
+        alt="Hero"
+        className="w-full h-auto block"
+      />
+      <div className="relative w-full -mt-[70px]">
         <img
-          src="images/mobile-images/chapter02-arrived-to-israel-mobile.webp"
-          alt="Hero"
+          src="images/mobile-images/entro-secondPage-mobile.svg"
+          alt="Wave"
           className="w-full h-auto block"
         />
-        <div className="relative w-full -mt-[70px]">
-          <img
-            src="images/mobile-images/entro-secondPage-mobile.svg"
-            alt="Wave"
-            className="w-full h-auto block"
-          />
-          <div
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white 
-                       w-[95%] sm:w-[98%] 
-                       [&>h1]:text-[clamp(23px,9vw,60px)]
-                       [&>h2]:text-[clamp(40px,7vw,45px)]
-                       [&>h3]:text-[clamp(23px,6vw,35px)] [&>h3]:mt-16 [&>h3]:mb-16
-                       [&>p]:text-[clamp(16px,5vw,25px)] [&>p]:mt-8"
-          >
-            <TextSecondPage lang={lang} />
-          </div>
+        <div
+          dir={lang === "he" ? "rtl" : "ltr"}
+          className={`
+            absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white
+            w-[95%] sm:w-[98%]
+            ${lang === "he" ? "font-rubik" : ""}
+            [&>h1]:text-[clamp(23px,9vw,60px)]
+            [&>h2]:text-[clamp(40px,7vw,45px)]
+            [&>h3]:text-[clamp(23px,6vw,35px)] [&>h3]:mt-16 [&>h3]:mb-16
+            [&>p]:text-[clamp(16px,5vw,25px)] [&>p]:mt-8
+          `}
+        >
+          <TextSecondPage lang={lang} />
         </div>
       </div>
-
+    </div>
 
 
 
