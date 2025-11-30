@@ -235,8 +235,8 @@ return (
 
     {/* Navigation buttons */}
     <div className="flex justify-center gap-4 mt-24">
-      <BackwardButton />
-      <ForwardButton />
+     <BackwardButton onClick={() => navigate("/our-journey")}/>
+     <ForwardButton onClick={() => navigate("/first-steps")}/>
     </div>
 
   </div>
