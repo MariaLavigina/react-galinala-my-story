@@ -85,9 +85,9 @@ const LifeInIsrael = () => {
           ))}
 
           <div className="flex justify-center gap-4 mt-24">
-      
-            <ForwardButton onClick={() => navigate("/galina-grew")} />
             <BackwardButton onClick={() => navigate("/first-steps")} />
+            <ForwardButton onClick={() => navigate("/galina-grew")} />
+        
           </div>
         </div>
       </section>

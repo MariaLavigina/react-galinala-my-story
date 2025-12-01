@@ -1,111 +1,99 @@
-import React from "react";
+import React, { useState } from "react";
 import ForwardButton from "../components/ForwardButton.jsx";
 import BackwardButton from "../components/BackwardButton.jsx";
 import Navbar from "../components/Navbar.jsx";
 import ChapterSectionDesktop from "../components/ChapterSectionDesktop.jsx";
 import Footer from '../components/Footer';
 import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
-
+import { useNavigate } from "react-router-dom";
+import textsGalinaGrew from "../text/textsGalinaGrew.js";
 
 const GalinaGrew = () => {
+  const [lang, setLang] = useState("ru");
+  const navigate = useNavigate();
+
+  const textForLang = textsGalinaGrew[lang] || textsGalinaGrew["ru"];
+
   return (
     <>
-      <Navbar /> 
+      <Navbar lang={lang} setLang={setLang} />
       <div className="h-20"></div>
 
-  
-      <section className="px-[16px] sm:px-[24px] md:px-[32px] mt-[48px]">
-        <div className="max-w-[720px] mx-auto">
-          <h1 className="text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8">
-        Matrix
-          </h1>
+      <section
+        dir={lang === "he" ? "rtl" : "ltr"}
+        className={`px-[16px] sm:px-[24px] md:px-[32px] mt-[48px] ${lang === "he" ? "font-rubik" : ""}`}
+      >
+        <div className="max-w-[720px] mx-auto text-white">
+          {textForLang.map((block, i) => (
+            <div key={i} className="mb-12">
+              {block.h1 && (
+                <h1 className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8">
+                  {block.h1}
+                </h1>
+              )}
+          {block.h4 && (
+  <h4 className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-8">
+    {block.h4}
+  </h4>
+)}
 
-          <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
-            <p className="mb-8">
-            Я проработала у Нимрода три года. К концу третьего года почувствовала, что работы становится всё меньше и меньше. Кто-то ушёл сам, кого-то Нимрод уволил. Но уволить меня, видимо, у него рука не поднималась. Я поняла, что рано или поздно и до меня дойдёт очередь. Не стала дожидаться и начала искать новую работу.На этот раз мне не пришлось доказывать, что я лучше других. Я честно сказала, что на языке их системы не работала. Начальница ответила: "Ничего, с твоим опытом ты быстро освоишься." Позже я узнала, что в отделе срочно нужно было закрыть дыру - ушли двое сотрудников.
-            </p>
-            <p className="mb-8">
-            Жижи (так звали моего босса) направила меня к опытному сотруднику Ицхаку и велела ему присмотреться ко мне. При этом прямо при мне сказала: "Если справится - хорошо. Если нет - לך הביתה (пусть идёт домой)."Ицхак отозвался обо мне положительно и меня оставили. Там я проработала 18 лет.Моё главное впечатление от коллектива MATRIX'а - высокий профессионализм, уверенное владение предметом и способность быстро и естественно осваивать новые технологии.
-            </p>
-         
+{/* Sidenote goes here, only for he or en */}
+{block.sidenote && (lang === "he" || lang === "en") && (
+  <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] leading-relaxed mt-12 mb-12">
+    {block.sidenote}
+  </p>
+)}
+
+{block.text?.map((p, idx) => (
+  <p
+    key={idx}
+    className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mb-6 leading-relaxed"
+  >
+    {p}
+  </p>
+))}
+              
+              {block.image && (
+                Array.isArray(block.image)
+                  ? block.image.map((img, idx) => (
+                      <div key={idx} className={`mb-12 ${lang === "he" ? "text-right" : "text-left"}`}>
+                        {img.desktopSrc && (
+                          <>
+                            <img src={img.desktopSrc} alt={img.alt} className="w-full h-auto mt-[6px] hidden md:block" />
+                            {img.textDesktop && (
+                              <p className="hidden md:block text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mt-4">
+                                {img.textDesktop}
+                              </p>
+                            )}
+                          </>
+                        )}
+                        {img.mobileSrc && (
+                          <>
+                            <img src={img.mobileSrc} alt={img.alt} className="w-full h-auto mb-4 block md:hidden" />
+                            {img.textMobile && (
+                              <p className="block md:hidden text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mt-4">
+                                {img.textMobile}
+                              </p>
+                            )}
+                          </>
+                        )}
+                      </div>
+                    ))
+                  : null
+              )}
+            </div>
+          ))}
+
+          <div className="flex justify-center gap-4 mt-24">
+      
+            <ForwardButton onClick={() => navigate("/galina-grew")} />
+            <BackwardButton onClick={() => navigate("/first-steps")} />
           </div>
+        </div>
+      </section>
 
-  
-
-
-              <h4 className="text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-20">
-          “Галя вышла в тираж, а Маша - замуж”
-          </h4>
-
-          <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mb-[16px]">
-            <p className="mb-8">
-            В мае 2014 года меня уволили. В это же время Маша выходила замуж. Я тогда шутила: "Галя вышла в тираж, а Маша - замуж".
-            </p>
-            <p className="mb-8">
-            А ведь в 2008 году меня тоже чуть было не уволили. Это было бы настоящей трагедией - Маша в армии, машканта ещё не выплачена, жить было бы не на что. В Мисрад Хинух - а именно он был нашим основным клиентом, и вся кадровая политика зависела от него - были крайне удивлены, узнав о моём бедственном положении. Они считали меня вполне благополучной. Видимо, я переусердствовала в стремлении казаться невозмутимой и беззаботной. Спасибо им - увольнение тогда отменили.
-            </p>
-              <p className="mb-8">
-            Но на этот раз я действительно обрадовалась. Мне уже было 73, и каждый день давался всё тяжелее. Ранним утром, еле плетясь к автобусной остановке, я говорила себе: "Идёшь? Не упала? Ну и иди".
-            </p>
-              <p className="mb-8">
-             Теперь всё иначе: машканта выплачена, Маша после армии, закончила Шенкар, да ещё и с отличием прошла годовой курс в лучшем колледже - Сент-Мартин в Лондоне. Она любит и любима, полна надежд. Так что увольнение я восприняла как освобождение.
-            </p>
-              <p className="mb-8">
-            Обычно в последний месяц перед увольнением люди либо берут больничный, либо работают "в полсилы". А я наоборот - радость от предстоящей свободы придавала мне силы. Я работала с удовольствием, щедро отдавая своё время и энергию.
-            </p>
-              <p className="mb-8">
-             Наша маскира всё время намекала, что нужно устроить месибат прида (прощальную вечеринку). Конечно, я была не против, хотя её настойчивость немного удивляла.
-            </p>
-              <p className="mb-8">
-            И вот настал мой последний день. Все собрались в комнате для ешивот. Как положено, большой начальник произнёс официальную речь. Потом моя непосредственная руководительница сказала что-то более личное. А затем - погас свет, и на стене появился титр:
-            "Фильм о том, как Галина росла, а компьютеры уменьшались."
-            </p>
-              <p className="mb-8">
-             Да, это был настоящий фильм! Девочки даже связались с Машей, которая в то время была в Лондоне, и она прислала им все мои фотографии. Получилась целая история - не только обо мне, но и о развитии компьютерной техники. Многие в коллективе были молоды, и, возможно, впервые увидели, каких размеров были первые компьютеры.
-            </p>
-     
-          </div>
-
-
-
-
-
-
-                    {/* ---------- Image + Text section ---------- */}
-          <div className="max-w-[720px] mx-auto mt-[48px]">
-          
-               <img
-               src="images/my-working-space-matrix.jpg"
-              alt="------------"
-              className="w-full h-auto block mb-6 mt-24"
-            />
-               <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
-              <p className="mb-8">
-             Мой "балаган"
-              </p>
-          </div> 
-             {/* ---------- Image + Text section ---------- */}
-          </div>
-       
-
-  
-
-
-      <div className="flex justify-center gap-4 mt-24">
-        <BackwardButton />
-        <ForwardButton />
-      </div>
-
-           </div>
-    </section>
-
-      {/* ---------- Chapters Section (desktop & tablet only) ---------- */}
       <ChapterSectionDesktop />
-
-      {/* ---------- Chapters Section (mobile only) ---------- */}
       <ChapterSectionMobile />
-
-      {/* ---------- Footer ---------- */}
       <Footer />
     </>
   );
