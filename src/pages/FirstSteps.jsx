@@ -32,7 +32,7 @@ const FirstSteps = () => {
                 </h1>
               )}
               {block.h4 && (
-                <h4 className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-8 font-semibold">
+                <h4 className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-8 ">
                   {block.h4}
                 </h4>
               )}
