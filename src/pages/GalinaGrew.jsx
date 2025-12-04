@@ -86,8 +86,9 @@ const GalinaGrew = () => {
 
           <div className="flex justify-center gap-4 mt-24">
       
-            <ForwardButton onClick={() => navigate("/galina-grew")} />
-            <BackwardButton onClick={() => navigate("/first-steps")} />
+  
+            <BackwardButton onClick={() => navigate("/life-in-israel")} />
+            <ForwardButton onClick={() => navigate("/mashas-first-days")} />
           </div>
         </div>
       </section>

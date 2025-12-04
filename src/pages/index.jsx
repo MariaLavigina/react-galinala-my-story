@@ -76,8 +76,8 @@ const Index = () => {
       lang === "ru"
         ? "images/ipad-images/hero-ru-ipad.webp"
         : lang === "en"
-        ? "images/ipad-images/hero-en-ipad.webp"
-        : "images/ipad-images/hero-he-ipad.webp"
+        ? "images/ipad-images/hero-en-ipad.jpg"
+        : "images/ipad-images/hero-he-ipad.jpg"
     }
     alt="Hero"
     className="w-full h-auto block"
