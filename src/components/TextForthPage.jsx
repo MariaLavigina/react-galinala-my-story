@@ -30,11 +30,13 @@ const TextForthPage = ({ lang = "ru" }) => {
      
 
           <p>
-            לאורך רוב חיי, משום מה, תמיד הרגשתי קשר מיוחד לעצי דקל.  לא ממש ידעתי להסביר למה - נכון, הם יפים, אבל בשבילי היה בהם משהו מעבר לזה, משהו מיוחד.
+           
+           לאורך רוב חיי, משום מה, תמיד הרגשתי קשר מיוחד לעצי דקל.  לא ממש ידעתי להסביר למה - נכון, הם יפים, אבל בשבילי היה בהם משהו מעבר לזה, משהו מיוחד.
           </p>
 
           <p>
-            עוד כשהייתי ילדה הייתי מציירת דקלים שוב ושוב, בלי לדעת למה. לפני כמה שנים סיפרתי על זה לחברה - סתם ככה, שאיכשהו דקלים תמיד היו לי קרובים ללב, שתמיד הרגשתי אליהם חיבה מוזרה כזו.
+            עוד כשהייתי ילדה הייתי מציירת דקלים שוב ושוב, בלי לדעת למה.
+             לפני כמה שנים סיפרתי על זה לחברה - סתם ככה, שאיכשהו דקלים תמיד היו לי קרובים ללב, שתמיד הרגשתי אליהם חיבה מוזרה כזו.
           </p>
 
             <p>
@@ -78,12 +80,10 @@ const TextForthPage = ({ lang = "ru" }) => {
           <h2>A Story About Our First Days in Israel, Told by My Daughter</h2>
 
    <p>
-    For most of my life, I’ve been strangely drawn to palm trees. 
+    For most of my life, I’ve been strangely drawn to palm trees.  I didn’t really understand why - yes, they’re beautiful, but to me, there was always something special about them. Ever since I was a child, I kept drawing them again and again.
     </p>
 
-       <p>
-        I didn’t really understand why - yes, they’re beautiful, but to me, there was always something special about them. Ever since I was a child, I kept drawing them again and again.
-    </p>
+  
 
        <p>
         A few years ago, I mentioned this to a friend - just casually sharing how palms always felt close to me, like they somehow pulled me in. 
