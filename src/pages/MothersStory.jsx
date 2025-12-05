@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ForwardButton from "../components/ForwardButton.jsx";
 import BackwardButton from "../components/BackwardButton.jsx";
 import Navbar from "../components/Navbar.jsx";
@@ -9,88 +9,119 @@ import TextFifthPage from "../components/TextFifthPage.jsx";
 import DesktopFromLetters from "../components/DesktopFromLetters.jsx";
 import MobileFromLetters from "../components/mobileFromLetters.jsx";
 import { useNavigate } from "react-router-dom";
+import textsMothersStory from "../text/textsMothersStory.js";
+
 
 
 const MothersStory = () => {
-  return (
-    <>
-      <Navbar />
-      <div className="h-20"></div>
+  const [lang, setLang] = useState("ru"); // default Russian
+  const navigate = useNavigate();
 
-      {/* ---------- Desktop Hero ---------- */}
-      <div className="w-full hidden lg:block">
+  // ⚡ FIX: fallback to Russian if lang key doesn't exist
+  const textForLang = textsMothersStory[lang] || textsMothersStory["ru"];
+return (
+  <>
+    <Navbar lang={lang} setLang={setLang} />
+    <div className="h-20"></div>
+
+    {/* Desktop-only Hero */}
+    <div className="w-full hidden lg:block">
+      <img
+        src="images/desktop-images/chapter04-desktop.webp"
+        alt="Hero"
+        className="w-full h-auto block"
+      />
+      <div className="relative w-full -mt-[300px]">
         <img
-          src="images/desktop-images/chapter04-desktop.webp"
-          alt="Hero"
+          src="images/desktop-images/entroChapter-thirdStory-Masha.svg"
+          alt="Wave"
           className="w-full h-auto block"
         />
-        <div className="relative w-full -mt-[240px]">
-          <img
-            src="images/desktop-images/entroChapter-thirdStory-Masha.svg"
-            alt="Wave"
-            className="w-full h-auto block"
-          />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white
-            [&>h1]:text-[5vw] [&>h1]:mb-8
-            [&>h2]:text-[3vw]
-            [&>p]:text-[1.25vw] [&>p]:mt-12
-            md:[&>p]:text-[1.38vw] lg:[&>p]:text-[1.55vw]"
-          >
-            <TextFifthPage />
-          </div>
+        <div
+          dir={lang === "he" ? "rtl" : "ltr"}
+          className={`
+            absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white
+            ${lang === "he" ? "font-rubik" : ""}
+            [&>h1]:text-[6vw]  [&>h2]:mt-10 [&>h2]:mb-16
+            [&>h2]:text-[3vw]  [&>h2]:mt-10 [&>h2]:mb-16
+            [&>h3]:text-[2.5vw] [&>h3]:mt-10 [&>h3]:mb-16
+            [&>p]:text-[1.25vw] [&>p]:mt-6
+            md:[&>p]:text-[1.38vw] lg:[&>p]:text-[1.55vw]
+          `}
+        >
+           <TextFifthPage lang={lang} />
         </div>
       </div>
+    </div>
 
-      {/* ---------- Tablet Hero ---------- */}
-      <div className="hidden md:block lg:hidden w-full">
+    {/* Tablet-only Hero */}
+    <div className="hidden md:block lg:hidden w-full">
+      <img
+        src="images/mobile-images/chapter04-grandmother-mobile.webp"
+        alt="Hero"
+        className="w-full h-auto block"
+      />
+      <div className="relative w-full -mt-[120px]">
         <img
-          src="images/mobile-images/chapter04-grandmother-mobile.webp"
-          alt="Hero"
+          src="images/ipad-images/chapter04-masha-tablet.svg"
+          alt="Wave"
           className="w-full h-auto block"
         />
-        <div className="relative w-full -mt-[200px]">
-          <img
-            src="images/ipad-images/first-wave-tablet.svg"
-            alt="Wave"
-            className="w-full h-auto block"
-          />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white
+        <div
+          dir={lang === "he" ? "rtl" : "ltr"}
+          className={`
+            absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white 
             w-[85%] px-2 sm:px-4
-            [&>h1]:text-[8vw] [&>h1]:mb-6
-            [&>h2]:text-[4vw] [&>h2]:mb-8
-            [&>p]:text-[3vw] [&>p]:mt-6 leading-relaxed"
-          >
-            <TextFifthPage />
-          </div>
+            ${lang === "he" ? "font-rubik" : ""}
+            [&>h1]:text-[6vw] [&>h1]:mt-8 [&>h1]:mb-12
+            [&>h2]:text-[4vw] [&>h2]:mt-8 [&>h2]:mb-12
+            [&>p]:text-[2vw] [&>p]:mt-6 leading-relaxed
+          `}
+        >
+            <TextFifthPage lang={lang} />
         </div>
       </div>
+    </div>
 
-      {/* ---------- Mobile Hero ---------- */}
-      <div className="block md:hidden w-full">
+    {/* Mobile-only Hero */}
+    <div className="block md:hidden w-full">
+      <img
+        src="images/mobile-images/chapter04-grandmother-mobile.webp"
+        alt="Hero"
+        className="w-full h-auto block"
+      />
+      <div className="relative w-full -mt-[70px]">
         <img
-          src="images/mobile-images/chapter04-grandmother-mobile.webp"
-          alt="Hero"
+          src="images/mobile-images/entroChapter-myMothersStory-mobile.svg"
+          alt="Wave"
           className="w-full h-auto block"
         />
-        <div className="relative w-full -mt-[100px]">
-          <img
-            src="images/mobile-images/Chapter-mashaStory-mobile.svg"
-            alt="Wave"
-            className="w-full h-auto block"
-          />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white
-            w-[95%] sm:w-[75%]
-            [&>h1]:text-[clamp(25px,12vw,60px)] [&>h1]:mb-6
-            sm:[&>h1]:text-[clamp(25px,15vw,60px)]
-            [&>h2]:text-[clamp(23px,8vw,45px)] [&>h2]:mb-8
-            sm:[&>h2]:text-[clamp(23px,10vw,45px)]
-            [&>p]:text-[clamp(16px,5vw,25px)] [&>p]:mt-6
-            sm:[&>p]:text-[clamp(16px,6.5vw,25px)]"
-          >
-            <TextFifthPage />
-          </div>
+        <div
+          dir={lang === "he" ? "rtl" : "ltr"}
+          className={`
+            absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white
+            w-[95%] sm:w-[98%]
+            ${lang === "he" ? "font-rubik" : ""}
+            [&>h1]:text-[clamp(45px,9vw,60px)]  [&>h1]:mt-12 [&>h1]:mb-12
+            [&>h2]:text-[clamp(30px,5vw,30px)]  [&>h2]:mt-12 [&>h2]:mb-12
+            [&>h3]:text-[clamp(23px,6vw,35px)] 
+            [&>p]:text-[clamp(16px,5vw,25px)] [&>p]:mt-8
+          `}
+        >
+          <TextFifthPage lang={lang} />
         </div>
       </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
 
       {/* ---------- Text Section ---------- */}
       <section className="px-[16px] sm:px-[24px] md:px-[32px] mt-[48px]">
@@ -249,8 +280,8 @@ const MothersStory = () => {
 
       {/* ---------- Navigation Buttons ---------- */}
       <div className="flex justify-center gap-4 mt-24">
-        <BackwardButton />
-        <ForwardButton />
+      <BackwardButton onClick={() => navigate("/mashas-first-days")}/>
+      <ForwardButton onClick={() => navigate("/")}/>
       </div>
 
       {/* ---------- Chapters Section ---------- */}
