@@ -9,7 +9,7 @@ import TextFifthPage from "../components/TextFifthPage.jsx";
 import DesktopFromLetters from "../components/DesktopFromLetters.jsx";
 import MobileFromLetters from "../components/mobileFromLetters.jsx";
 import { useNavigate } from "react-router-dom";
-import textsMothersStory from "../text/textsMothersStory.js";
+import textsMothersStory from "../text/textxMothersStory.js";
 
 
 
@@ -121,167 +121,109 @@ return (
 
 
 
-
-
-      {/* ---------- Text Section ---------- */}
-      <section className="px-[16px] sm:px-[24px] md:px-[32px] mt-[48px]">
+      {/* Text Section */}
+      <section
+        dir={lang === "he" ? "rtl" : "ltr"}
+        className={`px-[16px] sm:px-[24px] md:px-[32px] mt-[48px] ${lang === "he" ? "font-rubik" : ""}`}
+      >
         <div className="max-w-[720px] mx-auto text-white">
-          <h1 className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-16 text-center">
-           Моя мама не оставила мне богатства, но пример жизни я получила редкостный.
-          </h1>
+          {textForLang.map((block, i) => {
+            return (
+              <div key={i} className="mb-12">
 
-          <p className="mb-8 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
-           Мама была полезна, не то слово. Я целыми днями на работе, а Маша ещё мала, ей всего восемь лет. В таком возрасте ребёнок не должен проводить весь день в одиночестве. Мама встречала её из школы, кормила, выслушивала рассказы о школьных делах. Иногда они вместе играли в настольные игры или в карты.
-          </p>
-           <p className="mb-8 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
-           Меня мама тоже встречала с работы — спрашивала, как прошёл день, делилась своими новостями, кормила ужином. Около десяти вечера Маша ложилась спать, и мама садилась рядом, держала её за ручку и рассказывала сказки-расказки собственного сочинения.
-          </p>
-           <p className="mb-8 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
-           Все финансовые вопросы я передала маме. Так —  она всегда в курсе наших дел, а мне спокойнее — свой личный, высококвалифицированный "бухгалтер"! Мама c ее неизменной активной жизненной позицией все, что делала,  делала вдумчиво, ответственно.  И что вы думаете — мама обнаружила ошибку в банковских операциях! А ведь все документы были на иврите, которого мама не знала. Банк признал ошибку и вернул нам 500 шекелей. 
-          </p>
+                {/* H1 */}
+                {block.h1 && (
+                  <h1 className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8">
+                    {block.h1}
+                  </h1>
+                )}
 
-                            {/* ---------- Image + Text section ---------- */}
-          <div className="max-w-[720px] mx-auto mt-[48px]">
-                   {/* ---------- desktop ---------- */}
-               <img
-               src="images/desktop-images/documentations-desktop.webp"
-              alt="------------------"
-              className="w-full h-auto hidden sm:block mb-6 mt-24"
-            />
-                    {/* ---------- mobile ---------- */}
-                  <img
-               src="images/mobile-images/documentations-mobile.jpg"
-              alt="------------------"
-              className="w-full h-auto block sm:hidden mb-6 mt-16"
-            />
+                {/* H4 */}
+                {block.h4 && (
+                  <h4 className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-8 font-semibold">
+                    {block.h4}
+                  </h4>
+                )}
 
+                {/* Paragraphs */}
+                {block.text?.map((p, idx) => (
+                  <p key={idx} className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mb-6 leading-relaxed">
+                    {p}
+                  </p>
+                ))}
 
-               <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
-              <p className="mb-8">
-          Мама как-то попросила купить ей блокнот —  С тех пор она вела его с нашими расходами, как бухгалтер на миссии. Даже мороженое за 3 шекеля туда попадало.
-              </p>
-          </div> 
-      
-             {/* ---------- Image + Text section ---------- */}
+                {/* Images */}
+                {block.image && (
+                  Array.isArray(block.image)
+                    ? block.image.map((img, idx) => {
 
+                        // MOBILE-ONLY IMAGE WITH TEXT OVERLAY
+                        if (img.mobileOnly) {
+                          return (
+                            <div key={idx} className="relative w-full mb-12 block md:hidden">
+                              <img src={img.mobileSrc} alt={img.alt} className="w-full h-auto" />
+                              <h4 className="absolute inset-0 flex items-center justify-center">
+                                <span className="text-white text-[clamp(28px,13vw,77px)] bg-[#302024]/85 w-[96%] mx-auto px-6 py-3 text-center">
+                                  {img.textOverlay}
+                                </span>
+                              </h4>
+                            </div>
+                          );
+                        }
 
-           <p className="mb-8 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mt-16">
-           Однажды в Бейт-Шемеше мама участвовала в выборах в городской совет. Завидев пожилую избирательницу,  агитаторы, почуяв лёгкую добычу,  наперебой бросились к ней, стараясь всучить бюллетени своих кандидатов. Но эта пожилая, "ола хадаша" оказалась не так беспомощна, несмотря на то, что прочитать имя кандидата написанное, естественно,  на иврите не могла. Накануне мы обсудили за кого будем голосовать. Имя его теперь не припомню, пусть будет Давид. Мама показывает бюллетень и спрашивает: "Это Давид?" Ей с готовностью отвечают - Да, Давид! Но и на другой и третий - тот же ответ. Мама понимает, что дело не чисто. Тогда меняет тактику и спрашивает: Это кто?" и быстро определяет нужный бюллетень.
-          </p>
-           <p className="mb-8 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
-          Мама скрупулезно записывала наши расходы/доходы. Возможно это в какой-то степени помогло нам скопить небольшую сумму, которая, когда мы покупали квартиру, очень нам помогла.Только из маминых писем я узнала, как нелегко давалась ей наша олимовская неустроенность. Мне она не пожаловалась ни разу. Ее стойкость, оптимизм, живость ума и доброжелательность притягивала людей. 
-          </p>
-             <p className="mb-8 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
-            Одна из наших знакомых говорила: "В доме чувствовалась какая-то особая атмосфера и было понятно,  что она исходит от мамы." Другая удивлялась: "Ваш дом совсем не похож на олимовский. Как-будто вы здесь давно."
-          </p>
-             <p className="mb-8 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
-             Моя мама не оставила мне богатства, но пример жизни я получила редкостный.
-          </p>
-          </div>
+                        const wrapperClass = img.fullWidth
+                          ? `mb-12 w-screen relative left-1/2 -translate-x-1/2 text-center`
+                          : `mb-12 ${lang === "he" ? "text-right" : "text-left"}`;
 
-               <h4 className=" text-white text-[45px] sm:text-[50px] md:text-[55px] lg:text-[60px]  mb-16 mt-28 text-center hidden sm:block">
-         Из писем моей мамы 
-          </h4>
+                        return (
+                          <div key={idx} className={wrapperClass}>
+                            {/* Desktop only on non-mobile */}
+                            {img.desktopSrc && (
+                              <img
+                                src={img.desktopSrc}
+                                alt={img.alt}
+                                className="w-full h-auto hidden md:block"
+                              />
+                            )}
+                            {img.textDesktop && (
+                              <p className="hidden md:block text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mt-4">
+                                {img.textDesktop}
+                              </p>
+                            )}
 
-<div className="relative w-full">
+                            {/* Mobile only */}
+                            {img.mobileSrc && (
+                              <img
+                                src={img.mobileSrc}
+                                alt={img.alt}
+                                className="w-full h-auto mb-4 block md:hidden"
+                              />
+                            )}
+                            {img.textMobile && (
+                              <p className="block md:hidden text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mt-4">
+                                {img.textMobile}
+                              </p>
+                            )}
+                          </div>
+                        );
 
-{/* MOBILE IMAGE */}
-<img
-  src="images/mobile-images/letters-mobile02.jpg"
-  alt="Letters"
-  className="w-full h-auto block sm:hidden"
-/>
+                      })
+                    : null
+                )}
 
-{/* TEXT OVER IMAGE */}
-<h4
-  className="
-    absolute inset-0 
-    flex items-center justify-center 
-    sm:hidden
-  "
->
-  <span
-    className="
-      text-white
-      text-[clamp(28px,13vw,77px)]
-      bg-[#302024]/85
-      w-[96%]
-      mx-auto
-      px-6 py-3
-      text-center
-    "
-  >
-    Из писем моей мамы
-  </span>
-</h4>
-
-</div>
-
-
+              </div>
+            );
+          })}
         </div>
       </section>
 
-         <DesktopFromLetters /> 
-         
-         <MobileFromLetters />
-
-            {/* ---------- Text ---------- */}
-      <div className="max-w-[720px] mx-auto mt-[48px] text-center px-[16px] sm:px-0">
-
-            <h4 className="text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-20">
-               “Понемногу обживаемся, купили платяной шкаф, шкаф для книг и шкафчик для обуви. А вот стулья еще не можем купить. Зато вид из окна потрясающий. окно, как большая рама чудесной картины. Не можем налюбоваться.”
-            </h4>
-          </div>
-  
-
-      {/* ---------- FULL-WIDTH IMAGE ONLY ---------- */}
-      <div className="w-full overflow-hidden">
-        <img
-          src="images/desktop-images/window-view-desktop.webp"
-          alt="----------------------"
-          className="w-full h-auto block"
-        />
-      </div>
-      {/* ---------- Image + Text section ---------- */}
-
-
-               {/* ---------- Text ---------- */}
-       <div className="max-w-[720px] mx-auto mt-[48px] text-center px-[16px] sm:px-0">
-
-            <h4 className="text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-20">
-             “Я вспомнила свои молодые, а протом и зрелые годы, когда была неоднократно членом редколегии стенной газеты. Тайком от Гали сделала юмористическую газету.Никаких фотографий типа в кругу родных, знакомых и т. п. Почти все заголовки подобрала и вырезала из газет и журналов, и к ним рисунки тоже оттуда. Газета всем понравилась, а Галя вообще была потрясена,  когда это я успела. Тем более, что за неделю до этого сделала газету для самой близкой подруги Гали.”
-            </h4>
-               <h4 className="text-white text-[45px] sm:text-[50px] md:text-[55px] lg:text-[60px] mb-32 mt-32">
-            Вот они, эти газеты
-            </h4>
-          </div>
-
-                {/* ---------- FULL-WIDTH IMAGE ONLY ---------- */}
-      <div className="w-full overflow-hidden">
-        <img
-          src="images/Birthday-Magazines-01.jpg"
-          alt="----------------------"
-          className="w-full h-auto block"
-        />
-            <img
-          src="images/Birthday-Magazines-02.jpg"
-          alt="----------------------"
-          className="w-full h-auto block"
-        />
-            <img
-          src="images/Birthday-Magazines-03.jpg"
-          alt="----------------------"
-          className="w-full h-auto block mb-16 "
-        />
-      </div>
-      {/* ---------- Image + Text section ---------- */}
-
-
+      <DesktopFromLetters />
+      <MobileFromLetters />
 
       {/* ---------- Navigation Buttons ---------- */}
       <div className="flex justify-center gap-4 mt-24">
-      <BackwardButton onClick={() => navigate("/mashas-first-days")}/>
-      <ForwardButton onClick={() => navigate("/")}/>
+        <BackwardButton onClick={() => navigate("/mashas-first-days")} />
+        <ForwardButton onClick={() => navigate("/")} />
       </div>
 
       {/* ---------- Chapters Section ---------- */}
