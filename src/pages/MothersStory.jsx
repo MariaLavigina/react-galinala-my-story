@@ -134,12 +134,35 @@ const MothersStory = () => {
             </h1>
           )}
 
-          {/* H4 */}
-          {block.h4 && (
-            <h4 className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-8 font-semibold">
-              {block.h4}
+{/* H4 */}
+{block.h4 && (
+  Array.isArray(block.h4)
+    ? block.h4.map((line, idx) => {
+        if (idx === block.h4.length - 1) {
+          return (
+            <h4
+              key={idx}
+              className="text-[50px] sm:text-[60px] md:text-[70px] font-semibold text-center py-8"
+            >
+              {line}
             </h4>
-          )}
+          );
+        }
+        return (
+          <h4
+            key={idx}
+            className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-8 font-semibold text-center"
+          >
+            {line}
+          </h4>
+        );
+      })
+    : (
+      <h4 className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8 mt-8 font-semibold text-center">
+        {block.h4}
+      </h4>
+    )
+)}
 
 
 
@@ -154,7 +177,14 @@ const MothersStory = () => {
 
 
 
-{/* LETTERS SECTION */}
+
+
+
+
+
+
+
+{/* DESKTOP LETTERS SECTION — existing */}
 {block.type === "lettersSection" && (
   <div className="w-screen relative left-1/2 -translate-x-1/2 hidden md:block mb-12">
 
@@ -168,23 +198,23 @@ const MothersStory = () => {
     {/* MULTILINE Overlay text */}
     <div className="absolute inset-0 flex flex-col items-center justify-center gap-6 pointer-events-none px-4">
 
-      {block.letters?.map((line, idx) => (
-        <h4
-          key={idx}
-          className="
-            text-white
-            font-semibold
-            bg-[#302024]/85
-            mx-auto
-            px-6 py-4
-            text-center
-            w-[95%] sm:w-[85%] md:w-[70%] lg:w-[60%] xl:w-[50%]
-            text-[clamp(12px,2vw,32px)]
-          "
-        >
-          {line}
-        </h4>
-      ))}
+{block.letters?.map((line, idx) => (
+  <h4
+    key={idx}
+    className={`
+      text-white
+      font-semibold
+      bg-[#302024]/85
+      mx-auto
+      px-6 py-4
+      text-center
+      w-[95%] sm:w-[85%] md:w-[70%] lg:w-[60%] xl:w-[50%]
+      ${idx === 0 ? "text-[clamp(40px,8vw,70px)]" : "text-[clamp(12px,2vw,32px)]"}
+    `}
+  >
+    {line}
+  </h4>
+))}
 
     </div>
 
@@ -192,6 +222,43 @@ const MothersStory = () => {
 )}
 
 
+
+
+
+{/* MOBILE LETTERS SECTION */}
+{block.type === "lettersSectionMobile" && (
+  <div className="w-full relative md:hidden mb-12">
+
+    {/* Background image for mobile */}
+    <div className="relative w-full">
+      <img
+        src={block.lettersMobileImage}
+        alt="Letters Mobile Background"
+        className="w-full h-auto block"
+      />
+
+      {/* Overlay title on top of image */}
+      <div className="absolute inset-0 flex items-center justify-center px-4">
+        <h1 className="text-white font-bold italic bg-[#302024]/85 px-6 py-4 text-center text-[clamp(36px,10vw,60px)] max-w-full sm:max-w-[90%]">
+          {block.title}
+        </h1>
+      </div>
+    </div>
+
+    {/* H4 text underneath the image */}
+    <div className="mt-12 px-4 text-center">
+      {block.subtitleLettersMobile?.map((line, idx) => (
+        <h4
+          key={idx}
+          className="text-white font-normal italic text-[clamp(16px,4vw,24px)] max-w-full sm:max-w-[90%] mx-auto mb-12"
+        >
+          {line}
+        </h4>
+      ))}
+    </div>
+
+  </div>
+)}
 
 
 
