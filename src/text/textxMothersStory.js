@@ -37,23 +37,14 @@ const textsMothersStory = {
          `Мама скрупулезно записывала наши расходы/доходы. Возможно это в какой-то степени помогло нам скопить небольшую сумму, которая, когда мы покупали квартиру, очень нам помогла.Только из маминых писем я узнала, как нелегко давалась ей наша олимовская неустроенность. Мне она не пожаловалась ни разу. Ее стойкость, оптимизм, живость ума и доброжелательность притягивала людей. `,
           `Одна из наших знакомых говорила: "В доме чувствовалась какая-то особая атмосфера и было понятно,  что она исходит от мамы." Другая удивлялась: "Ваш дом совсем не похож на олимовский. Как-будто вы здесь давно."`,
            `Моя мама не оставила мне богатства, но пример жизни я получила редкостный.`,
+            "DIVIDER" // <-- marker for divider
 
 
       ],
     },
 
 
-
-
-
-
-
-
-
-
-
-
-
+    // DESKTOP letters section 
 {
   type: "lettersSection",
 
@@ -79,7 +70,7 @@ const textsMothersStory = {
   fullWidth: true
 },
 
-    // MOBILE letters section — NEW
+    // MOBILE letters section 
     {
       type: "lettersSectionMobile",
       lettersMobileImage: "images/mobile-images/letters-mobile02.jpg",
@@ -125,13 +116,10 @@ const textsMothersStory = {
           alt: "---",
           textDesktop: null,
           textMobile: `--`,
-          fullWidth: true // ⚡ add this
+          fullWidth: true 
         },
       ],
     },
-
-
-
 
 
    {
@@ -143,11 +131,6 @@ const textsMothersStory = {
         `Вот они, эти газеты` 
   ]
     },
-
-
-
-
-
 
 
 {
@@ -176,18 +159,320 @@ const textsMothersStory = {
       textMobile: "Description for second image",
       fullWidth: true 
     }
-  ]
+  ], 
+  
 },
-
-
-
-
 
 
 
   ],
 
- 
+
+
+
+// hebrow
+
+
+
+
+  he: [
+    {
+      h4:  `אמא שלי לא השאירה לי עושר חומרי, אבל היא השאירה לי דוגמא לחיים יוצאת דופן.`,
+      text: [
+        `כשהגענו לישראל, אמא שלי הייתה כבר בת 82. ומילים לא מספיקות לתאר כמה היא הייתה חיונית עבורנו - עמוד התווך של המשפחה בתחילת חיי ההגירה. לא במובן הרגיל של עזרה.`,
+        `אני הייתי בעבודה כל היום, ומָאשָׁה הייתה עדיין ילדה קטנה - רק בת שמונה. בגיל כזה ילד לא אמור להיות לבד כל היום.`,
+        `אמא שלי הייתה שם עבורה: פגשה אותה מבית הספר, האכילה אותה והקשיבה לסיפורים על היום שלה בבית הספר. לפעמים הן שיחקו יחד במשחקי לוח או קלפים - רגעים קטנים של חום, משחק ודאגה אמיתית.`,
+        `גם אותי אמא קיבלה מהעבודה - שאלה איך עבר היום, סיפרה חדשות משלה והאכילה אותי בערב. בסביבות עשר בלילה, כשמָאשָׁה נרדמה, אמא הייתה יושבת לידה, מחזיקה לה את היד ומספרת סיפורים שהמציאה בעצמה.`,
+        `את כל ענייני הכספים העברתי לאמא. כך - היא הייתה תמיד מעודכנת במה שקורה אצלנו, ואני רגועה - יש לי "רואה חשבון" אישי ומקצועי! אמא, עם האנרגיה הבלתי פוסקת שלה, כל דבר שעשתה עשתה במחשבה, באחריות.`,
+        `ומה אתם חושבים?`,
+        ` אמא גילתה טעות בעסקת בנק!`,
+        ` כל המסמכים היו בעברית - שפה שאמא בכלל לא ידעה.`,
+        ` אבל הבנק הכיר בטעות והחזיר לנו 500 ש"ח.`
+       
+      ],
+    },
+    {
+      image: [
+        {
+          desktopSrc: "images/desktop-images/documentations-desktop.webp",
+          mobileSrc: null,
+          alt: "---",
+          textDesktop: `---------`,
+          textMobile: null,
+        },
+        {
+          desktopSrc: null,
+          mobileSrc: "images/mobile-images/documentations-mobile.jpg",
+          alt: "---",
+          textDesktop: null,
+          textMobile: `-------`,
+        },
+      ],
+    },
+    {
+      text: [
+        `פעם בבית שמש אמא השתתפה בבחירות למועצת העיר.`,
+        `כשראו את האישה הקשישה, הפעילים, שהרגישו שמדובר ב"טֶרֶף קל",רצו אליה אחד אחרי השני, מנסים בכוח לדחוף לה את הפתקים של המועמדים שלהם.`,
+        ` אבל הקשישה הזו, "עולה חדשה", לא הייתה כל כך חסרת אונים, למרות שבטבעי היא לא יכלה לקרוא את שם המועמד בעברית.`,
+        `בערב הקודם שוחחנו על למי נצביע. את שמו עכשיו אני לא זוכרת, נקרא לו דָּוִד.`,
+         ` אמא מראה את הפתק ושואלת: "זה דָּוִד?"`,
+          ` אותה אישה עונה בשמחה: "כן,דָּוִד!"`,
+           ` אבל גם על הפתק השני והשלישי - אותה תשובה. `,
+            ` אמא מבינה שמשהו כאן לא בסדר.`,
+             ` אז היא משנה טקטיקה ושואלת: "מי זה?" ומזהה מהר את הפתק הנכון.`,
+              `אמא הייתה רושמת בקפדנות את ההכנסות וההוצאות שלנו.  אולי זה במידה מסוימת עזר לנו לחסוך קצת כסף, שהשלים לנו הרבה כשקנינו דירה.`,
+               `רק מהמכתבים שלה הבנתי כמה קשה לה הייתה ההתמודדות עם חוסר הוודאות שלנו כעולים.  לעולם היא לא התלוננה בפניי. החוסן, האופטימיות, החדות השכלית וטוב-ליבה משכו אנשים אליה.`,
+                `אחת מהכירות שלנו אמרה: "בבית שלכם הייתה אווירה מיוחדת, והיה ברור שהיא מגיעה מאמא."
+                 אחרת התפלאה: "הבית שלכם בכלל לא מרגיש כמו בית עולים. כאילו אתם כאן כבר הרבה זמן."`,
+                 `אמא שלי לא השאירה לי עושר חומרי, אבל היא השאירה לי דוגמה לחיים יוצאת דופן.`,
+                  
+        "DIVIDER"
+      ],
+    },
+    {
+      type: "lettersSection",
+      letters: [
+        `ממכתבים של אמא שלי:`,
+        `בינואר, חגגנו את יום הולדתה העשירי של מאשה, הגיעו כמה בנות ושני בנים, בלי מבוגרים בכלל. החלטנו להקדיש את כל היום לילדים, והם ניצלו את זה במלואו. אחת הבנות התחפשה לַליצן. מאשה, בחלוק מגבת כחול עם צעיף חם על הראש ומטרייה סגורה במקום מטה, התחפשה לבָּאבָה יַאגָה. היא התכופפה ורקדה במצב הזה בשמחה. בלוני האוויר, שהילדים דחפו, התרוממו בכל החדר, והילדים צחקו וצרחו מהתלהבות. עוד הייתה מוזיקה: הורי אחת הבנות הביאו אורגן, ובנוסף הפסנתר שלנו - תדמיינו איזה רעש, אבל כמה כיף היה. ואף אחד לא אמר לנו שהרעש חזק מדי, או שיש הרבה ילדים, או בכלל התלונן.`,
+        `כאן, מסיבות שונות, כולם נראים יותר עייפים. אומרים שהמזג אוויר חם וקשה, והדרך לעבודה וחזרה ארוכה. אני, למרות הכל, מנסה לנוח כמה פעמים ביום ועדיין מסתדרת עם הבית שלנו.`,
+        `מה שמאוד משמח אותנו - קנינו דירה! חלמנו על דירת שני חדרים וקיבלנו שלושה! למרות שעדיין חסר לנו הרבה, אנחנו ממש שמחים. הכל כיף - שאנחנו לבד כמשפחה, שהחדרים מוארים, שהשכנים נחמדים, ומהחלונות הנוף פשוט מדהים: גבעות ירוקות עד האופק, בתים לבנים עם גגות אדומים וכבישים עם פסי הפרדה לבנים. גליה אפילו לא רוצה לתלות וילונות - ובאמת אין לנו סיבה בכלל, זה בכלל לא מפריע לנו.`,
+        `אני משתדלת להשאיר למאשה כמה שפחות מטלות בבית, וגם משתדלת ללמוד איתה רוסית - לקרוא ולכתוב קצת. החיים שלנו הפכו איכשהו נורמליים יותר. אנחנו מתכננים לעבור מהאופטימיות של אבטלה לעבודה אמיתית עם משכורת, כנראה מאפריל. בינתיים אני שקועה בקריאת האוטוביוגרפיה של נַטָּלִיָּה אִילִינָה, "דְּרָכִים וְגוֹרָלוֹת",   -  Натальи Ильиной - Дороги и судьбы  ועכשיו אני מבינה טוב יותר את הקשיים והחוויות שהיא מתארת של החיים כעולה בשנחאי.`,
+        `יש לנו קשר ממש טוב עם הבוס של גליה, ורונית אשתו. אגב, רונית מלמדת את מאשה תורה, ומאשה הולכת אליה בשמחה. לאחרונה הם גם באו לבקר אצלנו עם ההורים שלנו - אנשים משכילים ונחמדים מאוד.`,
+        `תודה רבה על הברכה ליום ההולדת. אנחנו חושבים - או בעצם גליה רוצה לאסוף את השכנים מהקומה כדי לחגוג את היום ההולדת שלי. השכנים שלנו ממש טובים - חלקם מאוד דואגים ומתחשבים, ואחרים עם קשרים שכונתיים וגם חברותיים. אנשים מעניינים, ואני ממש שמחה שיש לנו שכנים כאלה. יש להם גם ספרייה נהדרת.`,
+
+     
+      ],
+       lettersDesktopImage: "images/desktop-images/lettersBackground.jpg",
+      fullWidth: true
+    },
+    {
+      type: "lettersSectionMobile",
+      lettersMobileImage: "images/mobile-images/letters-mobile02.jpg",
+      title: ``,
+      subtitleLettersMobile: [
+        `ממכתבים של אמא שלי:`,
+        `בינואר, חגגנו את יום הולדתה העשירי של מאשה, הגיעו כמה בנות ושני בנים, בלי מבוגרים בכלל. החלטנו להקדיש את כל היום לילדים, והם ניצלו את זה במלואו. אחת הבנות התחפשה לַליצן. מאשה, בחלוק מגבת כחול עם צעיף חם על הראש ומטרייה סגורה במקום מטה, התחפשה לבָּאבָה יַאגָה. היא התכופפה ורקדה במצב הזה בשמחה. בלוני האוויר, שהילדים דחפו, התרוממו בכל החדר, והילדים צחקו וצרחו מהתלהבות. עוד הייתה מוזיקה: הורי אחת הבנות הביאו אורגן, ובנוסף הפסנתר שלנו - תדמיינו איזה רעש, אבל כמה כיף היה. ואף אחד לא אמר לנו שהרעש חזק מדי, או שיש הרבה ילדים, או בכלל התלונן.`,
+        `כאן, מסיבות שונות, כולם נראים יותר עייפים. אומרים שהמזג אוויר חם וקשה, והדרך לעבודה וחזרה ארוכה. אני, למרות הכל, מנסה לנוח כמה פעמים ביום ועדיין מסתדרת עם הבית שלנו.`,
+        `מה שמאוד משמח אותנו - קנינו דירה! חלמנו על דירת שני חדרים וקיבלנו שלושה! למרות שעדיין חסר לנו הרבה, אנחנו ממש שמחים. הכל כיף - שאנחנו לבד כמשפחה, שהחדרים מוארים, שהשכנים נחמדים, ומהחלונות הנוף פשוט מדהים: גבעות ירוקות עד האופק, בתים לבנים עם גגות אדומים וכבישים עם פסי הפרדה לבנים. גליה אפילו לא רוצה לתלות וילונות - ובאמת אין לנו סיבה בכלל, זה בכלל לא מפריע לנו.`,
+        `אני משתדלת להשאיר למאשה כמה שפחות מטלות בבית, וגם משתדלת ללמוד איתה רוסית - לקרוא ולכתוב קצת. החיים שלנו הפכו איכשהו נורמליים יותר. אנחנו מתכננים לעבור מהאופטימיות של אבטלה לעבודה אמיתית עם משכורת, כנראה מאפריל. בינתיים אני שקועה בקריאת האוטוביוגרפיה של נַטָּלִיָּה אִילִינָה, "דְּרָכִים וְגוֹרָלוֹת",   -  Натальи Ильиной - Дороги и судьбы  ועכשיו אני מבינה טוב יותר את הקשיים והחוויות שהיא מתארת של החיים כעולה בשנחאי.`,
+        `יש לנו קשר ממש טוב עם הבוס של גליה, ורונית אשתו. אגב, רונית מלמדת את מאשה תורה, ומאשה הולכת אליה בשמחה. לאחרונה הם גם באו לבקר אצלנו עם ההורים שלנו - אנשים משכילים ונחמדים מאוד.`,
+        `תודה רבה על הברכה ליום ההולדת. אנחנו חושבים - או בעצם גליה רוצה לאסוף את השכנים מהקומה כדי לחגוג את היום ההולדת שלי. השכנים שלנו ממש טובים - חלקם מאוד דואגים ומתחשבים, ואחרים עם קשרים שכונתיים וגם חברותיים. אנשים מעניינים, ואני ממש שמחה שיש לנו שכנים כאלה. יש להם גם ספרייה נהדרת.`,
+
+      ]
+    },
+    {
+      h4: ``
+    },
+
+
+
+    {
+      h4: [
+        `לאט לאט אנחנו מתאקלמים: קנינו ארון בגדים, ארון ספרים וארון לנעליים. כיסאות עדיין לא הצלחנו לקנות, אבל הנוף מהחלון פשוט מדהים. החלון הוא כמו מסגרת של ציור נפלא, ואני לא יכולה להפסיק להתפעל ממנו.`
+       
+      ]
+    },
+
+    {
+      image: [
+        {
+          desktopSrc: "images/desktop-images/window-view-desktop.webp",
+          mobileSrc: null,
+          alt: "---",
+          textDesktop: `---`,
+          textMobile: null,
+          fullWidth: true
+        },
+        {
+          desktopSrc: null,
+          mobileSrc: "images/mobile-images/window-view-mobile.webp",
+          alt: "---",
+          textDesktop: null,
+          textMobile: `--`,
+          fullWidth: true 
+        },
+      ],
+    },
+
+    {
+      h4: [
+        `אני נזכרת בשנותיי הצעירות, ואחר כך בבגרותי, כששירתתי לעיתים קרובות בצוות העורכים של העיתון של הצוות שלנו.`,
+        `יום אחד, בסתר, הרכבתי עיתון הומוריסטי עבור גליה. לא היו בו תמונות של "עם המשפחה" או "עם החברים" - כמעט כל הכותרות חתכתי בקפידה מעיתונים ומגזינים, והאיורים גם הם הגיעו משם. כולם אהבו את העיתון, וגליה הייתה פשוט בהלם - היא לא האמינה שהצלחתי להכין אותו. במיוחד בהתחשב בכך שרק שבוע קודם לכן הכנתי עיתון עבור החברה הקרובה ביותר שלה.`,
+        `הנה הם, העיתונים הללו.`
+    
+      ]
+    },
+
+
+
+    {
+      image: [
+        {
+          desktopSrc: "images/Birthday-Magazines-01.jpg",
+          mobileSrc: "images/Birthday-Magazines-01.jpg",
+          alt: "Second image alt text",
+          textDesktop: "Description for second image",
+          textMobile: "Description for second image",
+          fullWidth: true 
+        },
+        {
+          desktopSrc: "images/Birthday-Magazines-02.jpg",
+          mobileSrc: "images/Birthday-Magazines-02.jpg",
+          alt: "Second image alt text",
+          textDesktop: "Description for second image",
+          textMobile: "Description for second image",
+          fullWidth: true
+        },
+        {
+          desktopSrc: "images/Birthday-Magazines-03.jpg",
+          mobileSrc: "images/Birthday-Magazines-03.jpg",
+          alt: "Second image alt text",
+          textDesktop: "Description for second image",
+          textMobile: "Description for second image",
+          fullWidth: true 
+        }
+      ]
+    },
+  ],
+
+  en: [
+    {
+      h4:  `My mother didn’t leave me a fortune, but the example of her life was a rare treasure.`,
+      text: [
+        `When we arrived in Israel, my mother was already 82. Words cannot describe how vital she was to us - the pillar of our family at the very beginning of our new life. And not just in the usual sense of helping out.`,
+        `I worked long hours, and Masha was still little, only eight years old. At that age, a child shouldn’t spend the whole day alone. My mother would meet her from school, feed her, and listen to her stories about her day. Sometimes they would play board games or cards together.`,
+          `My mother also met me when I came home from work - asking how my day was, sharing her own news, and serving dinner. Around ten in the evening, when Masha went to bed, my mother would sit by her, holding her hand, telling her little stories of her own creation.`,
+            `I entrusted all financial matters to my mother. That way, she was always in the loop about our affairs, and I had peace of mind - my very own personal, highly skilled “accountant”! With her constant energy and active approach to life, she handled everything thoughtfully and responsibly.`,
+        `And guess what - my mother discovered an error in our bank transactions! And all the documents were in Hebrew, a language she didn’t know. The bank acknowledged the mistake and returned 500 shekels to us.`
+      ],
+    },
+    {
+      image: [
+         {
+          desktopSrc: "images/desktop-images/documentations-desktop.webp",
+          mobileSrc: null,
+          alt: "---",
+          textDesktop: ``,
+          textMobile: null,
+        },
+        {
+          desktopSrc: null,
+          mobileSrc: "images/mobile-images/documentations-mobile.jpg",
+          alt: "---",
+          textDesktop: null,
+          textMobile: ``,
+        },
+      ],
+    },
+    {
+      text: [
+        `Once in Beit Shemesh, my mother participated in elections for the city council. `,
+        `Spotting an elderly voter, the campaigners - sensing an easy prey - rushed toward her, eager to slip her ballots for their candidates. But this elderly “new immigrant” was far from helpless. Although, naturally, she couldn’t read the candidate’s name in Hebrew, she was prepared. The day before, we had discussed who we would vote for. I don’t recall his name now - let’s call him David.`,
+        `My mother held up the ballot and asked, “Is this David?” They readily replied, “Yes, David!” But it was the same on the second and third ballots. My mother sensed something was fishy. Then she changed tactics and asked, “Who is this?”- and quickly identified the correct candidate on the ballot.`,
+        `My mother meticulously recorded our income and expenses. Perhaps in some small way, this helped us save a little money, which proved invaluable when we bought our apartment. Only through her letters did I truly realize how difficult our unsettled life as “Olim” had been for her.  (Olim - are Jewish immigrants who moved to Israel. The term literally means “those who ascend)  My mother never once complained to me. Her resilience, optimism, sharp mind, and kindness naturally drew people to her.`,
+           `One acquaintance said, “There was a special atmosphere in your home, and it was clear that it came from your mother.” Another remarked, “Your home doesn’t feel like that of new immigrants at all. It’s as if you’ve been here for years.”`,
+              `My mother didn’t leave me a fortune, but the example of her life was a rare and priceless inheritance.`,
+             
+        "DIVIDER"
+      ],
+    },
+    {
+      type: "lettersSection",
+      letters: [
+        `From my mother’s letters:`,
+        `On January, we celebrated Masha’s tenth birthday. Only the children came - girls and two boys. no adults, as we decidied to dedicate the day entirely to children. And they made the most of it! One girl played the clown, while Masha, in her fluffy bathrobe with a warm scarf on her head and an umbrella as a broom, played *Baba Yaga. She bent and danced in that position, twirling with great flair. Balloons floated across the room as the children pushed them, and the kids shrieked with delight. There was music, too - the parents of one of the girls brought an organ, and we had our piano too. Imagine the noise! But it was fun, and nobody scolded us for the commotion, for the crowd, or for anything else.`,
+        `*Baba Yaga is a famous figure in Slavic folklore. She is usually portrayed as an old, supernatural woman, sometimes frightening, sometimes ambiguous in her intentions. Think of her as a blend of a witch, a wise crone, and a guardian of the natural or mystical world.`,
+        `Life here tires everyone somehow. They say it’s the climate, or the long, difficult commute to work and back. Yet, even though I have to rest several times a day, I still manage our simple household. I try to leave Masha with as few chores as possible and spend time teaching her Russian, so she can read and write at least a little. Somehow life has started to feel more normal.`,
+        `And what a joy it is to repeat endlessly: we are buying an apartment! We dreamed of a two-room place, and somehow ended up with three rooms! Though many things are still missing, we are completely happy. Everything delights us - the fact that it’s just our family, that the rooms are bright, that our neighbors are kind, and that the view from the windows is wonderful. Hills stretch to the horizon, green and dotted with white houses with red-tiled roofs, and winding white roads. Galia doesn’t even want curtains, and, to be honest, we don’t have any - and it doesn’t bother us at all.`,
+        `Galia moved from unemployment to real work with a salary, probably starting in April. Meanwhile, I’m engrossed in Natalia Ilyina’s autobiography Roads and Destinies, and now I understand the hardships and struggles of immigrant life in Shanghai she describes.`,
+        `We have very kind relations with Galia’s work boss, Nimrod and his wife Ronit. His wife Ronit even teaches Masha Torah lessons, and Masha enjoys going to her. Recently, Nimrod and Ronit, along with their parents, came to visit. They are cultured and clearly good people.`,
+        `Thank you so much for your birthday wishes. We are thinking - actually, Galya wants to - gather our neighbors to celebrate my birthday. They are wonderful. Some are very attentive and caring toward us, and with others we have not just neighborly, but friendly relations. Interesting people, and I am endlessly glad to have them nearby. They even have an excellent library.`
+      
+      ],
+         lettersDesktopImage: "images/desktop-images/lettersBackground.jpg",
+      fullWidth: true
+    },
+    {
+      type: "lettersSectionMobile",
+          lettersMobileImage: "images/mobile-images/letters-mobile02.jpg",
+      title: ``,
+      subtitleLettersMobile: [
+        `From my mother’s letters:`,
+        `On January, we celebrated Masha’s tenth birthday. Only the children came - girls and two boys. no adults, as we decidied to dedicate the day entirely to children. And they made the most of it! One girl played the clown, while Masha, in her fluffy bathrobe with a warm scarf on her head and an umbrella as a broom, played *Baba Yaga. She bent and danced in that position, twirling with great flair. Balloons floated across the room as the children pushed them, and the kids shrieked with delight. There was music, too - the parents of one of the girls brought an organ, and we had our piano too. Imagine the noise! But it was fun, and nobody scolded us for the commotion, for the crowd, or for anything else.`,
+        `*Baba Yaga is a famous figure in Slavic folklore. She is usually portrayed as an old, supernatural woman, sometimes frightening, sometimes ambiguous in her intentions. Think of her as a blend of a witch, a wise crone, and a guardian of the natural or mystical world.`,
+        `Life here tires everyone somehow. They say it’s the climate, or the long, difficult commute to work and back. Yet, even though I have to rest several times a day, I still manage our simple household. I try to leave Masha with as few chores as possible and spend time teaching her Russian, so she can read and write at least a little. Somehow life has started to feel more normal.`,
+        `And what a joy it is to repeat endlessly: we are buying an apartment! We dreamed of a two-room place, and somehow ended up with three rooms! Though many things are still missing, we are completely happy. Everything delights us - the fact that it’s just our family, that the rooms are bright, that our neighbors are kind, and that the view from the windows is wonderful. Hills stretch to the horizon, green and dotted with white houses with red-tiled roofs, and winding white roads. Galia doesn’t even want curtains, and, to be honest, we don’t have any - and it doesn’t bother us at all.`,
+        `Galia moved from unemployment to real work with a salary, probably starting in April. Meanwhile, I’m engrossed in Natalia Ilyina’s autobiography Roads and Destinies, and now I understand the hardships and struggles of immigrant life in Shanghai she describes.`,
+        `We have very kind relations with Galia’s work boss, Nimrod and his wife Ronit. His wife Ronit even teaches Masha Torah lessons, and Masha enjoys going to her. Recently, Nimrod and Ronit, along with their parents, came to visit. They are cultured and clearly good people.`,
+        `Thank you so much for your birthday wishes. We are thinking - actually, Galya wants to - gather our neighbors to celebrate my birthday. They are wonderful. Some are very attentive and caring toward us, and with others we have not just neighborly, but friendly relations. Interesting people, and I am endlessly glad to have them nearby. They even have an excellent library.`
+      ]
+    },
+    {
+      h4: `Little by little, we are settling in. We bought a wardrobe, a bookcase, and a shoe cabinet. We still haven’t managed to get chairs, but the view from our window is breathtaking. The window frames a perfect picture - we can’t get enough of it.`
+    },
+    {
+      image: [
+        {
+          desktopSrc: "images/desktop-images/window-view-desktop.webp",
+          mobileSrc: null,
+          alt: "---",
+          textDesktop: `---`,
+          textMobile: null,
+          fullWidth: true
+        },
+        {
+          desktopSrc: null,
+          mobileSrc: "images/mobile-images/window-view-mobile.webp",
+          alt: "---",
+          textDesktop: null,
+          textMobile: `--`,
+          fullWidth: true 
+        },
+      ],
+    },
+    {
+      h4: [
+        `I remembered my younger years, and later my adult ones, when I often served on the editorial board of our wall newspaper.`,
+        `One day, I secretly put together a humorous newspaper for Galya. There were no photos like “with family” or “with friends”- almost all the headlines I carefully cut out from newspapers and magazines, and the illustrations came from there too. Everyone loved it, and Galya was completely amazed - she couldn’t believe I had managed to do it. Especially since just a week earlier, I had made a newspaper for her closest friend.`,
+        `Here they are, these newspapers.`,
+        ``,
+        ``
+      ]
+    },
+    {
+      image: [
+      {
+          desktopSrc: "images/Birthday-Magazines-01.jpg",
+          mobileSrc: "images/Birthday-Magazines-01.jpg",
+          alt: "Second image alt text",
+          textDesktop: "Description for second image",
+          textMobile: "Description for second image",
+          fullWidth: true 
+        },
+        {
+          desktopSrc: "images/Birthday-Magazines-02.jpg",
+          mobileSrc: "images/Birthday-Magazines-02.jpg",
+          alt: "Second image alt text",
+          textDesktop: "Description for second image",
+          textMobile: "Description for second image",
+          fullWidth: true
+        },
+        {
+          desktopSrc: "images/Birthday-Magazines-03.jpg",
+          mobileSrc: "images/Birthday-Magazines-03.jpg",
+          alt: "Second image alt text",
+          textDesktop: "Description for second image",
+          textMobile: "Description for second image",
+          fullWidth: true 
+        }
+      ]
+    },
+  ],
 };
 
 export default textsMothersStory;
+
+
+
+
+

@@ -9,11 +9,12 @@ import TextForthPage from "../components/TextForthPage.jsx";
 import textsMashasFirstDays from "../text/textsMashasFirstDays.js";
 import { useNavigate } from "react-router-dom";
 
+
 const MashasFirstDays = () => {
-  const [lang, setLang] = useState("ru"); // default Russian
+  const [lang, setLang] = useState("ru"); 
   const navigate = useNavigate();
 
-  // ⚡ FIX: fallback to Russian if lang key doesn't exist
+
   const textForLang = textsMashasFirstDays[lang] || textsMashasFirstDays["ru"];
 return (
   <>

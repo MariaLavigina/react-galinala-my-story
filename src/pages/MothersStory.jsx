@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import TextFifthPage from "../components/TextFifthPage.jsx";
 import { useNavigate } from "react-router-dom";
 import textsMothersStory from "../text/textxMothersStory.js";
+import Divider from "../components/Divider.jsx";
 
 const MothersStory = () => {
   const [lang, setLang] = useState("ru"); // default Russian
@@ -265,23 +266,20 @@ const MothersStory = () => {
 
 
 
-
-
-
-
-
-
-
-
           {/* Paragraphs */}
           {block.text?.map((p, idx) => (
+             p === "DIVIDER" ? <Divider key={idx} /> : (
             <p
               key={idx}
               className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mb-6 leading-relaxed"
             >
               {p}
-            </p>
-          ))}
+             </p>
+  )
+))}
+
+
+          
 
           {/* Images */}
           {block.image &&
