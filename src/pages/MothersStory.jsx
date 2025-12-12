@@ -171,23 +171,18 @@ const MothersStory = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {/* DESKTOP LETTERS SECTION — existing */}
 {block.type === "lettersSection" && (
-  <div className="w-screen relative left-1/2 -translate-x-1/2 hidden md:block mb-12">
+ <div
+  className={`
+    w-screen relative hidden md:block mb-12
+    ${lang === "he"
+      ? "right-1/2 translate-x-1/2"
+      : "left-1/2 -translate-x-1/2"
+    }
+  `}
+>
+
 
     {/* Background image */}
     <img
@@ -279,6 +274,14 @@ const MothersStory = () => {
 ))}
 
 
+
+
+
+
+
+
+
+
           
 
           {/* Images */}
@@ -305,9 +308,13 @@ const MothersStory = () => {
                     );
                   }
 
-                  const wrapperClass = img.fullWidth
-                    ? `mb-12 w-screen relative left-1/2 -translate-x-1/2 text-center`
-                    : `mb-12 ${lang === "he" ? "text-right" : "text-left"}`;
+                    const wrapperClass = img.fullWidth
+  ? `mb-12 w-screen relative ${
+      lang === "he"
+        ? "right-1/2 translate-x-1/2"
+        : "left-1/2 -translate-x-1/2"
+    } text-center`
+  : `mb-12 ${lang === "he" ? "text-right" : "text-left"}`;
 
                   return (
                     <div key={idx} className={wrapperClass}>

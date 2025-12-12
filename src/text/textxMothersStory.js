@@ -248,9 +248,8 @@ const textsMothersStory = {
     {
       type: "lettersSectionMobile",
       lettersMobileImage: "images/mobile-images/letters-mobile02.jpg",
-      title: ``,
+      title: `ממכתבים של אמא שלי`,
       subtitleLettersMobile: [
-        `ממכתבים של אמא שלי:`,
         `בינואר, חגגנו את יום הולדתה העשירי של מאשה, הגיעו כמה בנות ושני בנים, בלי מבוגרים בכלל. החלטנו להקדיש את כל היום לילדים, והם ניצלו את זה במלואו. אחת הבנות התחפשה לַליצן. מאשה, בחלוק מגבת כחול עם צעיף חם על הראש ומטרייה סגורה במקום מטה, התחפשה לבָּאבָה יַאגָה. היא התכופפה ורקדה במצב הזה בשמחה. בלוני האוויר, שהילדים דחפו, התרוממו בכל החדר, והילדים צחקו וצרחו מהתלהבות. עוד הייתה מוזיקה: הורי אחת הבנות הביאו אורגן, ובנוסף הפסנתר שלנו - תדמיינו איזה רעש, אבל כמה כיף היה. ואף אחד לא אמר לנו שהרעש חזק מדי, או שיש הרבה ילדים, או בכלל התלונן.`,
         `כאן, מסיבות שונות, כולם נראים יותר עייפים. אומרים שהמזג אוויר חם וקשה, והדרך לעבודה וחזרה ארוכה. אני, למרות הכל, מנסה לנוח כמה פעמים ביום ועדיין מסתדרת עם הבית שלנו.`,
         `מה שמאוד משמח אותנו - קנינו דירה! חלמנו על דירת שני חדרים וקיבלנו שלושה! למרות שעדיין חסר לנו הרבה, אנחנו ממש שמחים. הכל כיף - שאנחנו לבד כמשפחה, שהחדרים מוארים, שהשכנים נחמדים, ומהחלונות הנוף פשוט מדהים: גבעות ירוקות עד האופק, בתים לבנים עם גגות אדומים וכבישים עם פסי הפרדה לבנים. גליה אפילו לא רוצה לתלות וילונות - ובאמת אין לנו סיבה בכלל, זה בכלל לא מפריע לנו.`,
@@ -395,7 +394,7 @@ const textsMothersStory = {
     {
       type: "lettersSectionMobile",
           lettersMobileImage: "images/mobile-images/letters-mobile02.jpg",
-      title: ``,
+      title: `From my mother’s letters`,
       subtitleLettersMobile: [
         `From my mother’s letters:`,
         `On January, we celebrated Masha’s tenth birthday. Only the children came - girls and two boys. no adults, as we decidied to dedicate the day entirely to children. And they made the most of it! One girl played the clown, while Masha, in her fluffy bathrobe with a warm scarf on her head and an umbrella as a broom, played *Baba Yaga. She bent and danced in that position, twirling with great flair. Balloons floated across the room as the children pushed them, and the kids shrieked with delight. There was music, too - the parents of one of the girls brought an organ, and we had our piano too. Imagine the noise! But it was fun, and nobody scolded us for the commotion, for the crowd, or for anything else.`,
