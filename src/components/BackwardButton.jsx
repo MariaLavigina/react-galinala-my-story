@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function BackwardButton({ onClick }) {
+export default function BackwardButton({ onClick, label, isRtl }) {
   return (
     <button
-     onClick={onClick}   // <-- now this works
+      onClick={onClick}
       className="
         w-48
         group relative flex items-center justify-center gap-2
@@ -21,10 +21,11 @@ export default function BackwardButton({ onClick }) {
         hover:scale-[1.05]
       "
     >
-      {/* Arrow on the left */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="w-6 h-6 flex-shrink-0 transform transition-transform duration-300 group-hover:-translate-x-1"
+        className={`w-6 h-6 flex-shrink-0 transform transition-transform duration-300 ${
+          isRtl ? "rotate-180" : "group-hover:-translate-x-1"
+        }`}
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -32,8 +33,7 @@ export default function BackwardButton({ onClick }) {
       >
         <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
       </svg>
-
-      <span className="tracking-wide leading-none">назад</span>
+      <span className="tracking-wide leading-none">{label}</span>
     </button>
   );
 }

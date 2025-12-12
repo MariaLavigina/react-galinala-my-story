@@ -246,11 +246,38 @@ const WhyILeft = () => {
 
 
 
-          {/* Navigation buttons */}
-          <div className="flex justify-center gap-4 mt-24">
-            <BackwardButton onClick={() => navigate("/")}/>
-            <ForwardButton onClick={() => navigate("/decision-to-leave")}/>
-          </div>
+<div className="flex justify-center gap-4 mt-24">
+  {lang === "he" ? (
+    <>
+      {/* Hebrew: Forward on left, Backward on right */}
+      <ForwardButton
+        onClick={() => navigate("/decision-to-leave")}
+        label="המשך"
+        isRtl={true}
+      />
+      <BackwardButton
+        onClick={() => navigate("/")}
+        label="חזרה"
+        isRtl={true}
+      />
+    </>
+  ) : (
+    <>
+      {/* LTR: Back on left, Forward on right */}
+      <BackwardButton
+        onClick={() => navigate("/")}
+        label={lang === "ru" ? "Назад" : "Back"}
+        isRtl={false}
+      />
+      <ForwardButton
+        onClick={() => navigate("/decision-to-leave")}
+        label={lang === "ru" ? "Вперёд" : "Next"}
+        isRtl={false}
+      />
+    </>
+  )}
+</div>
+
 
 
 
