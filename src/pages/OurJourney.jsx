@@ -9,7 +9,18 @@ import textsOurJourney from "../text/textsOurJourney.js";
 import { useNavigate } from "react-router-dom";
 
 const OurJourney = () => {
-  const [lang, setLang] = useState("ru");
+
+
+const [lang, setLang] = useState(() => {
+  return localStorage.getItem("lang") || "ru"; // default Russian
+});
+
+React.useEffect(() => {
+  localStorage.setItem("lang", lang);
+}, [lang]);
+
+
+
     const navigate = useNavigate(); // for navigation 
   const content = textsOurJourney[lang];
   const isRTL = lang === "he";
@@ -144,8 +155,8 @@ const OurJourney = () => {
 
       </section>
 
-      <ChapterSectionDesktop />
-      <ChapterSectionMobile />
+      <ChapterSectionDesktop lang={lang}/>
+      <ChapterSectionMobile lang={lang}/>
       <Footer />
     </>
   );

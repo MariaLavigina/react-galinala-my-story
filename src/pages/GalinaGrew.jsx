@@ -9,7 +9,19 @@ import { useNavigate } from "react-router-dom";
 import textsGalinaGrew from "../text/textsGalinaGrew.js";
 
 const GalinaGrew = () => {
-  const [lang, setLang] = useState("ru");
+
+
+const [lang, setLang] = useState(() => {
+  return localStorage.getItem("lang") || "ru"; // default Russian
+});
+
+React.useEffect(() => {
+  localStorage.setItem("lang", lang);
+}, [lang]);
+
+
+
+
   const navigate = useNavigate();
 
   const textForLang = textsGalinaGrew[lang] || textsGalinaGrew["ru"];
@@ -129,8 +141,8 @@ const GalinaGrew = () => {
         </div>
       </section>
 
-      <ChapterSectionDesktop />
-      <ChapterSectionMobile />
+      <ChapterSectionDesktop lang={lang}/>
+      <ChapterSectionMobile lang={lang}/>
       <Footer />
     </>
   );

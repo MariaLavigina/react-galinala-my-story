@@ -1,13 +1,35 @@
 import React from "react";
 
-const chapters = [
-  { number: "01", title: "Почему я уехала", img: "images/heading-chapter01.webp", link: "#" },
-  { number: "02", title: "Прилетели мы в Израиль", img: "images/heading-chapter02.webp", link: "#" },
-  { number: "03", title: "Mоя Маша", img: "images/heading-chapter03.webp", link: "#" },
-  { number: "04", title: "Mоя мама", img: "images/heading-chapter04.webp", link: "#" },
-];
+const chapters = {
+  ru: [
+    { number: "01", title: <>Почему я <br />уехала</>, img: "images/heading-chapter01.webp", link: "#" },
+    { number: "02", title: <>Прилетели мы <br />в Израиль</>, img: "images/heading-chapter02.webp", link: "#" },
+    { number: "03", title: <>Mоя <br />Маша</>, img: "images/heading-chapter03.webp", link: "#" },
+    { number: "04", title: <>Mоя <br />мама</>, img: "images/heading-chapter04.webp", link: "#" },
+  ],
+  en: [
+    { number: "01", title: <>Why I <br />left</>, img: "images/heading-chapter01.webp", link: "#" },
+    { number: "02", title: <>We arrived <br />in Israel</>, img: "images/heading-chapter02.webp", link: "#" },
+    { number: "03", title: <>My <br />Masha</>, img: "images/heading-chapter03.webp", link: "#" },
+    { number: "04", title: <>My <br />mother</>, img: "images/heading-chapter04.webp", link: "#" },
+  ],
+  he: [
+    { number: "01", title: <>למה <br />עזבתי</>, img: "images/heading-chapter01.webp", link: "#" },
+    { number: "02", title: <>הגענו <br />לישראל</>, img: "images/heading-chapter02.webp", link: "#" },
+    { number: "03", title: <>הבת שלי <br />מאשה</>, img: "images/heading-chapter03.webp", link: "#" },
+    { number: "04", title: <>אמא <br />שלי</>, img: "images/heading-chapter04.webp", link: "#" },
+  ],
+};
 
-const ChapterSectionMobile = () => {
+const buttonText = {
+  ru: "читать далее",
+  en: "Read more",
+  he: "לקרוא עוד",
+};
+
+const ChapterSectionMobile = ({ lang = "ru" }) => {
+  const currentChapters = chapters[lang];
+
   return (
     <div className="relative w-full block md:hidden overflow-hidden mt-4">
       {/* SVG Background */}
@@ -19,12 +41,10 @@ const ChapterSectionMobile = () => {
 
       {/* Content vertically centered over the SVG */}
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center gap-12">
-        {chapters.map((chapter) => (
+        {currentChapters.map((chapter) => (
           <div key={chapter.number} className="flex flex-col items-center text-center w-full">
-            
             {/* Text container limited to 95% */}
             <div className="w-[95%] mx-auto flex flex-col items-center">
-              
               {/* Chapter Number */}
               <h1 className="text-[5rem] sm:text-[7rem] font-bold mb-2 text-white">
                 {chapter.number}
@@ -45,17 +65,16 @@ const ChapterSectionMobile = () => {
                     px-[clamp(24px,6vw,40px)] py-[clamp(10px,3.5vw,20px)] text-[clamp(1.5rem,5vw,2.5rem)] text-center
                   "
                 >
-                  читать далее
+                  {buttonText[lang]}
                 </div>
               </a>
-
             </div>
 
             {/* Chapter Image */}
             <a href={chapter.link} className="block w-full">
               <img
                 src={chapter.img}
-                alt={chapter.title}
+                alt={typeof chapter.title === "string" ? chapter.title : "chapter"}
                 className="w-full h-auto block transform transition-transform duration-300 hover:scale-105"
               />
             </a>

@@ -10,7 +10,20 @@ import textsWeArrived from "../text/textsWeArrived.js";
 import { useNavigate } from "react-router-dom";
 
 const WeArrived = () => {
-  const [lang, setLang] = useState("ru"); // default Russian
+
+  
+
+const [lang, setLang] = useState(() => {
+  return localStorage.getItem("lang") || "ru"; // default Russian
+});
+
+React.useEffect(() => {
+  localStorage.setItem("lang", lang);
+}, [lang]);
+
+
+
+
   const navigate = useNavigate();
 
   // ⚡ FIX: fallback to Russian if lang key doesn't exist
@@ -299,8 +312,8 @@ return (
   </div>
 </section>
 
-<ChapterSectionDesktop />
-<ChapterSectionMobile />
+<ChapterSectionDesktop lang={lang}/>
+<ChapterSectionMobile lang={lang}/>
 <Footer />
 
 

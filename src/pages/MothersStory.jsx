@@ -11,7 +11,20 @@ import textsMothersStory from "../text/textxMothersStory.js";
 import Divider from "../components/Divider.jsx";
 
 const MothersStory = () => {
-  const [lang, setLang] = useState("ru"); // default Russian
+
+
+const [lang, setLang] = useState(() => {
+  return localStorage.getItem("lang") || "ru"; // default Russian
+});
+
+React.useEffect(() => {
+  localStorage.setItem("lang", lang);
+}, [lang]);
+
+
+
+
+
   const navigate = useNavigate();
 
   const textForLang = textsMothersStory[lang] || textsMothersStory["ru"];
@@ -404,8 +417,8 @@ const MothersStory = () => {
 
 
       {/* ---------- Chapters Section ---------- */}
-      <ChapterSectionDesktop />
-      <ChapterSectionMobile />
+      <ChapterSectionDesktop lang={lang}/>
+      <ChapterSectionMobile lang={lang}/>
 
       {/* ---------- Footer ---------- */}
       <Footer />

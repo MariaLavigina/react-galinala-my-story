@@ -10,8 +10,15 @@ import texts from "../text/index.js";
 
 
 const Index = () => {
-  const [lang, setLang] = useState("ru"); // default Russian
-    const navigate = useNavigate(); // for navigation 
+const [lang, setLang] = useState(() => {
+  return localStorage.getItem("lang") || "ru"; // default Russian
+});
+
+React.useEffect(() => {
+  localStorage.setItem("lang", lang);
+}, [lang]);
+
+    const navigate = useNavigate();
 
   return (
     <>
@@ -302,34 +309,17 @@ const Index = () => {
     {/* Navigation */}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
       </section>
 
+
+      
+
       {/* ---------- Chapters Section (desktop & tablet only) ---------- */}
-      <ChapterSectionDesktop />
+      <ChapterSectionDesktop lang={lang}/>
 
       {/* ---------- Chapters Section (mobile only) ---------- */}
-      <ChapterSectionMobile />
+      <ChapterSectionMobile lang={lang}/>
 
       {/* ---------- Footer ---------- */}
       <Footer />

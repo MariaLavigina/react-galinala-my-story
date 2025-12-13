@@ -9,7 +9,20 @@ import { useNavigate } from "react-router-dom";
 import textsFirstSteps from "../text/textsFirstSteps.js";
 
 const FirstSteps = () => {
-  const [lang, setLang] = useState("ru");
+
+  
+const [lang, setLang] = useState(() => {
+  return localStorage.getItem("lang") || "ru"; // default Russian
+});
+
+React.useEffect(() => {
+  localStorage.setItem("lang", lang);
+}, [lang]);
+
+
+
+
+
   const navigate = useNavigate();
 
   const textForLang = textsFirstSteps[lang] || textsFirstSteps["ru"];
@@ -127,8 +140,8 @@ const FirstSteps = () => {
         </div>
       </section>
 
-      <ChapterSectionDesktop />
-      <ChapterSectionMobile />
+      <ChapterSectionDesktop lang={lang}/>
+      <ChapterSectionMobile lang={lang}/>
       <Footer />
     </>
   );

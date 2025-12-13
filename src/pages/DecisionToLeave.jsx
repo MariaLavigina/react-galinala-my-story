@@ -10,7 +10,17 @@ import { useNavigate } from "react-router-dom";
 
 const DecisionToLeave = () => {
 
-  const [lang, setLang] = useState("ru"); 
+
+const [lang, setLang] = useState(() => {
+  return localStorage.getItem("lang") || "ru"; // default Russian
+});
+
+React.useEffect(() => {
+  localStorage.setItem("lang", lang);
+}, [lang]);
+
+
+
   const navigate = useNavigate(); // for navigation 
   const content = textsDecisionToLeave[lang];
   const isRTL = lang === "he"; 
@@ -183,8 +193,8 @@ const DecisionToLeave = () => {
       </section>
 
       {/* Chapter sections (desktop & mobile) */}
-      <ChapterSectionDesktop />
-      <ChapterSectionMobile />
+      <ChapterSectionDesktop lang={lang}/>
+      <ChapterSectionMobile lang={lang}/>
 
       {/* Footer */}
       <Footer />

@@ -9,7 +9,19 @@ import { useNavigate } from "react-router-dom";
 import textsLifeInIsrael from "../text/textsLifeInIsrael.js";
 
 const LifeInIsrael = () => {
-  const [lang, setLang] = useState("ru");
+
+
+const [lang, setLang] = useState(() => {
+  return localStorage.getItem("lang") || "ru"; // default Russian
+});
+
+React.useEffect(() => {
+  localStorage.setItem("lang", lang);
+}, [lang]);
+
+
+
+
   const navigate = useNavigate();
 
   const textForLang = textsLifeInIsrael[lang] || textsLifeInIsrael["ru"];
@@ -133,8 +145,8 @@ const LifeInIsrael = () => {
         </div>
       </section>
 
-      <ChapterSectionDesktop />
-      <ChapterSectionMobile />
+      <ChapterSectionDesktop lang={lang}/>
+      <ChapterSectionMobile lang={lang}/>
       <Footer />
     </>
   );

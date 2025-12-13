@@ -12,7 +12,17 @@ import textsWhyILeft from "../text/textsWhyILeft.js";
 
 
 const WhyILeft = () => {
-  const [lang, setLang] = useState("ru"); // default Russian
+
+const [lang, setLang] = useState(() => {
+  return localStorage.getItem("lang") || "ru"; // default Russian
+});
+
+React.useEffect(() => {
+  localStorage.setItem("lang", lang);
+}, [lang]);
+
+
+
       const navigate = useNavigate(); // for navigation 
   
 
@@ -297,8 +307,8 @@ const WhyILeft = () => {
       </section>
 
       {/* Chapters */}
-      <ChapterSectionDesktop />
-      <ChapterSectionMobile />
+      <ChapterSectionDesktop lang={lang}/>
+      <ChapterSectionMobile lang={lang}/>
 
       <Footer />
     </>
