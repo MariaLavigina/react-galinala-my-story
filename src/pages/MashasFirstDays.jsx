@@ -235,11 +235,40 @@ return (
       );
     })}
 
-    {/* Navigation buttons */}
-    <div className="flex justify-center gap-4 mt-24">
-     <BackwardButton onClick={() => navigate("/galina-grew")}/>
-     <ForwardButton onClick={() => navigate("/mothers-story")}/>
-    </div>
+{/* Navigation */}
+<div className="flex justify-center gap-4 mt-24">
+  {lang === "he" ? (
+    <>
+      {/* Hebrew: Forward on left, Backward on right */}
+      <ForwardButton
+        onClick={() => navigate("/mothers-story")}
+        label="המשך"
+        isRtl={true}
+      />
+      <BackwardButton
+        onClick={() => navigate("/galina-grew")}
+        label="חזרה"
+        isRtl={true}
+      />
+    </>
+  ) : (
+    <>
+      {/* LTR: Back on left, Forward on right */}
+      <BackwardButton
+        onClick={() => navigate("/galina-grew")}
+        label={lang === "ru" ? "Назад" : "Back"}
+        isRtl={false}
+      />
+      <ForwardButton
+        onClick={() => navigate("/mothers-story")}
+        label={lang === "ru" ? "Вперёд" : "Next"}
+        isRtl={false}
+      />
+    </>
+  )}
+</div>
+{/* Navigation */}
+
 
   </div>
 </section>

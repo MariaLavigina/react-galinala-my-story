@@ -84,11 +84,52 @@ const LifeInIsrael = () => {
             </div>
           ))}
 
-          <div className="flex justify-center gap-4 mt-24">
-            <BackwardButton onClick={() => navigate("/first-steps")} />
-            <ForwardButton onClick={() => navigate("/galina-grew")} />
-        
-          </div>
+    
+
+
+
+         {/* Navigation */}
+<div className="flex justify-center gap-4 mt-24">
+  {lang === "he" ? (
+    <>
+      {/* Hebrew: Forward on left, Backward on right */}
+      <ForwardButton
+        onClick={() => navigate("/galina-grew")}
+        label="המשך"
+        isRtl={true}
+      />
+      <BackwardButton
+        onClick={() => navigate("/first-steps")}
+        label="חזרה"
+        isRtl={true}
+      />
+    </>
+  ) : (
+    <>
+      {/* LTR: Back on left, Forward on right */}
+      <BackwardButton
+        onClick={() => navigate("/first-steps")}
+        label={lang === "ru" ? "Назад" : "Back"}
+        isRtl={false}
+      />
+      <ForwardButton
+        onClick={() => navigate("/galina-grew")}
+        label={lang === "ru" ? "Вперёд" : "Next"}
+        isRtl={false}
+      />
+    </>
+  )}
+</div>
+{/* Navigation */}
+
+
+
+
+
+
+
+
+
         </div>
       </section>
 

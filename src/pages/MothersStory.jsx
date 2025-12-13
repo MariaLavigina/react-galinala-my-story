@@ -359,16 +359,49 @@ const MothersStory = () => {
 
 
 
+{/* Navigation */}
+<div className="flex justify-center gap-4 mt-24">
+  {lang === "he" ? (
+    <>
+      {/* Hebrew: Backward on left, Forward on right */}
+      <BackwardButton
+        onClick={() => navigate("/mashas-first-days")}
+        label="חזרה"
+        isRtl={true}
+      />
+      <ForwardButton
+        onClick={() => navigate("/")}
+        label="דף הבית"
+        isRtl={true}
+      />
+    </>
+  ) : (
+    <>
+      {/* LTR: Back on left, Forward on right */}
+      <BackwardButton
+        onClick={() => navigate("/mashas-first-days")}
+        label={lang === "ru" ? "Назад" : "Back"}
+        isRtl={false}
+      />
+      <ForwardButton
+        onClick={() => navigate("/")}
+        label={lang === "ru" ? "Главная" : "home"}
+        isRtl={false}
+      />
+    </>
+  )}
+</div>
+{/* Navigation */}
 
 
 
 
 
-      {/* ---------- Navigation Buttons ---------- */}
-      <div className="flex justify-center gap-4 mt-24">
-        <BackwardButton onClick={() => navigate("/mashas-first-days")} />
-        <ForwardButton onClick={() => navigate("/")} />
-      </div>
+
+
+
+
+
 
       {/* ---------- Chapters Section ---------- */}
       <ChapterSectionDesktop />

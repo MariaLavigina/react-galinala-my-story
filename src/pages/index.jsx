@@ -270,9 +270,57 @@ const Index = () => {
 
           
 
-        <div className="flex justify-center mt-24">
-            <ForwardButton onClick={() => navigate("/why-i-left")} />
-        </div>
+ 
+
+
+     {/* Navigation */}
+
+<div className="flex justify-center gap-4 mt-24">
+  {lang === "he" ? (
+    <>
+      {/* Hebrew: Forward on left, Backward on right */}
+      <ForwardButton
+        onClick={() => navigate("/why-i-left")}
+        label="המשך"
+        isRtl={true}
+      />
+   
+    </>
+  ) : (
+    <>
+      {/* LTR: Back on left, Forward on right */}
+  
+      <ForwardButton
+        onClick={() => navigate("/why-i-left")}
+        label={lang === "ru" ? "Вперёд" : "Next"}
+        isRtl={false}
+      />
+    </>
+  )}
+</div>
+
+    {/* Navigation */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         </div>
       </section>

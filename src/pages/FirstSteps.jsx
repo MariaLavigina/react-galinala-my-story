@@ -72,10 +72,58 @@ const FirstSteps = () => {
             </div>
           ))}
 
-          <div className="flex justify-center gap-4 mt-24">
-            <BackwardButton onClick={() => navigate("/we-arrived")} />
-            <ForwardButton onClick={() => navigate("/life-in-israel")} />
-          </div>
+     
+
+
+
+
+
+{/* Navigation */}
+<div className="flex justify-center gap-4 mt-24">
+  {lang === "he" ? (
+    <>
+      {/* Hebrew: Forward on left, Backward on right */}
+      <ForwardButton
+        onClick={() => navigate("/life-in-israel")}
+        label="המשך"
+        isRtl={true}
+      />
+      <BackwardButton
+        onClick={() => navigate("/we-arrived")}
+        label="חזרה"
+        isRtl={true}
+      />
+    </>
+  ) : (
+    <>
+      {/* LTR: Back on left, Forward on right */}
+      <BackwardButton
+        onClick={() => navigate("/we-arrived")}
+        label={lang === "ru" ? "Назад" : "Back"}
+        isRtl={false}
+      />
+      <ForwardButton
+        onClick={() => navigate("/life-in-israel")}
+        label={lang === "ru" ? "Вперёд" : "Next"}
+        isRtl={false}
+      />
+    </>
+  )}
+</div>
+{/* Navigation */}
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
       </section>
 
