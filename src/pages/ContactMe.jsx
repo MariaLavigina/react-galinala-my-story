@@ -36,11 +36,9 @@ export default function ContactMe() {
     localStorage.setItem("lang", lang);
   }, [lang]);
 
-  // Smooth fade-in effect
+  // FIX: fade-in triggers on component mount, not window load
   useEffect(() => {
-    const handleLoad = () => setOpacity(1);
-    window.addEventListener("load", handleLoad);
-    return () => window.removeEventListener("load", handleLoad);
+    setOpacity(1);
   }, []);
 
   const handleSubmit = (e) => {

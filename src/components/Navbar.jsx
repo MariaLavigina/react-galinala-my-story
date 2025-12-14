@@ -40,17 +40,41 @@ const Navbar = ({ lang, setLang }) => {
         {/* ---------- Desktop Navigation Links ---------- */}
         <div className="hidden lg:flex items-center space-x-5 text-xl md:text-lg lg:text-[22px] navbartop w-full">
           <div className="flex space-x-5">
-            <a href="/index.html" className="px-6 text-white hover:text-gray-400">
-              {navLabels[lang][0]}
-            </a>
-            <span className="text-white rotate-[35deg]">|</span>
-            <a href="/index.html#link-to-four-chapters-desktop" className="px-6 text-white hover:text-gray-400">
-              {navLabels[lang][1]}
-            </a>
-            <span className="text-white rotate-[35deg]">|</span>
-            <a href="/contact-me.html" className="px-6 text-white hover:text-gray-400">
-              {navLabels[lang][2]}
-            </a>
+
+
+
+
+
+
+
+<Link to="/" className="px-6 text-white hover:text-gray-400">
+  {navLabels[lang][0]}
+</Link>
+
+<span className="text-white rotate-[35deg]">|</span>
+
+<Link
+  to="/"
+  onClick={() => {
+    const desktop = document.getElementById("chapters-desktop");
+    const mobile = document.getElementById("chapters-mobile");
+    const target = window.innerWidth >= 768 ? desktop : mobile;
+    if (target) target.scrollIntoView({ behavior: "smooth" });
+  }}
+  className="px-6 text-white hover:text-gray-400"
+>
+  {navLabels[lang][1]}
+</Link>
+
+<span className="text-white rotate-[35deg]">|</span>
+
+<Link to="/contact-me" className="px-6 text-white hover:text-gray-400">
+  {navLabels[lang][2]}
+</Link>
+
+
+
+
           </div>
 
 
@@ -144,12 +168,27 @@ const Navbar = ({ lang, setLang }) => {
     >
       {navLabels[lang][0]}
     </Link>
+
+
+
+
+    {/* Chapters link: scroll to correct section */}
     <Link
-      to="/#link-to-four-chapters-mobile"
+      to="/"
+      onClick={() => {
+        const desktop = document.getElementById("chapters-desktop");
+        const mobile = document.getElementById("chapters-mobile");
+        const target = window.innerWidth >= 768 ? desktop : mobile;
+        if (target) target.scrollIntoView({ behavior: "smooth" });
+      }}
       className="py-[15px] active:scale-95 active:bg-white/10 transition-transform duration-150 ease-in-out"
     >
       {navLabels[lang][1]}
     </Link>
+
+
+
+
     <Link
       to="/contact-me"
       className="py-[15px] active:scale-95 active:bg-white/10 transition-transform duration-150 ease-in-out"

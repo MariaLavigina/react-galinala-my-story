@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Navbar from '../components/Navbar';
 
 // Translation labels
@@ -64,13 +65,13 @@ export default function ThankYou() {
         </p>
 
         <div className="flex justify-center">
-          <a
-            href="/"
+          <Link
+            to="/"
             className="text-base sm:px-8 sm:py-4 px-6 py-3 border border-white rounded-full text-white font-normal font-['Roboto'] transition-all duration-200 ease-in-out hover:bg-white/10 hover:text-white active:bg-[#FADADD] active:text-[#412744] active:scale-[0.97] focus:outline-none"
             aria-label={labels[lang].home}
           >
             {labels[lang].home}
-          </a>
+          </Link>
         </div>
       </div>
     </div>

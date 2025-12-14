@@ -313,13 +313,26 @@ React.useEffect(() => {
       </section>
 
 
-      
+    
+
+
+
 
       {/* ---------- Chapters Section (desktop & tablet only) ---------- */}
-      <ChapterSectionDesktop lang={lang}/>
+<div id="chapters-desktop" >
+  <ChapterSectionDesktop lang={lang} />
+</div>
 
-      {/* ---------- Chapters Section (mobile only) ---------- */}
-      <ChapterSectionMobile lang={lang}/>
+{/* ---------- Chapters Section (mobile only) ---------- */}
+<div id="chapters-mobile" >
+  <ChapterSectionMobile lang={lang} />
+</div>
+
+
+
+
+
+      
 
       {/* ---------- Footer ---------- */}
       <Footer />
