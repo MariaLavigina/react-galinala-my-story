@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ForwardButton from "../components/ForwardButton.jsx";
 import BackwardButton from "../components/BackwardButton.jsx";
 import Navbar from "../components/Navbar.jsx";
@@ -12,25 +12,34 @@ const DecisionToLeave = () => {
 
 
 const [lang, setLang] = useState(() => {
-  return localStorage.getItem("lang") || "ru"; // default Russian
+  return localStorage.getItem("lang") || "ru"; 
 });
+
+  const navigate = useNavigate(); 
 
 React.useEffect(() => {
   localStorage.setItem("lang", lang);
 }, [lang]);
 
 
-
-  const navigate = useNavigate(); // for navigation 
   const content = textsDecisionToLeave[lang];
   const isRTL = lang === "he"; 
 
-  return (
-    <>
-      {/* Navbar with language selection */}
-      <Navbar lang={lang} setLang={setLang} />
 
-      {/* Spacer to account for fixed navbar height */}
+  // ⭐ Fade-in effect
+  const [opacity, setOpacity] = useState(0); 
+  useEffect(() => {
+    setOpacity(1); 
+  }, []);
+
+
+  return (
+
+
+
+        <div style={{ opacity, transition: "opacity 0.5s ease-in-out" }}>
+  
+      <Navbar lang={lang} setLang={setLang} />
       <div className="h-20"></div>
 
       {/* Main content section */}
@@ -192,13 +201,20 @@ React.useEffect(() => {
         </div>
       </section>
 
-      {/* Chapter sections (desktop & mobile) */}
-      <ChapterSectionDesktop lang={lang}/>
-      <ChapterSectionMobile lang={lang}/>
+       {/* ---------- Chapters Section (desktop & tablet only) ---------- */}
+<div id="chapters-desktop" >
+  <ChapterSectionDesktop lang={lang} />
+</div>
+
+{/* ---------- Chapters Section (mobile only) ---------- */}
+<div id="chapters-mobile" >
+  <ChapterSectionMobile lang={lang} />
+</div>
 
       {/* Footer */}
       <Footer />
-    </>
+      </div>
+  
   );
 };
 

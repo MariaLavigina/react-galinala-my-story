@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TextOneOnly from "../components/TextOneOnly.jsx";
 import ForwardButton from "../components/ForwardButton.jsx";
 import Navbar from "../components/Navbar.jsx";
@@ -7,21 +7,66 @@ import Footer from '../components/Footer.jsx';
 import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
 import { useNavigate } from "react-router-dom";
 import texts from "../text/index.js";
+import { useLocation } from "react-router-dom";
 
 
 const Index = () => {
 const [lang, setLang] = useState(() => {
-  return localStorage.getItem("lang") || "ru"; // default Russian
+  return localStorage.getItem("lang") || "ru"; 
 });
+
+
+    const navigate = useNavigate();
+      const location = useLocation();
 
 React.useEffect(() => {
   localStorage.setItem("lang", lang);
 }, [lang]);
 
-    const navigate = useNavigate();
+
+
+
+  // ⭐ Fade-in effect
+  const [opacity, setOpacity] = useState(0); 
+  useEffect(() => {
+    setOpacity(1); 
+  }, []);
+
+
+
+
+  // 🌟 Scroll to chapters if navigated from ContactMe or ThankYou
+  useEffect(() => {
+    if (location.state?.scrollToChapters) {
+      const desktop = document.getElementById("chapters-desktop");
+      const mobile = document.getElementById("chapters-mobile");
+      const target = window.innerWidth >= 768 ? desktop : mobile;
+      if (target) target.scrollIntoView({ behavior: "smooth" });
+      // Clear state to prevent repeated scroll on refresh
+      navigate(location.pathname, { replace: true, state: {} });
+    }
+  }, [location, navigate]);
+
+
+
+
+
+
+
 
   return (
     <>
+    
+
+      {/* ⭐ Wrap the entire page in a div for fade-in */}
+    <div style={{ opacity, transition: "opacity 0.5s ease-in-out" }}>
+
+
+
+
+
+
+
       <Navbar lang={lang} setLang={setLang} />
       <div className="h-20"></div>
 
@@ -336,6 +381,7 @@ React.useEffect(() => {
 
       {/* ---------- Footer ---------- */}
       <Footer />
+      </div>
     </>
   );
 };

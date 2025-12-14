@@ -77,7 +77,7 @@ const TextForthPage = ({ lang = "ru" }) => {
 
 
           <h1>My Masha</h1> 
-          <h2>A Story About Our First Days in Israel, Told by My Daughter</h2>
+          <h2>A story about our first days in Israel, told by my daughter, Masha</h2>
 
    <p>
     For most of my life, I’ve been strangely drawn to palm trees.  I didn’t really understand why - yes, they’re beautiful, but to me, there was always something special about them. Ever since I was a child, I kept drawing them again and again.
