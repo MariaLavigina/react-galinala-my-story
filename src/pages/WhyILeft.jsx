@@ -334,7 +334,7 @@ React.useEffect(() => {
   <ChapterSectionMobile lang={lang} />
 </div>
 
-      <Footer />
+    <Footer lang={lang} />
       </div>
 
   );

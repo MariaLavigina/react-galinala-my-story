@@ -380,7 +380,7 @@ React.useEffect(() => {
       
 
       {/* ---------- Footer ---------- */}
-      <Footer />
+      <Footer lang={lang} />
       </div>
     </>
   );

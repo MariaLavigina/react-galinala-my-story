@@ -432,7 +432,7 @@ React.useEffect(() => {
 </div>
 
       {/* ---------- Footer ---------- */}
-      <Footer />
+  <Footer lang={lang} />
    </div>
   );
 };

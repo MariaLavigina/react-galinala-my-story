@@ -156,7 +156,7 @@ React.useEffect(() => {
 
       <ChapterSectionDesktop lang={lang}/>
       <ChapterSectionMobile lang={lang}/>
-      <Footer />
+     <Footer lang={lang} />
    </div>
   );
 };

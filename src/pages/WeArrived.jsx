@@ -333,7 +333,7 @@ return (
 <div id="chapters-mobile" >
   <ChapterSectionMobile lang={lang} />
 </div>
-<Footer />
+<Footer lang={lang} />
 
 
   </div>
