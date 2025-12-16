@@ -8,6 +8,7 @@ import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
 import TextSecondPage from "../components/TextSecondPage.jsx";
 import textsWeArrived from "../text/textsWeArrived.js";
 import { useNavigate } from "react-router-dom";
+import ScrollDownButton from "../components/ScrollDownButton.jsx";
 
 const WeArrived = () => {
 
@@ -138,6 +139,10 @@ return (
 
 
 
+{/* ---------- Scroll Down Button ---------- */}
+<ScrollDownButton
+  targetId={window.innerWidth >= 768 ? "chapters-desktop" : "chapters-mobile"}
+/>
 
 
 

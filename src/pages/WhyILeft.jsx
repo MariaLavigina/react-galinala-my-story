@@ -8,6 +8,7 @@ import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
 import Footer from "../components/Footer.jsx";
 import { useNavigate } from "react-router-dom";
 import textsWhyILeft from "../text/textsWhyILeft.js";
+import ScrollDownButton from "../components/ScrollDownButton.jsx";
 
 
 
@@ -199,6 +200,11 @@ React.useEffect(() => {
 
 
 
+
+{/* ---------- Scroll Down Button ---------- */}
+<ScrollDownButton
+  targetId={window.innerWidth >= 768 ? "chapters-desktop" : "chapters-mobile"}
+/>
 
 
 

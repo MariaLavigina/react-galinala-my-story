@@ -9,6 +9,7 @@ import TextFifthPage from "../components/TextFifthPage.jsx";
 import { useNavigate } from "react-router-dom";
 import textsMothersStory from "../text/textxMothersStory.js";
 import Divider from "../components/Divider.jsx";
+import ScrollDownButton from "../components/ScrollDownButton.jsx";
 
 const MothersStory = () => {
 
@@ -131,6 +132,11 @@ React.useEffect(() => {
 
 
 
+
+{/* ---------- Scroll Down Button ---------- */}
+<ScrollDownButton
+  targetId={window.innerWidth >= 768 ? "chapters-desktop" : "chapters-mobile"}
+/>
 
 
 

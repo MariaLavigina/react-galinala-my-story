@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
 import { useNavigate } from "react-router-dom";
 import textsGalinaGrew from "../text/textsGalinaGrew.js";
+import ScrollDownButton from "../components/ScrollDownButton.jsx";
 
 const GalinaGrew = () => {
 
@@ -141,6 +142,10 @@ React.useEffect(() => {
 
 
 
+{/* ---------- Scroll Down Button ---------- */}
+<ScrollDownButton
+  targetId={window.innerWidth >= 768 ? "chapters-desktop" : "chapters-mobile"}
+/>
 
 
 

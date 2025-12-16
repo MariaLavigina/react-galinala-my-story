@@ -8,6 +8,7 @@ import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
 import TextForthPage from "../components/TextForthPage.jsx";
 import textsMashasFirstDays from "../text/textsMashasFirstDays.js";
 import { useNavigate } from "react-router-dom";
+import ScrollDownButton from "../components/ScrollDownButton.jsx";
 
 
 const MashasFirstDays = () => {
@@ -137,6 +138,10 @@ return (
 
 
 
+{/* ---------- Scroll Down Button ---------- */}
+<ScrollDownButton
+  targetId={window.innerWidth >= 768 ? "chapters-desktop" : "chapters-mobile"}
+/>
 
 
 

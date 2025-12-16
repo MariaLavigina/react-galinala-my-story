@@ -7,6 +7,7 @@ import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
 import Footer from "../components/Footer.jsx";
 import textsDecisionToLeave from "../text/textsDecisionToLeave";
 import { useNavigate } from "react-router-dom";
+import ScrollDownButton from "../components/ScrollDownButton.jsx";
 
 const DecisionToLeave = () => {
 
@@ -192,6 +193,11 @@ React.useEffect(() => {
 
 
 
+
+{/* ---------- Scroll Down Button ---------- */}
+<ScrollDownButton
+  targetId={window.innerWidth >= 768 ? "chapters-desktop" : "chapters-mobile"}
+/>
 
 
 

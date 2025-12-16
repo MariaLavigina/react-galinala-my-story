@@ -8,12 +8,15 @@ import ChapterSectionMobile from "../components/ChapterSectionMobile.jsx";
 import { useNavigate } from "react-router-dom";
 import texts from "../text/index.js";
 import { useLocation } from "react-router-dom";
+import ScrollDownButton from "../components/ScrollDownButton.jsx";
+
 
 
 const Index = () => {
 const [lang, setLang] = useState(() => {
   return localStorage.getItem("lang") || "ru"; 
 });
+
 
 
     const navigate = useNavigate();
@@ -46,6 +49,9 @@ React.useEffect(() => {
       navigate(location.pathname, { replace: true, state: {} });
     }
   }, [location, navigate]);
+
+
+
 
 
 
@@ -215,6 +221,10 @@ React.useEffect(() => {
 
 
 
+{/* ---------- Scroll Down Button ---------- */}
+<ScrollDownButton
+  targetId={window.innerWidth >= 768 ? "chapters-desktop" : "chapters-mobile"}
+/>
 
 
 

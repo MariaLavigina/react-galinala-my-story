@@ -65,6 +65,12 @@ const Navbar = ({ lang, setLang }) => {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-gradient-to-l from-[#9399F0] to-[#2C192C] h-20 font-[Roboto]">
+
+
+
+
+
+      
       <div className="flex items-center justify-between h-full px-6 text-white">
 
         {/* ---------- Desktop Navigation Links ---------- */}
@@ -142,6 +148,7 @@ const Navbar = ({ lang, setLang }) => {
 
         {/* ---------- Mobile Dropdown Menu ---------- */}
         <div
+         dir={lang === "he" ? "rtl" : "ltr"}
           className={`lg:hidden absolute top-16 left-4 w-80 bg-[#362222] shadow-2xl shadow-black/40 font-['Roboto'] text-white p-6 rounded-lg transition-transform duration-300 ease-in-out origin-top ${
             menuOpen ? "scale-y-100" : "hidden scale-y-0"
           }`}
