@@ -2,6 +2,12 @@
 
 const texts = {
   ru: {
+
+      alt: {
+    hero: `Обложка – фотография Галины Лавигиной, автора этого сайта`,
+    threeWomen: `Три женщины, три поколения: я, моя мама и моя дочка Маша`
+  },
+
     h1: `Мы имеем возможность, именно возможность и уже наше дело воспользоваться ею или нет.`,
     h2: `Про нашу алию`,
     h3: `Что значит “нашу”?`,
@@ -13,6 +19,7 @@ const texts = {
     h3_2: `Вот они эти три женщины`,
     photoDesktop: "images/desktop-images/threeWomen-desktop.jpg",
     photoMobile: "images/mobile-images/threeWomen-mobile.webp",
+    
 
     h4: `Для кого это написанно?`,
     paragraphs2: [
@@ -37,6 +44,13 @@ const texts = {
          /* -------- English -------- */
 
   en: {
+
+ alt: {
+    hero:  `Cover – Photograph of Galina Lavigina, the author of this website`,
+    threeWomen: "Three women, three generations: me, my mother, and my daughter Masha"
+
+  },
+
     h1: `We’re given the opportunity, the real opportunity, and it’s up to us whether we use it or not.`,
    pBetween: [
   `The title of my story, “Everybody Chooses for Oneself,” is inspired by the poignant poem “Каждый выбирает для себя” (“Everybody Chooses for Oneself...”) by Yuri Levitansky, a celebrated Soviet and Russian poet. His words remind me that each of us faces profound choices that shape our lives - and that no one else can make those decisions for us.`,
@@ -91,10 +105,18 @@ const texts = {
 
 
    he: {
-    h1: `יש לנו אפשרות — כן, אפשרות אמיתית — ומה שנעשה איתה, תלוי רק בנו. `,
+
+  alt: {
+    hero:  `עטיפה – צילום של גלינה לביגינה, מחברת האתר`,
+    threeWomen: "שלוש נשים, שלוש דורות: אני, אמא שלי ובתי מאשה"
+
+    
+  },
+
+    h1: `יש לנו אפשרות - כן, אפשרות אמיתית - ומה שנעשה איתה, תלוי רק בנו. `,
     pBetween: [
   `כותרת סיפורי, "כל אחד בוחר לעצמו", בהשראת השיר "Каждый выбирает для себя" ("כל אחד בוחר לעצמו...") מאת המשורר הסובייטי והרוסי הנודע יורי לוויטנסקי.
- מילותיו מזכירות לי שכל אחד מאיתנו ניצב בפני בחירות עמוקות שמעצבות את חייו — ושאיש מלבדנו אינו יכול לקבל את ההחלטות הללו במקומנו.`,
+ מילותיו מזכירות לי שכל אחד מאיתנו ניצב בפני בחירות עמוקות שמעצבות את חייו - ושאיש מלבדנו אינו יכול לקבל את ההחלטות הללו במקומנו.`,
   `זהו המסע שבו בחרתי לעזוב את ברית המועצות, האתגרים שעמדו בפניי בשנותיי הראשונות כעולה חדשה בישראל, והדרך שבה בניתי חיים חדשים מתוך אומץ ונחישות.`,
   `זהו גם סיפורם של רבים אחרים — אנשים שבוחרים בדרכים קשות בחיפוש אחר תקווה, שייכות, והתחלה חדשה.`
 ],

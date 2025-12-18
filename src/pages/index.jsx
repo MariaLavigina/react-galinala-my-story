@@ -14,13 +14,62 @@ import ScrollDownButton from "../components/ScrollDownButton.jsx";
 
 const Index = () => {
 const [lang, setLang] = useState(() => {
+
   return localStorage.getItem("lang") || "ru"; 
 });
 
 
 
     const navigate = useNavigate();
-      const location = useLocation();
+    const location = useLocation();
+
+
+
+
+
+// Keep lang in localStorage
+  // useEffect(() => {
+  //   localStorage.setItem("lang", lang);
+  // }, [lang]);
+
+
+
+
+
+  // Set page title and meta description based on language
+  useEffect(() => {
+    const titles = {
+    ru: `Галина Лавигина, моя история Алия из СССР в Израиль, 1990`,
+    en: `Galina Lavigina: My Story – Immigration from the USSR to Israel, 1990`,
+    he: `גלינה לביגינה, הסיפור שלי: עליה מברית המועצות לישראל, 1990`
+    };
+
+    const descriptions = {
+    ru: `Это история о том как трудный выбор обернулся неожиданным, невероятным счастьем.`,
+    en: `This is the story of how a difficult choice turned into unexpected, incredible happiness.`,
+    he: `זה סיפור על איך בחירה קשה הפכה לאושר בלתי צפוי ובלתי יאמן.`
+    };
+
+    document.title = titles[lang] || titles.en;
+
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) {
+      meta.setAttribute("content", descriptions[lang] || descriptions.en);
+    } else {
+      const newMeta = document.createElement("meta");
+      newMeta.name = "description";
+      newMeta.content = descriptions[lang] || descriptions.en;
+      document.head.appendChild(newMeta);
+    }
+  }, [lang]);
+
+
+
+
+
+
+
+    
 
 React.useEffect(() => {
   localStorage.setItem("lang", lang);
@@ -37,7 +86,6 @@ React.useEffect(() => {
 
 
 
-
   // 🌟 Scroll to chapters if navigated from ContactMe or ThankYou
   useEffect(() => {
     if (location.state?.scrollToChapters) {
@@ -51,24 +99,12 @@ React.useEffect(() => {
   }, [location, navigate]);
 
 
-
-
-
-
-
-
-
-
-
   return (
     <>
     
 
       {/* ⭐ Wrap the entire page in a div for fade-in */}
     <div style={{ opacity, transition: "opacity 0.5s ease-in-out" }}>
-
-
-
 
 
 
@@ -89,7 +125,7 @@ React.useEffect(() => {
         ? "images/desktop-images/hero-en-desktop.webp"
         : "images/desktop-images/hero-he-desktop.webp"
     }
-    alt="Hero"
+    alt={texts[lang].alt.hero}
     className="w-full h-auto block"
   />
 
@@ -99,7 +135,7 @@ React.useEffect(() => {
   <div className="relative w-full -mt-[380px]">
     <img
       src="images/desktop-images/wave-index-entro.svg"
-      alt="Wave"
+      alt="Lavender-colored wave background image"
       className="w-full h-auto block"
     />
 
@@ -137,7 +173,7 @@ React.useEffect(() => {
         ? "images/ipad-images/hero-en-ipad.jpg"
         : "images/ipad-images/hero-he-ipad.jpg"
     }
-    alt="Hero"
+     alt={texts[lang].alt.hero}
     className="w-full h-auto block"
   />
 
@@ -147,7 +183,7 @@ React.useEffect(() => {
   <div className="relative w-full -mt-[200px]">
     <img
       src="images/ipad-images/first-wave-tablet.svg"
-      alt="Wave"
+      alt="Lavender-colored wave background image"
       className="w-full h-auto block"
     />
    <div
@@ -181,14 +217,14 @@ React.useEffect(() => {
 <div className="block md:hidden w-full">
   <img
     src="images/mobile-images/hero-mobile.jpg"
-    alt="Hero"
+    alt={texts[lang].alt.hero}
     className="w-full h-auto block"
   />
 
   <div className="relative w-full -mt-[115px]">
     <img
       src="images/mobile-images/wave-index-mobile.svg"
-      alt="Wave"
+      alt="Lavender-colored wave background image"
       className="w-full h-auto block"
     />
 
@@ -289,12 +325,12 @@ React.useEffect(() => {
     {/* Responsive photo */}
     <img
       src={texts[lang].photoDesktop}
-      alt="------------"
+       alt={texts[lang].alt.threeWomen}
       className="w-full h-auto hidden sm:block mb-16"
     />
     <img
       src={texts[lang].photoMobile}
-      alt="--------------"
+       alt={texts[lang].alt.threeWomen}
       className="w-full h-auto block mb-16 sm:hidden"
     />
 

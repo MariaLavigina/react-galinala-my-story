@@ -107,9 +107,9 @@ return (
         alt="Hero"
         className="w-full h-auto block"
       />
-      <div className="relative w-full -mt-[70px]">
+      <div className="relative w-full -mt-[90px]">
         <img
-          src="images/mobile-images/Chapter-mashaStory-mobile.svg"
+          src="images/mobile-images/mashaStory-mobile.svg"
           alt="Wave"
           className="w-full h-auto block"
         />

@@ -163,7 +163,7 @@ React.useEffect(() => {
 
   <div className="relative w-full -mt-[115px]">
     <img
-      src="images/mobile-images/wave-whyILeft-entro-mobile.svg"
+      src="images/mobile-images/whyILeft-entro-mobile.svg"
       alt="Wave"
       className="w-full h-auto block"
     />
