@@ -24,6 +24,36 @@ React.useEffect(() => {
 }, [lang]);
 
 
+    // Set page title and meta description based on language
+    useEffect(() => {
+      const titles = {
+      ru: `Глава 2 - новый старт в Израиле`,
+      en: `Chapter 2 – A New Beginning in Israel`,
+      he: `פרק 2 – התחלה חדשה בישראל`
+      };
+  
+      const descriptions = {
+      ru: `Мое первое интервью и жизнь в еврейском поселении Текоа. `,
+      en: `My first interview and life in the Jewish settlement of Tekoa.`,
+      he: `הראיון הראשון שלי והחיים במושב תְּקוֹעַ`
+      };
+  
+        document.title = titles[lang] || titles.en;
+  
+
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) {
+      meta.setAttribute("content", descriptions[lang] || descriptions.en);
+    } else {
+      const newMeta = document.createElement("meta");
+      newMeta.name = "description";
+      newMeta.content = descriptions[lang] || descriptions.en;
+      document.head.appendChild(newMeta);
+    }
+     }, [lang]);
+    // Set page title and meta description based on language
+
+
 
   // ⭐ Fade-in effect
   const [opacity, setOpacity] = useState(0); 

@@ -1,6 +1,14 @@
 const textsWhyILeft = {
 
   ru: {
+
+
+      alt: {
+    hero: `Фотография обложки Галины Лавигиной - почему я уехала, глава 1`,
+  
+  },
+
+
     h1: "И я промолчала...",
  paragraphs1: [
   `В конце 70-годов мы с мужем хотели поехать к морю с выздоравливающим ребёнком не «дикарем», а по путевке - с гарантированным жильем и питанием. Такие путевки можно было купить (‘получить’) только в профсоюзах на работе. У мужа на работе сказали, что у них нет. Я пошла в свой факультетский профком. Там мне сказали, что и у них таких путёвок нет и посоветовали пойти в объединённый профком университета. `,
@@ -8,24 +16,35 @@ const textsWhyILeft = {
 Я к тому времени проработала в университете 10 лет, ни разу не пользовалась профкомовскими путевками. По формальным критериям они да были предназначены для меня. А профкомовский деятель, посмел сказать, не опасаясь, не стесняясь, прямым текстом , что путевки для блатных, для ‘нужных’, для ‘своих’ людей и что я должна это понимать. `,
   `Профком и деятель были последняя и единственная возможность свозить ребёнка к морю в более сносных условиях. И я промолчала...`
 ],
+
+
+
+
     imageTextSections: [
       {
         desktopSrc: "images/desktop-images/Moscow-State-University-01-desktop.jpg",
         mobileSrc: "images/mobile-images/Moscow-State-University-01-mobile.jpg",
-        alt: "Moscow State University",
-        text: "Московский государственный университет (МГУ), официально — Московский государственный университет имени М. В. Ломоносова — где я училась и работала"
+        alt:
+         `Московский государственный университет (МГУ)`,
+        he:  `אוניברסיטת מוסקבה, או בשמה הרשמי "אוניברסיטת מוסקבה הממלכתית על שם מיכאיל לומונוסוב -  היא האוניברסיטה הגדולה והעתיקה ביותר ברוסיה. `,
+        en: `Moscow University, or by its official name "Lomonosov Moscow State University," is the largest and oldest university in Russia.`,
+        text: `Московский государственный университет (МГУ), официально - Московский государственный университет имени М. В. Ломоносова`
       },
       {
         desktopSrc: "images/desktop-images/Moscow-State-University-02-desktop.jpg",
         mobileSrc: "images/mobile-images/MoscowUniversity02-mobile.jpg",
-        alt: "Moscow State University",
-        text: "Вот я посередине, спускаюсь по ступеням моего московского университета — во время одной из наших поездок в Москву, в Москве 2000-х. …и мои университетские ордена МГУ."
+        alt: `Московский государственный университет (МГУ)`,
+        he:  `אוניברסיטת מוסקבה, או בשמה הרשמי "אוניברסיטת מוסקבה הממלכתית על שם מיכאיל לומונוסוב -  היא האוניברסיטה הגדולה והעתיקה ביותר ברוסיה. `,
+        en: `Moscow University, or by its official name "Lomonosov Moscow State University," is the largest and oldest university in Russia.`,
+        text: `Вот я посередине, спускаюсь по ступеням моего московского университета — во время одной из наших поездок в Москву, в Москве 2000-х. …и мои университетские ордена МГУ.`
       },
       {
         desktopSrc: null,
         mobileSrc: "images/mobile-images/MoscowUniversity03-mobile.jpg",
-        alt: "Moscow State University",
-        text: "…и мои университетские ордена МГУ."
+        alt: `Московский государственный университет (МГУ)`,
+        he:  `אוניברסיטת מוסקבה, או בשמה הרשמי "אוניברסיטת מוסקבה הממלכתית על שם מיכאיל לומונוסוב -  היא האוניברסיטה הגדולה והעתיקה ביותר ברוסיה. `,
+        en: `Moscow University, or by its official name "Lomonosov Moscow State University," is the largest and oldest university in Russia.`,
+        text: `…и мои университетские ордена МГУ.`
       },
        
 
@@ -116,6 +135,15 @@ const textsWhyILeft = {
 
 
 he: {
+
+
+      alt: {
+    hero: `צילום העטיפה של גלינה לביגינה – למה עזבתי, פרק 1`,
+ 
+  },
+
+
+
   h1: `ואני שתקתי…`,
   paragraphs1: [
     `בסוף שנות ה-70, בעלי ואני רצינו לקחת את הילד שלנו, שהיה בדרך להחלמה, לים - לא לישון בטבע, אלא במלון או במקום מסודר עם חדר, לינה ומזון מובטחים.`,
@@ -267,6 +295,15 @@ he: {
 
 
  en: {
+
+
+      alt: {
+    hero: `Cover photo of Galina Lavigina – Why I Left, Chapter 1`,
+
+  },
+
+
+
     h1: `And I stayed silent...`,
     paragraphs1: [
       `In the late ‘70s, my husband and I wanted to take our recovering child to the seaside - not as wanderers, but with a proper voucher that guaranteed housing and meals. These vouchers could only be “gotten” through the workplace unions. My husband was told they

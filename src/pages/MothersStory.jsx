@@ -25,6 +25,39 @@ React.useEffect(() => {
 }, [lang]);
 
 
+
+    // Set page title and meta description based on language
+    useEffect(() => {
+      const titles = {
+      ru: `Глава 4 — История моей мамы через письма`,
+      en: `Chapter 4 – My mother’s story through her letters`,
+      he: `פרק 4 – הסיפור של אמי דרך המכתבים שלה`
+
+      };
+  
+      const descriptions = {
+      ru: `Моя мама не оставила мне богатства, но пример жизни я получила редкостный.`,
+      en: `My mother didn’t leave me material wealth, but she left me an extraordinary example of life`,
+      he: `אמא שלי לא השאירה לי עושר חומרי, אבל היא השאירה לי דוגמא לחיים יוצאת דופן`
+      };
+  
+        document.title = titles[lang] || titles.en;
+  
+
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) {
+      meta.setAttribute("content", descriptions[lang] || descriptions.en);
+    } else {
+      const newMeta = document.createElement("meta");
+      newMeta.name = "description";
+      newMeta.content = descriptions[lang] || descriptions.en;
+      document.head.appendChild(newMeta);
+    }
+     }, [lang]);
+    // Set page title and meta description based on language
+
+
+
   // ⭐ Fade-in effect
   const [opacity, setOpacity] = useState(0); 
   useEffect(() => {

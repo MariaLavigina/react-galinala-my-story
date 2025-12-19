@@ -21,8 +21,39 @@ React.useEffect(() => {
 }, [lang]);
 
 
+    // Set page title and meta description based on language
+    useEffect(() => {
+      const titles = {
+      ru: `Глава 1 - Из СССР в Израиль`,
+      en: `Chapter 1 – From the USSR to Israel`,
+      he: `פרק 1 – מברית המועצות לישראל`
 
-    const navigate = useNavigate(); 
+      };
+  
+      const descriptions = {
+      ru: `На этот раз она сказала: 'Всё будет хорошо'. Леденящие сны перестали сниться.`,
+      en: `This time, her words brought comfort: 'Everything will be fine.' The nightmares finally stopped, giving way to hope`,
+      he: `הפעם המילים שלה הביאו נחת: 'הכל יהיה בסדר.' הסיוטים נעלמו סוף סוף, ונתנו מקום לתקוה.`
+      };
+  
+        document.title = titles[lang] || titles.en;
+  
+
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) {
+      meta.setAttribute("content", descriptions[lang] || descriptions.en);
+    } else {
+      const newMeta = document.createElement("meta");
+      newMeta.name = "description";
+      newMeta.content = descriptions[lang] || descriptions.en;
+      document.head.appendChild(newMeta);
+    }
+     }, [lang]);
+    // Set page title and meta description based on language
+
+
+
+  const navigate = useNavigate(); 
   const content = textsOurJourney[lang];
   const isRTL = lang === "he";
 

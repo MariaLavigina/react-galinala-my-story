@@ -26,6 +26,36 @@ React.useEffect(() => {
 }, [lang]);
 
 
+    // Set page title and meta description based on language
+    useEffect(() => {
+      const titles = {
+      ru: `Глава 3 -  История Маши: первые дни в Израиле`,
+      en: `Chapter 3 – Masha’s Story: The First Days in Israel`,
+      he: `פרק 3 – הסיפור של מַאֲשֶׁה: הימים הראשונים בישראל`
+      };
+  
+      const descriptions = {
+      ru: `Жевательная резинка, чипсы, мочалки, война и походы в кино`,
+      en: `Chewing gum, chips, sponges, the war, and trips to the cinema`,
+      he: `מסטיקים, צ'יפס, ספוגים, המלחמה והביקורים בקולנוע`
+      };
+  
+        document.title = titles[lang] || titles.en;
+  
+
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) {
+      meta.setAttribute("content", descriptions[lang] || descriptions.en);
+    } else {
+      const newMeta = document.createElement("meta");
+      newMeta.name = "description";
+      newMeta.content = descriptions[lang] || descriptions.en;
+      document.head.appendChild(newMeta);
+    }
+     }, [lang]);
+    // Set page title and meta description based on language
+
+
 
   // ⭐ Fade-in effect
   const [opacity, setOpacity] = useState(0); 

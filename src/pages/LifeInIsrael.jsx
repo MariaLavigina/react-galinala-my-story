@@ -23,6 +23,37 @@ React.useEffect(() => {
 }, [lang]);
 
 
+
+    // Set page title and meta description based on language
+    useEffect(() => {
+      const titles = {
+      ru: `Глава 2 – Новая жизнь и хорошие люди на пути`,
+      en: `Chapter 2 – A New Life and Good People Along the Way`,
+      he: `פרק 2 – חיים חדשים ואנשים טובים בהמצע הדרך`
+      };
+  
+      const descriptions = {
+      ru: `новый дом и растущая уверенность, что уехать было правильным решением.`,
+      en: `A new home, and the growing certainty that leaving was the right choice.`,
+      he: `בית חדש והביטחון ההולך וגדל שעזיבה הייתה הבחירה הנכונה.`
+      };
+  
+        document.title = titles[lang] || titles.en;
+  
+
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) {
+      meta.setAttribute("content", descriptions[lang] || descriptions.en);
+    } else {
+      const newMeta = document.createElement("meta");
+      newMeta.name = "description";
+      newMeta.content = descriptions[lang] || descriptions.en;
+      document.head.appendChild(newMeta);
+    }
+     }, [lang]);
+    // Set page title and meta description based on language
+
+
   // ⭐ Fade-in effect
   const [opacity, setOpacity] = useState(0); 
   useEffect(() => {

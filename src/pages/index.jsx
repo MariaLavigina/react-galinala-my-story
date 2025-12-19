@@ -28,9 +28,9 @@ const [lang, setLang] = useState(() => {
 
 
 // Keep lang in localStorage
-  // useEffect(() => {
-  //   localStorage.setItem("lang", lang);
-  // }, [lang]);
+  useEffect(() => {
+    localStorage.setItem("lang", lang);
+  }, [lang]);
 
 
 
@@ -45,35 +45,26 @@ const [lang, setLang] = useState(() => {
     };
 
     const descriptions = {
-    ru: `Это история о том как трудный выбор обернулся неожиданным, невероятным счастьем.`,
+    ru: `Это история о том как трудный выбор обернулся неожиданным, невероятным счастьем.`,
     en: `This is the story of how a difficult choice turned into unexpected, incredible happiness.`,
     he: `זה סיפור על איך בחירה קשה הפכה לאושר בלתי צפוי ובלתי יאמן.`
     };
 
-    document.title = titles[lang] || titles.en;
+          document.title = titles[lang] || titles.en;
 
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) {
-      meta.setAttribute("content", descriptions[lang] || descriptions.en);
-    } else {
-      const newMeta = document.createElement("meta");
-      newMeta.name = "description";
-      newMeta.content = descriptions[lang] || descriptions.en;
-      document.head.appendChild(newMeta);
-    }
-  }, [lang]);
+  // Update meta description
+  const meta = document.querySelector('meta[name="description"]');
+  if (meta) {
+    meta.setAttribute("content", descriptions[lang] || descriptions.en);
+  } else {
+    const newMeta = document.createElement("meta");
+    newMeta.name = "description";
+    newMeta.content = descriptions[lang] || descriptions.en;
+    document.head.appendChild(newMeta);
+  }
+   }, [lang]);
+  // Set page title and meta description based on language
 
-
-
-
-
-
-
-    
-
-React.useEffect(() => {
-  localStorage.setItem("lang", lang);
-}, [lang]);
 
 
 

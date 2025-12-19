@@ -19,11 +19,49 @@ const [lang, setLang] = useState(() => {
 });
 
 
-      const navigate = useNavigate();
+const navigate = useNavigate();
 
 React.useEffect(() => {
   localStorage.setItem("lang", lang);
 }, [lang]);
+
+
+
+
+  // Set page title and meta description based on language
+  useEffect(() => {
+    const titles = {
+    ru: `Глава 1- почему я уехала`,
+    en: `Chapter 1 – Why I Left`,
+    he: `פרק 1 – למה עזבתי`
+    };
+
+    const descriptions = {
+    ru: `Что заставило меня в почти 50 лет с 7-летней дочкой и 83-летней больной мамой оставить всё и уехать в незнакомую страну.`,
+    en: `What made me, almost 50, leave everything behind and move to a foreign country with my 7-year-old daughter and my 83-year-old sick mother.`,
+    he: `מה גרם לי, כמעט בגיל 50, לעזוב הכל ולעבור למדינה זרה עם בתי בת ה-7 ואמי החולה בת ה-83.`
+    };
+
+      document.title = titles[lang] || titles.en;
+
+  // Update meta description
+  const meta = document.querySelector('meta[name="description"]');
+  if (meta) {
+    meta.setAttribute("content", descriptions[lang] || descriptions.en);
+  } else {
+    const newMeta = document.createElement("meta");
+    newMeta.name = "description";
+    newMeta.content = descriptions[lang] || descriptions.en;
+    document.head.appendChild(newMeta);
+  }
+   }, [lang]);
+  // Set page title and meta description based on language
+
+
+
+
+
+  // Set page title and meta description based on language
 
 
 
@@ -39,8 +77,6 @@ React.useEffect(() => {
   
 
   return (
-
-
 
     <div style={{ opacity, transition: "opacity 0.5s ease-in-out" }}> 
 

@@ -27,6 +27,40 @@ React.useEffect(() => {
 
 
 
+    // Set page title and meta description based on language
+    useEffect(() => {
+      const titles = {
+      ru: `Глава 2 - Прилет в Израиль`,
+      en: `Chapter 2 – Our Arrival in Israel`,
+      he: `פרק 2 – ההגעה שלנו לישראל`
+
+
+      };
+  
+      const descriptions = {
+      ru: `Прилетели мы в Израиль поздним вечером 17 июня 1990 года. Израиль встречал нас улыбками, детишек одарили сладостями.`,
+      en: `We arrived in Israel late in the evening on June 17, 1990. Israel welcomed us with smiles, and the children were given sweets.`,
+      he: `נחתנו בישראל מאוחר בערב, ב-17 ביוני 1990. ישראל קיבלה אותנו בחיוכים, והילדים קיבלו ממתקים.`
+      };
+  
+        document.title = titles[lang] || titles.en;
+  
+
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) {
+      meta.setAttribute("content", descriptions[lang] || descriptions.en);
+    } else {
+      const newMeta = document.createElement("meta");
+      newMeta.name = "description";
+      newMeta.content = descriptions[lang] || descriptions.en;
+      document.head.appendChild(newMeta);
+    }
+     }, [lang]);
+    // Set page title and meta description based on language
+
+
+
+
   // ⭐ Fade-in effect
   const [opacity, setOpacity] = useState(0); 
   useEffect(() => {

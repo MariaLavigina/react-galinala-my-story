@@ -23,6 +23,37 @@ React.useEffect(() => {
 }, [lang]);
 
 
+
+    // Set page title and meta description based on language
+    useEffect(() => {
+      const titles = {
+      ru: `Глава 1 - Уезжаем! Куда?`,
+      en: `Chapter 1 – We're Leaving! Where To?`,
+      he: `פרק 1 – אנחנו עוזבים! לאן?`
+      };
+  
+      const descriptions = {
+      ru: `Решить то я решила уехать, а страшно до жути. Снятся леденящие сны, будто падаю я в холодную, глубокую пропасть.`,
+      en: `I had made the decision to leave, but I was terrified to the core. I dreamed chilling dreams, as if I were falling into a cold, deep abyss.`,
+      he: `החלטתי לעזוב, אבל פחדי היה עצום. חלומות מצמררים רדפו אותי, כאילו אני נופלת לתהום קרה ועמוקה.`
+      };
+  
+        document.title = titles[lang] || titles.en;
+  
+
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) {
+      meta.setAttribute("content", descriptions[lang] || descriptions.en);
+    } else {
+      const newMeta = document.createElement("meta");
+      newMeta.name = "description";
+      newMeta.content = descriptions[lang] || descriptions.en;
+      document.head.appendChild(newMeta);
+    }
+     }, [lang]);
+    // Set page title and meta description based on language
+
+
   const content = textsDecisionToLeave[lang];
   const isRTL = lang === "he"; 
 
@@ -35,8 +66,6 @@ React.useEffect(() => {
 
 
   return (
-
-
 
         <div style={{ opacity, transition: "opacity 0.5s ease-in-out" }}>
   

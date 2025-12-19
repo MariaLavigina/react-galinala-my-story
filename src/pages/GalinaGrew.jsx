@@ -23,6 +23,40 @@ React.useEffect(() => {
 }, [lang]);
 
 
+
+
+    // Set page title and meta description based on language
+    useEffect(() => {
+      const titles = {
+      ru: `Глава 2 - Matrix`,
+      en: `Chapter 2 – Matrix`,
+      he: `פרק 2 – מטריקס`
+
+      };
+  
+      const descriptions = {
+      ru: `Конец работы у Нимрода. 18 лет в Матриксе - в большом коллективе.  Новые, прогрессивные  технологии. Увольнение, как свобода.`,
+      en: `18 years in the Matrix – in a large team. New, progressive technologies. Being let go felt like freedom.`,
+      he: `18 שנים במטריקס – בצוות גדול טכנולוגיות חדשות ומתקדמות הפיטורים הרגישו כמו חופש`
+
+      };
+  
+        document.title = titles[lang] || titles.en;
+  
+
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) {
+      meta.setAttribute("content", descriptions[lang] || descriptions.en);
+    } else {
+      const newMeta = document.createElement("meta");
+      newMeta.name = "description";
+      newMeta.content = descriptions[lang] || descriptions.en;
+      document.head.appendChild(newMeta);
+    }
+     }, [lang]);
+    // Set page title and meta description based on language
+
+
   // ⭐ Fade-in effect
   const [opacity, setOpacity] = useState(0); 
   useEffect(() => {
