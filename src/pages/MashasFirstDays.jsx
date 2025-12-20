@@ -74,13 +74,13 @@ return (
     {/* Desktop-only Hero */}
     <div className="w-full hidden lg:block">
       <img
-        src="images/desktop-images/chapter03-desktop.webp"
+        src="/images/desktop-images/chapter03-desktop.webp"
         alt="Hero"
         className="w-full h-auto block"
       />
       <div className="relative w-full -mt-[300px]">
         <img
-          src="images/desktop-images/entroChapter-thirdStory-Masha.svg"
+          src="/images/desktop-images/entroChapter-thirdStory-Masha.svg"
           alt="Wave"
           className="w-full h-auto block"
         />
@@ -104,13 +104,13 @@ return (
     {/* Tablet-only Hero */}
     <div className="hidden md:block lg:hidden w-full">
       <img
-        src="images/mobile-images/chapter03-masha-mobile.webp"
+        src="/images/mobile-images/chapter03-masha-mobile.webp"
         alt="Hero"
         className="w-full h-auto block"
       />
       <div className="relative w-full -mt-[120px]">
         <img
-          src="images/ipad-images/chapter04-masha-tablet.svg"
+          src="/images/ipad-images/chapter04-masha-tablet.svg"
           alt="Wave"
           className="w-full h-auto block"
         />
@@ -133,13 +133,13 @@ return (
     {/* Mobile-only Hero */}
     <div className="block md:hidden w-full">
       <img
-        src="images/mobile-images/chapter03-masha-mobile.webp"
+        src="/images/mobile-images/chapter03-masha-mobile.webp"
         alt="Hero"
         className="w-full h-auto block"
       />
       <div className="relative w-full -mt-[90px]">
         <img
-          src="images/mobile-images/mashaStory-mobile.svg"
+          src="/images/mobile-images/mashaStory-mobile.svg"
           alt="Wave"
           className="w-full h-auto block"
         />

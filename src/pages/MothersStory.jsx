@@ -77,13 +77,13 @@ React.useEffect(() => {
       {/* Desktop-only Hero */}
       <div className="w-full hidden lg:block">
         <img
-          src="images/desktop-images/chapter04-desktop.webp"
+          src="/images/desktop-images/chapter04-desktop.webp"
           alt="Hero"
           className="w-full h-auto block"
         />
         <div className="relative w-full -mt-[300px]">
           <img
-            src="images/desktop-images/entroChapter-thirdStory-Masha.svg"
+            src="/images/desktop-images/entroChapter-thirdStory-Masha.svg"
             alt="Wave"
             className="w-full h-auto block"
           />
@@ -107,13 +107,13 @@ React.useEffect(() => {
       {/* Tablet-only Hero */}
       <div className="hidden md:block lg:hidden w-full">
         <img
-          src="images/mobile-images/chapter04-grandmother-mobile.webp"
+          src="/images/mobile-images/chapter04-grandmother-mobile.webp"
           alt="Hero"
           className="w-full h-auto block"
         />
         <div className="relative w-full -mt-[120px]">
           <img
-            src="images/ipad-images/chapter04-masha-tablet.svg"
+            src="/images/ipad-images/chapter04-masha-tablet.svg"
             alt="Wave"
             className="w-full h-auto block"
           />
@@ -136,13 +136,13 @@ React.useEffect(() => {
       {/* Mobile-only Hero */}
       <div className="block md:hidden w-full">
         <img
-          src="images/mobile-images/chapter04-grandmother-mobile.webp"
+          src="/images/mobile-images/chapter04-grandmother-mobile.webp"
           alt="Hero"
           className="w-full h-auto block"
         />
         <div className="relative w-full -mt-[70px]">
           <img
-            src="images/mobile-images/entroChapter-myMothersStory-mobile.svg"
+            src="/images/mobile-images/entroChapter-myMothersStory-mobile.svg"
             alt="Wave"
             className="w-full h-auto block"
           />

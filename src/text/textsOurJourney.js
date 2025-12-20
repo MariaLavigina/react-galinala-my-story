@@ -7,8 +7,8 @@ ru: {
     sections: [
       {
         type: "image",
-        desktopSrc: "images/desktop-images/Masha-at-the-country-house-desktop.jpg",
-        mobileSrc: "images/mobile-images/Masha-at-the-country-house-mobile-01.jpg",
+        desktopSrc: "/images/desktop-images/Masha-at-the-country-house-desktop.jpg",
+        mobileSrc: "/images/mobile-images/Masha-at-the-country-house-mobile-01.jpg",
         alt: "------------",
         text: "---------------------------",
         fullWidth: false
@@ -45,8 +45,8 @@ ru: {
       },
       {
         type: "image",
-        desktopSrc: "images/desktop-images/our-luggage-desktop.webp",
-        mobileSrc: "images/mobile-images/our-luggage-mobile.jpg",
+        desktopSrc: "/images/desktop-images/our-luggage-desktop.webp",
+        mobileSrc: "/images/mobile-images/our-luggage-mobile.jpg",
         alt: "Наше почтовое отправление из Москвы в Реховот. Кстати, одеяло, на котором стоит мешок мы купили уже в Израиле по олимовской скидке. Пользуемся им до сих пор. “Эйхут меод това!”",
         text: "Наше почтовое отправление из Москвы в Реховот. Кстати, одеяло, на котором стоит мешок мы купили уже в Израиле по олимовской скидке. Пользуемся им до сих пор. “Эйхут меод това!”",
         fullWidth: false
@@ -70,7 +70,7 @@ ru: {
       },
       {
         type: "image",
-        desktopSrc: "images/visa.jpg",
+        desktopSrc: "/images/visa.jpg",
         mobileSrc: null,
         alt: "------------",
         text: null,
@@ -90,8 +90,8 @@ ru: {
 }, 
       {
         type: "image",
-        desktopSrc: "images/desktop-images/view-sunset-bet-shemesh-desktop.webp",
-        mobileSrc: "images/mobile-images/view-sunset-bet-shemesh-mobile.webp",
+        desktopSrc: "/images/desktop-images/view-sunset-bet-shemesh-desktop.webp",
+        mobileSrc: "/images/mobile-images/view-sunset-bet-shemesh-mobile.webp",
         alt: "--------------------",
         text: null,
         fullWidth: true
@@ -112,8 +112,8 @@ ru: {
       },
       {
         type: "image",
-        desktopSrc: "images/desktop-images/israel-visa-desktop.jpg",
-        mobileSrc: "images/mobile-images/israel-visa-mobile.jpg",
+        desktopSrc: "/images/desktop-images/israel-visa-desktop.jpg",
+        mobileSrc: "/images/mobile-images/israel-visa-mobile.jpg",
         alt: "------------",
         text: null,
         fullWidth: false
@@ -133,8 +133,8 @@ ru: {
       },
       {
         type: "image",
-        desktopSrc: "images/desktop-images/memory-keeper-desktop.jpg",
-        mobileSrc: "images/mobile-images/memory-keeper-mobile.jpg",
+        desktopSrc: "/images/desktop-images/memory-keeper-desktop.jpg",
+        mobileSrc: "/images/mobile-images/memory-keeper-mobile.jpg",
         alt: "------------",
         text: null,
         fullWidth: false
@@ -162,8 +162,8 @@ paragraphs1: [
     sections: [
       {
         type: "image",
-        desktopSrc: "images/desktop-images/Masha-at-the-country-house-desktop.jpg",
-        mobileSrc: "images/mobile-images/Masha-at-the-country-house-mobile-01.jpg",
+        desktopSrc: "/images/desktop-images/Masha-at-the-country-house-desktop.jpg",
+        mobileSrc: "/images/mobile-images/Masha-at-the-country-house-mobile-01.jpg",
         alt: "------------",
         text: "---------------------------",
         fullWidth: false
@@ -218,8 +218,8 @@ The waiting line for customs stretched on for months.`
       },
       {
         type: "image",
-        desktopSrc: "images/desktop-images/our-luggage-desktop.webp",
-        mobileSrc: "images/mobile-images/our-luggage-mobile.jpg",
+        desktopSrc: "/images/desktop-images/our-luggage-desktop.webp",
+        mobileSrc: "/images/mobile-images/our-luggage-mobile.jpg",
         alt: "------------",
         text: "Our package from Moscow to Rehovot, Israel. By the way, the blanket the bag is sitting on - we bought it in Israel with a special discount from Olim (immigrants to Israel). We still use it today. “Thank you very much!”",
         fullWidth: false
@@ -252,7 +252,7 @@ to the HR department.
       },
       {
         type: "image",
-        desktopSrc: "images/visa.jpg",
+        desktopSrc: "/images/visa.jpg",
         mobileSrc: null,
         alt: "------------",
         text: null,
@@ -284,8 +284,8 @@ to the HR department.
       },
       {
         type: "image",
-        desktopSrc: "images/desktop-images/view-sunset-bet-shemesh-desktop.webp",
-        mobileSrc: "images/mobile-images/view-sunset-bet-shemesh-mobile.webp",
+        desktopSrc: "/images/desktop-images/view-sunset-bet-shemesh-desktop.webp",
+        mobileSrc: "/images/mobile-images/view-sunset-bet-shemesh-mobile.webp",
         alt: "--------------------",
         text: null,
         fullWidth: true
@@ -315,8 +315,8 @@ to the HR department.
       },
       {
         type: "image",
-        desktopSrc: "images/desktop-images/israel-visa-desktop.jpg",
-        mobileSrc: "images/mobile-images/israel-visa-mobile.jpg",
+        desktopSrc: "/images/desktop-images/israel-visa-desktop.jpg",
+        mobileSrc: "/images/mobile-images/israel-visa-mobile.jpg",
         alt: "------------",
         text: null,
         fullWidth: false
@@ -352,8 +352,8 @@ to the HR department.
       },
       {
         type: "image",
-        desktopSrc: "images/desktop-images/memory-keeper-desktop.jpg",
-        mobileSrc: "images/mobile-images/memory-keeper-mobile.jpg",
+        desktopSrc: "/images/desktop-images/memory-keeper-desktop.jpg",
+        mobileSrc: "/images/mobile-images/memory-keeper-mobile.jpg",
         alt: "------------",
         text: null,
         fullWidth: false
@@ -373,8 +373,8 @@ to the HR department.
     sections: [
       {
         type: "image",
-        desktopSrc: "images/desktop-images/Masha-at-the-country-house-desktop.jpg",
-        mobileSrc: "images/mobile-images/Masha-at-the-country-house-mobile-01.jpg",
+        desktopSrc: "/images/desktop-images/Masha-at-the-country-house-desktop.jpg",
+        mobileSrc: "/images/mobile-images/Masha-at-the-country-house-mobile-01.jpg",
         alt: "------------",
         text: "---------------------------",
         fullWidth: false
@@ -426,8 +426,8 @@ to the HR department.
       },
       {
         type: "image",
-        desktopSrc: "images/desktop-images/our-luggage-desktop.webp",
-        mobileSrc: "images/mobile-images/our-luggage-mobile.jpg",
+        desktopSrc: "/images/desktop-images/our-luggage-desktop.webp",
+        mobileSrc: "/images/mobile-images/our-luggage-mobile.jpg",
         alt: "------------",
         text: "המטען הדוארי שלנו ממוסקבה לרחובות.",
         fullWidth: false
@@ -456,7 +456,7 @@ to the HR department.
       },
       {
         type: "image",
-        desktopSrc: "images/visa.jpg",
+        desktopSrc: "/images/visa.jpg",
         mobileSrc: null,
         alt: "------------",
         text: null,
@@ -486,8 +486,8 @@ to the HR department.
       },
       {
         type: "image",
-        desktopSrc: "images/desktop-images/view-sunset-bet-shemesh-desktop.webp",
-        mobileSrc: "images/mobile-images/view-sunset-bet-shemesh-mobile.webp",
+        desktopSrc: "/images/desktop-images/view-sunset-bet-shemesh-desktop.webp",
+        mobileSrc: "/images/mobile-images/view-sunset-bet-shemesh-mobile.webp",
         alt: "--------------------",
         text: null,
         fullWidth: true
@@ -510,8 +510,8 @@ to the HR department.
       },
       {
         type: "image",
-        desktopSrc: "images/desktop-images/israel-visa-desktop.jpg",
-        mobileSrc: "images/mobile-images/israel-visa-mobile.jpg",
+        desktopSrc: "/images/desktop-images/israel-visa-desktop.jpg",
+        mobileSrc: "/images/mobile-images/israel-visa-mobile.jpg",
         alt: "------------",
         text: null,
         fullWidth: false
@@ -545,8 +545,8 @@ to the HR department.
       },
       {
         type: "image",
-        desktopSrc: "images/desktop-images/memory-keeper-desktop.jpg",
-        mobileSrc: "images/mobile-images/memory-keeper-mobile.jpg",
+        desktopSrc: "/images/desktop-images/memory-keeper-desktop.jpg",
+        mobileSrc: "/images/mobile-images/memory-keeper-mobile.jpg",
         alt: "------------",
         text: null,
         fullWidth: false

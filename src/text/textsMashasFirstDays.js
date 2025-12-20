@@ -6,7 +6,7 @@ const textsMashasFirstDays = {
     {
       image: [
         {
-          desktopSrc: "images/desktop-images/palm-desktop.webp",
+          desktopSrc: "/images/desktop-images/palm-desktop.webp",
           mobileSrc: null,
           alt: "---",
           textDesktop: `Коллекция пальм, созданная в рамках очных занятий под руководством художника-графика Ильи Богдановского.`,
@@ -14,7 +14,7 @@ const textsMashasFirstDays = {
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/palm-mobile.webp",
+          mobileSrc: "/images/mobile-images/palm-mobile.webp",
           alt: "---",
           textDesktop: null,
           textMobile: `Коллекция пальм, созданная в рамках очных занятий под руководством художника-графика Ильи Богдановского.`,
@@ -39,7 +39,7 @@ const textsMashasFirstDays = {
     {
       image: [
         {
-          desktopSrc: "images/desktop-images/masha-moscow-desktop.jpg",
+          desktopSrc: "/images/desktop-images/masha-moscow-desktop.jpg",
           mobileSrc: null,
           alt: "Desktop cockroach",
           textDesktop: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
@@ -47,14 +47,14 @@ const textsMashasFirstDays = {
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/masha-moscow-01.jpg",
+          mobileSrc: "/images/mobile-images/masha-moscow-01.jpg",
           alt: "Mobile cockroach 1",
           textDesktop: null,
           textMobile: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/masha-moscow-02.jpg",
+          mobileSrc: "/images/mobile-images/masha-moscow-02.jpg",
           alt: "Mobile cockroach 2",
           textDesktop: null,
           textMobile: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
@@ -78,22 +78,22 @@ const textsMashasFirstDays = {
 {
   image: [
     {
-      desktopSrc: "images/wire-sponge-01.jpg",
-      mobileSrc: "images/wire-sponge-01.jpg",
+      desktopSrc: "/images/wire-sponge-01.jpg",
+      mobileSrc: "/images/wire-sponge-01.jpg",
       alt: "PLACEHOLDER_ALT_EN",
       textDesktop: "My chaos",
       textMobile: "My chaos",
     },
     {
-      desktopSrc: "images/wire-sponge-02.jpg",
-      mobileSrc: "images/wire-sponge-02.jpg",
+      desktopSrc: "/images/wire-sponge-02.jpg",
+      mobileSrc: "/images/wire-sponge-02.jpg",
       alt: "Second image alt text",
       textDesktop: "Description for second image",
       textMobile: "Description for second image",
     },
        {
-      desktopSrc: "images/wire-sponge-03.jpg",
-      mobileSrc: "images/wire-sponge-03.jpg",
+      desktopSrc: "/images/wire-sponge-03.jpg",
+      mobileSrc: "/images/wire-sponge-03.jpg",
       alt: "Second image alt text",
       textDesktop: "Description for second image",
       textMobile: "Description for second image",
@@ -112,8 +112,8 @@ const textsMashasFirstDays = {
     {
       image: [
         {
-          desktopSrc: "images/gulf-war.jpg",
-          mobileSrc: "images/gulf-war.jpg",
+          desktopSrc: "/images/gulf-war.jpg",
+          mobileSrc: "/images/gulf-war.jpg",
           alt: "Фото в Реховоте",
           textDesktop: "Автопортрет. Я в противогазе в нашей безопасной комнате... окна и дверь плотно заклеены малярным скотчем, на полу рядом с маленькой свечой лежит радио.  Rohovot,  январь   1991",
           textMobile: "Автопортрет. Я в противогазе в нашей безопасной комнате... окна и дверь плотно заклеены малярным скотчем, на полу рядом с маленькой свечой лежит радио.  Rohovot,  январь   1991",
@@ -138,8 +138,8 @@ const textsMashasFirstDays = {
     {
       image: [
         {
-          desktopSrc: "images/notes.jpg",
-          mobileSrc: "images/notes.jpg",
+          desktopSrc: "/images/notes.jpg",
+          mobileSrc: "/images/notes.jpg",
           alt: "Фото в Реховоте",
           textDesktop: "Автопортрет. Я в противогазе в нашей безопасной комнате... окна и дверь плотно заклеены малярным скотчем, на полу рядом с маленькой свечой лежит радио.  Rohovot,  январь   1991",
           textMobile: "Автопортрет. Я в противогазе в нашей безопасной комнате... окна и дверь плотно заклеены малярным скотчем, на полу рядом с маленькой свечой лежит радио.  Rohovot,  январь   1991",
@@ -164,7 +164,7 @@ const textsMashasFirstDays = {
     {
       image: [
         {
-          desktopSrc: "images/desktop-images/palm-desktop.webp",
+          desktopSrc: "/images/desktop-images/palm-desktop.webp",
           mobileSrc: null,
           alt: "---",
           textDesktop: `אוסף הדקלים שיצרתי: תחילה חרוטים על מתכת, ואחר כך הודפסו על נייר, במהלך שיעורים בהנחיית האמן־גרפיקאי איליה בוגדנובסקי.`,
@@ -172,7 +172,7 @@ const textsMashasFirstDays = {
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/palm-mobile.webp",
+          mobileSrc: "/images/mobile-images/palm-mobile.webp",
           alt: "---",
           textDesktop: null,
           textMobile: `אוסף הדקלים שיצרתי: תחילה חרוטים על מתכת, ואחר כך הודפסו על נייר, במהלך שיעורים בהנחיית האמן־גרפיקאי איליה בוגדנובסקי.`,
@@ -202,7 +202,7 @@ const textsMashasFirstDays = {
      {
       image: [
         {
-          desktopSrc: "images/desktop-images/masha-moscow-desktop.jpg",
+          desktopSrc: "/images/desktop-images/masha-moscow-desktop.jpg",
           mobileSrc: null,
           alt: "Desktop cockroach",
           textDesktop: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
@@ -210,14 +210,14 @@ const textsMashasFirstDays = {
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/masha-moscow-01.jpg",
+          mobileSrc: "/images/mobile-images/masha-moscow-01.jpg",
           alt: "Mobile cockroach 1",
           textDesktop: null,
           textMobile: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/masha-moscow-02.jpg",
+          mobileSrc: "/images/mobile-images/masha-moscow-02.jpg",
           alt: "Mobile cockroach 2",
           textDesktop: null,
           textMobile: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
@@ -243,22 +243,22 @@ const textsMashasFirstDays = {
     {
       image: [
         {
-          desktopSrc: "images/wire-sponge-01.jpg",
-          mobileSrc: "images/wire-sponge-01.jpg",
+          desktopSrc: "/images/wire-sponge-01.jpg",
+          mobileSrc: "/images/wire-sponge-01.jpg",
           alt: "ALT HE",
           textDesktop: "PLACEHOLDER HE",
           textMobile: "PLACEHOLDER HE",
         },
         {
-          desktopSrc: "images/wire-sponge-02.jpg",
-          mobileSrc: "images/wire-sponge-02.jpg",
+          desktopSrc: "/images/wire-sponge-02.jpg",
+          mobileSrc: "/images/wire-sponge-02.jpg",
           alt: "ALT HE",
           textDesktop: "PLACEHOLDER HE",
           textMobile: "PLACEHOLDER HE",
         },
         {
-          desktopSrc: "images/wire-sponge-03.jpg",
-          mobileSrc: "images/wire-sponge-03.jpg",
+          desktopSrc: "/images/wire-sponge-03.jpg",
+          mobileSrc: "/images/wire-sponge-03.jpg",
           alt: "ALT HE",
           textDesktop: "PLACEHOLDER HE",
           textMobile: "PLACEHOLDER HE",
@@ -281,8 +281,8 @@ const textsMashasFirstDays = {
     {
       image: [
         {
-          desktopSrc: "images/gulf-war.jpg",
-          mobileSrc: "images/gulf-war.jpg",
+          desktopSrc: "/images/gulf-war.jpg",
+          mobileSrc: "/images/gulf-war.jpg",
           alt: "Placeholder img HE",
           textDesktop: "דיוקן עצמי. אני עם מסיכת גז בחדר המוגן שלנו. החלונות והדלת אטומים היטב בסלוטייפ חום, ועל הרצפה ליד נר קטן מונח הרדיו. רחובות, ינואר 1991",
           textMobile: "דיוקן עצמי. אני עם מסיכת גז בחדר המוגן שלנו. החלונות והדלת אטומים היטב בסלוטייפ חום, ועל הרצפה ליד נר קטן מונח הרדיו. רחובות, ינואר 1991",
@@ -306,8 +306,8 @@ const textsMashasFirstDays = {
     {
       image: [
         {
-          desktopSrc: "images/notes.jpg",
-          mobileSrc: "images/notes.jpg",
+          desktopSrc: "/images/notes.jpg",
+          mobileSrc: "/images/notes.jpg",
           alt: "Placeholder img HE",
           textDesktop: "PLACEHOLDER HE",
           textMobile: "PLACEHOLDER HE",
@@ -332,7 +332,7 @@ const textsMashasFirstDays = {
     {
       image: [
         {
-          desktopSrc: "images/desktop-images/palm-desktop.webp",
+          desktopSrc: "/images/desktop-images/palm-desktop.webp",
           mobileSrc: null,
           alt: "---",
           textDesktop: `PLACEHOLDER TEXT`,
@@ -340,7 +340,7 @@ const textsMashasFirstDays = {
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/palm-mobile.webp",
+          mobileSrc: "/images/mobile-images/palm-mobile.webp",
           alt: "---",
           textDesktop: null,
           textMobile: `PLACEHOLDER TEXT`,
@@ -363,7 +363,7 @@ const textsMashasFirstDays = {
     {
       image: [
         {
-          desktopSrc: "images/desktop-images/masha-moscow-desktop.jpg",
+          desktopSrc: "/images/desktop-images/masha-moscow-desktop.jpg",
           mobileSrc: null,
           alt: "Desktop placeholder",
           textDesktop: "PLACEHOLDER TEXT",
@@ -371,14 +371,14 @@ const textsMashasFirstDays = {
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/masha-moscow-01.jpg",
+          mobileSrc: "/images/mobile-images/masha-moscow-01.jpg",
           alt: "Mobile placeholder 1",
           textDesktop: null,
           textMobile: "PLACEHOLDER TEXT",
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/masha-moscow-02.jpg",
+          mobileSrc: "/images/mobile-images/masha-moscow-02.jpg",
           alt: "Mobile placeholder 2",
           textDesktop: null,
           textMobile: "PLACEHOLDER TEXT",
@@ -402,22 +402,22 @@ const textsMashasFirstDays = {
     {
       image: [
         {
-          desktopSrc: "images/wire-sponge-01.jpg",
-          mobileSrc: "images/wire-sponge-01.jpg",
+          desktopSrc: "/images/wire-sponge-01.jpg",
+          mobileSrc: "/images/wire-sponge-01.jpg",
           alt: "PLACEHOLDER ALT",
           textDesktop: "PLACEHOLDER",
           textMobile: "PLACEHOLDER",
         },
         {
-          desktopSrc: "images/wire-sponge-02.jpg",
-          mobileSrc: "images/wire-sponge-02.jpg",
+          desktopSrc: "/images/wire-sponge-02.jpg",
+          mobileSrc: "/images/wire-sponge-02.jpg",
           alt: "PLACEHOLDER ALT",
           textDesktop: "PLACEHOLDER",
           textMobile: "PLACEHOLDER",
         },
         {
-          desktopSrc: "images/wire-sponge-03.jpg",
-          mobileSrc: "images/wire-sponge-03.jpg",
+          desktopSrc: "/images/wire-sponge-03.jpg",
+          mobileSrc: "/images/wire-sponge-03.jpg",
           alt: "PLACEHOLDER ALT",
           textDesktop: "PLACEHOLDER",
           textMobile: "PLACEHOLDER",
@@ -443,8 +443,8 @@ const textsMashasFirstDays = {
     {
       image: [
         {
-          desktopSrc: "images/gulf-war.jpg",
-          mobileSrc: "images/gulf-war.jpg",
+          desktopSrc: "/images/gulf-war.jpg",
+          mobileSrc: "/images/gulf-war.jpg",
           alt: "Placeholder image",
           textDesktop: "Self-Portrait. Me, in a gas mask, sitting in our sealed safe room. The windows and door tightly taped with brown masking tape. A small candle flickers on the floor beside a radio. Rehovot, January 1991.",
           textMobile: "Self-Portrait. Me, in a gas mask, sitting in our sealed safe room. The windows and door tightly taped with brown masking tape. A small candle flickers on the floor beside a radio. Rehovot, January 1991.",
@@ -472,8 +472,8 @@ Jurassic Park. It was in 1993, and I was 10 years old.
     {
       image: [
         {
-          desktopSrc: "images/notes.jpg",
-          mobileSrc: "images/notes.jpg",
+          desktopSrc: "/images/notes.jpg",
+          mobileSrc: "/images/notes.jpg",
           alt: "Placeholder image",
           textDesktop: "PLACEHOLDER TEXT",
           textMobile: "PLACEHOLDER TEXT",
@@ -481,10 +481,6 @@ Jurassic Park. It was in 1993, and I was 10 years old.
       ],
     },
   ],
-
-
-
-
 
 
 

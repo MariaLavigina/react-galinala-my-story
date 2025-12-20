@@ -15,10 +15,15 @@ import ThankYou from './pages/ThankYou.jsx';
 import ScrollToTop from './components/ScrollToTop.jsx';
 
 function App() {
+  // Conditional basename
+  const basename = import.meta.env.PROD
+    ? "/react-galinala-my-story/" // Only for production builds (e.g., GitHub Pages)
+    : "/";                        // Local dev
+
   return (
-    <Router basename="/react-galinala-my-story/">
-        <ScrollToTop />
-    <Routes>
+    <Router basename={basename}>
+      <ScrollToTop />
+      <Routes>
     <Route path="/" element={<Index />} /> 
     <Route path="/why-i-left" element={<WhyILeft />} />
     <Route path="/decision-to-leave" element={<DecisionToLeave/>} />

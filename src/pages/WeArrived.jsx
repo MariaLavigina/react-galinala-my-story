@@ -83,13 +83,13 @@ return (
     {/* Desktop-only Hero */}
     <div className="w-full hidden lg:block">
       <img
-        src="images/desktop-images/chapter02-desktop.webp"
+        src="/images/desktop-images/chapter02-desktop.webp"
         alt="Hero"
         className="w-full h-auto block"
       />
       <div className="relative w-full -mt-[300px]">
         <img
-          src="images/desktop-images/entroChapter-arrivedToIsrael-desktop.svg"
+          src="/images/desktop-images/entroChapter-arrivedToIsrael-desktop.svg"
           alt="Wave"
           className="w-full h-auto block"
         />
@@ -113,13 +113,13 @@ return (
     {/* Tablet-only Hero */}
     <div className="hidden md:block lg:hidden w-full">
       <img
-        src="images/mobile-images/chapter02-arrived-to-israel-mobile.webp"
+        src="/images/mobile-images/chapter02-arrived-to-israel-mobile.webp"
         alt="Hero"
         className="w-full h-auto block"
       />
       <div className="relative w-full -mt-[120px]">
         <img
-          src="images/ipad-images/chapter2-arrived.svg"
+          src="/images/ipad-images/chapter2-arrived.svg"
           alt="Wave"
           className="w-full h-auto block"
         />
@@ -141,13 +141,13 @@ return (
     {/* Mobile-only Hero */}
     <div className="block md:hidden w-full">
       <img
-        src="images/mobile-images/chapter02-arrived-to-israel-mobile.webp"
+        src="/images/mobile-images/chapter02-arrived-to-israel-mobile.webp"
         alt="Hero"
         className="w-full h-auto block"
       />
       <div className="relative w-full -mt-[70px]">
         <img
-          src="images/mobile-images/entro-secondPage-mobile.svg"
+          src="/images/mobile-images/entro-secondPage-mobile.svg"
           alt="Wave"
           className="w-full h-auto block"
         />
@@ -338,23 +338,6 @@ return (
 </div>
 
 {/* Navigation */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

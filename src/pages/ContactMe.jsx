@@ -65,7 +65,7 @@ export default function ContactMe() {
       <Navbar lang={lang} setLang={setLang} />
 
       <main lang={lang}>
-        <div className="w-full min-h-screen flex items-start sm:items-center justify-center pt-12 sm:pt-0 bg-[#302024] sm:bg-[url('./images/bg-contact-me-desktop.webp')] sm:bg-cover sm:bg-center sm:bg-no-repeat">
+        <div className="w-full min-h-screen flex items-start sm:items-center justify-center pt-12 sm:pt-0 bg-[#302024] sm:bg-[url('/images/bg-contact-me-desktop.webp')] sm:bg-cover sm:bg-center sm:bg-no-repeat">
           <div className="w-full max-w-[500px] mx-auto p-8 sm:bg-[#302024] sm:p-6 md:sm:p-8 lg:sm:p-10 sm:shadow-[0_0_25px_rgba(0,0,0,0.6)]">
             <form
               name="contact"

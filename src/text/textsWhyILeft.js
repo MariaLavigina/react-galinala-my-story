@@ -22,8 +22,8 @@ const textsWhyILeft = {
 
     imageTextSections: [
       {
-        desktopSrc: "images/desktop-images/Moscow-State-University-01-desktop.jpg",
-        mobileSrc: "images/mobile-images/Moscow-State-University-01-mobile.jpg",
+        desktopSrc: "/images/desktop-images/Moscow-State-University-01-desktop.jpg",
+        mobileSrc: "/images/mobile-images/Moscow-State-University-01-mobile.jpg",
         alt:
          `Московский государственный университет (МГУ)`,
         he:  `אוניברסיטת מוסקבה, או בשמה הרשמי "אוניברסיטת מוסקבה הממלכתית על שם מיכאיל לומונוסוב -  היא האוניברסיטה הגדולה והעתיקה ביותר ברוסיה. `,
@@ -31,8 +31,8 @@ const textsWhyILeft = {
         text: `Московский государственный университет (МГУ), официально - Московский государственный университет имени М. В. Ломоносова`
       },
       {
-        desktopSrc: "images/desktop-images/Moscow-State-University-02-desktop.jpg",
-        mobileSrc: "images/mobile-images/MoscowUniversity02-mobile.jpg",
+        desktopSrc: "/images/desktop-images/Moscow-State-University-02-desktop.jpg",
+        mobileSrc: "/images/mobile-images/MoscowUniversity02-mobile.jpg",
         alt: `Московский государственный университет (МГУ)`,
         he:  `אוניברסיטת מוסקבה, או בשמה הרשמי "אוניברסיטת מוסקבה הממלכתית על שם מיכאיל לומונוסוב -  היא האוניברסיטה הגדולה והעתיקה ביותר ברוסיה. `,
         en: `Moscow University, or by its official name "Lomonosov Moscow State University," is the largest and oldest university in Russia.`,
@@ -40,7 +40,7 @@ const textsWhyILeft = {
       },
       {
         desktopSrc: null,
-        mobileSrc: "images/mobile-images/MoscowUniversity03-mobile.jpg",
+        mobileSrc: "/images/mobile-images/MoscowUniversity03-mobile.jpg",
         alt: `Московский государственный университет (МГУ)`,
         he:  `אוניברסיטת מוסקבה, או בשמה הרשמי "אוניברסיטת מוסקבה הממלכתית על שם מיכאיל לומונוסוב -  היא האוניברסיטה הגדולה והעתיקה ביותר ברוסיה. `,
         en: `Moscow University, or by its official name "Lomonosov Moscow State University," is the largest and oldest university in Russia.`,
@@ -85,8 +85,8 @@ const textsWhyILeft = {
 
 
 {
-  desktopSrc: "images/matveevskaya-street.jpg",
-  mobileSrc: "images/matveevskaya-street.jpg",
+  desktopSrc: "/images/matveevskaya-street.jpg",
+  mobileSrc: "/images/matveevskaya-street.jpg",
   alt: "-------",
   text: "Наш подъезд в Москве"
 },
@@ -168,20 +168,20 @@ he: {
 
   imageTextSections: [
     {
-      desktopSrc: "images/desktop-images/Moscow-State-University-01-desktop.jpg",
-      mobileSrc: "images/mobile-images/Moscow-State-University-01-mobile.jpg",
+      desktopSrc: "/images/desktop-images/Moscow-State-University-01-desktop.jpg",
+      mobileSrc: "/images/mobile-images/Moscow-State-University-01-mobile.jpg",
       alt: "אוניברסיטת מוסקבה",
       text: "אוניברסיטת מוסקבה (MSU), רשמית — אוניברסיטת מוסקבה על שם מ. ו. לומונוסוב — שם למדתי ועבדתי"
     },
     {
-      desktopSrc: "images/desktop-images/Moscow-State-University-02-desktop.jpg",
-      mobileSrc: "images/mobile-images/MoscowUniversity02-mobile.jpg",
+      desktopSrc: "/images/desktop-images/Moscow-State-University-02-desktop.jpg",
+      mobileSrc: "/images/mobile-images/MoscowUniversity02-mobile.jpg",
       alt: "אוניברסיטת מוסקבה",
       text: "הנה אני באמצע, יורדת במדרגות של האוניברסיטה שלי במוסקבה — במהלך אחת מנסיעותינו למוסקבה בשנות ה־2000. …וגם העיטורים האוניברסיטאיים שלי."
     },
     {
       desktopSrc: null,
-      mobileSrc: "images/mobile-images/MoscowUniversity03-mobile.jpg",
+      mobileSrc: "/images/mobile-images/MoscowUniversity03-mobile.jpg",
       alt: "אוניברסיטת מוסקבה",
       text: "…וגם העיטורים האוניברסיטאיים שלי."
     },
@@ -242,8 +242,8 @@ he: {
     },
 
     {
-      desktopSrc: "images/matveevskaya-street.jpg",
-      mobileSrc: "images/matveevskaya-street.jpg",
+      desktopSrc: "/images/matveevskaya-street.jpg",
+      mobileSrc: "/images/matveevskaya-street.jpg",
       alt: "-----",
       text: "הכניסה לביתנו במוסקבה"
     },
@@ -316,20 +316,20 @@ didn’t have any at his job, so I went to my faculty’s union committee. There
     ],
     imageTextSections: [
       {
-        desktopSrc: "images/desktop-images/Moscow-State-University-01-desktop.jpg",
-        mobileSrc: "images/mobile-images/Moscow-State-University-01-mobile.jpg",
+        desktopSrc: "/images/desktop-images/Moscow-State-University-01-desktop.jpg",
+        mobileSrc: "/images/mobile-images/Moscow-State-University-01-mobile.jpg",
         alt: "Moscow State University",
         text: "Moscow State University (MSU) — where I studied and worked"
       },
       {
-        desktopSrc: "images/desktop-images/Moscow-State-University-02-desktop.jpg",
-        mobileSrc: "images/mobile-images/MoscowUniversity02-mobile.jpg",
+        desktopSrc: "/images/desktop-images/Moscow-State-University-02-desktop.jpg",
+        mobileSrc: "/images/mobile-images/MoscowUniversity02-mobile.jpg",
         alt: "Moscow State University",
         text: "That's me in the middle, walking down the steps of my university during one of our trips to Moscow in the 2000s …and my MSU awards."
       },
       {
         desktopSrc: null,
-        mobileSrc: "images/mobile-images/MoscowUniversity03-mobile.jpg",
+        mobileSrc: "/images/mobile-images/MoscowUniversity03-mobile.jpg",
         alt: "Moscow State University",
         text: "…and my MSU awards."
       },
@@ -369,8 +369,8 @@ for 30 years. You were robbed all those years.”
       },
 
       {
-        desktopSrc: "images/matveevskaya-street.jpg",
-        mobileSrc: "images/matveevskaya-street.jpg",
+        desktopSrc: "/images/matveevskaya-street.jpg",
+        mobileSrc: "/images/matveevskaya-street.jpg",
         alt: "Apartment entrance",
         text: "The entrance of our Moscow building"
       },

@@ -94,10 +94,10 @@ React.useEffect(() => {
   <img
     src={
       lang === "ru"
-        ? "images/desktop-images/chapter01-desktop.webp"
+        ? "/images/desktop-images/chapter01-desktop.webp"
         : lang === "en"
-        ? "images/desktop-images/chapter01-desktop.webp"
-        : "images/desktop-images/chapter01-desktop.webp"
+        ? "/images/desktop-images/chapter01-desktop.webp"
+        : "/images/desktop-images/chapter01-desktop.webp"
     }
     alt="Hero"
     className="w-full h-auto block"
@@ -110,7 +110,7 @@ React.useEffect(() => {
 
 
     <img
-      src="images/desktop-images/entroPage-chapterOne-desktop.svg"
+      src="/images/desktop-images/entroPage-chapterOne-desktop.svg"
       alt="Wave"
       className="w-full h-auto block"
     />
@@ -144,10 +144,10 @@ React.useEffect(() => {
   <img
     src={
       lang === "ru"
-        ? "images/mobile-images/chapter01-why-i-left-mobile.webp"
+        ? "/images/mobile-images/chapter01-why-i-left-mobile.webp"
         : lang === "en"
-        ? "images/mobile-images/chapter01-why-i-left-mobile.webp"
-        : "images/mobile-images/chapter01-why-i-left-mobile.webp"
+        ? "/images/mobile-images/chapter01-why-i-left-mobile.webp"
+        : "/images/mobile-images/chapter01-why-i-left-mobile.webp"
     }
     alt="Hero"
     className="w-full h-auto block"
@@ -158,7 +158,7 @@ React.useEffect(() => {
   
   <div className="relative w-full -mt-[200px]">
     <img
-      src="images/ipad-images/entroChapters-firstPage-ipad.svg"
+      src="/images/ipad-images/entroChapters-firstPage-ipad.svg"
       alt="Wave"
       className="w-full h-auto block"
     />
@@ -192,14 +192,14 @@ React.useEffect(() => {
 {/* ---------- Mobile-only Hero section ---------- */}
 <div className="block md:hidden w-full">
   <img
-    src="images/mobile-images/chapter01-why-i-left-mobile.webp"
+    src="/images/mobile-images/chapter01-why-i-left-mobile.webp"
     alt="Hero"
     className="w-full h-auto block"
   />
 
   <div className="relative w-full -mt-[115px]">
     <img
-      src="images/mobile-images/whyILeft-entro-mobile.svg"
+      src="/images/mobile-images/whyILeft-entro-mobile.svg"
       alt="Wave"
       className="w-full h-auto block"
     />

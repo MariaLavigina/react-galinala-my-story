@@ -92,7 +92,7 @@ const textsFirstSteps = {
 {
   image: [
   {
-    desktopSrc: "images/desktop-images/tikoa-desktop.jpg",
+    desktopSrc: "/images/desktop-images/tikoa-desktop.jpg",
     mobileSrc: null,
     alt: "---",
     textDesktop: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992.",
@@ -101,14 +101,14 @@ const textsFirstSteps = {
   // Mobile-only
   {
     desktopSrc: null,
-    mobileSrc: "images/mobile-images/tikoa-drawing-01.jpg",
+    mobileSrc: "/images/mobile-images/tikoa-drawing-01.jpg",
     alt: "---",
     textDesktop: null,
     textMobile: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992."
   },
   {
     desktopSrc: null,
-    mobileSrc: "images/mobile-images/tikoa-drawing-02.jpg",
+    mobileSrc: "/images/mobile-images/tikoa-drawing-02.jpg",
     alt: "---",
     textDesktop: null,
     textMobile: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992."
@@ -241,7 +241,7 @@ const textsFirstSteps = {
  {
   image: [
   {
-    desktopSrc: "images/desktop-images/tikoa-desktop.jpg",
+    desktopSrc: "/images/desktop-images/tikoa-desktop.jpg",
     mobileSrc: null,
     alt: "---",
     textDesktop: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע – הרודיון.",
@@ -250,14 +250,14 @@ const textsFirstSteps = {
   // Mobile-only
   {
     desktopSrc: null,
-    mobileSrc: "images/mobile-images/tikoa-drawing-01.jpg",
+    mobileSrc: "/images/mobile-images/tikoa-drawing-01.jpg",
     alt: "---",
     textDesktop: null,
     textMobile: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע – הרודיון."
   },
   {
     desktopSrc: null,
-    mobileSrc: "images/mobile-images/tikoa-drawing-02.jpg",
+    mobileSrc: "/images/mobile-images/tikoa-drawing-02.jpg",
     alt: "---",
     textDesktop: null,
     textMobile: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע – הרודיון. ."
@@ -410,7 +410,7 @@ Shapiro stipend. So really, I was a bargain.
 {
   image: [
   {
-    desktopSrc: "images/desktop-images/tikoa-desktop.jpg",
+    desktopSrc: "/images/desktop-images/tikoa-desktop.jpg",
     mobileSrc: null,
     alt: "---",
     textDesktop: `In the evenings, Masha and I would go out and draw the landscapes of Mount Tekoa – Herodion.
@@ -420,7 +420,7 @@ Herodion in Masha’s drawings 1992. `,
   // Mobile-only
   {
     desktopSrc: null,
-    mobileSrc: "images/mobile-images/tikoa-drawing-01.jpg",
+    mobileSrc: "/images/mobile-images/tikoa-drawing-01.jpg",
     alt: "---",
     textDesktop: null,
     textMobile: `In the evenings, Masha and I would go out and draw the landscapes of Mount Tekoa – Herodion.
@@ -428,7 +428,7 @@ Herodion in Masha’s drawings 1992. `,
   },
   {
     desktopSrc: null,
-    mobileSrc: "images/mobile-images/tikoa-drawing-02.jpg",
+    mobileSrc: "/images/mobile-images/tikoa-drawing-02.jpg",
     alt: "---",
     textDesktop: null,
     textMobile: `In the evenings, Masha and I would go out and draw the landscapes of Mount Tekoa – Herodion.

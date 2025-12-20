@@ -39,8 +39,8 @@ const textsGalinaGrew = {
 {
   image: [
     {
-      desktopSrc: "images/my-working-space-matrix.jpg",
-      mobileSrc: "images/my-working-space-matrix.jpg",
+      desktopSrc: "/images/my-working-space-matrix.jpg",
+      mobileSrc: "/images/my-working-space-matrix.jpg",
       alt: "----------",
       textDesktop: "Мой балаган",
       textMobile: "Мой балаган"
@@ -86,8 +86,8 @@ const textsGalinaGrew = {
     {
       image: [
         {
-          desktopSrc: "images/my-working-space-matrix.jpg",
-          mobileSrc: "images/my-working-space-matrix.jpg",
+          desktopSrc: "/images/my-working-space-matrix.jpg",
+          mobileSrc: "/images/my-working-space-matrix.jpg",
           alt: "PLACEHOLDER_ALT_HE",
           textDesktop: "הבלגן שלי",
           textMobile: "הבלגן שלי"
@@ -143,8 +143,8 @@ saw for the first time how enormous the first computers used to be.
     {
       image: [
         {
-          desktopSrc: "images/my-working-space-matrix.jpg",
-          mobileSrc: "images/my-working-space-matrix.jpg",
+          desktopSrc: "/images/my-working-space-matrix.jpg",
+          mobileSrc: "/images/my-working-space-matrix.jpg",
           alt: "PLACEHOLDER_ALT_EN",
           textDesktop: "My chaos",
           textMobile: "My chaos"

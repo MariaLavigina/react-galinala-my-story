@@ -7,7 +7,7 @@ paragraphs1: [
     sections: [
       {
         type: "image",
-        desktopSrc: "images/globe.jpg",
+        desktopSrc: "/images/globe.jpg",
         mobileSrc: null,
         alt: "Глобус",
         text: null
@@ -24,8 +24,8 @@ text: `“давайте Галя я Вам погадаю...”`
       },
       {
         type: "image",
-        desktopSrc: "images/desktop-images/sammer-house-desktop.jpg",
-        mobileSrc: "images/mobile-images/summer-house-mobile.jpg",
+        desktopSrc: "/images/desktop-images/sammer-house-desktop.jpg",
+        mobileSrc: "/images/mobile-images/summer-house-mobile.jpg",
         alt: "Летний дом",
         text: "---------------------------"
       },
@@ -68,8 +68,8 @@ text: `“давайте Галя я Вам погадаю...”`
 
       {
         type: "image",
-        desktopSrc: "images/desktop-images/bet-shemesh-hills-desktop.webp",
-        mobileSrc: "images/mobile-images/bet-shemesh-hills-mobile.webp",
+        desktopSrc: "/images/desktop-images/bet-shemesh-hills-desktop.webp",
+        mobileSrc: "/images/mobile-images/bet-shemesh-hills-mobile.webp",
         alt: "Живописная гора возле Бейт-Шемеша",
         text: null,
           fullWidth: true
@@ -104,7 +104,7 @@ We started the process: went to the American embassy, stood in some line, filled
     sections: [
       {
         type: "image",
-        desktopSrc: "images/globe.jpg",
+        desktopSrc: "/images/globe.jpg",
         mobileSrc: null,
         alt: "Globe",
         text: null
@@ -134,8 +134,8 @@ We started the process: went to the American embassy, stood in some line, filled
 
       {
         type: "image",
-        desktopSrc: "images/desktop-images/sammer-house-desktop.jpg",
-        mobileSrc: "images/mobile-images/summer-house-mobile.jpg",
+        desktopSrc: "/images/desktop-images/sammer-house-desktop.jpg",
+        mobileSrc: "/images/mobile-images/summer-house-mobile.jpg",
         alt: "Summer house",
         text: "---------------------------"
       },
@@ -197,8 +197,8 @@ Because of the denial, they became trapped: they couldn’t leave, but also coul
 
        {
         type: "image",
-        desktopSrc: "images/desktop-images/bet-shemesh-hills-desktop.webp",
-        mobileSrc: "images/mobile-images/bet-shemesh-hills-mobile.webp",
+        desktopSrc: "/images/desktop-images/bet-shemesh-hills-desktop.webp",
+        mobileSrc: "/images/mobile-images/bet-shemesh-hills-mobile.webp",
         alt: "Живописная гора возле Бейт-Шемеша",
         text: null,
           fullWidth: true
@@ -219,7 +219,7 @@ paragraphs1: [
     sections: [
       {
         type: "image",
-        desktopSrc: "images/globe.jpg",
+        desktopSrc: "/images/globe.jpg",
         mobileSrc: null,
         alt: "כדור הארץ",
         text: null
@@ -255,8 +255,8 @@ paragraphs1: [
       },
       {
         type: "image",
-        desktopSrc: "images/desktop-images/sammer-house-desktop.jpg",
-        mobileSrc: "images/mobile-images/summer-house-mobile.jpg",
+        desktopSrc: "/images/desktop-images/sammer-house-desktop.jpg",
+        mobileSrc: "/images/mobile-images/summer-house-mobile.jpg",
         alt: "בית קיץ",
         text: "---------------------------"
       },
@@ -308,8 +308,8 @@ paragraphs: [
 
           {
         type: "image",
-        desktopSrc: "images/desktop-images/bet-shemesh-hills-desktop.webp",
-        mobileSrc: "images/mobile-images/bet-shemesh-hills-mobile.webp",
+        desktopSrc: "/images/desktop-images/bet-shemesh-hills-desktop.webp",
+        mobileSrc: "/images/mobile-images/bet-shemesh-hills-mobile.webp",
         alt: "Живописная гора возле Бейт-Шемеша",
         text: null,
           fullWidth: true

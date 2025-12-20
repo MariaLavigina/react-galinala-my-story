@@ -75,7 +75,7 @@ export default function Footer({ lang = "ru" }) {
         <div className="flex items-center justify-center space-x-8">
           <a href={`mailto:${text.contactEmail}`} aria-label={text.emailLabel}>
             <img
-              src="images/social-sharing-buttons/envelope-solid-full.svg"
+              src="/images/social-sharing-buttons/envelope-solid-full.svg"
               alt={text.emailLabel}
               className="w-10 h-10"
             />
@@ -85,7 +85,7 @@ export default function Footer({ lang = "ru" }) {
             aria-label="WhatsApp"
           >
             <img
-              src="images/social-sharing-buttons/whatsapp-brands-solid.svg"
+              src="/images/social-sharing-buttons/whatsapp-brands-solid.svg"
               alt="WhatsApp"
               className="w-10 h-10"
             />
@@ -95,7 +95,7 @@ export default function Footer({ lang = "ru" }) {
             aria-label="Facebook"
           >
             <img
-              src="images/social-sharing-buttons/facebook-brands-solid-full.svg"
+              src="/images/social-sharing-buttons/facebook-brands-solid-full.svg"
               alt="Facebook"
               className="w-10 h-10"
             />

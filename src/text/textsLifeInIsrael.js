@@ -14,8 +14,8 @@ const textsLifeInIsrael = {
 {
   image: [
     {
-      desktopSrc: "images/bet-shemesh-flat.jpg",
-      mobileSrc: "images/bet-shemesh-flat.jpg",
+      desktopSrc: "/images/bet-shemesh-flat.jpg",
+      mobileSrc: "/images/bet-shemesh-flat.jpg",
       alt: "Теудат Оле",
       textDesktop: "-------",
       textMobile: "-------"
@@ -51,8 +51,8 @@ const textsLifeInIsrael = {
 {
   image: [
     {
-      desktopSrc: "images/mashas-note.jpg",
-      mobileSrc: "images/mashas-note.jpg",
+      desktopSrc: "/images/mashas-note.jpg",
+      mobileSrc: "/images/mashas-note.jpg",
       alt: "Теудат Оле",
       textDesktop: "-------",
       textMobile: "“Для моей мамочки. Не сердись на меня, Ты же меня любишь, правда? Но я разбила окно. Маша.”"
@@ -89,8 +89,8 @@ const textsLifeInIsrael = {
 {
   image: [
     {
-      desktopSrc: "images/my-family-the-four-of-us.jpg",
-      mobileSrc: "images/my-family-the-four-of-us.jpg",
+      desktopSrc: "/images/my-family-the-four-of-us.jpg",
+      mobileSrc: "/images/my-family-the-four-of-us.jpg",
       alt: "Теудат Оле",
       textDesktop: "-------",
       textMobile: "Лето 1946 года. Я в подмосковном  детском саду. Родительский день. Мама, папа и брат Саша приехали меня навестить. "
@@ -171,8 +171,8 @@ const textsLifeInIsrael = {
     {
       image: [
         {
-          desktopSrc: "images/bet-shemesh-flat.jpg",
-          mobileSrc: "images/bet-shemesh-flat.jpg",
+          desktopSrc: "/images/bet-shemesh-flat.jpg",
+          mobileSrc: "/images/bet-shemesh-flat.jpg",
           alt: "דירה חדשה",
           textDesktop: "-------",
           textMobile: "-------"
@@ -203,8 +203,8 @@ const textsLifeInIsrael = {
     {
       image: [
         {
-          desktopSrc: "images/mashas-note.jpg",
-          mobileSrc: "images/mashas-note.jpg",
+          desktopSrc: "/images/mashas-note.jpg",
+          mobileSrc: "/images/mashas-note.jpg",
           alt: "פתק קטן",
           textDesktop: "-------",
           textMobile: `---------`,
@@ -244,8 +244,8 @@ const textsLifeInIsrael = {
     {
       image: [
         {
-          desktopSrc: "images/my-family-the-four-of-us.jpg",
-          mobileSrc: "images/my-family-the-four-of-us.jpg",
+          desktopSrc: "/images/my-family-the-four-of-us.jpg",
+          mobileSrc: "/images/my-family-the-four-of-us.jpg",
           alt: "משפחה",
           textDesktop: "-------",
           textMobile: `תמונה ישנה מהילדות — רגע משפחתי פשוט ויקר.`
@@ -305,8 +305,8 @@ const textsLifeInIsrael = {
     {
       image: [
         {
-          desktopSrc: "images/bet-shemesh-flat.jpg",
-          mobileSrc: "images/bet-shemesh-flat.jpg",
+          desktopSrc: "/images/bet-shemesh-flat.jpg",
+          mobileSrc: "/images/bet-shemesh-flat.jpg",
           alt: "New Apartment",
           textDesktop: "-------",
           textMobile: "-------"
@@ -342,8 +342,8 @@ I admit, I thought maybe he was saving it for “someone of his own.” But then
     {
       image: [
         {
-          desktopSrc: "images/mashas-note.jpg",
-          mobileSrc: "images/mashas-note.jpg",
+          desktopSrc: "/images/mashas-note.jpg",
+          mobileSrc: "/images/mashas-note.jpg",
           alt: "Small Note",
           textDesktop: "-------",
           textMobile: `A short loving note.`,
@@ -382,8 +382,8 @@ tell her. So I said:
     {
       image: [
         {
-          desktopSrc: "images/my-family-the-four-of-us.jpg",
-          mobileSrc: "images/my-family-the-four-of-us.jpg",
+          desktopSrc: "/images/my-family-the-four-of-us.jpg",
+          mobileSrc: "/images/my-family-the-four-of-us.jpg",
           alt: "Family",
           textDesktop: "-------",
           textMobile: `An old childhood photo — a simple family moment.`

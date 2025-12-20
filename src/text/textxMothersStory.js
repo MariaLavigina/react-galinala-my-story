@@ -14,7 +14,7 @@ const textsMothersStory = {
     {
       image: [
         {
-          desktopSrc: "images/desktop-images/documentations-desktop.webp",
+          desktopSrc: "/images/desktop-images/documentations-desktop.webp",
           mobileSrc: null,
           alt: "---",
           textDesktop: `Мама как-то попросила купить ей блокнот —  С тех пор она вела его с нашими расходами, как бухгалтер на миссии. Даже мороженое за 3 шекеля туда попадало.`,
@@ -22,7 +22,7 @@ const textsMothersStory = {
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/documentations-mobile.jpg",
+          mobileSrc: "/images/mobile-images/documentations-mobile.jpg",
           alt: "---",
           textDesktop: null,
           textMobile: `Мама как-то попросила купить ей блокнот -  С тех пор она вела его с нашими расходами, как бухгалтер на миссии. Даже мороженое за 3 шекеля туда попадало.`,
@@ -65,7 +65,7 @@ const textsMothersStory = {
      
   ],
 
-  lettersDesktopImage: "images/desktop-images/lettersBackground.jpg",
+  lettersDesktopImage: "/images/desktop-images/lettersBackground.jpg",
 
   fullWidth: true
 },
@@ -73,7 +73,7 @@ const textsMothersStory = {
     // MOBILE letters section 
     {
       type: "lettersSectionMobile",
-      lettersMobileImage: "images/mobile-images/letters-mobile02.jpg",
+      lettersMobileImage: "/images/mobile-images/letters-mobile02.jpg",
       title: "Из писем моей мамы",
   subtitleLettersMobile: [
       `“Ну хлопоты эти радостные.  А я уж стараюсь, чтобы к ее приходу Маша была уложена и ужин готов.”`,
@@ -103,7 +103,7 @@ const textsMothersStory = {
     {
       image: [
         {
-          desktopSrc: "images/desktop-images/window-view-desktop.webp",
+          desktopSrc: "/images/desktop-images/window-view-desktop.webp",
           mobileSrc: null,
           alt: "---",
           textDesktop: `---`,
@@ -112,7 +112,7 @@ const textsMothersStory = {
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/window-view-mobile.webp",
+          mobileSrc: "/images/mobile-images/window-view-mobile.webp",
           alt: "---",
           textDesktop: null,
           textMobile: `--`,
@@ -136,24 +136,24 @@ const textsMothersStory = {
 {
   image: [
     {
-      desktopSrc: "images/Birthday-Magazines-01.jpg",
-      mobileSrc: "images/Birthday-Magazines-01.jpg",
+      desktopSrc: "/images/Birthday-Magazines-01.jpg",
+      mobileSrc: "/images/Birthday-Magazines-01.jpg",
       alt: "Second image alt text",
       textDesktop: "Description for second image",
       textMobile: "Description for second image",
       fullWidth: true 
     },
     {
-      desktopSrc: "images/Birthday-Magazines-02.jpg",
-      mobileSrc: "images/Birthday-Magazines-02.jpg",
+      desktopSrc: "/images/Birthday-Magazines-02.jpg",
+      mobileSrc: "/images/Birthday-Magazines-02.jpg",
       alt: "Second image alt text",
       textDesktop: "Description for second image",
       textMobile: "Description for second image",
       fullWidth: true
     },
     {
-      desktopSrc: "images/Birthday-Magazines-03.jpg",
-      mobileSrc: "images/Birthday-Magazines-03.jpg",
+      desktopSrc: "/images/Birthday-Magazines-03.jpg",
+      mobileSrc: "/images/Birthday-Magazines-03.jpg",
       alt: "Second image alt text",
       textDesktop: "Description for second image",
       textMobile: "Description for second image",
@@ -194,7 +194,7 @@ const textsMothersStory = {
     {
       image: [
         {
-          desktopSrc: "images/desktop-images/documentations-desktop.webp",
+          desktopSrc: "/images/desktop-images/documentations-desktop.webp",
           mobileSrc: null,
           alt: "---",
           textDesktop: `---------`,
@@ -202,7 +202,7 @@ const textsMothersStory = {
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/documentations-mobile.jpg",
+          mobileSrc: "/images/mobile-images/documentations-mobile.jpg",
           alt: "---",
           textDesktop: null,
           textMobile: `-------`,
@@ -242,12 +242,12 @@ const textsMothersStory = {
 
      
       ],
-       lettersDesktopImage: "images/desktop-images/lettersBackground.jpg",
+       lettersDesktopImage: "/images/desktop-images/lettersBackground.jpg",
       fullWidth: true
     },
     {
       type: "lettersSectionMobile",
-      lettersMobileImage: "images/mobile-images/letters-mobile02.jpg",
+      lettersMobileImage: "/images/mobile-images/letters-mobile02.jpg",
       title: `ממכתבים של אמא שלי`,
       subtitleLettersMobile: [
         `בינואר, חגגנו את יום הולדתה העשירי של מאשה, הגיעו כמה בנות ושני בנים, בלי מבוגרים בכלל. החלטנו להקדיש את כל היום לילדים, והם ניצלו את זה במלואו. אחת הבנות התחפשה לַליצן. מאשה, בחלוק מגבת כחול עם צעיף חם על הראש ומטרייה סגורה במקום מטה, התחפשה לבָּאבָה יַאגָה. היא התכופפה ורקדה במצב הזה בשמחה. בלוני האוויר, שהילדים דחפו, התרוממו בכל החדר, והילדים צחקו וצרחו מהתלהבות. עוד הייתה מוזיקה: הורי אחת הבנות הביאו אורגן, ובנוסף הפסנתר שלנו - תדמיינו איזה רעש, אבל כמה כיף היה. ואף אחד לא אמר לנו שהרעש חזק מדי, או שיש הרבה ילדים, או בכלל התלונן.`,
@@ -275,7 +275,7 @@ const textsMothersStory = {
     {
       image: [
         {
-          desktopSrc: "images/desktop-images/window-view-desktop.webp",
+          desktopSrc: "/images/desktop-images/window-view-desktop.webp",
           mobileSrc: null,
           alt: "---",
           textDesktop: `---`,
@@ -284,7 +284,7 @@ const textsMothersStory = {
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/window-view-mobile.webp",
+          mobileSrc: "/images/mobile-images/window-view-mobile.webp",
           alt: "---",
           textDesktop: null,
           textMobile: `--`,
@@ -307,24 +307,24 @@ const textsMothersStory = {
     {
       image: [
         {
-          desktopSrc: "images/Birthday-Magazines-01.jpg",
-          mobileSrc: "images/Birthday-Magazines-01.jpg",
+          desktopSrc: "/images/Birthday-Magazines-01.jpg",
+          mobileSrc: "/images/Birthday-Magazines-01.jpg",
           alt: "Second image alt text",
           textDesktop: "Description for second image",
           textMobile: "Description for second image",
           fullWidth: true 
         },
         {
-          desktopSrc: "images/Birthday-Magazines-02.jpg",
-          mobileSrc: "images/Birthday-Magazines-02.jpg",
+          desktopSrc: "/images/Birthday-Magazines-02.jpg",
+          mobileSrc: "/images/Birthday-Magazines-02.jpg",
           alt: "Second image alt text",
           textDesktop: "Description for second image",
           textMobile: "Description for second image",
           fullWidth: true
         },
         {
-          desktopSrc: "images/Birthday-Magazines-03.jpg",
-          mobileSrc: "images/Birthday-Magazines-03.jpg",
+          desktopSrc: "/images/Birthday-Magazines-03.jpg",
+          mobileSrc: "/images/Birthday-Magazines-03.jpg",
           alt: "Second image alt text",
           textDesktop: "Description for second image",
           textMobile: "Description for second image",
@@ -348,7 +348,7 @@ const textsMothersStory = {
     {
       image: [
          {
-          desktopSrc: "images/desktop-images/documentations-desktop.webp",
+          desktopSrc: "/images/desktop-images/documentations-desktop.webp",
           mobileSrc: null,
           alt: "---",
           textDesktop: ``,
@@ -356,7 +356,7 @@ const textsMothersStory = {
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/documentations-mobile.jpg",
+          mobileSrc: "/images/mobile-images/documentations-mobile.jpg",
           alt: "---",
           textDesktop: null,
           textMobile: ``,
@@ -388,7 +388,7 @@ const textsMothersStory = {
         `Thank you so much for your birthday wishes. We are thinking - actually, Galya wants to - gather our neighbors to celebrate my birthday. They are wonderful. Some are very attentive and caring toward us, and with others we have not just neighborly, but friendly relations. Interesting people, and I am endlessly glad to have them nearby. They even have an excellent library.`
       
       ],
-         lettersDesktopImage: "images/desktop-images/lettersBackground.jpg",
+         lettersDesktopImage: "/images/desktop-images/lettersBackground.jpg",
       fullWidth: true
     },
     {
@@ -411,7 +411,7 @@ const textsMothersStory = {
     {
       image: [
         {
-          desktopSrc: "images/desktop-images/window-view-desktop.webp",
+          desktopSrc: "/images/desktop-images/window-view-desktop.webp",
           mobileSrc: null,
           alt: "---",
           textDesktop: `---`,
@@ -420,7 +420,7 @@ const textsMothersStory = {
         },
         {
           desktopSrc: null,
-          mobileSrc: "images/mobile-images/window-view-mobile.webp",
+          mobileSrc: "/images/mobile-images/window-view-mobile.webp",
           alt: "---",
           textDesktop: null,
           textMobile: `--`,
@@ -440,24 +440,24 @@ const textsMothersStory = {
     {
       image: [
       {
-          desktopSrc: "images/Birthday-Magazines-01.jpg",
-          mobileSrc: "images/Birthday-Magazines-01.jpg",
+          desktopSrc: "/images/Birthday-Magazines-01.jpg",
+          mobileSrc: "/images/Birthday-Magazines-01.jpg",
           alt: "Second image alt text",
           textDesktop: "Description for second image",
           textMobile: "Description for second image",
           fullWidth: true 
         },
         {
-          desktopSrc: "images/Birthday-Magazines-02.jpg",
-          mobileSrc: "images/Birthday-Magazines-02.jpg",
+          desktopSrc: "/images/Birthday-Magazines-02.jpg",
+          mobileSrc: "/images/Birthday-Magazines-02.jpg",
           alt: "Second image alt text",
           textDesktop: "Description for second image",
           textMobile: "Description for second image",
           fullWidth: true
         },
         {
-          desktopSrc: "images/Birthday-Magazines-03.jpg",
-          mobileSrc: "images/Birthday-Magazines-03.jpg",
+          desktopSrc: "/images/Birthday-Magazines-03.jpg",
+          mobileSrc: "/images/Birthday-Magazines-03.jpg",
           alt: "Second image alt text",
           textDesktop: "Description for second image",
           textMobile: "Description for second image",

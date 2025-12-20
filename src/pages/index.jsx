@@ -112,10 +112,10 @@ const [lang, setLang] = useState(() => {
   <img
     src={
       lang === "ru"
-        ? "images/desktop-images/hero-ru-desktop.webp"
+        ? "/images/desktop-images/hero-ru-desktop.webp"
         : lang === "en"
-        ? "images/desktop-images/hero-en-desktop.webp"
-        : "images/desktop-images/hero-he-desktop.webp"
+        ? "/images/desktop-images/hero-en-desktop.webp"
+        : "/images/desktop-images/hero-he-desktop.webp"
     }
     alt={texts[lang].alt.hero}
     className="w-full h-auto block"
@@ -126,7 +126,7 @@ const [lang, setLang] = useState(() => {
 
   <div className="relative w-full -mt-[380px]">
     <img
-      src="images/desktop-images/wave-index-entro.svg"
+      src="/images/desktop-images/wave-index-entro.svg"
       alt="Lavender-colored wave background image"
       className="w-full h-auto block"
     />
@@ -160,10 +160,10 @@ const [lang, setLang] = useState(() => {
   <img
     src={
       lang === "ru"
-        ? "images/ipad-images/hero-ru-ipad.webp"
+        ? "/images/ipad-images/hero-ru-ipad.webp"
         : lang === "en"
-        ? "images/ipad-images/hero-en-ipad.jpg"
-        : "images/ipad-images/hero-he-ipad.jpg"
+        ? "/images/ipad-images/hero-en-ipad.jpg"
+        : "/images/ipad-images/hero-he-ipad.jpg"
     }
      alt={texts[lang].alt.hero}
     className="w-full h-auto block"
@@ -174,7 +174,7 @@ const [lang, setLang] = useState(() => {
   
   <div className="relative w-full -mt-[200px]">
     <img
-      src="images/ipad-images/first-wave-tablet.svg"
+      src="/images/ipad-images/first-wave-tablet.svg"
       alt="Lavender-colored wave background image"
       className="w-full h-auto block"
     />
@@ -208,14 +208,14 @@ const [lang, setLang] = useState(() => {
 {/* ---------- Mobile-only Hero section ---------- */}
 <div className="block md:hidden w-full">
   <img
-    src="images/mobile-images/hero-mobile.jpg"
+    src="/images/mobile-images/hero-mobile.jpg"
     alt={texts[lang].alt.hero}
     className="w-full h-auto block"
   />
 
   <div className="relative w-full -mt-[115px]">
     <img
-      src="images/mobile-images/wave-index-mobile.svg"
+      src="/images/mobile-images/wave-index-mobile.svg"
       alt="Lavender-colored wave background image"
       className="w-full h-auto block"
     />

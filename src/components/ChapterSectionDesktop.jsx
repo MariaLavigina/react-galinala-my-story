@@ -3,22 +3,22 @@ import { Link } from "react-router-dom";
 
 const chapters = {
   ru: [
-    { number: "01", title: <>Почему я <br />уехала</>, img: "images/heading-chapter01.webp", link: "/why-i-left" },
-    { number: "02", title: <>Прилетели мы <br />в Израиль</>, img: "images/heading-chapter02.webp", link: "/we-arrived" },
-    { number: "03", title: <>Mоя <br />Маша</>, img: "images/heading-chapter03.webp", link: "/mashas-first-days" },
-    { number: "04", title: <>Mоя <br />мама</>, img: "images/heading-chapter04.webp", link: "/mothers-story" },
+    { number: "01", title: <>Почему я <br />уехала</>, img: "/images/heading-chapter01.webp", link: "/why-i-left" },
+    { number: "02", title: <>Прилетели мы <br />в Израиль</>, img: "/images/heading-chapter02.webp", link: "/we-arrived" },
+    { number: "03", title: <>Mоя <br />Маша</>, img: "/images/heading-chapter03.webp", link: "/mashas-first-days" },
+    { number: "04", title: <>Mоя <br />мама</>, img: "/images/heading-chapter04.webp", link: "/mothers-story" },
   ],
   en: [
-    { number: "01", title: <>Why I <br />left</>, img: "images/heading-chapter01.webp", link: "/why-i-left" },
-    { number: "02", title: <>We arrived <br />in Israel</>, img: "images/heading-chapter02.webp", link: "/we-arrived" },
-    { number: "03", title: <>My <br />Masha</>, img: "images/heading-chapter03.webp", link: "/mashas-first-days" },
-    { number: "04", title: <>My <br />mother</>, img: "images/heading-chapter04.webp", link: "/mothers-story" },
+    { number: "01", title: <>Why I <br />left</>, img: "/images/heading-chapter01.webp", link: "/why-i-left" },
+    { number: "02", title: <>We arrived <br />in Israel</>, img: "/images/heading-chapter02.webp", link: "/we-arrived" },
+    { number: "03", title: <>My <br />Masha</>, img: "/images/heading-chapter03.webp", link: "/mashas-first-days" },
+    { number: "04", title: <>My <br />mother</>, img: "/images/heading-chapter04.webp", link: "/mothers-story" },
   ],
   he: [
-    { number: "01", title: <>למה <br />עזבתי</>, img: "images/heading-chapter01.webp", link: "/why-i-left" },
-    { number: "02", title: <>הגענו <br />לישראל</>, img: "images/heading-chapter02.webp", link: "/we-arrived" },
-    { number: "03", title: <>הבת שלי <br />מאשה</>, img: "images/heading-chapter03.webp", link: "/mashas-first-days" },
-    { number: "04", title: <>אמא <br />שלי</>, img: "images/heading-chapter04.webp", link: "/mothers-story" },
+    { number: "01", title: <>למה <br />עזבתי</>, img: "/images/heading-chapter01.webp", link: "/why-i-left" },
+    { number: "02", title: <>הגענו <br />לישראל</>, img: "/images/heading-chapter02.webp", link: "/we-arrived" },
+    { number: "03", title: <>הבת שלי <br />מאשה</>, img: "/images/heading-chapter03.webp", link: "/mashas-first-days" },
+    { number: "04", title: <>אמא <br />שלי</>, img: "/images/heading-chapter04.webp", link: "/mothers-story" },
   ],
 };
 
@@ -35,7 +35,7 @@ const ChapterSectionDesktop = ({ lang = "ru" }) => {
     <div className="relative w-full hidden md:block overflow-hidden">
       {/* SVG Background */}
       <img
-        src="images/desktop-images/all-chapters-wave.svg"
+        src="/images/desktop-images/all-chapters-wave.svg"
         alt="All Chapters Wave"
         className="w-full h-auto block"
       />
