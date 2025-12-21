@@ -112,10 +112,10 @@ const [lang, setLang] = useState(() => {
   <img
     src={
       lang === "ru"
-        ? "/images/desktop-images/hero-ru-desktop.webp"
+        ? "/images/desktop-images/ru-hero-index-desktop.webp"
         : lang === "en"
-        ? "/images/desktop-images/hero-en-desktop.webp"
-        : "/images/desktop-images/hero-he-desktop.webp"
+        ? "/images/desktop-images/en-hero-index-desktop.webp"
+        : "/images/desktop-images/he-hero-index-desktop.webp"
     }
     alt={texts[lang].alt.hero}
     className="w-full h-auto block"
@@ -130,6 +130,13 @@ const [lang, setLang] = useState(() => {
       alt="Lavender-colored wave background image"
       className="w-full h-auto block"
     />
+
+
+
+
+
+
+    
 
 <div
   dir={lang === "he" ? "rtl" : "ltr"}
@@ -160,10 +167,10 @@ const [lang, setLang] = useState(() => {
   <img
     src={
       lang === "ru"
-        ? "/images/ipad-images/hero-ru-ipad.webp"
+        ? "/images/ipad-images/ru-hero-index-ipad.webp"
         : lang === "en"
-        ? "/images/ipad-images/hero-en-ipad.jpg"
-        : "/images/ipad-images/hero-he-ipad.jpg"
+        ? "/images/ipad-images/en-hero-index-ipad.webp"
+        : "/images/ipad-images/he-hero-index-ipad.webp"
     }
      alt={texts[lang].alt.hero}
     className="w-full h-auto block"
@@ -186,7 +193,7 @@ const [lang, setLang] = useState(() => {
     ${lang === "he" ? "font-rubik" : ""}
     [&>h1]:text-[5vw]
     [&>h3]:text-[3.5vw] [&>h3]:mt-8 [&>h3]:mb-12
-    [&>p]:text-[2vw] [&>p]:mt-6 leading-relaxed
+    [&>p]:text-[2.4vw] [&>p]:mt-6 leading-relaxed
     ${lang === "ru" 
       ? "[&>h2]:text-[11vw]" 
       : "[&>h2]:text-[7vw]"}

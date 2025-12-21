@@ -80,19 +80,48 @@ return (
     <Navbar lang={lang} setLang={setLang} />
     <div className="h-20"></div>
 
+
+
     {/* Desktop-only Hero */}
     <div className="w-full hidden lg:block">
-      <img
-        src="/images/desktop-images/chapter02-desktop.webp"
-        alt="Hero"
-        className="w-full h-auto block"
-      />
-      <div className="relative w-full -mt-[300px]">
+
+
+
+      
+    <img
+  src={
+    lang === "ru"
+      ? "/images/desktop-images/ru-chapter-02-desktop.webp"
+      : lang === "en"
+      ? "/images/desktop-images/en-chapter-02-desktop.webp"
+      : "/images/desktop-images/he-chapter-02-desktop.webp"
+  }
+  alt={textForLang?.alt?.hero || "Hero"}
+  className="w-full h-auto block"
+/>
+
+
+      
+      <div className="relative w-full -mt-[260px]">
         <img
           src="/images/desktop-images/entroChapter-arrivedToIsrael-desktop.svg"
           alt="Wave"
           className="w-full h-auto block"
         />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div
           dir={lang === "he" ? "rtl" : "ltr"}
           className={`
@@ -129,8 +158,8 @@ return (
             absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white 
             w-[85%] px-2 sm:px-4
             ${lang === "he" ? "font-rubik" : ""}
-            [&>h1]:text-[4vw] [&>h2]:text-[7vw] [&>h3]:text-[3.5vw] [&>h3]:mt-8 [&>h3]:mb-12
-            [&>p]:text-[2vw] [&>p]:mt-6 leading-relaxed
+            [&>h1]:text-[5vw] [&>h2]:text-[7vw] [&>h3]:text-[3.5vw] [&>h3]:mt-8 [&>h3]:mb-12
+            [&>p]:text-[2.8vw] [&>p]:mt-6 leading-relaxed
           `}
         >
           <TextSecondPage lang={lang} />

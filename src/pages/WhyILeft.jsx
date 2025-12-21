@@ -94,10 +94,10 @@ React.useEffect(() => {
   <img
     src={
       lang === "ru"
-        ? "/images/desktop-images/chapter01-desktop.webp"
+        ? "/images/desktop-images/ru-chapter-01-desktop.webp"
         : lang === "en"
-        ? "/images/desktop-images/chapter01-desktop.webp"
-        : "/images/desktop-images/chapter01-desktop.webp"
+        ? "/images/desktop-images/en-chapter-01-desktop.webp"
+        : "/images/desktop-images/he-chapter-01-desktop.webp"
     }
     alt="Hero"
     className="w-full h-auto block"
@@ -170,7 +170,7 @@ React.useEffect(() => {
     ${lang === "he" ? "font-rubik" : ""}
     [&>h1]:text-[3.5vw]
     [&>h3]:text-[3.5vw] [&>h3]:mt-8 [&>h3]:mb-12
-    [&>p]:text-[2vw] [&>p]:mt-6 leading-relaxed
+    [&>p]:text-[2.4vw] [&>p]:mt-6 leading-relaxed
     ${lang === "ru" 
       ? "[&>h2]:text-[7vw]  [&>h2]:mt-[25px]  [&>h2]:mb-[35px]" 
       : "[&>h2]:text-[7vw] [&>h2]:mt-[25px]  [&>h2]:mb-[35px]"}

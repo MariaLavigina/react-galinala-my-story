@@ -73,17 +73,34 @@ return (
 
     {/* Desktop-only Hero */}
     <div className="w-full hidden lg:block">
-      <img
-        src="/images/desktop-images/chapter03-desktop.webp"
-        alt="Hero"
-        className="w-full h-auto block"
-      />
-      <div className="relative w-full -mt-[300px]">
+           <img
+  src={
+    lang === "ru"
+      ? "/images/desktop-images/ru-chapter-03-desktop.webp"
+      : lang === "en"
+      ? "/images/desktop-images/en-chapter-03-desktop.webp"
+      : "/images/desktop-images/he-chapter-03-desktop.webp"
+  }
+  alt={textForLang?.alt?.hero || "Hero"}
+  className="w-full h-auto block"
+/>
+
+      <div className="relative w-full -mt-[230px]">
+
+
+
+
+
         <img
           src="/images/desktop-images/entroChapter-thirdStory-Masha.svg"
           alt="Wave"
           className="w-full h-auto block"
         />
+
+
+
+
+        
         <div
           dir={lang === "he" ? "rtl" : "ltr"}
           className={`
@@ -120,9 +137,9 @@ return (
             absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white 
             w-[85%] px-2 sm:px-4
             ${lang === "he" ? "font-rubik" : ""}
-            [&>h1]:text-[6vw] [&>h1]:mt-8 [&>h1]:mb-12
+            [&>h1]:text-[7vw] [&>h1]:mt-8 [&>h1]:mb-12
             [&>h2]:text-[4vw] [&>h2]:mt-8 [&>h2]:mb-12
-            [&>p]:text-[2vw] [&>p]:mt-6 leading-relaxed
+            [&>p]:text-[3vw] [&>p]:mt-6 leading-relaxed
           `}
         >
           <TextForthPage lang={lang} />

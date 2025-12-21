@@ -15,13 +15,8 @@ import ThankYou from './pages/ThankYou.jsx';
 import ScrollToTop from './components/ScrollToTop.jsx';
 
 function App() {
-  // Conditional basename
-  const basename = import.meta.env.PROD
-    ? "/react-galinala-my-story/" // Only for production builds (e.g., GitHub Pages)
-    : "/";                        // Local dev
-
   return (
-    <Router basename={basename}>
+    <Router basename="/">
       <ScrollToTop />
       <Routes>
     <Route path="/" element={<Index />} /> 
