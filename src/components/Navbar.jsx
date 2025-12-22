@@ -130,6 +130,60 @@ const Navbar = ({ lang, setLang }) => {
           </div>
         </div>
 
+
+
+
+
+
+
+
+
+<div className="lg:hidden absolute right-6 top-1/2 -translate-y-1/2 flex gap-3">
+  <button
+    onClick={() => setLang("ru")}
+    className={`w-11 h-11 rounded-full transition-all duration-200 ease-in-out transform ${
+      lang === "ru"
+        ? "bg-white text-black"
+        : "bg-gray-700 text-white hover:bg-gray-600 active:scale-95 active:shadow-inner"
+    }`}
+    title="Русский"
+  >
+    RU
+  </button>
+  <button
+    onClick={() => setLang("en")}
+    className={`w-11 h-11 rounded-full transition-all duration-200 ease-in-out transform ${
+      lang === "en"
+        ? "bg-white text-black"
+        : "bg-gray-700 text-white hover:bg-gray-600 active:scale-95 active:shadow-inner"
+    }`}
+    title="English"
+  >
+    EN
+  </button>
+  <button
+    onClick={() => setLang("he")}
+    className={`w-11 h-11 rounded-full transition-all duration-200 ease-in-out transform ${
+      lang === "he"
+        ? "bg-white text-black"
+        : "bg-gray-700 text-white hover:bg-gray-600 active:scale-95 active:shadow-inner"
+    }`}
+    title="עברית"
+  >
+    HE
+  </button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
         {/* ---------- Hamburger Icon ---------- */}
         <div
           onClick={toggleMenu}

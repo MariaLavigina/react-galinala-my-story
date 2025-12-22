@@ -29,7 +29,7 @@ React.useEffect(() => {
     // Set page title and meta description based on language
     useEffect(() => {
       const titles = {
-      ru: `Глава 4 — История моей мамы через письма`,
+      ru: `Глава 4 - История моей мамы через письма`,
       en: `Chapter 4 – My mother’s story through her letters`,
       he: `פרק 4 – הסיפור של אמי דרך המכתבים שלה`
 
@@ -117,7 +117,7 @@ React.useEffect(() => {
           alt="Hero"
           className="w-full h-auto block"
         />
-        <div className="relative w-full -mt-[120px]">
+        <div className="relative w-full -mt-[160px]">
           <img
             src="/images/ipad-images/chapter04-masha-tablet.svg"
             alt="Wave"
@@ -129,9 +129,9 @@ React.useEffect(() => {
               absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white 
               w-[85%] px-2 sm:px-4
               ${lang === "he" ? "font-rubik" : ""}
-              [&>h1]:text-[8vw] [&>h1]:mt-8 [&>h1]:mb-12
-              [&>h2]:text-[5vw] [&>h2]:mt-8 [&>h2]:mb-12
-              [&>p]:text-[2.7vw] [&>p]:mt-6 leading-relaxed
+              [&>h1]:text-[11vw] [&>h1]:mt-8 [&>h1]:mb-12
+              [&>h2]:text-[6vw] [&>h2]:mt-8 [&>h2]:mb-12
+              [&>p]:text-[3vw] [&>p]:mt-6 leading-relaxed
             `}
           >
             <TextFifthPage lang={lang} />
@@ -146,9 +146,9 @@ React.useEffect(() => {
           alt="Hero"
           className="w-full h-auto block"
         />
-        <div className="relative w-full -mt-[70px]">
+        <div className="relative w-full -mt-[100px]">
           <img
-            src="/images/mobile-images/entroChapter-myMothersStory-mobile.svg"
+            src="/images/mobile-images/my-mothers-story.svg"
             alt="Wave"
             className="w-full h-auto block"
           />

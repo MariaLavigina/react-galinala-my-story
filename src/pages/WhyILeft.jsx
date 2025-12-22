@@ -158,7 +158,7 @@ React.useEffect(() => {
   
   <div className="relative w-full -mt-[200px]">
     <img
-      src="/images/ipad-images/entroChapters-firstPage-ipad.svg"
+      src="/images/ipad-images/way-i-left.svg"
       alt="Wave"
       className="w-full h-auto block"
     />
@@ -168,9 +168,9 @@ React.useEffect(() => {
     absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
     text-center text-white w-[85%] px-2 sm:px-4
     ${lang === "he" ? "font-rubik" : ""}
-    [&>h1]:text-[3.5vw]
+    [&>h1]:text-[4.5vw]
     [&>h3]:text-[3.5vw] [&>h3]:mt-8 [&>h3]:mb-12
-    [&>p]:text-[2.4vw] [&>p]:mt-6 leading-relaxed
+    [&>p]:text-[3vw] [&>p]:mt-6 leading-relaxed
     ${lang === "ru" 
       ? "[&>h2]:text-[7vw]  [&>h2]:mt-[25px]  [&>h2]:mb-[35px]" 
       : "[&>h2]:text-[7vw] [&>h2]:mt-[25px]  [&>h2]:mb-[35px]"}

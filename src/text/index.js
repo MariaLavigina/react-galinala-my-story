@@ -66,7 +66,7 @@ const texts = {
 
     h3: `What does “our” mean?`,
     paragraphs1: [
-      `It was my daughter Masha’s idea: three women - my mother, Masha, and me — will tell the story of that time. But what about our grandmother? Well… we’ll tell her story too - through her letters.
+      `It was my daughter Masha’s idea: three women - my mother, Masha, and me - will tell the story of that time. But what about our grandmother? Well… we’ll tell her story too - through her letters.
        I have her letters to Tomochka and Erik (they sent them to me when I asked), as well as letters to Igor, my husband. You could say these are letters from the front lines - raw, touching, and honest. Tomochka and I can’t even read them without crying…but there’s no way around it.
          `
     ],
@@ -78,7 +78,7 @@ const texts = {
     h4: `Who is this written for?`,
     paragraphs2: [
       `For Masha. She didn’t leave by choice - she was taken away.`,
-      `For her family. They’re British and have no real understanding of the Soviet Union, Israel, or what it means to be “Olim chadashim mi-Russia” — new immigrants from Russia - in Israel.
+      `For her family. They’re British and have no real understanding of the Soviet Union, Israel, or what it means to be “Olim chadashim mi-Russia” - new immigrants from Russia - in Israel.
        I realized how differently Europe and we experience the same history when I told my new relatives: “My birth certificate was issued on the very first day of World War II,” and they asked, “September 1939?” Yes, for us, it was June 1941, but for them, the bombing had been going on for two years already. .
        `,
       `And a bit for those who are still in Russia.`,
@@ -90,10 +90,10 @@ const texts = {
 
     h4_2: `My story has four parts `,
     paragraphs3: [
-      `The first chapter tells how I came to feel that I could no longer continue living in Russia—a country with its laws, or rather, its lawlessness—where a society, miserable and humiliated at every turn, had forgotten what it means to have dignity.`,
-      `The second chapter is about our new beginning in another country—a life full of challenges, but also wonders, beauty, and discoveries. It was a land where we had to build everything from scratch, yet every small step forward felt like a true victory.`,
-      `The third chapter is a collection of little stories told by my daughter—sometimes funny, sometimes deeply touching.`,
-      `And finally, the last chapter belongs to my mother. Through her letters, you will see our journey through her eyes. These letters are nothing like the messages you might expect from an elderly, very ill woman, suddenly living in a completely different world: a new climate, new food, new clothes, new holidays—everything, really, was different. She is far from lost; she delights in the good, never complains, and never dwells on the natural hardships.`
+      `The first chapter tells how I came to feel that I could no longer continue living in Russia - a country with its laws, or rather, its lawlessness - where a society, miserable and humiliated at every turn, had forgotten what it means to have dignity.`,
+      `The second chapter is about our new beginning in another country - a life full of challenges, but also wonders, beauty, and discoveries. It was a land where we had to build everything from scratch, yet every small step forward felt like a true victory.`,
+      `The third chapter is a collection of little stories told by my daughter - sometimes funny, sometimes deeply touching.`,
+      `And finally, the last chapter belongs to my mother. Through her letters, you will see our journey through her eyes. These letters are nothing like the messages you might expect from an elderly, very ill woman, suddenly living in a completely different world: a new climate, new food, new clothes, new holidays - everything, really, was different. She is far from lost; she delights in the good, never complains, and never dwells on the natural hardships.`
     ]
   },
 
@@ -117,7 +117,7 @@ const texts = {
   `כותרת סיפורי, "כל אחד בוחר לעצמו", בהשראת השיר "Каждый выбирает для себя" ("כל אחד בוחר לעצמו...") מאת המשורר הסובייטי והרוסי הנודע יורי לוויטנסקי.
  מילותיו מזכירות לי שכל אחד מאיתנו ניצב בפני בחירות עמוקות שמעצבות את חייו - ושאיש מלבדנו אינו יכול לקבל את ההחלטות הללו במקומנו.`,
   `זהו המסע שבו בחרתי לעזוב את ברית המועצות, האתגרים שעמדו בפניי בשנותיי הראשונות כעולה חדשה בישראל, והדרך שבה בניתי חיים חדשים מתוך אומץ ונחישות.`,
-  `זהו גם סיפורם של רבים אחרים — אנשים שבוחרים בדרכים קשות בחיפוש אחר תקווה, שייכות, והתחלה חדשה.`
+  `זהו גם סיפורם של רבים אחרים - אנשים שבוחרים בדרכים קשות בחיפוש אחר תקווה, שייכות, והתחלה חדשה.`
 ],
     h2: `על העלייה שלנו`,
     
@@ -168,12 +168,12 @@ const texts = {
 הלכתי ומללתי לעצמי את השיר של יוּרִי לַבֶּטַנְסְקִי – "כָּל אֶחָד בּוֹחֵר לְעַצְמוֹ". 
 פעם כך, ופעם אחרת.  
 ופתאום הבנתי:  
-כך אני חיה כבר כמעט שלושים שנה — בארץ שבה לאדם באמת יש בחירה.  
+כך אני חיה כבר כמעט שלושים שנה - בארץ שבה לאדם באמת יש בחירה.  
 `,
-             `"...הוא, ורק הוא, מחליט: "אם לשמש את השטן — או את הנביא."  `,
+             `"...הוא, ורק הוא, מחליט: "אם לשמש את השטן - או את הנביא."  `,
               `אני לא טוענת שבישראל אין רמאים, ערמומיים ושאר טיפוסים כאלה.  
 אבל בישראל יש אפשרות לחיות בלי כל זה.  
-ואין צורך להיות לא גיבורה ולא לוחמת —  
+ואין צורך להיות לא גיבורה ולא לוחמת -  
 רק פשוט, במובן היפה ביותר של המילה, אדם רגיל.  
 `,
                `יש לנו אפשרות. אפשרות אמיתית. ומה נעשה איתה – זה כבר תלוי בנו.`

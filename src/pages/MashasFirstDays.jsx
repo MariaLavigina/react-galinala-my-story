@@ -127,7 +127,7 @@ return (
       />
       <div className="relative w-full -mt-[120px]">
         <img
-          src="/images/ipad-images/chapter04-masha-tablet.svg"
+          src="/images/ipad-images/chapter-masha.svg"
           alt="Wave"
           className="w-full h-auto block"
         />
@@ -137,8 +137,8 @@ return (
             absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white 
             w-[85%] px-2 sm:px-4
             ${lang === "he" ? "font-rubik" : ""}
-            [&>h1]:text-[7vw] [&>h1]:mt-8 [&>h1]:mb-12
-            [&>h2]:text-[4vw] [&>h2]:mt-8 [&>h2]:mb-12
+            [&>h1]:text-[11vw] [&>h1]:mt-8 [&>h1]:mb-12
+            [&>h2]:text-[5.5vw] [&>h2]:mt-8 [&>h2]:mb-12
             [&>p]:text-[3vw] [&>p]:mt-6 leading-relaxed
           `}
         >

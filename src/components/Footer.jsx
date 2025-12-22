@@ -6,9 +6,9 @@ const footerText = {
     emailLabel: "Email",
     contactEmail: "galinala-mystory@gmail.com",
     copyright:
-      "© 2026 Галина Лавигина — все права защищены.",
+      "© 2026 Галина Лавигина - все права защищены.",
     info1:
-      "Мы будем рады, если эта история затронет вас и вы захотите поделиться ею, перепостить или опубликовать. Пожалуйста, делайте это только с точным сохранением текста и с явным указанием автора — Галины Лавигиной. Если у вас есть вопросы, мысли или добрые слова — пишите:",
+      "Мы будем рады, если эта история затронет вас и вы захотите поделиться ею, перепостить или опубликовать. Пожалуйста, делайте это только с точным сохранением текста и с явным указанием автора - Галины Лавигиной. Если у вас есть вопросы, мысли или добрые слова - пишите:",
     privacy:
       "Конфиденциальность и GDPR: При обращении через форму или Gmail мы видим только имя, email и сообщение для личного ответа. Данные не передаются третьим лицам и используются только для переписки.",
   },
@@ -17,9 +17,9 @@ const footerText = {
     emailLabel: "Email",
     contactEmail: "galinala-mystory@gmail.com",
     copyright:
-      "© 2026 Galina Lavigina — All rights reserved.",
+      "© 2026 Galina Lavigina - All rights reserved.",
     info1:
-     `We would be delighted if this story touches you and you feel inspired to share it, repost it, or publish it. Please do so only with the text kept exactly as it is and with clear credit to the author — Galina Lavigina.
+     `We would be delighted if this story touches you and you feel inspired to share it, repost it, or publish it. Please do so only with the text kept exactly as it is and with clear credit to the author - Galina Lavigina.
 If you have any questions, thoughts, or kind words, please write to me at:`,
     privacy:
       "Privacy and GDPR: When you contact us via the form or Gmail, we only see your name, email, and message in order to reply personally. Your data is not shared with third parties and is used solely for correspondence.",
@@ -29,7 +29,7 @@ If you have any questions, thoughts, or kind words, please write to me at:`,
     emailLabel: "Email",
     contactEmail: "galinala-mystory@gmail.com",
     copyright:
-      `© 2026 גלינה לביגינה — כל הזכויות שמורות.`,
+      `© 2026 גלינה לביגינה - כל הזכויות שמורות.`,
     info1:
        `נשמח אם הסיפור הזה ייגע בכם ותרצו לשתף אותו, לפרסם מחדש או להפיצו. בבקשה עשו זאת רק עם שמירה מדויקת על הטקסט וציון ברור של המחברת - גלינה לביגינה.
 אם יש לכם שאלות, מחשבות או מילים טובות - כתבו:`,

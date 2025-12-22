@@ -148,7 +148,7 @@ return (
       />
       <div className="relative w-full -mt-[120px]">
         <img
-          src="/images/ipad-images/chapter2-arrived.svg"
+          src="/images/ipad-images/we-arrived.svg"
           alt="Wave"
           className="w-full h-auto block"
         />
@@ -159,7 +159,7 @@ return (
             w-[85%] px-2 sm:px-4
             ${lang === "he" ? "font-rubik" : ""}
             [&>h1]:text-[5vw] [&>h2]:text-[7vw] [&>h3]:text-[3.5vw] [&>h3]:mt-8 [&>h3]:mb-12
-            [&>p]:text-[2.8vw] [&>p]:mt-6 leading-relaxed
+            [&>p]:text-[3vw] [&>p]:mt-6 leading-relaxed
           `}
         >
           <TextSecondPage lang={lang} />
@@ -176,7 +176,7 @@ return (
       />
       <div className="relative w-full -mt-[70px]">
         <img
-          src="/images/mobile-images/entro-secondPage-mobile.svg"
+          src="/images/mobile-images/we-arrived.svg"
           alt="Wave"
           className="w-full h-auto block"
         />
