@@ -214,11 +214,22 @@ const [lang, setLang] = useState(() => {
 
 {/* ---------- Mobile-only Hero section ---------- */}
 <div className="block md:hidden w-full">
-  <img
-    src="/images/mobile-images/hero-mobile.jpg"
-    alt={texts[lang].alt.hero}
-    className="w-full h-auto block"
-  />
+
+
+
+
+
+ <img
+  src={
+    lang === "ru"
+      ? "/images/mobile-images/ru-hero-index-mobile.webp"
+      : lang === "en"
+      ? "/images/mobile-images/en-hero-index-mobile.webp"
+      : "/images/mobile-images/he-hero-index-mobile.webp"
+  }
+  alt={texts[lang].alt.hero}
+  className="w-full h-auto block"
+/>
 
   <div className="relative w-full -mt-[115px]">
     <img
