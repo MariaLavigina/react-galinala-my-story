@@ -1,5 +1,10 @@
 const textsMashasFirstDays = {
   ru: [
+        {
+      alt: {
+        hero: `Обложка для главы 3 - Маша в нашем доме в Москве в середине 80-х, наряженная на Новый год.`,
+      }
+    },
     {
       h1: "мои пальмы",
     },
@@ -8,14 +13,14 @@ const textsMashasFirstDays = {
         {
           desktopSrc: "/images/desktop-images/palm-desktop.webp",
           mobileSrc: null,
-          alt: "---",
+          alt: "Коллекция пальм, созданная в рамках очных занятий под руководством художника-графика Ильи Богдановского.",
           textDesktop: `Коллекция пальм, созданная в рамках очных занятий под руководством художника-графика Ильи Богдановского.`,
           textMobile: null,
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/palm-mobile.webp",
-          alt: "---",
+          alt: "Коллекция пальм, созданная в рамках очных занятий под руководством художника-графика Ильи Богдановского.",
           textDesktop: null,
           textMobile: `Коллекция пальм, созданная в рамках очных занятий под руководством художника-графика Ильи Богдановского.`,
         },
@@ -41,23 +46,23 @@ const textsMashasFirstDays = {
         {
           desktopSrc: "/images/desktop-images/masha-moscow-desktop.jpg",
           mobileSrc: null,
-          alt: "Desktop cockroach",
-          textDesktop: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
+          alt: "Москва, 1990 год, рядом с нашим домом.",
+          textDesktop: "Москва, 1990 год, рядом с нашим домом.",
           textMobile: null,
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/masha-moscow-01.jpg",
-          alt: "Mobile cockroach 1",
+          alt: "Москва, 1990 год, рядом с нашим домом.",
           textDesktop: null,
-          textMobile: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
+          textMobile: "Москва, 1990 год, рядом с нашим домом.",
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/masha-moscow-02.jpg",
-          alt: "Mobile cockroach 2",
+          alt: "Москва, 1990 год, рядом с нашим домом.",
           textDesktop: null,
-          textMobile: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
+          textMobile: "Москва, 1990 год, рядом с нашим домом.",
         },
       ],
     },
@@ -81,22 +86,22 @@ const textsMashasFirstDays = {
       desktopSrc: "/images/wire-sponge-01.jpg",
       mobileSrc: "/images/wire-sponge-01.jpg",
       alt: "PLACEHOLDER_ALT_EN",
-      textDesktop: "My chaos",
-      textMobile: "My chaos",
+      textDesktop: "Яркая металлическая губка для мытья посуды",
+      textMobile: "Яркая металлическая губка для мытья посуды",
     },
     {
       desktopSrc: "/images/wire-sponge-02.jpg",
       mobileSrc: "/images/wire-sponge-02.jpg",
-      alt: "Second image alt text",
-      textDesktop: "Description for second image",
-      textMobile: "Description for second image",
+      alt: "Яркая металлическая губка для мытья посуды",
+      textDesktop: "Яркая металлическая губка для мытья посуды - они же волшебные, правда?",
+      textMobile: "Яркая металлическая губка для мытья посуды - они же волшебные, правда?",
     },
        {
       desktopSrc: "/images/wire-sponge-03.jpg",
       mobileSrc: "/images/wire-sponge-03.jpg",
-      alt: "Second image alt text",
-      textDesktop: "Description for second image",
-      textMobile: "Description for second image",
+      alt: "Яркая металлическая губка для мытья посуды",
+      textDesktop: "Я пыталась сфотографировать их своей камерой, чтобы передать волшебный дух, который в них таится, и как я сама это видела.",
+      textMobile: "Я пыталась сфотографировать их своей камерой, чтобы передать волшебный дух, который в них таится, и как я сама это видела.",
     }
   ]
 },
@@ -114,9 +119,9 @@ const textsMashasFirstDays = {
         {
           desktopSrc: "/images/gulf-war.jpg",
           mobileSrc: "/images/gulf-war.jpg",
-          alt: "Фото в Реховоте",
-          textDesktop: "Автопортрет. Я в противогазе в нашей безопасной комнате... окна и дверь плотно заклеены малярным скотчем, на полу рядом с маленькой свечой лежит радио.  Rohovot,  январь   1991",
-          textMobile: "Автопортрет. Я в противогазе в нашей безопасной комнате... окна и дверь плотно заклеены малярным скотчем, на полу рядом с маленькой свечой лежит радио.  Rohovot,  январь   1991",
+          alt: `Автопортрет. Я в противогазе в нашей безопасной комнате... окна и дверь плотно заклеены малярным скотчем, на полу рядом с маленькой свечой лежит радио.  Rohovot, январь 1991`,
+          textDesktop: "Автопортрет. Я в противогазе в нашей безопасной комнате... окна и дверь плотно заклеены малярным скотчем, на полу рядом с маленькой свечой лежит радио. Rohovot, январь 1991",
+          textMobile: "Автопортрет. Я в противогазе в нашей безопасной комнате... окна и дверь плотно заклеены малярным скотчем, на полу рядом с маленькой свечой лежит радио.  Rohovot, январь 1991",
         },
       ],
     },
@@ -140,9 +145,9 @@ const textsMashasFirstDays = {
         {
           desktopSrc: "/images/notes.jpg",
           mobileSrc: "/images/notes.jpg",
-          alt: "Фото в Реховоте",
-          textDesktop: "Автопортрет. Я в противогазе в нашей безопасной комнате... окна и дверь плотно заклеены малярным скотчем, на полу рядом с маленькой свечой лежит радио.  Rohovot,  январь   1991",
-          textMobile: "Автопортрет. Я в противогазе в нашей безопасной комнате... окна и дверь плотно заклеены малярным скотчем, на полу рядом с маленькой свечой лежит радио.  Rohovot,  январь   1991",
+          alt: " Моя бабушкa работала экономистом до выхода на пенсию, и каждый день она тщательно вела учет наших расходов.",
+          textDesktop: " Моя бабушкa работала экономистом до выхода на пенсию, и каждый день она тщательно вела учет наших расходов.",
+          textMobile: "Моя бабушкa работала экономистом до выхода на пенсию, и каждый день она тщательно вела учет наших расходов.",
         },
       ],
     },
@@ -158,6 +163,12 @@ const textsMashasFirstDays = {
   //             HEBREW VERSION 
   // ---------------------------------------------
   he: [
+     {
+      alt: {
+        hero: `תמונת שער לפרק 2 - הגענו לישראל: מאשה עם ילדי השכונה ברחובות, שער לפרק 3 - מאשה בבית שלנו במוסקבה באמצע שנות ה-80, מחופשת לחג השנה החדשה, 1990
+`,
+      }
+    },
     {
       h1: `הדקלים שלי`,
     },
@@ -166,14 +177,14 @@ const textsMashasFirstDays = {
         {
           desktopSrc: "/images/desktop-images/palm-desktop.webp",
           mobileSrc: null,
-          alt: "---",
+          alt: `אוסף הדקלים שיצרתי: תחילה חרוטים על מתכת, ואחר כך הודפסו על נייר, במהלך שיעורים בהנחיית האמן־גרפיקאי איליה בוגדנובסקי.`,
           textDesktop: `אוסף הדקלים שיצרתי: תחילה חרוטים על מתכת, ואחר כך הודפסו על נייר, במהלך שיעורים בהנחיית האמן־גרפיקאי איליה בוגדנובסקי.`,
           textMobile: null,
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/palm-mobile.webp",
-          alt: "---",
+          alt: `אוסף הדקלים שיצרתי: תחילה חרוטים על מתכת, ואחר כך הודפסו על נייר, במהלך שיעורים בהנחיית האמן־גרפיקאי איליה בוגדנובסקי.`,
           textDesktop: null,
           textMobile: `אוסף הדקלים שיצרתי: תחילה חרוטים על מתכת, ואחר כך הודפסו על נייר, במהלך שיעורים בהנחיית האמן־גרפיקאי איליה בוגדנובסקי.`,
         },
@@ -204,23 +215,23 @@ const textsMashasFirstDays = {
         {
           desktopSrc: "/images/desktop-images/masha-moscow-desktop.jpg",
           mobileSrc: null,
-          alt: "Desktop cockroach",
-          textDesktop: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
+          alt: "מוסקבה, 1990, ליד הבית שלנו.",
+          textDesktop: "מוסקבה, 1990, ליד הבית שלנו.",
           textMobile: null,
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/masha-moscow-01.jpg",
-          alt: "Mobile cockroach 1",
+          alt: "מוסקבה, 1990, ליד הבית שלנו.",
           textDesktop: null,
-          textMobile: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
+          textMobile: "מוסקבה, 1990, ליד הבית שלנו.",
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/masha-moscow-02.jpg",
-          alt: "Mobile cockroach 2",
+          alt: "מוסקבה, 1990, ליד הבית שלנו.",
           textDesktop: null,
-          textMobile: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
+          textMobile: "מוסקבה, 1990, ליד הבית שלנו.",
         },
       ],
     },
@@ -245,23 +256,23 @@ const textsMashasFirstDays = {
         {
           desktopSrc: "/images/wire-sponge-01.jpg",
           mobileSrc: "/images/wire-sponge-01.jpg",
-          alt: "ALT HE",
-          textDesktop: "PLACEHOLDER HE",
-          textMobile: "PLACEHOLDER HE",
+          alt: "ספוגי מתכת צבעוניים רבים לשטיפת כלים",
+          textDesktop: "ספוגי מתכת צבעוניים רבים לשטיפת כלים",
+          textMobile: "ספוגי מתכת צבעוניים רבים לשטיפת כלים",
         },
         {
           desktopSrc: "/images/wire-sponge-02.jpg",
           mobileSrc: "/images/wire-sponge-02.jpg",
-          alt: "ALT HE",
-          textDesktop: "PLACEHOLDER HE",
-          textMobile: "PLACEHOLDER HE",
+          alt: "ספוגי מתכת צבעוניים רבים לשטיפת כלים",
+          textDesktop: "ספוג מתכת צבעוני לשטיפת כלים – הם הרי קסומים, נכון?",
+          textMobile: "ספוג מתכת צבעוני לשטיפת כלים – הם הרי קסומים, נכון?",
         },
         {
           desktopSrc: "/images/wire-sponge-03.jpg",
           mobileSrc: "/images/wire-sponge-03.jpg",
-          alt: "ALT HE",
-          textDesktop: "PLACEHOLDER HE",
-          textMobile: "PLACEHOLDER HE",
+          alt: "ספוגי מתכת צבעוניים רבים לשטיפת כלים",
+          textDesktop: "ניסיתי לצלם אותם כדי להעביר את הרוח הקסומה הטמונה בהם, כפי שראיתי זאת בעצמי, כילדה",
+          textMobile: "ניסיתי לצלם אותם כדי להעביר את הרוח הקסומה הטמונה בהם, כפי שראיתי זאת בעצמי, כילדה",
         }
       ]
     },
@@ -283,7 +294,7 @@ const textsMashasFirstDays = {
         {
           desktopSrc: "/images/gulf-war.jpg",
           mobileSrc: "/images/gulf-war.jpg",
-          alt: "Placeholder img HE",
+          alt: "דיוקן עצמי. אני עם מסיכת גז בחדר הממוגן שלנו… החלונות והדלת סגורים היטב עם סרט צבע, על הרצפה ליד נר קטן מונח רדיו. רחובות, ינואר 1991",
           textDesktop: "דיוקן עצמי. אני עם מסיכת גז בחדר המוגן שלנו. החלונות והדלת אטומים היטב בסלוטייפ חום, ועל הרצפה ליד נר קטן מונח הרדיו. רחובות, ינואר 1991",
           textMobile: "דיוקן עצמי. אני עם מסיכת גז בחדר המוגן שלנו. החלונות והדלת אטומים היטב בסלוטייפ חום, ועל הרצפה ליד נר קטן מונח הרדיו. רחובות, ינואר 1991",
         },
@@ -308,9 +319,9 @@ const textsMashasFirstDays = {
         {
           desktopSrc: "/images/notes.jpg",
           mobileSrc: "/images/notes.jpg",
-          alt: "Placeholder img HE",
-          textDesktop: "PLACEHOLDER HE",
-          textMobile: "PLACEHOLDER HE",
+          alt: "תמונה של המחברת של סבתי, שבה היא רישמה את כל ההוצאות שלנו בקפדנות.",
+          textDesktop: "סבתי עבדה ככלכלנית עד הפרישה, והיא ניהלה מדי יום את חשבונות ההוצאות שלנו בקפדנות.",
+          textMobile: "סבתי עבדה ככלכלנית עד הפרישה, והיא ניהלה מדי יום את חשבונות ההוצאות שלנו בקפדנות.",
         },
       ],
     },
@@ -325,6 +336,11 @@ const textsMashasFirstDays = {
   //             ENGLISH VERSION (PLACEHOLDER)
   // ---------------------------------------------
   en: [
+       {
+      alt: {
+        hero: `Cover for Chapter 3 – Masha at our house in Moscow in the mid-1980s, dressed up for the New Year celebration, 1990`,
+      }
+    },
     {
       h1: `My palms`,
 
@@ -334,16 +350,16 @@ const textsMashasFirstDays = {
         {
           desktopSrc: "/images/desktop-images/palm-desktop.webp",
           mobileSrc: null,
-          alt: "---",
-          textDesktop: `PLACEHOLDER TEXT`,
+          alt: "A collection of palm etchings printed on paper, created during in-person classes under the guidance of graphic artist Ilya Bogdanovsky.",
+          textDesktop: `A collection of palm etchings printed on paper, created during in-person classes under the guidance of graphic artist Ilya Bogdanovsky.`,
           textMobile: null,
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/palm-mobile.webp",
-          alt: "---",
+          alt: "A collection of palm etchings printed on paper, created during in-person classes under the guidance of graphic artist Ilya Bogdanovsky.",
           textDesktop: null,
-          textMobile: `PLACEHOLDER TEXT`,
+          textMobile: `A collection of palm etchings printed on paper, created during in-person classes under the guidance of graphic artist Ilya Bogdanovsky.`,
         },
       ],
     },
@@ -365,23 +381,23 @@ const textsMashasFirstDays = {
         {
           desktopSrc: "/images/desktop-images/masha-moscow-desktop.jpg",
           mobileSrc: null,
-          alt: "Desktop placeholder",
-          textDesktop: "PLACEHOLDER TEXT",
+          alt: "Moscow, 1990 - the kids’ playground near our home",
+          textDesktop: "Moscow, 1990 - the kids’ playground near our home",
           textMobile: null,
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/masha-moscow-01.jpg",
-          alt: "Mobile placeholder 1",
+          alt: "Moscow, 1990 - the kids’ playground near our home1",
           textDesktop: null,
-          textMobile: "PLACEHOLDER TEXT",
+          textMobile: "Moscow, 1990 - the kids’ playground near our home",
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/masha-moscow-02.jpg",
-          alt: "Mobile placeholder 2",
+          alt: "Moscow, 1990 - the kids’ playground near our home",
           textDesktop: null,
-          textMobile: "PLACEHOLDER TEXT",
+          textMobile: "Moscow, 1990 - the kids’ playground near our home",
         },
       ],
     },
@@ -404,23 +420,23 @@ const textsMashasFirstDays = {
         {
           desktopSrc: "/images/wire-sponge-01.jpg",
           mobileSrc: "/images/wire-sponge-01.jpg",
-          alt: "PLACEHOLDER ALT",
-          textDesktop: "PLACEHOLDER",
-          textMobile: "PLACEHOLDER",
+          alt: "Colourful metal scrubbers for washing dishes",
+          textDesktop: "Colourful metal scrubbers for washing dishes",
+          textMobile: "Colourful metal scrubbers for washing dishes",
         },
         {
           desktopSrc: "/images/wire-sponge-02.jpg",
           mobileSrc: "/images/wire-sponge-02.jpg",
-          alt: "PLACEHOLDER ALT",
-          textDesktop: "PLACEHOLDER",
-          textMobile: "PLACEHOLDER",
+          alt: "Colourful metal scrubbers for washing dishes",
+          textDesktop: "A colourful metal scrubber for washing dishes - they’re magical, aren’t they?",
+          textMobile: "A colourful metal scrubber for washing dishes - they’re magical, aren’t they?"
         },
         {
           desktopSrc: "/images/wire-sponge-03.jpg",
           mobileSrc: "/images/wire-sponge-03.jpg",
-          alt: "PLACEHOLDER ALT",
-          textDesktop: "PLACEHOLDER",
-          textMobile: "PLACEHOLDER",
+          alt: "",
+          textDesktop: "I tried to photograph them to capture the magical spirit within them, just as I saw it myself, as a child.",
+          textMobile: "I tried to photograph them to capture the magical spirit within them, just as I saw it myself, as a child.",
         }
       ]
     },
@@ -445,7 +461,7 @@ const textsMashasFirstDays = {
         {
           desktopSrc: "/images/gulf-war.jpg",
           mobileSrc: "/images/gulf-war.jpg",
-          alt: "Placeholder image",
+          alt: "Self-Portrait. Me, in a gas mask, sitting in our sealed safe room. The windows and door tightly taped with brown masking tape. A small candle flickers on the floor beside a radio. Rehovot, January 1991.",
           textDesktop: "Self-Portrait. Me, in a gas mask, sitting in our sealed safe room. The windows and door tightly taped with brown masking tape. A small candle flickers on the floor beside a radio. Rehovot, January 1991.",
           textMobile: "Self-Portrait. Me, in a gas mask, sitting in our sealed safe room. The windows and door tightly taped with brown masking tape. A small candle flickers on the floor beside a radio. Rehovot, January 1991.",
         },
@@ -474,9 +490,9 @@ Jurassic Park. It was in 1993, and I was 10 years old.
         {
           desktopSrc: "/images/notes.jpg",
           mobileSrc: "/images/notes.jpg",
-          alt: "Placeholder image",
-          textDesktop: "PLACEHOLDER TEXT",
-          textMobile: "PLACEHOLDER TEXT",
+          alt: "My grandmother’s book, where she carefully kept track of our expenses every day.",
+          textDesktop: "My grandmother worked as an economist until she retired, and every day she carefully kept track of our expenses.",
+          textMobile: "My grandmother worked as an economist until she retired, and every day she carefully kept track of our expenses.",
         },
       ],
     },

@@ -9,7 +9,7 @@ paragraphs1: [
         type: "image",
         desktopSrc: "/images/globe.jpg",
         mobileSrc: null,
-        alt: "Глобус",
+        alt: "Фотография глобуса",
         text: null
       },
       {
@@ -26,8 +26,8 @@ text: `“давайте Галя я Вам погадаю...”`
         type: "image",
         desktopSrc: "/images/desktop-images/sammer-house-desktop.jpg",
         mobileSrc: "/images/mobile-images/summer-house-mobile.jpg",
-        alt: "Летний дом",
-        text: "---------------------------"
+        alt: "Дача в Головково, Солнечногорский район.",
+        text: "Дача в Головково, Солнечногорский район."
       },
       {
         type: "paragraphs",
@@ -106,7 +106,7 @@ We started the process: went to the American embassy, stood in some line, filled
         type: "image",
         desktopSrc: "/images/globe.jpg",
         mobileSrc: null,
-        alt: "Globe",
+        alt: "A photo of a globe",
         text: null
       },
       {
@@ -136,8 +136,8 @@ We started the process: went to the American embassy, stood in some line, filled
         type: "image",
         desktopSrc: "/images/desktop-images/sammer-house-desktop.jpg",
         mobileSrc: "/images/mobile-images/summer-house-mobile.jpg",
-        alt: "Summer house",
-        text: "---------------------------"
+        alt: "Dacha (summer house) in Solnechnogorsk District.",
+        text: "Dacha (summer house) in Solnechnogorsk District."
       },
   {
   type: "paragraphs",
@@ -199,7 +199,7 @@ Because of the denial, they became trapped: they couldn’t leave, but also coul
         type: "image",
         desktopSrc: "/images/desktop-images/bet-shemesh-hills-desktop.webp",
         mobileSrc: "/images/mobile-images/bet-shemesh-hills-mobile.webp",
-        alt: "Живописная гора возле Бейт-Шемеша",
+        alt: "A picturesque hill near Beit Shemesh",
         text: null,
           fullWidth: true
       }
@@ -221,7 +221,7 @@ paragraphs1: [
         type: "image",
         desktopSrc: "/images/globe.jpg",
         mobileSrc: null,
-        alt: "כדור הארץ",
+        alt: `תמונה של גלובוס`,
         text: null
       },
       {
@@ -257,8 +257,8 @@ paragraphs1: [
         type: "image",
         desktopSrc: "/images/desktop-images/sammer-house-desktop.jpg",
         mobileSrc: "/images/mobile-images/summer-house-mobile.jpg",
-        alt: "בית קיץ",
-        text: "---------------------------"
+        alt: "דאצ׳ה (בית קיץ) במחוז סולנצ׳נוגורסק",
+        text: "דאצ׳ה (בית קיץ) במחוז סולנצ׳נוגורסק"
       },
       {
         type: "paragraphs",
@@ -310,7 +310,7 @@ paragraphs: [
         type: "image",
         desktopSrc: "/images/desktop-images/bet-shemesh-hills-desktop.webp",
         mobileSrc: "/images/mobile-images/bet-shemesh-hills-mobile.webp",
-        alt: "Живописная гора возле Бейт-Шемеша",
+        alt: "גבעה יפה באזור בית שמש",
         text: null,
           fullWidth: true
       }

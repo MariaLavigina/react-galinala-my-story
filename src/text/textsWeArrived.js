@@ -2,6 +2,11 @@
 const textsWeArrived = {
   ru: [
     {
+      alt: {
+        hero: `Обложка для главы 2 — Прилетели мы в Израиль: Маша с детьми в соседнем районе Реховота, 1990 год`,
+      }
+    },
+    {
       h1: "Израиль встречал нас улыбками",
       text: [
         `Израиль встречал нас улыбками, детишек одарили сладостями. Пока оформлялись первые документы, нам предложили сделать бесплатный звонок своим близким в Россию. Мы с мамой позвонили Игорю. Затем наши вещи погрузили  в такси, спросили нас куда вести и мы поехали в Реховот, где, всегда готовые придти на помощь, Магазанники сняли нам квартиру. `
@@ -10,8 +15,8 @@ const textsWeArrived = {
        desktopSrc: "/images/teudatOle.jpg",
     mobileSrc: "/images/teudatOle.jpg",
     alt: "Теудат Оле",
-    textDesktop: "Теудат Оле",
-    textMobile: "Теудат Оле"
+    textDesktop: "Свидетельство репатрианта, (תעודת עולה)",
+    textMobile: "Свидетельство репатрианта, (תעודת עולה)"
       }
     },
     {
@@ -40,7 +45,7 @@ const textsWeArrived = {
   {
     desktopSrc: "/images/desktop-images/cockroch-desktop.webp",
     mobileSrc: null,
-    alt: "Desktop cockroach",
+    alt: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
     textDesktop: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
     textMobile: null
   },
@@ -48,14 +53,14 @@ const textsWeArrived = {
   {
     desktopSrc: null,
     mobileSrc: "/images/mobile-images/cockroch1.webp",
-    alt: "Mobile cockroach 1",
+    alt: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
     textDesktop: null,
     textMobile: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год"
   },
   {
     desktopSrc: null,
     mobileSrc: "/images/mobile-images/cockroch2.webp",
-    alt: "Mobile cockroach 2",
+    alt: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год",
     textDesktop: null,
     textMobile: "Серия машиных рисунков под впечатлением от израильских тараканов. Реховот 1991 год"
   }
@@ -121,9 +126,9 @@ const textsWeArrived = {
       image: {
      desktopSrc: "/images/Masha-and-the-kids-Rehovot.jpg",
     mobileSrc: "/images/Masha-and-the-kids-Rehovot-mobile.jpg",
-    alt: "Фото в Реховоте",
-    textDesktop: "Наши первые фото в нашем первом городе. Реховот 1991 год",
-    textMobile: "Наши первые фото в нашем первом городе. Реховот 1991 год"
+    alt: "Маша и ребята из соседнего района - наши первые фотографии в нашем первом городе. Реховот, 1991",
+    textDesktop: "Маша и ребята из соседнего района - наши первые фотографии в нашем первом городе. Реховот, 1991",
+    textMobile: "Маша и ребята из соседнего района - наши первые фотографии в нашем первом городе. Реховот, 1991"
       }
     }
   ],
@@ -133,6 +138,15 @@ const textsWeArrived = {
 
 
   he: [
+
+
+    {
+      alt: {
+        hero: `תמונת שער לפרק 2 — הגענו לישראל: מאשה עם ילדי השכונה ברחובות, `,
+      }
+    },
+
+
     {
       h1:  `ישראל קיבלה אותנו בחיוכים`,
       text: [
@@ -145,9 +159,9 @@ const textsWeArrived = {
       image: {
           desktopSrc: "/images/teudatOle.jpg",
     mobileSrc: "/images/teudatOle.jpg",
-    alt: "תעודת אולה",
-    textDesktop: "תעודת אולה",
-    textMobile: "תעודת אולה"
+    alt: `תעודת העולה שלי`,
+    textDesktop: `תעודת העולה שלי`,
+    textMobile: `תעודת העולה שלי`
       }
     },
     {
@@ -179,21 +193,21 @@ const textsWeArrived = {
         {
           desktopSrc: "/images/desktop-images/cockroch-desktop.webp",
           mobileSrc: null,
-          alt: "ג'וק דסקטופ",
+          alt: "סדרת ציורים של מאשה בהשראת הג'וקים בישראל. רחובות 1991",
           textDesktop: "סדרת ציורים של מאשה בהשראת הג'וקים בישראל. רחובות 1991",
           textMobile: null
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/cockroch1.webp",
-          alt: "ג'וק מובייל 1",
+          alt: "סדרת ציורים של מאשה בהשראת הג'וקים בישראל. רחובות 1991",
           textDesktop: null,
           textMobile: "סדרת ציורים של מאשה בהשראת הג'וקים בישראל. רחובות 1991"
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/cockroch2.webp",
-          alt: "ג'וק מובייל 2",
+          alt: "סדרת ציורים של מאשה בהשראת הג'וקים בישראל. רחובות 1991",
           textDesktop: null,
           textMobile: "סדרת ציורים של מאשה בהשראת הג'וקים בישראל. רחובות 1991"
         }
@@ -218,16 +232,16 @@ const textsWeArrived = {
         {
           desktopSrc: "/images/desktop-images/first-days-in-israel.webp",
           mobileSrc: "/images/mobile-images/first-days-in-isreal-01.webp",
-          alt: "היום הראשון בעירנו הראשונה. רחובות 1991",
-          textDesktop: "היום הראשון בעירנו הראשונה. רחובות 1991",
-          textMobile: "היום הראשון בעירנו הראשונה. רחובות 1991"
+          alt: "הימים הראשונים שלנו בעירנו הראשונה. רחובות, 1991",
+          textDesktop: "הימים הראשונים שלנו בעירנו הראשונה. רחובות, 1991",
+          textMobile: "הימים הראשונים שלנו בעירנו הראשונה. רחובות, 1991"
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/first-days-in-isreal-02.webp",
-          alt: "היום הראשון בעירנו הראשונה. רחובות 1991",
+          alt: "הימים הראשונים שלנו בעירנו הראשונה. רחובות, 1991",
           textDesktop: null,
-          textMobile: "היום הראשון בעירנו הראשונה. רחובות 1991"
+          textMobile: "הימים הראשונים שלנו בעירנו הראשונה. רחובות, 1991"
         }
       ]
     },
@@ -267,9 +281,9 @@ const textsWeArrived = {
       image: {
       desktopSrc: "/images/Masha-and-the-kids-Rehovot.jpg",
       mobileSrc: "/images/Masha-and-the-kids-Rehovot-mobile.jpg",
-      alt: "Фото в Реховоте",
-      textDesktop:    `היום הראשון בעירנו הראשונה. רחובות 1991`,
-      textMobile:    `היום הראשון בעירנו הראשונה. רחובות 1991`
+      alt: "מאשה וילדי השכונה - התמונות הראשונות שלנו בעירנו הראשונה. רחובות, 1991",
+      textDesktop:  "מאשה וילדי השכונה - התמונות הראשונות שלנו בעירנו הראשונה. רחובות, 1991",
+      textMobile:   "מאשה וילדי השכונה - התמונות הראשונות שלנו בעירנו הראשונה. רחובות, 1991"
       }
     }
   ],
@@ -283,6 +297,17 @@ const textsWeArrived = {
 
 
  en: [
+
+
+      {
+      alt: {
+        hero: `Cover image for Chapter 2 - We Arrived in Israel: Masha with the neighborhood kids in Rehovot, 1990.`,
+      }
+    },
+
+
+
+
     {
       h1:  `Israel welcomed us with smiles.`,
       text: [
@@ -294,9 +319,9 @@ const textsWeArrived = {
       image: {
         desktopSrc: "/images/teudatOle.jpg",
     mobileSrc: "/images/teudatOle.jpg",
-    alt: "Teudat Ole",
-    textDesktop: "Teudat Ole",
-    textMobile: "Teudat Ole"
+    alt: "My certificate of an immigrant (Oleh certificate)",
+    textDesktop: "My certificate of an immigrant ('Oleh' certificate)",
+    textMobile: "My certificate of an immigrant ('Oleh' certificate)"
       }
     },
     {
@@ -337,21 +362,21 @@ const textsWeArrived = {
         {
           desktopSrc: "/images/desktop-images/cockroch-desktop.webp",
           mobileSrc: null,
-          alt: "Desktop cockroach",
+          alt: "A series of Masha's drawings inspired by Israeli cockroaches. Rehovot 1991",
           textDesktop: "A series of Masha's drawings inspired by Israeli cockroaches. Rehovot 1991",
           textMobile: null
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/cockroch1.webp",
-          alt: "Mobile cockroach 1",
+          alt: "A series of Masha's drawings inspired by Israeli cockroaches. Rehovot 1991",
           textDesktop: null,
           textMobile: "A series of Masha's drawings inspired by Israeli cockroaches. Rehovot 1991"
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/cockroch2.webp",
-          alt: "Mobile cockroach 2",
+          alt: "A series of Masha's drawings inspired by Israeli cockroaches. Rehovot 1991",
           textDesktop: null,
           textMobile: "A series of Masha's drawings inspired by Israeli cockroaches. Rehovot 1991"
         }
@@ -468,9 +493,9 @@ Masha, being polite, kept scooting over to make space - until, in the end, she w
       image: {
     desktopSrc: "/images/Masha-and-the-kids-Rehovot.jpg",
     mobileSrc: "/images/Masha-and-the-kids-Rehovot.jpg",
-    alt: "Photo in Rehovot",
-    textDesktop: "Our first photos in our first city. Rehovot 1991",
-    textMobile: "Our first photos in our first city. Rehovot 1991"
+    alt: "Masha and the neighborhood kids - Our first photos in our first city. Rehovot, 1991",
+    textDesktop: "Masha and the neighborhood kids - Our first photos in our first city. Rehovot, 1991",
+    textMobile: "Masha and the neighborhood kids - Our first photos in our first city. Rehovot, 1991"
       }
     }
   ]

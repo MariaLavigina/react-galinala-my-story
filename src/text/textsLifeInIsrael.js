@@ -16,9 +16,9 @@ const textsLifeInIsrael = {
     {
       desktopSrc: "/images/bet-shemesh-flat.jpg",
       mobileSrc: "/images/bet-shemesh-flat.jpg",
-      alt: "Теудат Оле",
-      textDesktop: "-------",
-      textMobile: "-------"
+      alt: "Я, моя мама и моя дочь Маша в нашей новой квартире.",
+      textDesktop: "Я, моя мама и моя дочь Маша в нашей новой квартире.",
+      textMobile: "Я, моя мама и моя дочь Маша в нашей новой квартире."
     }
   ]
 },
@@ -53,9 +53,9 @@ const textsLifeInIsrael = {
     {
       desktopSrc: "/images/mashas-note.jpg",
       mobileSrc: "/images/mashas-note.jpg",
-      alt: "Теудат Оле",
-      textDesktop: "-------",
-      textMobile: "“Для моей мамочки. Не сердись на меня, Ты же меня любишь, правда? Но я разбила окно. Маша.”"
+      alt: "Записка от Маши, примерно 10 лет: Дорогая мамочка, не сердись на меня. Ты же меня любишь, правда? Но я разбила окно. - Маша",
+      textDesktop: "Записка от Маши, примерно 10 лет: Дорогая мамочка, не сердись на меня. Ты же меня любишь, правда? Но я разбила окно. - Маша",
+      textMobile: "Записка от Маши, примерно 10 лет: Дорогая мамочка, не сердись на меня. Ты же меня любишь, правда? Но я разбила окно. - Маша"
     }
   ]
 },
@@ -91,9 +91,9 @@ const textsLifeInIsrael = {
     {
       desktopSrc: "/images/my-family-the-four-of-us.jpg",
       mobileSrc: "/images/my-family-the-four-of-us.jpg",
-      alt: "Теудат Оле",
-      textDesktop: "-------",
-      textMobile: "Лето 1946 года. Я в подмосковном  детском саду. Родительский день. Мама, папа и брат Саша приехали меня навестить. "
+      alt: "Лето 1946 года. Я в подмосковном  детском саду. Родительский день. Мама, папа и брат Саша приехали меня навестить. ",
+      textDesktop: "Лето 1946 года. Я в подмосковном  детском саду. Родительский день. Мама, папа и брат Саша приехали меня навестить. ",
+      textMobile: "Лето 1946 года. Я в подмосковном  детском саду. Родительский день. Мама, папа и брат Саша приехали меня навестить. "
     }
   ]
 },
@@ -173,9 +173,9 @@ const textsLifeInIsrael = {
         {
           desktopSrc: "/images/bet-shemesh-flat.jpg",
           mobileSrc: "/images/bet-shemesh-flat.jpg",
-          alt: "דירה חדשה",
-          textDesktop: "-------",
-          textMobile: "-------"
+          alt: "אני, אמי וביתי מאשה בדירתנו החדשה.",
+          textDesktop: "אני, אמי וביתי מאשה בדירתנו החדשה.",
+          textMobile: "אני, אמי וביתי מאשה בדירתנו החדשה."
         }
       ]
     },
@@ -205,9 +205,9 @@ const textsLifeInIsrael = {
         {
           desktopSrc: "/images/mashas-note.jpg",
           mobileSrc: "/images/mashas-note.jpg",
-          alt: "פתק קטן",
-          textDesktop: "-------",
-          textMobile: `---------`,
+          alt:  `פתק ממאַשה, בערך בת 10: אמא יקרה, אל תכעסי עלי. את אוהבת אותי, נכון? אבל שברתי את החלון. - מאַשה `,
+          textDesktop:  `פתק ממאַשה, בערך בת 10: אמא יקרה, אל תכעסי עלי. את אוהבת אותי, נכון? אבל שברתי את החלון. - מאַשה `,
+          textMobile: `פתק ממאַשה, בערך בת 10: אמא יקרה, אל תכעסי עלי. את אוהבת אותי, נכון? אבל שברתי את החלון. - מאַשה `,
         }
       ]
     },
@@ -246,9 +246,9 @@ const textsLifeInIsrael = {
         {
           desktopSrc: "/images/my-family-the-four-of-us.jpg",
           mobileSrc: "/images/my-family-the-four-of-us.jpg",
-          alt: "משפחה",
-          textDesktop: "-------",
-          textMobile: `תמונה ישנה מהילדות - רגע משפחתי פשוט ויקר.`
+          alt: "קיץ 1946. אני בגן ילדים בפרבר של מוסקבה. יום הורים. אמא, אבא ואחי סשה הגיעו לבקר אותי.",
+          textDesktop: "קיץ 1946. אני בגן ילדים בפרבר של מוסקבה. יום הורים. אמא, אבא ואחי סשה הגיעו לבקר אותי.",
+          textMobile: "קיץ 1946. אני בגן ילדים בפרבר של מוסקבה. יום הורים. אמא, אבא ואחי סשה הגיעו לבקר אותי."
         }
       ]
     },
@@ -307,9 +307,9 @@ const textsLifeInIsrael = {
         {
           desktopSrc: "/images/bet-shemesh-flat.jpg",
           mobileSrc: "/images/bet-shemesh-flat.jpg",
-          alt: "New Apartment",
-          textDesktop: "-------",
-          textMobile: "-------"
+          alt: "My mother, my daughter Masha, and I, happy in our new apartment.",
+          textDesktop: "My mother, my daughter Masha, and I, happy in our new apartment.",
+          textMobile: "My mother, my daughter Masha, and I, happy in our new apartment."
         }
       ]
     },
@@ -344,9 +344,9 @@ I admit, I thought maybe he was saving it for “someone of his own.” But then
         {
           desktopSrc: "/images/mashas-note.jpg",
           mobileSrc: "/images/mashas-note.jpg",
-          alt: "Small Note",
-          textDesktop: "-------",
-          textMobile: `A short loving note.`,
+          alt: "A note from Masha, around age 10: To my dear mother, Don’t be angry with me. You love me, right? But I broke the window. - Masha",
+          textDesktop: "A note from Masha, around age 10: To my dear mother, Don’t be angry with me. You love me, right? But I broke the window. - Masha",
+          textMobile: `A note from Masha, around age 10: To my dear mother, Don’t be angry with me. You love me, right? But I broke the window. - Masha`,
         }
       ]
     },
@@ -384,9 +384,9 @@ tell her. So I said:
         {
           desktopSrc: "/images/my-family-the-four-of-us.jpg",
           mobileSrc: "/images/my-family-the-four-of-us.jpg",
-          alt: "Family",
-          textDesktop: "-------",
-          textMobile: `An old childhood photo - a simple family moment.`
+          alt: "Summer of 1946. I was in a kindergarten near Moscow. Parents’ day. Mom, Dad, and my brother Sasha came to visit me.",
+          textDesktop: "Summer of 1946. I was in a kindergarten near Moscow. Parents’ day. Mom, Dad, and my brother Sasha came to visit me.",
+          textMobile: `Summer of 1946. I was in a kindergarten near Moscow. Parents’ day. Mom, Dad, and my brother Sasha came to visit me.`
         }
       ]
     },

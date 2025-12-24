@@ -60,18 +60,42 @@ React.useEffect(() => {
 
 
 
-
-  // Set page title and meta description based on language
-
-
-
-
-
   // ⭐ Fade-in effect
   const [opacity, setOpacity] = useState(0); 
   useEffect(() => {
     setOpacity(1); 
   }, []);
+
+
+
+
+
+
+
+
+  // 🖼 Preload all hero images
+  useEffect(() => {
+    const images = [
+      "/images/desktop-images/ru-chapter-01-desktop.webp",
+      "/images/desktop-images/en-chapter-01-desktop.webp",
+      "/images/desktop-images/he-chapter-01-desktop.webp",
+      "/images/mobile-images/chapter01-why-i-left-mobile.webp",
+      "/images/ipad-images/way-i-left.svg",
+      "/images/desktop-images/entroPage-chapterOne-desktop.svg"
+    ];
+    images.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, []);
+
+  
+
+
+
+
+
+
 
 
   
@@ -99,7 +123,7 @@ React.useEffect(() => {
         ? "/images/desktop-images/en-chapter-01-desktop.webp"
         : "/images/desktop-images/he-chapter-01-desktop.webp"
     }
-    alt="Hero"
+    alt={textsWhyILeft[lang].alt.hero}
     className="w-full h-auto block"
   />
 
@@ -144,12 +168,12 @@ React.useEffect(() => {
   <img
     src={
       lang === "ru"
-        ? "/images/mobile-images/chapter01-why-i-left-mobile.webp"
+        ? "/images/ipad-images/ru-chapter-01-ipad.webp"
         : lang === "en"
-        ? "/images/mobile-images/chapter01-why-i-left-mobile.webp"
-        : "/images/mobile-images/chapter01-why-i-left-mobile.webp"
+        ? "/images/ipad-images/en-chapter-01-ipad.webp"
+        : "/images/ipad-images/he-chapter-01-ipad.webp"
     }
-    alt="Hero"
+    alt={textsWhyILeft[lang].alt.hero}
     className="w-full h-auto block"
   />
 
@@ -191,9 +215,15 @@ React.useEffect(() => {
 
 {/* ---------- Mobile-only Hero section ---------- */}
 <div className="block md:hidden w-full">
-  <img
-    src="/images/mobile-images/chapter01-why-i-left-mobile.webp"
-    alt="Hero"
+   <img
+    src={
+      lang === "ru"
+        ? "/images/mobile-images/ru-chapter-01-mobile.webp"
+        : lang === "en"
+        ? "/images/mobile-images/en-chapter-01-mobile.webp"
+        : "/images/mobile-images/he-chapter-01-mobile.webp"
+    }
+    alt={textsWhyILeft[lang].alt.hero}
     className="w-full h-auto block"
   />
 

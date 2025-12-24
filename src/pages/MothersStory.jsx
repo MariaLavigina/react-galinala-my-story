@@ -84,7 +84,7 @@ React.useEffect(() => {
       ? "/images/desktop-images/en-chapter-04-desktop.webp"
       : "/images/desktop-images/he-chapter-04-desktop.webp"
   }
-  alt={textForLang?.alt?.hero || "Hero"}
+      alt={textsMothersStory[lang][0].alt.hero}
   className="w-full h-auto block"
 />
         <div className="relative w-full -mt-[230px]">
@@ -110,16 +110,29 @@ React.useEffect(() => {
         </div>
       </div>
 
+
+
+
+
+
+
+
       {/* Tablet-only Hero */}
       <div className="hidden md:block lg:hidden w-full">
-        <img
-          src="/images/mobile-images/chapter04-grandmother-mobile.webp"
-          alt="Hero"
+            <img
+    src={
+      lang === "ru"
+        ? "/images/ipad-images/ru-chapter-04-ipad.webp"
+        : lang === "en"
+        ? "/images/ipad-images/en-chapter-04-ipad.webp"
+        : "/images/ipad-images/he-chapter-04-ipad.webp"
+    }
+             alt={textsMothersStory[lang][0].alt.hero}
           className="w-full h-auto block"
         />
         <div className="relative w-full -mt-[160px]">
           <img
-            src="/images/ipad-images/chapter04-masha-tablet.svg"
+            src="/images/ipad-images/entroChapter-myMother-ipad.svg"
             alt="Wave"
             className="w-full h-auto block"
           />
@@ -141,9 +154,15 @@ React.useEffect(() => {
 
       {/* Mobile-only Hero */}
       <div className="block md:hidden w-full">
-        <img
-          src="/images/mobile-images/chapter04-grandmother-mobile.webp"
-          alt="Hero"
+          <img
+    src={
+      lang === "ru"
+        ? "/images/mobile-images/ru-chapter-04-mobile.webp"
+        : lang === "en"
+        ? "/images/mobile-images/en-chapter-04-mobile.webp"
+        : "/images/mobile-images/he-chapter-04-mobile.webp"
+    }
+             alt={textsMothersStory[lang][0].alt.hero}
           className="w-full h-auto block"
         />
         <div className="relative w-full -mt-[100px]">
@@ -198,6 +217,10 @@ React.useEffect(() => {
               {block.h1}
             </h1>
           )}
+
+
+
+
 
 {/* H4 */}
 {block.h4 && (
@@ -373,12 +396,12 @@ React.useEffect(() => {
                   }
 
                     const wrapperClass = img.fullWidth
-  ? `mb-12 w-screen relative ${
-      lang === "he"
-        ? "right-1/2 translate-x-1/2"
-        : "left-1/2 -translate-x-1/2"
-    } text-center`
-  : `mb-12 ${lang === "he" ? "text-right" : "text-left"}`;
+                    ? `mb-12 w-screen relative ${
+                     lang === "he"
+                      ? "right-1/2 translate-x-1/2"
+                   : "left-1/2 -translate-x-1/2"
+                 } text-center`
+                 : `mb-12 ${lang === "he" ? "text-right" : "text-left"}`;
 
                   return (
                     <div key={idx} className={wrapperClass}>
@@ -389,6 +412,8 @@ React.useEffect(() => {
                           className="w-full h-auto hidden md:block"
                         />
                       )}
+
+                      
                       {img.textDesktop && (
                         <p className="hidden md:block text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mt-4">
                           {img.textDesktop}
@@ -402,6 +427,9 @@ React.useEffect(() => {
                           className="w-full h-auto mb-4 block md:hidden"
                         />
                       )}
+
+
+
                       {img.textMobile && (
                         <p className="block md:hidden text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mt-4">
                           {img.textMobile}

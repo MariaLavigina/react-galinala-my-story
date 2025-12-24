@@ -81,7 +81,7 @@ return (
       ? "/images/desktop-images/en-chapter-03-desktop.webp"
       : "/images/desktop-images/he-chapter-03-desktop.webp"
   }
-  alt={textForLang?.alt?.hero || "Hero"}
+    alt={textsMashasFirstDays[lang][0].alt.hero}
   className="w-full h-auto block"
 />
 
@@ -118,14 +118,25 @@ return (
       </div>
     </div>
 
+
+
+
+
+
     {/* Tablet-only Hero */}
     <div className="hidden md:block lg:hidden w-full">
-      <img
-        src="/images/mobile-images/chapter03-masha-mobile.webp"
-        alt="Hero"
+       <img
+    src={
+      lang === "ru"
+        ? "/images/ipad-images/ru-chapter-03-ipad.webp"
+        : lang === "en"
+        ? "/images/ipad-images/en-chapter-03-ipad.webp"
+        : "/images/ipad-images/he-chapter-03-ipad.webp"
+    }
+         alt={textsMashasFirstDays[lang][0].alt.hero}
         className="w-full h-auto block"
       />
-      <div className="relative w-full -mt-[120px]">
+      <div className="relative w-full -mt-[170px]">
         <img
           src="/images/ipad-images/chapter-masha.svg"
           alt="Wave"
@@ -149,9 +160,15 @@ return (
 
     {/* Mobile-only Hero */}
     <div className="block md:hidden w-full">
-      <img
-        src="/images/mobile-images/chapter03-masha-mobile.webp"
-        alt="Hero"
+        <img
+    src={
+      lang === "ru"
+        ? "/images/mobile-images/ru-chapter-03-mobile.webp"
+        : lang === "en"
+        ? "/images/mobile-images/en-chapter-03-mobile.webp"
+        : "/images/mobile-images/he-chapter-03-mobile.webp"
+    }
+         alt={textsMashasFirstDays[lang][0].alt.hero}
         className="w-full h-auto block"
       />
       <div className="relative w-full -mt-[90px]">

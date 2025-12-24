@@ -94,7 +94,7 @@ const textsFirstSteps = {
   {
     desktopSrc: "/images/desktop-images/tikoa-desktop.jpg",
     mobileSrc: null,
-    alt: "---",
+    alt: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992.",
     textDesktop: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992.",
     textMobile: null
   },
@@ -102,14 +102,14 @@ const textsFirstSteps = {
   {
     desktopSrc: null,
     mobileSrc: "/images/mobile-images/tikoa-drawing-01.jpg",
-    alt: "---",
+    alt: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992.",
     textDesktop: null,
     textMobile: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992."
   },
   {
     desktopSrc: null,
     mobileSrc: "/images/mobile-images/tikoa-drawing-02.jpg",
-    alt: "---",
+    alt: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992.",
     textDesktop: null,
     textMobile: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992."
   }
@@ -243,24 +243,24 @@ const textsFirstSteps = {
   {
     desktopSrc: "/images/desktop-images/tikoa-desktop.jpg",
     mobileSrc: null,
-    alt: "---",
-    textDesktop: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע – הרודיון.",
+    alt: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע - הרודיון, 1992.",
+    textDesktop: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע - הרודיון, 1992.",
     textMobile: null
   },
   // Mobile-only
   {
     desktopSrc: null,
     mobileSrc: "/images/mobile-images/tikoa-drawing-01.jpg",
-    alt: "---",
+    alt: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע - הרודיון, 1992.",
     textDesktop: null,
-    textMobile: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע – הרודיון."
+    textMobile: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע - הרודיון, 1992."
   },
   {
     desktopSrc: null,
     mobileSrc: "/images/mobile-images/tikoa-drawing-02.jpg",
-    alt: "---",
+    alt: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע - הרודיון, 1992.",
     textDesktop: null,
-    textMobile: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע – הרודיון. ."
+    textMobile: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע - הרודיון, 1992."
   }
   ]
 },
@@ -413,7 +413,7 @@ Shapiro stipend. So really, I was a bargain.
     desktopSrc: "/images/desktop-images/tikoa-desktop.jpg",
     mobileSrc: null,
     alt: "---",
-    textDesktop: `In the evenings, Masha and I would go out and draw the landscapes of Mount Tekoa – Herodion.
+    textDesktop: `In the evenings, Masha and I would go out and draw the landscapes of Mount Tekoa - Herodion.
 Herodion in Masha’s drawings 1992. `,
     textMobile: null
   },
@@ -423,7 +423,7 @@ Herodion in Masha’s drawings 1992. `,
     mobileSrc: "/images/mobile-images/tikoa-drawing-01.jpg",
     alt: "---",
     textDesktop: null,
-    textMobile: `In the evenings, Masha and I would go out and draw the landscapes of Mount Tekoa – Herodion.
+    textMobile: `In the evenings, Masha and I would go out and draw the landscapes of Mount Tekoa - Herodion.
 Herodion in Masha’s drawings 1992. `,
   },
   {
@@ -431,7 +431,7 @@ Herodion in Masha’s drawings 1992. `,
     mobileSrc: "/images/mobile-images/tikoa-drawing-02.jpg",
     alt: "---",
     textDesktop: null,
-    textMobile: `In the evenings, Masha and I would go out and draw the landscapes of Mount Tekoa – Herodion.
+    textMobile: `In the evenings, Masha and I would go out and draw the landscapes of Mount Tekoa - Herodion.
 Herodion in Masha’s drawings 1992. `,
   }
   ]

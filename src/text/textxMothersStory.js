@@ -1,6 +1,14 @@
 
 const textsMothersStory = {
   ru: [
+
+
+            {
+      alt: {
+        hero: `Обложка для главы 4 - Четвёртая глава принадлежит моей маме.`,
+      }
+    },
+
      {
       h4:  `Моя мама не оставила мне богатства, но пример жизни я получила редкостный.`,
       text: [
@@ -16,16 +24,16 @@ const textsMothersStory = {
         {
           desktopSrc: "/images/desktop-images/documentations-desktop.webp",
           mobileSrc: null,
-          alt: "---",
-          textDesktop: `Мама как-то попросила купить ей блокнот -  С тех пор она вела его с нашими расходами, как бухгалтер на миссии. Даже мороженое за 3 шекеля туда попадало.`,
+          alt: "Изображение документации, которую вела моя мама: однажды она попросила купить ей блокнот, и с тех пор записывала в него все наши расходы, как бухгалтер на миссии - туда попадало даже мороженое за 3 шекеля.",
+          textDesktop: `Мама как-то попросила купить ей блокнот - С тех пор она вела его с нашими расходами, как бухгалтер на миссии. Даже мороженое за 3 шекеля туда попадало.`,
           textMobile: null,
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/documentations-mobile.jpg",
-          alt: "---",
+          alt: "Изображение документации, которую вела моя мама: однажды она попросила купить ей блокнот, и с тех пор записывала в него все наши расходы, как бухгалтер на миссии - туда попадало даже мороженое за 3 шекеля.",
           textDesktop: null,
-          textMobile: `Мама как-то попросила купить ей блокнот -  С тех пор она вела его с нашими расходами, как бухгалтер на миссии. Даже мороженое за 3 шекеля туда попадало.`,
+          textMobile: `Мама как-то попросила купить ей блокнот - С тех пор она вела его с нашими расходами, как бухгалтер на миссии. Даже мороженое за 3 шекеля туда попадало.`,
         },
       ],
     },
@@ -105,17 +113,17 @@ const textsMothersStory = {
         {
           desktopSrc: "/images/desktop-images/window-view-desktop.webp",
           mobileSrc: null,
-          alt: "---",
-          textDesktop: `---`,
+          alt: "фото - вид из нашего окна",
+          textDesktop: ``,
           textMobile: null,
           fullWidth: true
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/window-view-mobile.webp",
-          alt: "---",
+          alt: "фото - вид из нашего окна",
           textDesktop: null,
-          textMobile: `--`,
+          textMobile: ``,
           fullWidth: true 
         },
       ],
@@ -138,25 +146,25 @@ const textsMothersStory = {
     {
       desktopSrc: "/images/Birthday-Magazines-01.jpg",
       mobileSrc: "/images/Birthday-Magazines-01.jpg",
-      alt: "Second image alt text",
-      textDesktop: "Description for second image",
-      textMobile: "Description for second image",
+      alt: "Юмористические газеты, сделанные вручную моей мамой из вырезанных заголовков и рисунков из газет и журналов, без личных фотографий.",
+      textDesktop: "Юмористические газеты, сделанные вручную моей мамой из вырезанных заголовков и рисунков из газет и журналов, без личных фотографий. Моя мама сделала их для моего дня рождения, уже будучи в конце своих 80-х, с большим теплом и любовью.",
+      textMobile: "Юмористические газеты, сделанные вручную моей мамой из вырезанных заголовков и рисунков из газет и журналов, без личных фотографий. Моя мама сделала их для моего дня рождения, уже будучи в конце своих 80-х, с большим теплом и любовью.",
       fullWidth: true 
-    },
-    {
-      desktopSrc: "/images/Birthday-Magazines-02.jpg",
-      mobileSrc: "/images/Birthday-Magazines-02.jpg",
-      alt: "Second image alt text",
-      textDesktop: "Description for second image",
-      textMobile: "Description for second image",
-      fullWidth: true
     },
     {
       desktopSrc: "/images/Birthday-Magazines-03.jpg",
       mobileSrc: "/images/Birthday-Magazines-03.jpg",
-      alt: "Second image alt text",
-      textDesktop: "Description for second image",
-      textMobile: "Description for second image",
+      alt: "Юмористические газеты, сделанные вручную моей мамой из вырезанных заголовков и рисунков из газет и журналов, без личных фотографий.",
+      textDesktop: "",
+      textMobile: "",
+      fullWidth: true
+    },
+    {
+      desktopSrc: "/images/Birthday-Magazines-02.jpg",
+      mobileSrc: "/images/Birthday-Magazines-02.jpg",
+      alt: "Юмористические газеты, сделанные вручную моей мамой из вырезанных заголовков и рисунков из газет и журналов, без личных фотографий.",
+      textDesktop: "Юмористические газеты, сделанные вручную моей мамой из вырезок заголовков и рисунков из газет и журналов. Эти газеты она сделала для Маши.",
+      textMobile: "Юмористические газеты, сделанные вручную моей мамой из вырезок заголовков и рисунков из газет и журналов. Эти газеты она сделала для Маши.",
       fullWidth: true 
     }
   ], 
@@ -176,6 +184,14 @@ const textsMothersStory = {
 
 
   he: [
+
+        {
+      alt: {
+        hero: `תמונת שער לפרק 4 - הפרק הרביעי שייך לאמא שלי.`,
+      }
+    },
+
+
     {
       h4:  `אמא שלי לא השאירה לי עושר חומרי, אבל היא השאירה לי דוגמא לחיים יוצאת דופן.`,
       text: [
@@ -196,16 +212,16 @@ const textsMothersStory = {
         {
           desktopSrc: "/images/desktop-images/documentations-desktop.webp",
           mobileSrc: null,
-          alt: "---",
-          textDesktop: `---------`,
+          alt: "תמונה של התיעוד שאמא שלי ניהלה: יום אחד היא ביקשה שאקנה לה מחברת, ומאז היא רשמה בה את כל ההוצאות שלנו, כמו רואת חשבון בשליחות - אפילו גלידה ב־3 שקלים נכנסה לשם.",
+          textDesktop: `אמא פעם ביקשה שאקנה לה מחברת - מאז היא ניהלה אותה עם כל ההוצאות שלנו, כמו רואת חשבון במשימה. אפילו גלידה ב־3 שקלים נרשמה שם.`,
           textMobile: null,
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/documentations-mobile.jpg",
-          alt: "---",
+          alt: "תמונה של התיעוד שאמא שלי ניהלה: יום אחד היא ביקשה שאקנה לה מחברת, ומאז היא רשמה בה את כל ההוצאות שלנו, כמו רואת חשבון בשליחות - אפילו גלידה ב־3 שקלים נכנסה לשם.",
           textDesktop: null,
-          textMobile: `-------`,
+          textMobile: `אמא פעם ביקשה שאקנה לה מחברת - מאז היא ניהלה אותה עם כל ההוצאות שלנו, כמו רואת חשבון במשימה. אפילו גלידה ב־3 שקלים נרשמה שם.`,
         },
       ],
     },
@@ -277,17 +293,17 @@ const textsMothersStory = {
         {
           desktopSrc: "/images/desktop-images/window-view-desktop.webp",
           mobileSrc: null,
-          alt: "---",
-          textDesktop: `---`,
+          alt: "צילום - הנוף מהחלון שלנו",
+          textDesktop: ``,
           textMobile: null,
           fullWidth: true
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/window-view-mobile.webp",
-          alt: "---",
+          alt: "צילום - הנוף מהחלון שלנו",
           textDesktop: null,
-          textMobile: `--`,
+          textMobile: ``,
           fullWidth: true 
         },
       ],
@@ -309,25 +325,27 @@ const textsMothersStory = {
         {
           desktopSrc: "/images/Birthday-Magazines-01.jpg",
           mobileSrc: "/images/Birthday-Magazines-01.jpg",
-          alt: "Second image alt text",
-          textDesktop: "Description for second image",
-          textMobile: "Description for second image",
+          alt: "עיתונים הומוריסטיים, שנעשו בעבודת יד על ידי אמא שלי מתוך כותרות וציורים שנגזרו מעיתונים ומגזינים, ללא תמונות אישיות.",
+          textDesktop: "עיתונים הומוריסטיים, שנעשו בעבודת יד על ידי אמא שלי מתוך כותרות וציורים שנגזרו מעיתונים ומגזינים, ללא תמונות אישיות. אמא שלי הכינה אותם ליום ההולדת שלי, כבר בסוף שנות ה-80 שלה, עם הרבה חום ואהבה.",
+          textMobile: "עיתונים הומוריסטיים, שנעשו בעבודת יד על ידי אמא שלי מתוך כותרות וציורים שנגזרו מעיתונים ומגזינים, ללא תמונות אישיות. אמא שלי הכינה אותם ליום ההולדת שלי, כבר בסוף שנות ה-80 שלה, עם הרבה חום ואהבה.",
+
           fullWidth: true 
         },
         {
           desktopSrc: "/images/Birthday-Magazines-02.jpg",
           mobileSrc: "/images/Birthday-Magazines-02.jpg",
-          alt: "Second image alt text",
-          textDesktop: "Description for second image",
-          textMobile: "Description for second image",
+          alt: "עיתונים הומוריסטיים, שנעשו בעבודת יד על ידי אמא שלי מתוך כותרות וציורים שנגזרו מעיתונים ומגזינים, ללא תמונות אישיות.",
+          textDesktop: "",
+          textMobile: "",
           fullWidth: true
         },
         {
           desktopSrc: "/images/Birthday-Magazines-03.jpg",
           mobileSrc: "/images/Birthday-Magazines-03.jpg",
-          alt: "Second image alt text",
-          textDesktop: "Description for second image",
-          textMobile: "Description for second image",
+          alt: "עיתונים הומוריסטיים, שנעשו בעבודת יד על ידי אמא שלי מתוך כותרות וציורים שנגזרו מעיתונים ומגזינים, ללא תמונות אישיות.",
+          textDesktop: "עיתונים הומוריסטיים, שנעשו בעבודת יד על ידי אמא שלי מתוך כותרות וציורים שנגזרו מעיתונים ומגזינים. את העיתונים האלה היא הכינה עבור מאשה.",
+          textMobile: "עיתונים הומוריסטיים, שנעשו בעבודת יד על ידי אמא שלי מתוך כותרות וציורים שנגזרו מעיתונים ומגזינים. את העיתונים האלה היא הכינה עבור מאשה.",
+
           fullWidth: true 
         }
       ]
@@ -335,6 +353,11 @@ const textsMothersStory = {
   ],
 
   en: [
+            {
+      alt: {
+        hero: `Cover image for Chapter 4 - the fourth chapter belongs to my mother.`,
+      }
+    },
     {
       h4:  `My mother didn’t leave me a fortune, but the example of her life was a rare treasure.`,
       text: [
@@ -350,16 +373,16 @@ const textsMothersStory = {
          {
           desktopSrc: "/images/desktop-images/documentations-desktop.webp",
           mobileSrc: null,
-          alt: "---",
-          textDesktop: ``,
+          alt: "A picture of my mother’s brochure, where she managed and recorded all our expenses. My mother once asked me to buy her a notebook, and since then she kept track of everything we spent, like an accountant on a mission - even ice cream for 3 shekels was recorded.",
+          textDesktop: `My mother once asked me to buy her a notebook - since then she kept it with all our expenses, like an accountant on a mission. Even ice cream for 3 shekels made it in there.`,
           textMobile: null,
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/documentations-mobile.jpg",
-          alt: "---",
+          alt: "A picture of my mother’s brochure, where she managed and recorded all our expenses. My mother once asked me to buy her a notebook, and since then she kept track of everything we spent, like an accountant on a mission — even ice cream for 3 shekels was recorded.",
           textDesktop: null,
-          textMobile: ``,
+          textMobile: `My mother once asked me to buy her a notebook - since then she kept it with all our expenses, like an accountant on a mission. Even ice cream for 3 shekels made it in there.`,
         },
       ],
     },
@@ -413,17 +436,17 @@ const textsMothersStory = {
         {
           desktopSrc: "/images/desktop-images/window-view-desktop.webp",
           mobileSrc: null,
-          alt: "---",
-          textDesktop: `---`,
+          alt: "photo - view from our window",
+          textDesktop: ``,
           textMobile: null,
           fullWidth: true
         },
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/window-view-mobile.webp",
-          alt: "---",
+          alt: "photo - view from our window",
           textDesktop: null,
-          textMobile: `--`,
+          textMobile: ``,
           fullWidth: true 
         },
       ],
@@ -432,9 +455,8 @@ const textsMothersStory = {
       h4: [
         `I remembered my younger years, and later my adult ones, when I often served on the editorial board of our wall newspaper.`,
         `One day, I secretly put together a humorous newspaper for Galya. There were no photos like “with family” or “with friends”- almost all the headlines I carefully cut out from newspapers and magazines, and the illustrations came from there too. Everyone loved it, and Galya was completely amazed - she couldn’t believe I had managed to do it. Especially since just a week earlier, I had made a newspaper for her closest friend.`,
-        `Here they are, these newspapers.`,
-        ``,
-        ``
+        `Here they are, these newspapers.`
+       
       ]
     },
     {
@@ -442,25 +464,25 @@ const textsMothersStory = {
       {
           desktopSrc: "/images/Birthday-Magazines-01.jpg",
           mobileSrc: "/images/Birthday-Magazines-01.jpg",
-          alt: "Second image alt text",
-          textDesktop: "Description for second image",
-          textMobile: "Description for second image",
+          alt: "Humorous newspapers, handmade by my mother from cut-out headlines and illustrations from newspapers and magazines, without personal photos.",
+          textDesktop: "Humorous newspapers, handmade by my mother from cut-out headlines and illustrations from newspapers and magazines, without personal photos. My mother made them for my birthday, already in her late 80s, with great warmth and love.",
+          textMobile: "Humorous newspapers, handmade by my mother from cut-out headlines and illustrations from newspapers and magazines, without personal photos. My mother made them for my birthday, already in her late 80s, with great warmth and love.",
           fullWidth: true 
         },
         {
           desktopSrc: "/images/Birthday-Magazines-02.jpg",
           mobileSrc: "/images/Birthday-Magazines-02.jpg",
-          alt: "Second image alt text",
-          textDesktop: "Description for second image",
-          textMobile: "Description for second image",
+          alt: "Humorous newspapers, handmade by my mother from cut-out headlines and illustrations from newspapers and magazines, without personal photos.",
+          textDesktop: "",
+          textMobile: "",
           fullWidth: true
         },
         {
           desktopSrc: "/images/Birthday-Magazines-03.jpg",
           mobileSrc: "/images/Birthday-Magazines-03.jpg",
-          alt: "Second image alt text",
-          textDesktop: "Description for second image",
-          textMobile: "Description for second image",
+          alt: "Humorous newspapers, handmade by my mother from cut-out headlines and illustrations from newspapers and magazines, without personal photos.",
+          textDesktop: "Humorous newspapers, handmade by my mother from cut-out headlines and illustrations from newspapers and magazines. She made these newspapers for Masha.",
+          textMobile: "Humorous newspapers, handmade by my mother from cut-out headlines and illustrations from newspapers and magazines. She made these newspapers for Masha.",
           fullWidth: true 
         }
       ]

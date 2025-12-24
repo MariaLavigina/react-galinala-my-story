@@ -96,7 +96,7 @@ return (
       ? "/images/desktop-images/en-chapter-02-desktop.webp"
       : "/images/desktop-images/he-chapter-02-desktop.webp"
   }
-  alt={textForLang?.alt?.hero || "Hero"}
+alt={textsWeArrived[lang][0].alt.hero}
   className="w-full h-auto block"
 />
 
@@ -141,9 +141,15 @@ return (
 
     {/* Tablet-only Hero */}
     <div className="hidden md:block lg:hidden w-full">
-      <img
-        src="/images/mobile-images/chapter02-arrived-to-israel-mobile.webp"
-        alt="Hero"
+    <img
+    src={
+      lang === "ru"
+        ? "/images/ipad-images/ru-chapter-02-ipad.webp"
+        : lang === "en"
+        ? "/images/ipad-images/en-chapter-02-ipad.webp"
+        : "/images/ipad-images/he-chapter-02-ipad.webp"
+    }
+        alt={textsWeArrived[lang][0].alt.hero}
         className="w-full h-auto block"
       />
       <div className="relative w-full -mt-[120px]">
@@ -169,9 +175,15 @@ return (
 
     {/* Mobile-only Hero */}
     <div className="block md:hidden w-full">
-      <img
-        src="/images/mobile-images/chapter02-arrived-to-israel-mobile.webp"
-        alt="Hero"
+        <img
+    src={
+      lang === "ru"
+        ? "/images/mobile-images/ru-chapter-02-mobile.webp"
+        : lang === "en"
+        ? "/images/mobile-images/en-chapter-02-mobile.webp"
+        : "/images/mobile-images/he-chapter-02-mobile.webp"
+    }
+       alt={textsWeArrived[lang][0].alt.hero}
         className="w-full h-auto block"
       />
       <div className="relative w-full -mt-[70px]">

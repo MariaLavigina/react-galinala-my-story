@@ -9,16 +9,16 @@ ru: {
         type: "image",
         desktopSrc: "/images/desktop-images/Masha-at-the-country-house-desktop.jpg",
         mobileSrc: "/images/mobile-images/Masha-at-the-country-house-mobile-01.jpg",
-        alt: "------------",
-        text: "---------------------------",
+        alt: "Моя дочь Маша на даче в конце 1980-х годов",
+        text: "Моя дочь Маша на даче в конце 1980-х годов",
         fullWidth: false
       },
-      {
-        type: "paragraphs",
-        paragraphs: [
-          `Плейсхолдер текста параграфа на русском`
-        ]
-      },
+      // {
+      //   type: "paragraphs",
+      //   paragraphs: [
+      //     `Плейсхолдер текста параграфа на русском`
+      //   ]
+      // },
       {
         type: "paragraphs",
    paragraphs: [
@@ -72,7 +72,7 @@ ru: {
         type: "image",
         desktopSrc: "/images/visa.jpg",
         mobileSrc: null,
-        alt: "------------",
+        alt: "Наши выездные визы, которые мы получили в Советском Союзе; виза была для Израиля",
         text: null,
         fullWidth: false
       },
@@ -92,7 +92,7 @@ ru: {
         type: "image",
         desktopSrc: "/images/desktop-images/view-sunset-bet-shemesh-desktop.webp",
         mobileSrc: "/images/mobile-images/view-sunset-bet-shemesh-mobile.webp",
-        alt: "--------------------",
+        alt: "Живописная гора возле Бейт-Шемеша на закате",
         text: null,
         fullWidth: true
       },
@@ -114,7 +114,7 @@ ru: {
         type: "image",
         desktopSrc: "/images/desktop-images/israel-visa-desktop.jpg",
         mobileSrc: "/images/mobile-images/israel-visa-mobile.jpg",
-        alt: "------------",
+        alt: "Наши выездные визы, которые мы получили в Советском Союзе; виза была для Израиля",
         text: null,
         fullWidth: false
       },
@@ -135,7 +135,7 @@ ru: {
         type: "image",
         desktopSrc: "/images/desktop-images/memory-keeper-desktop.jpg",
         mobileSrc: "/images/mobile-images/memory-keeper-mobile.jpg",
-        alt: "------------",
+        alt: "Хранитель истории – наш любимый чайник",
         text: null,
         fullWidth: false
       }
@@ -164,16 +164,16 @@ paragraphs1: [
         type: "image",
         desktopSrc: "/images/desktop-images/Masha-at-the-country-house-desktop.jpg",
         mobileSrc: "/images/mobile-images/Masha-at-the-country-house-mobile-01.jpg",
-        alt: "------------",
-        text: "---------------------------",
+        alt: "My daughter Masha at the dacha (summer house) in the late 1980s.",
+        text: "My daughter Masha at the dacha (summer house) in the late 1980s.",
         fullWidth: false
       },
-      {
-        type: "paragraphs",
-        paragraphs: [
-          `Placeholder for paragraph text in English`
-        ]
-      },
+      // {
+      //   type: "paragraphs",
+      //   paragraphs: [
+      //     `Placeholder for paragraph text in English`
+      //   ]
+      // },
       {
         type: "paragraphs",
      paragraphs: [
@@ -220,8 +220,8 @@ The waiting line for customs stretched on for months.`
         type: "image",
         desktopSrc: "/images/desktop-images/our-luggage-desktop.webp",
         mobileSrc: "/images/mobile-images/our-luggage-mobile.jpg",
-        alt: "------------",
-        text: "Our package from Moscow to Rehovot, Israel. By the way, the blanket the bag is sitting on - we bought it in Israel with a special discount from Olim (immigrants to Israel). We still use it today. “Thank you very much!”",
+        alt: "Our parcel sent from Moscow to Rehovot. By the way, the blanket under the bag was already bought in Israel with an olim (new immigrants) discount. We still use it to this day - very good quality!",
+        text: "Our parcel sent from Moscow to Rehovot. By the way, the blanket under the bag was already bought in Israel with an olim (new immigrants) discount. We still use it to this day - very good quality!",
         fullWidth: false
       },
       {
@@ -254,7 +254,7 @@ to the HR department.
         type: "image",
         desktopSrc: "/images/visa.jpg",
         mobileSrc: null,
-        alt: "------------",
+        alt: "Our exit visas, which we received in the Soviet Union; the visa was for Israel.",
         text: null,
         fullWidth: false
       },
@@ -286,7 +286,7 @@ to the HR department.
         type: "image",
         desktopSrc: "/images/desktop-images/view-sunset-bet-shemesh-desktop.webp",
         mobileSrc: "/images/mobile-images/view-sunset-bet-shemesh-mobile.webp",
-        alt: "--------------------",
+        alt: "A picturesque hill near Beit Shemesh at sunset",
         text: null,
         fullWidth: true
       },
@@ -317,7 +317,7 @@ to the HR department.
         type: "image",
         desktopSrc: "/images/desktop-images/israel-visa-desktop.jpg",
         mobileSrc: "/images/mobile-images/israel-visa-mobile.jpg",
-        alt: "------------",
+        alt: "Our exit visas, which we received in the Soviet Union; the visa was for Israel.",
         text: null,
         fullWidth: false
       },
@@ -354,7 +354,7 @@ to the HR department.
         type: "image",
         desktopSrc: "/images/desktop-images/memory-keeper-desktop.jpg",
         mobileSrc: "/images/mobile-images/memory-keeper-mobile.jpg",
-        alt: "------------",
+        alt: "The guardian of our history – our beloved teapot",
         text: null,
         fullWidth: false
       }
@@ -375,16 +375,16 @@ to the HR department.
         type: "image",
         desktopSrc: "/images/desktop-images/Masha-at-the-country-house-desktop.jpg",
         mobileSrc: "/images/mobile-images/Masha-at-the-country-house-mobile-01.jpg",
-        alt: "------------",
-        text: "---------------------------",
+        alt: "בתי מאשה בדאצ׳ה (בית קיץ) בסוף שנות השמונים",
+        text: "בתי מאשה בדאצ׳ה (בית קיץ) בסוף שנות השמונים",
         fullWidth: false
       },
-      {
-        type: "paragraphs",
-        paragraphs: [
-          `Placeholder for Hebrew paragraph text`
-        ]
-      },
+      // {
+      //   type: "paragraphs",
+      //   paragraphs: [
+      //     "בתי מאשה בדאצ׳ה (בית קיץ) בסוף שנות השמונים",
+      //   ]
+      // },
       {
         type: "paragraphs",
         paragraphs: [
@@ -428,8 +428,8 @@ to the HR department.
         type: "image",
         desktopSrc: "/images/desktop-images/our-luggage-desktop.webp",
         mobileSrc: "/images/mobile-images/our-luggage-mobile.jpg",
-        alt: "------------",
-        text: "המטען הדוארי שלנו ממוסקבה לרחובות.",
+        alt: "החבילה שלנו שנשלחה ממוסקבה לרחובות. דרך אגב, השמיכה שמתחת לשק קנינו כבר בישראל בהנחת עולים. אנחנו משתמשים בה עד היום - איכות מאוד טובה!",
+        text: "החבילה שלנו שנשלחה ממוסקבה לרחובות. דרך אגב, השמיכה שמתחת לשק קנינו כבר בישראל בהנחת עולים. אנחנו משתמשים בה עד היום - איכות מאוד טובה!",
         fullWidth: false
       },
       {
@@ -458,7 +458,7 @@ to the HR department.
         type: "image",
         desktopSrc: "/images/visa.jpg",
         mobileSrc: null,
-        alt: "------------",
+        alt: "אשרות היציאה שלנו, שקיבלנו בברית המועצות; הוויזה הייתה לישראל.",
         text: null,
         fullWidth: false
       },
@@ -488,7 +488,7 @@ to the HR department.
         type: "image",
         desktopSrc: "/images/desktop-images/view-sunset-bet-shemesh-desktop.webp",
         mobileSrc: "/images/mobile-images/view-sunset-bet-shemesh-mobile.webp",
-        alt: "--------------------",
+        alt: "גבעה ציורית ליד בית שמש בשקיעה",
         text: null,
         fullWidth: true
       },
@@ -512,7 +512,7 @@ to the HR department.
         type: "image",
         desktopSrc: "/images/desktop-images/israel-visa-desktop.jpg",
         mobileSrc: "/images/mobile-images/israel-visa-mobile.jpg",
-        alt: "------------",
+        alt: "אלו היו ויזות היציאה שלנו מברית המועצות, שהונפקו למעבר שלנו לישראל",
         text: null,
         fullWidth: false
       },
@@ -547,7 +547,7 @@ to the HR department.
         type: "image",
         desktopSrc: "/images/desktop-images/memory-keeper-desktop.jpg",
         mobileSrc: "/images/mobile-images/memory-keeper-mobile.jpg",
-        alt: "------------",
+        alt: "שׁוֹמֵר הַהִיסטוֹרִיָּה – הקומקום האהוב עלינו",
         text: null,
         fullWidth: false
       }
