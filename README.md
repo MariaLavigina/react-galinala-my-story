@@ -16,16 +16,17 @@ The React Compiler is not enabled on this template because of its impact on dev 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 ## to run
+
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 npm run dev
 
 ## any issues run this !!!
+
 npm run dev -- --host 127.0.0.1
 
-
 ## open
-http://localhost:5173/
 
+http://localhost:5173/
 
 ## deply git hub
 
@@ -37,13 +38,16 @@ git push origin main
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 npm run deploy
 
-
-
-
-
-
 ## if any errors in text
 
-Press Ctrl+F → enable regex search (.*)
+Press Ctrl+F → enable regex search (.\*)
 
-Search for \u2028   \u00A0 
+Search for \u2028 \u00A0
+
+## deploy to Netlify
+
+push the changes to github
+
+npm run build
+
+drag-and-drop dist
