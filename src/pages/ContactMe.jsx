@@ -29,39 +29,44 @@ const labels = {
 export default function ContactMe() {
   const [opacity, setOpacity] = useState(0);
   const [name, setName] = useState("");
-
   const [lang, setLang] = useState(() => localStorage.getItem("lang") || "ru");
 
   useEffect(() => {
     localStorage.setItem("lang", lang);
   }, [lang]);
 
-  // FIX: fade-in triggers on component mount, not window load
   useEffect(() => {
     setOpacity(1);
   }, []);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const form = e.target;
     const formData = new FormData(form);
 
-    let actionUrl = form.action;
-    if (!actionUrl.includes("name=")) {
-      actionUrl += "?name=" + encodeURIComponent(name);
-    }
-
-    fetch(actionUrl, {
-      method: "POST",
-      body: formData,
-    }).then(() => {
-      window.location.href = "/thank-you.html";
+    // Convert FormData to URLSearchParams
+    const payload = new URLSearchParams();
+    formData.forEach((value, key) => {
+      payload.append(key, value);
     });
+
+    try {
+      // Submit form to Netlify
+      await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: payload.toString(),
+      });
+
+      // Redirect to React thank-you page
+      window.location.href = `/thank-you?name=${encodeURIComponent(formData.get("name"))}`;
+    } catch (error) {
+      console.error("Form submission error:", error);
+    }
   };
 
   return (
     <div style={{ opacity, transition: "opacity 0.3s ease-in-out" }} className="m-0 p-0">
-      {/* Navbar with lang prop */}
       <Navbar lang={lang} setLang={setLang} />
 
       <main lang={lang}>
@@ -72,7 +77,6 @@ export default function ContactMe() {
               method="POST"
               data-netlify="true"
               netlify-honeypot="bot-field"
-              action="/thank-you.html"
               className="space-y-6"
               onSubmit={handleSubmit}
             >

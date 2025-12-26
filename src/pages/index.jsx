@@ -107,7 +107,7 @@ const [lang, setLang] = useState(() => {
   {/* ---------- Desktop-only Hero section ---------- */}
 
 
-<div className="w-full hidden lg:block min-h-[50vh] relative">   {/* fast loading min-h-[50vh] relative  */}
+<div className="w-full hidden lg:block">  
 
 
     {/* logic for hero desktop */}
@@ -120,7 +120,6 @@ const [lang, setLang] = useState(() => {
         : "/images/desktop-images/he-hero-index-desktop.webp"
     }
     alt={texts[lang].alt.hero}
-    loading="eager" //for fast loading
     className="w-full h-auto block"
   />
 
@@ -132,7 +131,6 @@ const [lang, setLang] = useState(() => {
       src="/images/desktop-images/wave-index-entro.svg"
       alt="Lavender-colored wave background image"
       className="w-full h-auto block"
-      loading="eager" // add this for faster display
     />
  
 
@@ -158,7 +156,7 @@ const [lang, setLang] = useState(() => {
 
 
 {/* ---------- Tablet-only Hero section ---------- */}
-<div className="hidden md:block lg:hidden w-full min-h-[50vh] relative">   {/* fast loading min-h-[50vh] relative  */}
+<div className="hidden md:block lg:hidden w-full">  
 
 
   {/* logic for hero tablet */}
@@ -171,7 +169,6 @@ const [lang, setLang] = useState(() => {
         : "/images/ipad-images/he-hero-index-ipad.webp"
     }
      alt={texts[lang].alt.hero}
-     loading="eager" //for fast loading
     className="w-full h-auto block"
   />
 
@@ -183,7 +180,6 @@ const [lang, setLang] = useState(() => {
       src="/images/ipad-images/first-wave-tablet.svg"
       alt="Lavender-colored wave background image"
       className="w-full h-auto block"
-      loading="eager" // add this for faster display
     />
    <div
   dir={lang === "he" ? "rtl" : "ltr"} // RTL for Hebrew
@@ -213,7 +209,7 @@ const [lang, setLang] = useState(() => {
 
 
 {/* ---------- Mobile-only Hero section ---------- */}
-<div className="block md:hidden w-full min-h-[50vh] relative">   {/* fast loading min-h-[50vh] relative  */}
+<div className="block md:hidden w-full">  
 
  <img
   src={
@@ -224,7 +220,6 @@ const [lang, setLang] = useState(() => {
       : "/images/mobile-images/he-hero-index-mobile.webp"
   }
   alt={texts[lang].alt.hero}
-  loading="eager" //for fast loading
   className="w-full h-auto block"
 />
 
@@ -233,7 +228,6 @@ const [lang, setLang] = useState(() => {
       src="/images/mobile-images/wave-index-mobile.svg"
       alt="Lavender-colored wave background image"
       className="w-full h-auto block"
-      loading="eager" // add this for faster display
     />
 
 <div

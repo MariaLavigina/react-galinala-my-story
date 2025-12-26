@@ -24,21 +24,18 @@ const labels = {
 export default function ThankYou() {
   const [opacity, setOpacity] = useState(0);
   const [personalName, setPersonalName] = useState("");
-
   const [lang, setLang] = useState(() => localStorage.getItem("lang") || "ru");
 
   useEffect(() => {
     localStorage.setItem("lang", lang);
   }, [lang]);
 
-  // Smooth fade-in effect
+  // Fade-in effect
   useEffect(() => {
-    const handleLoad = () => setOpacity(1);
-    window.addEventListener("load", handleLoad);
-    return () => window.removeEventListener("load", handleLoad);
+    setOpacity(1);
   }, []);
 
-  // Get name from query string
+  // Get name from query string (from fetch redirect)
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const name = params.get("name");
@@ -52,7 +49,6 @@ export default function ThankYou() {
       style={{ opacity, transition: "opacity 0.3s ease-in-out" }}
       className="w-full min-h-screen flex items-start sm:items-center justify-center pt-12 sm:pt-0 bg-[#302024] sm:bg-[url('/images/bg-contact-me-desktop.webp')] sm:bg-cover sm:bg-center sm:bg-no-repeat"
     >
-      {/* Navbar with lang prop */}
       <Navbar lang={lang} setLang={setLang} />
 
       <div className="w-full max-w-[500px] mx-auto p-8 sm:bg-[#302024] sm:p-6 md:sm:p-8 lg:sm:p-10 sm:shadow-[0_0_25px_rgba(0,0,0,0.6)] flex flex-col justify-center items-center text-center">
