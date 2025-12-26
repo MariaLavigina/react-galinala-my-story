@@ -171,9 +171,9 @@ return (
          alt={textsMashasFirstDays[lang][0].alt.hero}
         className="w-full h-auto block"
       />
-      <div className="relative w-full -mt-[90px]">
+      <div className="relative w-full -mt-[100px]">
         <img
-          src="/images/mobile-images/mashaStory-mobile.svg"
+          src="/images/mobile-images/chapter-03-mobile.svg"
           alt="Wave"
           className="w-full h-auto block"
         />

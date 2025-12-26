@@ -3,22 +3,22 @@ import { Link } from "react-router-dom";
 
 const chapters = {
   ru: [
-    { number: "01", title: <>Почему я <br />уехала</>, img: "/images/heading-chapter01.webp", link: "/why-i-left" },
-    { number: "02", title: <>Прилетели мы <br />в Израиль</>, img: "/images/heading-chapter02.webp", link: "/we-arrived" },
-    { number: "03", title: <>Mоя <br />Маша</>, img: "/images/heading-chapter03.webp", link: "/mashas-first-days" },
-    { number: "04", title: <>Mоя <br />мама</>, img: "/images/heading-chapter04.webp", link: "/mothers-story" },
+    { number: "01", title: <>Почему я <br />уехала</>, img: "/images/heading-chapter01.webp", alt: "Заглавное изображение главы Почему я уехала", link: "/why-i-left" },
+    { number: "02", title: <>Прилетели мы <br />в Израиль</>, img: "/images/heading-chapter02.webp", alt: "Заглавное изображение главы Прилетели мы в Израиль", link: "/we-arrived" },
+    { number: "03", title: <>Mоя <br />Маша</>, img: "/images/heading-chapter03.webp", alt: "Заглавное изображение главы Моя Маша", link: "/mashas-first-days" },
+    { number: "04", title: <>Mоя <br />мама</>, img: "/images/heading-chapter04.webp", alt: "Заглавное изображение главы Моя мама", link: "/mothers-story" },
   ],
   en: [
-    { number: "01", title: <>Why I <br />left</>, img: "/images/heading-chapter01.webp", link: "/why-i-left" },
-    { number: "02", title: <>We arrived <br />in Israel</>, img: "/images/heading-chapter02.webp", link: "/we-arrived" },
-    { number: "03", title: <>My <br />Masha</>, img: "/images/heading-chapter03.webp", link: "/mashas-first-days" },
-    { number: "04", title: <>My <br />mother</>, img: "/images/heading-chapter04.webp", link: "/mothers-story" },
+    { number: "01", title: <>Why I <br />left</>, img: "/images/heading-chapter01.webp", alt: "Chapter heading image for Why I left", link: "/why-i-left" },
+    { number: "02", title: <>We arrived <br />in Israel</>, img: "/images/heading-chapter02.webp",  alt: "Chapter heading image for We arrived in Israel", link: "/we-arrived" },
+    { number: "03", title: <>My <br />Masha</>, img: "/images/heading-chapter03.webp", alt: "Chapter heading image for My Masha",  link: "/mashas-first-days" },
+    { number: "04", title: <>My <br />mother</>, img: "/images/heading-chapter04.webp", alt: "Chapter heading image for My mother", link: "/mothers-story" },
   ],
   he: [
-    { number: "01", title: <>למה <br />עזבתי</>, img: "/images/heading-chapter01.webp", link: "/why-i-left" },
-    { number: "02", title: <>הגענו <br />לישראל</>, img: "/images/heading-chapter02.webp", link: "/we-arrived" },
-    { number: "03", title: <>הבת שלי <br />מאשה</>, img: "/images/heading-chapter03.webp", link: "/mashas-first-days" },
-    { number: "04", title: <>אמא <br />שלי</>, img: "/images/heading-chapter04.webp", link: "/mothers-story" },
+    { number: "01", title: <>למה <br />עזבתי</>, img: "/images/heading-chapter01.webp",  alt: "תמונת כותרת לפרק למה עזבתי", link: "/why-i-left" },
+    { number: "02", title: <>הגענו <br />לישראל</>, img: "/images/heading-chapter02.webp",  alt: "תמונת כותרת לפרק הגענו לישראל", link: "/we-arrived" },
+    { number: "03", title: <>הבת שלי <br />מאשה</>, img: "/images/heading-chapter03.webp",  alt: "תמונת כותרת לפרק הבת שלי מאשה", link: "/mashas-first-days" },
+    { number: "04", title: <>אמא <br />שלי</>, img: "/images/heading-chapter04.webp", alt: "תמונת כותרת לפרק אמא שלי", link: "/mothers-story" },
   ],
 };
 
@@ -75,7 +75,7 @@ const ChapterSectionMobile = ({ lang = "ru" }) => {
       <Link to={chapter.link} className="block w-full">
   <img
     src={chapter.img}
-    alt=""
+    alt={chapter.alt}
     className="w-full h-auto block transform transition-transform duration-300 hover:scale-105"
   />
 </Link>
