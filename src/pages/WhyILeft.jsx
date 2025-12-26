@@ -72,32 +72,6 @@ React.useEffect(() => {
 
 
 
-
-  // 🖼 Preload all hero images
-  useEffect(() => {
-    const images = [
-      "/images/desktop-images/ru-chapter-01-desktop.webp",
-      "/images/desktop-images/en-chapter-01-desktop.webp",
-      "/images/desktop-images/he-chapter-01-desktop.webp",
-      "/images/mobile-images/chapter01-why-i-left-mobile.webp",
-      "/images/ipad-images/way-i-left.svg",
-      "/images/desktop-images/entroPage-chapterOne-desktop.svg"
-    ];
-    images.forEach((src) => {
-      const img = new Image();
-      img.src = src;
-    });
-  }, []);
-
-  
-
-
-
-
-
-
-
-
   
 
   return (
@@ -111,7 +85,7 @@ React.useEffect(() => {
       <div className="h-20"></div>
 
   {/* ---------- Desktop-only Hero section ---------- */}
-<div className="w-full hidden lg:block">
+<div className="w-full hidden lg:block min-h-[50vh] relative">   {/* fast loading min-h-[50vh] relative  */}
 
 
     {/* logic for images hero desktop */}
@@ -124,6 +98,7 @@ React.useEffect(() => {
         : "/images/desktop-images/he-chapter-01-desktop.webp"
     }
     alt={textsWhyILeft[lang].alt.hero}
+    loading="eager" //for fast loading
     className="w-full h-auto block"
   />
 
@@ -137,6 +112,7 @@ React.useEffect(() => {
       src="/images/desktop-images/entroPage-chapterOne-desktop.svg"
       alt="Wave"
       className="w-full h-auto block"
+      loading="eager" //for fast loading
     />
 
 <div
@@ -161,7 +137,7 @@ React.useEffect(() => {
 
 
 {/* ---------- Tablet-only Hero section ---------- */}
-<div className="hidden md:block lg:hidden w-full">
+<div className="hidden md:block lg:hidden w-full min-h-[50vh] relative">   {/* fast loading min-h-[50vh] relative  */}
 
 
   {/* logic for hero tablet */}
@@ -174,6 +150,7 @@ React.useEffect(() => {
         : "/images/ipad-images/he-chapter-01-ipad.webp"
     }
     alt={textsWhyILeft[lang].alt.hero}
+    loading="eager" //for fast loading
     className="w-full h-auto block"
   />
 
@@ -185,6 +162,7 @@ React.useEffect(() => {
       src="/images/ipad-images/way-i-left.svg"
       alt="Wave"
       className="w-full h-auto block"
+      loading="eager" //for fast loading
     />
    <div
   dir={lang === "he" ? "rtl" : "ltr"} // RTL for Hebrew
@@ -214,7 +192,7 @@ React.useEffect(() => {
 
 
 {/* ---------- Mobile-only Hero section ---------- */}
-<div className="block md:hidden w-full">
+<div className="block md:hidden w-full min-h-[50vh] relative">   {/* fast loading min-h-[50vh] relative  */}
    <img
     src={
       lang === "ru"
@@ -224,6 +202,7 @@ React.useEffect(() => {
         : "/images/mobile-images/he-chapter-01-mobile.webp"
     }
     alt={textsWhyILeft[lang].alt.hero}
+    loading="eager" //for fast loading
     className="w-full h-auto block"
   />
 
@@ -232,6 +211,7 @@ React.useEffect(() => {
       src="/images/mobile-images/whyILeft-entro-mobile.svg"
       alt="Wave"
       className="w-full h-auto block"
+      loading="eager" //for fast loading
     />
 
 <div
