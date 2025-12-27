@@ -51,3 +51,7 @@ push the changes to github
 npm run build
 
 drag-and-drop dist
+
+## using the correct aspect ratios for hero and svg - only on the 4 pages for a fast reloud
+
+Each time a new hero and svg image is beeing importend it is important to make sure the aspect is the same size as the imported image. see last commit for the change: aspect-changed

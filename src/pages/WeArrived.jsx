@@ -173,8 +173,13 @@ alt={textsWeArrived[lang][0].alt.hero}
       </div>
     </div>
 
+
+
+
+
     {/* Mobile-only Hero */}
     <div className="block md:hidden w-full">
+      <div className="w-full aspect-[6401/4764]">
         <img
     src={
       lang === "ru"
@@ -184,14 +189,23 @@ alt={textsWeArrived[lang][0].alt.hero}
         : "/images/mobile-images/he-chapter-02-mobile.webp"
     }
        alt={textsWeArrived[lang][0].alt.hero}
-        className="w-full h-auto block"
+         className="w-full h-full object-cover block"
       />
-      <div className="relative w-full -mt-[70px]">
+     </div>
+
+      <div className="relative w-full -mt-[40px]">
+        <div className="w-full aspect-[390/672]">
         <img
           src="/images/mobile-images/we-arrived.svg"
           alt="Wave"
-          className="w-full h-auto block"
+          className="w-full h-full block"
         />
+        </div>
+
+
+
+
+
         <div
           dir={lang === "he" ? "rtl" : "ltr"}
           className={`

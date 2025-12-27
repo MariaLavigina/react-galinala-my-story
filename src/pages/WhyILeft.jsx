@@ -189,6 +189,7 @@ React.useEffect(() => {
 
 {/* ---------- Mobile-only Hero section ---------- */}
 <div className="block md:hidden w-full">  
+   <div className="w-full aspect-[3805/2963]">
    <img
     src={
       lang === "ru"
@@ -198,15 +199,23 @@ React.useEffect(() => {
         : "/images/mobile-images/he-chapter-01-mobile.webp"
     }
     alt={textsWhyILeft[lang].alt.hero}
-    className="w-full h-auto block"
+   className="w-full h-full object-cover block"
   />
+  </div>
+
+
+
 
   <div className="relative w-full -mt-[115px]">
+     <div className="w-full aspect-[390/2439]">
     <img
       src="/images/mobile-images/whyILeft-entro-mobile.svg"
       alt="Wave"
-      className="w-full h-auto block"
+       className="w-full h-full block"
     />
+</div>
+
+
 
 <div
   dir={lang === "he" ? "rtl" : "ltr"} // keep RTL for Hebrew

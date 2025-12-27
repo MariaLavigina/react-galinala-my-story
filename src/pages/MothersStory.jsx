@@ -152,8 +152,13 @@ React.useEffect(() => {
         </div>
       </div>
 
+
+
+
+
       {/* Mobile-only Hero */}
       <div className="block md:hidden w-full">
+         <div className="w-full aspect-[4655/3673]">
           <img
     src={
       lang === "ru"
@@ -163,14 +168,22 @@ React.useEffect(() => {
         : "/images/mobile-images/he-chapter-04-mobile.webp"
     }
              alt={textsMothersStory[lang][0].alt.hero}
-          className="w-full h-auto block"
+          className="w-full h-full object-cover block"
         />
+      </div>
+
+
         <div className="relative w-full -mt-[100px]">
+           <div className="w-full aspect-[380/1361]">
           <img
             src="/images/mobile-images/my-mothers-story.svg"
             alt="Wave"
-            className="w-full h-auto block"
+             className="w-full h-full block"
           />
+          </div>
+
+
+
           <div
             dir={lang === "he" ? "rtl" : "ltr"}
             className={`

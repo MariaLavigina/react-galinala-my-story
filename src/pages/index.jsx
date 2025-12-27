@@ -111,6 +111,7 @@ const [lang, setLang] = useState(() => {
 
 
     {/* logic for hero desktop */}
+     <div className="w-full aspect-[5083/2826]"> 
   <img
     src={
       lang === "ru"
@@ -120,19 +121,22 @@ const [lang, setLang] = useState(() => {
         : "/images/desktop-images/he-hero-index-desktop.webp"
     }
     alt={texts[lang].alt.hero}
-    className="w-full h-auto block"
+   className="w-full h-full object-cover block"
   />
-
+</div>
 
   
 
   <div className="relative w-full -mt-[380px]">
+    <div className="w-full aspect-[1918/2910]">
     <img
       src="/images/desktop-images/wave-index-entro.svg"
       alt="Lavender-colored wave background image"
-      className="w-full h-auto block"
+      className="w-full h-full block"
     />
- 
+ </div>
+
+
 
 <div
   dir={lang === "he" ? "rtl" : "ltr"}
@@ -210,7 +214,7 @@ const [lang, setLang] = useState(() => {
 
 {/* ---------- Mobile-only Hero section ---------- */}
 <div className="block md:hidden w-full">  
-
+  <div className="w-full aspect-[2997/3942]">
  <img
   src={
     lang === "ru"
@@ -220,15 +224,20 @@ const [lang, setLang] = useState(() => {
       : "/images/mobile-images/he-hero-index-mobile.webp"
   }
   alt={texts[lang].alt.hero}
-  className="w-full h-auto block"
+  className="w-full h-full object-cover block"
 />
+</div>
+
+
 
   <div className="relative w-full -mt-[115px]">
+    <div className="w-full aspect-[380/1699]">
     <img
       src="/images/mobile-images/wave-index-mobile.svg"
       alt="Lavender-colored wave background image"
-      className="w-full h-auto block"
+        className="w-full h-full block"
     />
+    </div>
 
 <div
   dir={lang === "he" ? "rtl" : "ltr"} // keep RTL for Hebrew

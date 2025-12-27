@@ -160,6 +160,7 @@ return (
 
     {/* Mobile-only Hero */}
     <div className="block md:hidden w-full">
+       <div className="w-full aspect-[3846/3608]">
         <img
     src={
       lang === "ru"
@@ -169,14 +170,23 @@ return (
         : "/images/mobile-images/he-chapter-03-mobile.webp"
     }
          alt={textsMashasFirstDays[lang][0].alt.hero}
-        className="w-full h-auto block"
+        className="w-full h-full object-cover block"
       />
-      <div className="relative w-full -mt-[100px]">
+      </div>
+
+
+      <div className="relative w-full -mt-[110px]">
+         <div className="w-full aspect-[380/1711]">
         <img
           src="/images/mobile-images/chapter-03-mobile.svg"
           alt="Wave"
-          className="w-full h-auto block"
+           className="w-full h-full block"
         />
+        </div>
+
+
+
+
         <div
           dir={lang === "he" ? "rtl" : "ltr"}
           className={`
