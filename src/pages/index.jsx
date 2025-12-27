@@ -225,6 +225,7 @@ const [lang, setLang] = useState(() => {
   }
   alt={texts[lang].alt.hero}
   className="w-full h-full object-cover block"
+   loading="eager" 
 />
 </div>
 
@@ -235,7 +236,8 @@ const [lang, setLang] = useState(() => {
     <img
       src="/images/mobile-images/wave-index-mobile.svg"
       alt="Lavender-colored wave background image"
-        className="w-full h-full block"
+      className="w-full h-full block"
+      loading="eager" 
     />
     </div>
 

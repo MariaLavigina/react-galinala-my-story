@@ -200,6 +200,7 @@ React.useEffect(() => {
     }
     alt={textsWhyILeft[lang].alt.hero}
    className="w-full h-full object-cover block"
+   loading="eager"
   />
   </div>
 
@@ -212,6 +213,7 @@ React.useEffect(() => {
       src="/images/mobile-images/whyILeft-entro-mobile.svg"
       alt="Wave"
        className="w-full h-full block"
+       loading="eager"
     />
 </div>
 
@@ -396,3 +398,33 @@ React.useEffect(() => {
 };
 
 export default WhyILeft;
+
+
+
+
+
+
+{/* ---------- Mobile-only Hero section ---------- */}
+
+
+
+{/* <div className="block md:hidden w-full">  
+
+   <img
+    src={
+      lang === "ru"
+        ? "/images/mobile-images/ru-chapter-01-mobile.webp"
+        : lang === "en"
+        ? "/images/mobile-images/en-chapter-01-mobile.webp"
+        : "/images/mobile-images/he-chapter-01-mobile.webp"
+    }
+    alt={textsWhyILeft[lang].alt.hero}
+    className="w-full h-auto block"
+  />
+
+  <div className="relative w-full -mt-[115px]">
+    <img
+      src="/images/mobile-images/whyILeft-entro-mobile.svg"
+      alt="Wave"
+      className="w-full h-auto block"
+    /> */}
