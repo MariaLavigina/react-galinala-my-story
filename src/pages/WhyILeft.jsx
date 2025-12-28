@@ -21,6 +21,12 @@ const [lang, setLang] = useState(() => {
 
 const navigate = useNavigate();
 
+
+
+
+
+
+
 React.useEffect(() => {
   localStorage.setItem("lang", lang);
 }, [lang]);
@@ -84,34 +90,61 @@ React.useEffect(() => {
       <Navbar lang={lang} setLang={setLang} />
       <div className="h-20"></div>
 
+
+
+
+
+
+
   {/* ---------- Desktop-only Hero section ---------- */}
 <div className="w-full hidden lg:block">   
 
-
-    {/* logic for images hero desktop */}
+ <div className="relative w-full aspect-[2560/1440]">
   <img
-    src={
-      lang === "ru"
-        ? "/images/desktop-images/ru-chapter-01-desktop.webp"
-        : lang === "en"
-        ? "/images/desktop-images/en-chapter-01-desktop.webp"
-        : "/images/desktop-images/he-chapter-01-desktop.webp"
-    }
+     src="/images/desktop-images/chapter-01-desktop.webp"
     alt={textsWhyILeft[lang].alt.hero}
-    className="w-full h-auto block"
+     className="w-full h-full object-cover block"
+      loading="eager"
   />
 
 
   
 
+{/* Text overlay */}
+<div
+  dir={lang === "he" ? "rtl" : "ltr"}
+  className={`absolute top-[16%] left-[6%] text-white whitespace-pre-line max-w-[80%] ${
+    lang === "he" ? "text-right" : "text-left"
+  }`}
+>
+  <h1 className="text-white drop-shadow-[2px_2px_4px_black] leading-tight font-semibold">
+    <span className="text-[clamp(60px,5vw,150px)] block">
+      {lang === "ru" ? "Глава 1" : lang === "en" ? "Chapter 1" : "פרק 1"}
+    </span>
+    <span className="text-[clamp(80px,8vw,180px)] block mt-4">
+      {lang === "ru" ? "Почему я" : lang === "en" ? "Why I" : "למה"}
+    </span>
+    <span className="text-[clamp(80px,8vw,180px)] block mt-2">
+      {lang === "ru" ? "уехала" : lang === "en" ? "Left" : "עזבתי"}
+    </span>
+  </h1>
+</div>
+</div>
+
+
+
+
 <div className="relative w-full -mt-[100px] sm:-mt-[150px] md:-mt-[200px] lg:-mt-[200px] xl:-mt-[280px]">
 
-
+ <div className="w-full aspect-[1919/3117]">
     <img
       src="/images/desktop-images/entroPage-chapterOne-desktop.svg"
       alt="Wave"
-      className="w-full h-auto block"
+       className="w-full h-full block"
+        loading="eager"
     />
+</div>
+
 
 <div
   dir={lang === "he" ? "rtl" : "ltr"}
@@ -134,34 +167,63 @@ React.useEffect(() => {
 {/* -------- end of desktop-only hero -------- */}
 
 
+
+
+
+
+
+
 {/* ---------- Tablet-only Hero section ---------- */}
-<div className="hidden md:block lg:hidden w-full">   
 
+<div className="hidden md:block lg:hidden w-full">
 
-  {/* logic for hero tablet */}
-  <img
-    src={
-      lang === "ru"
-        ? "/images/ipad-images/ru-chapter-01-ipad.webp"
-        : lang === "en"
-        ? "/images/ipad-images/en-chapter-01-ipad.webp"
-        : "/images/ipad-images/he-chapter-01-ipad.webp"
-    }
-    alt={textsWhyILeft[lang].alt.hero}
-    className="w-full h-auto block"
-  />
+  <div className="relative w-full aspect-[2571/2032]">
+    <img
+      src="/images/mobile-images/chapter-01-mobile.webp"
+      alt={textsWhyILeft[lang].alt.hero}
+      className="w-full h-full object-cover block"
+      loading="eager"
+    />
+  
+
+    <div
+      dir={lang === "he" ? "rtl" : "ltr"}
+      className="absolute top-[12%] left-[6%] text-white whitespace-pre-line max-w-[80%]"
+    >
+      <h1 className="text-white drop-shadow-[2px_2px_4px_black] leading-tight font-semibold">
+        <span className="text-[clamp(28px,8vw,50px)] block">
+          {lang === "ru" ? "Глава 1" : lang === "en" ? "Chapter 1" : "פרק 1"}
+        </span>
+
+        <span className="text-[clamp(40px,10vw,75px)] block mt-2">
+          {lang === "ru" ? "Почему я" : lang === "en" ? "Why I" : "למה"}
+        </span>
+
+        <span className="text-[clamp(40px,10vw,75px)] block mt-1">
+          {lang === "ru" ? "уехала" : lang === "en" ? "Left" : "עזבתי"}
+        </span>
+      </h1>
+    </div>
+  </div>
+
 
 
 
   
-  <div className="relative w-full -mt-[200px]">
+  <div className="relative w-full -mt-[260px]">
+        <div className="w-full aspect-[764/2209]">
     <img
-      src="/images/ipad-images/way-i-left.svg"
+      src="/images/ipad-images/way-i-left-ipad.svg"
       alt="Wave"
       className="w-full h-auto block"
+      loading="eager"
     />
+    </div>
+
+
+
    <div
-  dir={lang === "he" ? "rtl" : "ltr"} // RTL for Hebrew
+  dir={lang === "he" ? "rtl" : "ltr"} 
   className={`
     absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
     text-center text-white w-[85%] px-2 sm:px-4
@@ -188,26 +250,54 @@ React.useEffect(() => {
 
 
 {/* ---------- Mobile-only Hero section ---------- */}
-<div className="block md:hidden w-full">  
-   <div className="w-full aspect-[3805/2963]">
-   <img
-    src={
-      lang === "ru"
-        ? "/images/mobile-images/ru-chapter-01-mobile.webp"
-        : lang === "en"
-        ? "/images/mobile-images/en-chapter-01-mobile.webp"
-        : "/images/mobile-images/he-chapter-01-mobile.webp"
-    }
-    alt={textsWhyILeft[lang].alt.hero}
-   className="w-full h-full object-cover block"
-   loading="eager"
-  />
+<div className="block md:hidden w-full">
+
+
+  <div className="relative w-full aspect-[2571/2032]">
+    <img
+      src="/images/mobile-images/chapter-01-mobile.webp"
+      alt={textsWhyILeft[lang].alt.hero}
+      className="w-full h-full object-cover block"
+      loading="eager"
+    />
+
+
+    <div
+      dir={lang === "he" ? "rtl" : "ltr"}
+      className={`
+        absolute top-[12%] left-[6%]
+        text-white
+        whitespace-pre-line
+        max-w-[80%]
+        ${lang === "he" ? "text-right" : "text-left"}
+      `}
+    >
+
+
+<h1 className="text-white drop-shadow-[2px_2px_4px_black] leading-tight font-semibold">
+
+  <span className="text-[clamp(24px,6vw,40px)] block">
+    {lang === "ru" ? "Глава 1" : lang === "en" ? "Chapter 1" : "פרק 1"}
+  </span>
+
+
+  <span className="text-[clamp(36px,11vw,70px)] block mt-2">
+    {lang === "ru" ? "Почему я" : lang === "en" ? "Why I" : "למה"}
+  </span>
+
+  <span className="text-[clamp(36px,11vw,70px)] block mt-1">
+    {lang === "ru" ? "уехала" : lang === "en" ? "Left" : "עזבתי"}
+  </span>
+</h1>
+
+
+    </div>
   </div>
 
 
 
 
-  <div className="relative w-full -mt-[115px]">
+  <div className="relative w-full -mt-[90px]">
      <div className="w-full aspect-[390/2439]">
     <img
       src="/images/mobile-images/whyILeft-entro-mobile.svg"
@@ -220,7 +310,7 @@ React.useEffect(() => {
 
 
 <div
-  dir={lang === "he" ? "rtl" : "ltr"} // keep RTL for Hebrew
+  dir={lang === "he" ? "rtl" : "ltr"} 
   className={`
     absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
     text-center text-white w-[95%] sm:w-[70%]
@@ -404,27 +494,3 @@ export default WhyILeft;
 
 
 
-{/* ---------- Mobile-only Hero section ---------- */}
-
-
-
-{/* <div className="block md:hidden w-full">  
-
-   <img
-    src={
-      lang === "ru"
-        ? "/images/mobile-images/ru-chapter-01-mobile.webp"
-        : lang === "en"
-        ? "/images/mobile-images/en-chapter-01-mobile.webp"
-        : "/images/mobile-images/he-chapter-01-mobile.webp"
-    }
-    alt={textsWhyILeft[lang].alt.hero}
-    className="w-full h-auto block"
-  />
-
-  <div className="relative w-full -mt-[115px]">
-    <img
-      src="/images/mobile-images/whyILeft-entro-mobile.svg"
-      alt="Wave"
-      className="w-full h-auto block"
-    /> */}

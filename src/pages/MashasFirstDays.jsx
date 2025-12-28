@@ -71,32 +71,61 @@ return (
     <Navbar lang={lang} setLang={setLang} />
     <div className="h-20"></div>
 
-    {/* Desktop-only Hero */}
+     {/* ---------- Desktop-only Hero section ---------- */}
     <div className="w-full hidden lg:block">
-           <img
-  src={
-    lang === "ru"
-      ? "/images/desktop-images/ru-chapter-03-desktop.webp"
-      : lang === "en"
-      ? "/images/desktop-images/en-chapter-03-desktop.webp"
-      : "/images/desktop-images/he-chapter-03-desktop.webp"
-  }
-    alt={textsMashasFirstDays[lang][0].alt.hero}
-  className="w-full h-auto block"
-/>
+        <div className="relative w-full aspect-[5952/2679]">
+  <img
+     src="/images/desktop-images/chapter-03-desktop.webp"
+     alt={textsMashasFirstDays[lang][0].alt.hero}
+     className="w-full h-full object-cover block"
+     loading="eager"
+    />
+
+
+
+{/* Text overlay */}
+<div
+  dir={lang === "he" ? "rtl" : "ltr"}
+  className="absolute top-[10%] left-1/2 -translate-x-1/2 text-white text-center w-[40%] px-6"
+>
+  <h1 className="text-white drop-shadow-[2px_2px_4px_black] font-semibold leading-snug">
+
+    {/* Chapter number */}
+    <span className="text-[clamp(28px,4vw,60px)] block">
+      {lang === "ru" ? "Глава 3" : lang === "en" ? "Chapter 3" : "פרק 3"}
+    </span>
+
+    {/* Chapter heading / name */}
+    <span className="text-[clamp(32px,4vw,80px)] block mt-3">
+      {lang === "ru" ? "Моя дочь, Маша" : lang === "en" ? "My daughter, Masha" : "הבת שלי, מָאשָׁה"}
+    </span>
+
+    {/* Subtitle / description */}
+    <span className="text-[clamp(16px,2vw,30px)] block mt-2">
+      {lang === "ru"
+        ? "История первых дней в Израиле, рассказанная моей дочерью, Машей."
+        : lang === "en"
+        ? "A story about our first days in Israel, told by my daughter, Masha."
+        : "הסיפור של הימים הראשונים שלנו בישראל - כפי שסיפרה בתי, מָאשָׁה"}
+    </span>
+
+  </h1>
+</div>
+    </div>
+
+
+
 
       <div className="relative w-full -mt-[230px]">
-
-
-
-
+        <div className="w-full aspect-[1919/2351]">
 
         <img
           src="/images/desktop-images/entroChapter-thirdStory-Masha.svg"
           alt="Wave"
-          className="w-full h-auto block"
+            className="w-full h-full block"
+           loading="eager"
         />
-
+    </div>
 
 
 
@@ -123,25 +152,49 @@ return (
 
 
 
-    {/* Tablet-only Hero */}
+    {/* ---------- Tablet-only Hero section ---------- */}
     <div className="hidden md:block lg:hidden w-full">
-       <img
-    src={
-      lang === "ru"
-        ? "/images/ipad-images/ru-chapter-03-ipad.webp"
-        : lang === "en"
-        ? "/images/ipad-images/en-chapter-03-ipad.webp"
-        : "/images/ipad-images/he-chapter-03-ipad.webp"
-    }
+           <div className="relative w-full aspect-[6936/6506]">
+ <img
+        src="/images/mobile-images/chapter-03-mobile.webp"
          alt={textsMashasFirstDays[lang][0].alt.hero}
-        className="w-full h-auto block"
+         className="w-full h-full object-cover block"
+        loading="eager"
       />
+
+
+{/* Text overlay */}
+<div
+  dir={lang === "he" ? "rtl" : "ltr"}
+  className="absolute top-[50%] left-1/2 -translate-x-1/2 text-center text-white"
+>
+  <h1 className="text-white drop-shadow-[2px_2px_4px_black] font-semibold leading-snug">
+
+    {/* Chapter number */}
+    <span className="block text-[clamp(28px,6vw,60px)]">
+      {lang === "ru" ? "Глава 3" : lang === "en" ? "Chapter 3" : "פרק 3"}
+    </span>
+
+    {/* Chapter name, single line */}
+    <span className="block mt-2 whitespace-nowrap text-[clamp(32px,7vw,80px)]">
+      {lang === "ru" ? "Моя дочь, Маша" : lang === "en" ? "My daughter, Masha" : "הבת שלי, מָאשָׁה"}
+    </span>
+
+  </h1>
+</div>
+    </div>
+
+
       <div className="relative w-full -mt-[170px]">
+          <div className="w-full aspect-[803/1698]">
         <img
           src="/images/ipad-images/chapter-masha.svg"
-          alt="Wave"
-          className="w-full h-auto block"
+          className="w-full h-full object-cover block"
+          loading="eager"
         />
+      </div>
+
+
         <div
           dir={lang === "he" ? "rtl" : "ltr"}
           className={`
@@ -158,20 +211,33 @@ return (
       </div>
     </div>
 
+
+
+
+
     {/* Mobile-only Hero */}
     <div className="block md:hidden w-full">
-       <div className="w-full aspect-[3846/3608]">
+       <div className="relative w-full aspect-[6936/6506]">
         <img
-    src={
-      lang === "ru"
-        ? "/images/mobile-images/ru-chapter-03-mobile.webp"
-        : lang === "en"
-        ? "/images/mobile-images/en-chapter-03-mobile.webp"
-        : "/images/mobile-images/he-chapter-03-mobile.webp"
-    }
+        src="/images/mobile-images/chapter-03-mobile.webp"
          alt={textsMashasFirstDays[lang][0].alt.hero}
         className="w-full h-full object-cover block"
+         loading="eager"
       />
+
+
+{/* Text overlay – only chapter number */}
+<div
+  dir={lang === "he" ? "rtl" : "ltr"}
+  className="absolute top-[50%] left-1/2 -translate-x-1/2 text-white text-center w-full px-6"
+>
+  <h1 className="text-white drop-shadow-[2px_2px_4px_black] leading-tight font-semibold">
+    <span className="text-[clamp(48px,8vw,100px)] block">
+      {lang === "ru" ? "Глава 3" : lang === "en" ? "Chapter 3" : "פרק 3"}
+    </span>
+  </h1>
+</div>
+
       </div>
 
 
@@ -180,7 +246,8 @@ return (
         <img
           src="/images/mobile-images/chapter-03-mobile.svg"
           alt="Wave"
-           className="w-full h-full block"
+          className="w-full h-full block"
+          loading="eager"
         />
         </div>
 

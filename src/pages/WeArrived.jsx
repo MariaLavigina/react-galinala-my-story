@@ -82,42 +82,50 @@ return (
 
 
 
-    {/* Desktop-only Hero */}
+     {/* ---------- Desktop-only Hero section ---------- */}
     <div className="w-full hidden lg:block">
 
-
-
-      
-    <img
-  src={
-    lang === "ru"
-      ? "/images/desktop-images/ru-chapter-02-desktop.webp"
-      : lang === "en"
-      ? "/images/desktop-images/en-chapter-02-desktop.webp"
-      : "/images/desktop-images/he-chapter-02-desktop.webp"
-  }
+  <div className="relative w-full aspect-[6196/3381]">
+  <img
+     src="/images/desktop-images/chapter-02-desktop.webp"
 alt={textsWeArrived[lang][0].alt.hero}
-  className="w-full h-auto block"
-/>
+  className="w-full h-full object-cover block"
+      loading="eager"
+     />
+ 
+
+
+
+{/* Text overlay */}
+<div
+  dir={lang === "he" ? "rtl" : "ltr"}
+  className="absolute top-[10%] left-1/2 -translate-x-1/2 text-white text-center w-full px-6"
+>
+  <h1 className="text-white drop-shadow-[2px_2px_4px_black] font-semibold leading-none">
+    <span className="text-[clamp(48px,5vw,140px)]">
+      {lang === "ru"
+        ? "Глава 2 - Прилетели в Израиль"
+        : lang === "en"
+        ? "Chapter 2 - Arrived in Israel"
+           : "פרק 2 — הגענו לישראל"}
+    </span>
+  </h1>
+</div>
+ </div>
+
+
 
 
       
       <div className="relative w-full -mt-[260px]">
+         <div className="w-full aspect-[1918/1424]">
         <img
           src="/images/desktop-images/entroChapter-arrivedToIsrael-desktop.svg"
           alt="Wave"
-          className="w-full h-auto block"
+           className="w-full h-full block"
+           loading="eager"
         />
-
-
-
-
-
-
-
-
-
-
+       </div>
 
 
 
@@ -139,25 +147,65 @@ alt={textsWeArrived[lang][0].alt.hero}
       </div>
     </div>
 
-    {/* Tablet-only Hero */}
+
+
+
+
+ {/* ---------- Tablet-only Hero section ---------- */}
     <div className="hidden md:block lg:hidden w-full">
-    <img
-    src={
-      lang === "ru"
-        ? "/images/ipad-images/ru-chapter-02-ipad.webp"
-        : lang === "en"
-        ? "/images/ipad-images/en-chapter-02-ipad.webp"
-        : "/images/ipad-images/he-chapter-02-ipad.webp"
-    }
+        <div className="relative w-full aspect-[5958/4434]">
+ <img
+        src="/images/mobile-images/chapter-02.webp"
         alt={textsWeArrived[lang][0].alt.hero}
-        className="w-full h-auto block"
+        className="w-full h-full object-cover block"
+        loading="eager"
       />
+
+
+
+
+
+<div
+  dir={lang === "he" ? "rtl" : "ltr"}
+  className="absolute top-[8%] left-1/2 -translate-x-1/2 text-white text-center w-full px-6"
+>
+  <h1 className="text-white drop-shadow-[2px_2px_4px_black] font-semibold leading-tight">
+    
+    {/* Chapter number */}
+    <span className="text-[clamp(28px,8vw,50px)] block">
+      {lang === "ru" ? "Глава 2" : lang === "en" ? "Chapter 2" : "פרק 2"}
+    </span>
+
+    {/* Chapter title – smaller */}
+    <span className="text-[clamp(32px,8vw,60px)] block mt-3 whitespace-nowrap">
+      {lang === "ru"
+        ? "Прилетели в Израиль"
+        : lang === "en"
+        ? "Arrived in Israel"
+        : "הגענו לישראל"}
+    </span>
+
+  </h1>
+</div>
+   </div>
+
+
+
+
+
+
+
       <div className="relative w-full -mt-[120px]">
+          <div className="w-full aspect-[826/653]">
         <img
           src="/images/ipad-images/we-arrived.svg"
           alt="Wave"
           className="w-full h-auto block"
+          loading="eager"
         />
+       </div>
+
+
         <div
           dir={lang === "he" ? "rtl" : "ltr"}
           className={`
@@ -179,19 +227,31 @@ alt={textsWeArrived[lang][0].alt.hero}
 
     {/* Mobile-only Hero */}
     <div className="block md:hidden w-full">
-      <div className="w-full aspect-[6401/4764]">
-        <img
-    src={
-      lang === "ru"
-        ? "/images/mobile-images/ru-chapter-02-mobile.webp"
-        : lang === "en"
-        ? "/images/mobile-images/en-chapter-02-mobile.webp"
-        : "/images/mobile-images/he-chapter-02-mobile.webp"
-    }
+        <div className="relative w-full aspect-[5958/4434]">
+      <img
+        src="/images/mobile-images/chapter-02.webp"
        alt={textsWeArrived[lang][0].alt.hero}
          className="w-full h-full object-cover block"
+        loading="eager"
       />
+      
+
+
+{/* Text overlay – only chapter number */}
+<div
+  dir={lang === "he" ? "rtl" : "ltr"}
+  className="absolute top-[12%] left-1/2 -translate-x-1/2 text-white text-center w-full px-6"
+>
+  <h1 className="text-white drop-shadow-[2px_2px_4px_black] leading-tight font-semibold">
+    <span className="text-[clamp(40px,8vw,80px)] block">
+      {lang === "ru" ? "Глава 2" : lang === "en" ? "Chapter 2" : "פרק 2"}
+    </span>
+  </h1>
+</div>
      </div>
+
+
+
 
       <div className="relative w-full -mt-[40px]">
         <div className="w-full aspect-[390/672]">
@@ -199,6 +259,7 @@ alt={textsWeArrived[lang][0].alt.hero}
           src="/images/mobile-images/we-arrived.svg"
           alt="Wave"
           className="w-full h-full block"
+          loading="eager"
         />
         </div>
 

@@ -106,33 +106,59 @@ const [lang, setLang] = useState(() => {
 
   {/* ---------- Desktop-only Hero section ---------- */}
 
-
 <div className="w-full hidden lg:block">  
 
 
-    {/* logic for hero desktop */}
-     <div className="w-full aspect-[5083/2826]"> 
+
+     <div className="w-full aspect-[5083/2825]"> 
   <img
-    src={
-      lang === "ru"
-        ? "/images/desktop-images/ru-hero-index-desktop.webp"
-        : lang === "en"
-        ? "/images/desktop-images/en-hero-index-desktop.webp"
-        : "/images/desktop-images/he-hero-index-desktop.webp"
-    }
+     src="/images/desktop-images/hero-index-desktop.webp"
     alt={texts[lang].alt.hero}
    className="w-full h-full object-cover block"
+    loading="eager"
   />
+
+
+
+
+<div
+  dir={lang === "he" ? "rtl" : "ltr"}
+  className={`absolute top-[20%] right-[5%] px-6 ${lang === "he" ? "text-right" : "text-left"}`}
+>
+<h1 
+  style={{ color: "#F6EDED" }}
+  className="drop-shadow-[2px_2px_4px_black] font-semibold leading-snug"
+>
+  {lang === "ru" ? (
+    <>
+      <span className="block text-[clamp(40px,6vw,90px)]">Каждый выбирает</span>
+      <span className="block text-[clamp(60px,8vw,120px)] mt-2 ml-[80px]">для себя</span>
+    </>
+  ) : lang === "en" ? (
+    <>
+      <span className="block text-[clamp(40px,6vw,90px)]">Everybody chooses</span>
+      <span className="block text-[clamp(60px,8vw,120px)] mt-2 ml-[80px]">for themselves</span>
+    </>
+  ) : (
+    <>
+      <span className="block text-[clamp(40px,6vw,90px)]">כל אחד בוחר</span>
+      <span className="block text-[clamp(60px,8vw,120px)] mt-2">את דרכו</span>
+    </>
+  )}
+</h1>
+</div>
+
 </div>
 
   
 
-  <div className="relative w-full -mt-[380px]">
+  <div className="relative w-full -mt-[360px]">
     <div className="w-full aspect-[1918/2910]">
     <img
       src="/images/desktop-images/wave-index-entro.svg"
       alt="Lavender-colored wave background image"
       className="w-full h-full block"
+       loading="eager"
     />
  </div>
 
@@ -162,29 +188,61 @@ const [lang, setLang] = useState(() => {
 {/* ---------- Tablet-only Hero section ---------- */}
 <div className="hidden md:block lg:hidden w-full">  
 
-
-  {/* logic for hero tablet */}
-  <img
-    src={
-      lang === "ru"
-        ? "/images/ipad-images/ru-hero-index-ipad.webp"
-        : lang === "en"
-        ? "/images/ipad-images/en-hero-index-ipad.webp"
-        : "/images/ipad-images/he-hero-index-ipad.webp"
-    }
-     alt={texts[lang].alt.hero}
-    className="w-full h-auto block"
+ <div className="relative w-full aspect-[3467/2355]">
+ <img
+       src="/images/ipad-images/hero-index-ipad.webp"
+       alt={texts[lang].alt.hero}
+       className="w-full h-full object-cover block"
+       loading="eager"
   />
 
 
 
+
+{/* Text overlay – iPad / medium screens, right-side like desktop */}
+<div
+  dir={lang === "he" ? "rtl" : "ltr"}
+  className={`absolute top-[14%] right-[5%] px-6 ${
+    lang === "he" ? "text-right" : "text-left"
+  }`}
+>
+  <h1 className="text-white drop-shadow-[2px_2px_4px_black] font-semibold leading-snug">
+    {lang === "ru" ? (
+      <>
+        <span className="block text-[clamp(32px,5vw,70px)]">Каждый выбирает</span>
+        <span className="block text-[clamp(32px,5vw,70px)] mt-2">для себя</span>
+      </>
+    ) : lang === "en" ? (
+      <>
+        <span className="block text-[clamp(32px,5vw,70px)]">Everybody chooses</span>
+        <span className="block text-[clamp(32px,5vw,70px)] mt-2">for themselves</span>
+      </>
+    ) : (
+      <>
+        <span className="block text-[clamp(32px,5vw,70px)]">כל אחד בוחר</span>
+        <span className="block text-[clamp(32px,5vw,70px)] mt-2">את דרכו</span>
+      </>
+    )}
+  </h1>
+</div>
+
+
+
+
+
+</div>
   
   <div className="relative w-full -mt-[200px]">
+      <div className="w-full aspect-[906/1928]">
     <img
       src="/images/ipad-images/first-wave-tablet.svg"
       alt="Lavender-colored wave background image"
-      className="w-full h-auto block"
+       className="w-full h-full object-cover block"
+       loading="eager"
     />
+   </div>
+
+
    <div
   dir={lang === "he" ? "rtl" : "ltr"} // RTL for Hebrew
   className={`
@@ -216,17 +274,40 @@ const [lang, setLang] = useState(() => {
 <div className="block md:hidden w-full">  
   <div className="w-full aspect-[2997/3942]">
  <img
-  src={
-    lang === "ru"
-      ? "/images/mobile-images/ru-hero-index-mobile.webp"
-      : lang === "en"
-      ? "/images/mobile-images/en-hero-index-mobile.webp"
-      : "/images/mobile-images/he-hero-index-mobile.webp"
-  }
+        src="/images/mobile-images/hero-index-mobile.webp"
   alt={texts[lang].alt.hero}
   className="w-full h-full object-cover block"
    loading="eager" 
 />
+
+
+
+
+
+{/* Text overlay – all languages, first line smaller, second line bigger, centered */}
+<div
+  dir={lang === "he" ? "rtl" : "ltr"}
+  className="absolute top-[20%] left-1/2 -translate-x-1/2 text-center px-6 w-[80%] sm:w-[60%] md:w-[50%]"
+>
+  <h1 className="text-white drop-shadow-[2px_2px_4px_black] font-semibold leading-snug">
+
+    {/* First line – slightly bigger */}
+    <span className="block text-[clamp(22px,4vw,48px)] whitespace-nowrap">
+      {lang === "ru" ? "Каждый выбирает" : lang === "en" ? "Everybody chooses" : "כל אחד בוחר"}
+    </span>
+
+    {/* Second line – bigger */}
+    <span className="block text-[clamp(32px,6vw,72px)] mt-2 whitespace-nowrap">
+      {lang === "ru" ? "для себя" : lang === "en" ? "for themselves" : "את דרכו"}
+    </span>
+
+  </h1>
+</div>
+
+
+
+
+
 </div>
 
 
