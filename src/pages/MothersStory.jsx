@@ -24,27 +24,29 @@ const [lang, setLang] = useState(() => {
 
 
 
-// ⭐ Preload Chapter 4 hero images for all screen types
+// ⭐ Preload Chapter 4 hero image for current screen size
 useEffect(() => {
-  const imagesToPreload = [
-    "/images/desktop-images/chapter-04-desktop.webp",
-    "/images/mobile-images/chapter04-grandmother-mobile.webp"
-  ];
+  const width = window.innerWidth;
 
-  const links = imagesToPreload.map(src => {
-    const link = document.createElement("link");
-    link.rel = "preload";
-    link.as = "image";
-    link.href = src;
-    document.head.appendChild(link);
-    return link;
-  });
+  let heroImg;
+  if (width >= 1024) {
+    // Desktop
+    heroImg = "/images/desktop-images/chapter-04-desktop.webp";
+  } else {
+    // Mobile & iPad
+    heroImg = "/images/mobile-images/chapter04-grandmother-mobile.webp";
+  }
+
+  const link = document.createElement("link");
+  link.rel = "preload";
+  link.as = "image";
+  link.href = heroImg;
+  document.head.appendChild(link);
 
   return () => {
-    links.forEach(link => document.head.removeChild(link));
+    document.head.removeChild(link);
   };
 }, []);
-
 
 
 
@@ -289,7 +291,7 @@ React.useEffect(() => {
 
 
         <div className="relative w-full -mt-[100px]">
-          <div class="w-full aspect-[380/1361]">
+          <div className="w-full aspect-[380/1361]">
           <img
             src="/images/mobile-images/my-mothers-story.svg"
             alt="Wave"
