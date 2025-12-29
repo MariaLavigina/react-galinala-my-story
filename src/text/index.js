@@ -4,7 +4,7 @@ const texts = {
   ru: {
 
       alt: {
-    hero: `Обложка – фотография Галины Лавигиной, автора этого сайта`,
+    hero: `Обложка – фотография Галины Лавыгиной, автора этого сайта`,
     threeWomen: `Три женщины, три поколения: я, моя мама и моя дочка Маша`
   },
 
@@ -12,7 +12,7 @@ const texts = {
     h2: `Про нашу алию`,
     h3: `Что значит “нашу”?`,
     paragraphs1: [
-      `  Это идея Маши: три женщины - мама, Маша и я - напишем об этом времени. А как же наша бабушка? Ведь…А мы напишем за неё - по её письмам. У меня есть её письма к Томочке и Эрику (они прислали их мне по моей просьбе), а также письма к Игорю, которые я попросила вернуть. Можно сказать, это письма с фронта - непосредственные, трогательные, искренние. 
+      `  Это идея Маши: три женщины - мама, Маша и я - напишем об этом времени. А как же наша бабушка? Ведь…А мы напишем за неё - по её письмам. У меня есть её письма к Томочке и Эрику (они прислали их мне по моей просьбе), а также письма к Игорю, которые я попросила вернуть. Письма эти подобны письмам с фронта - в них твёрдость, собранность и радость от каждой, даже самой маленькой, победы над естественными трудностями жизни с нуля. Они непосредственные, трогательные, искренние. 
          Томочка и я не можем их читать - ревём и всё тут. Но деваться некуда.`
     ],
 
@@ -22,10 +22,11 @@ const texts = {
 
     h4: `Для кого это написанно?`,
     paragraphs2: [
-      `Для Маши. Она не уехала, ее увезли.`,
-      `Для ее семьи. Они, британцы, не имеют представления ни о Советском Союзе, ни об Израиле, ни о том, что значит быть олим ходашим ми Русия в Израиле.
-       На сколько Европа и мы имеем разную историю одних и тех же событий мне пришло в голову, когда я сказала новым своим родственникам: мое свидетельство о рождении выдано в первый день Второй Мировой войны и меня спросили: сентябрь1939-ого. Вот так, для нас это июнь 1941-ого, а их уже 2 года бомбят. И немного для тех, кто в России.`,
-      `Маша давно и упорно просила: "Пиши, как всё это было". Даже тетрадку для этого купила - очень красивую. Я начала писать и время от времени читала Маше. И однажды она сказала: "Я хочу сделать из этого фильм." Мы начали снимать, но, увы, вскоре пришли к выводу: Маша - не Стивен Спилберг, а я - не Морган Фриман. Так родился этот сайт "Каждый выбирает для себя". Я ходила и бормотала эти стихи  ("Каждый выбирает для себя" стихи Юрия Левитанского)  то так, то сяк. И вдруг осознала - ну так я последние зо лет и живу в стране где у человека действительно есть выбор. Он - и только он - решает: "Дьяволу cлужить или пророку..." Я не хочу сказать что в Израиле нет жуликов, ловкачей и прочих . Но в Израиле есть возможность жить без всего этого, и при этом не нужно быть ни героем, ни борцом, а просто - в лучшем смысле этого слова - обывателем.`,
+      `Для Маши. Она ведь не уехала - семилетнюю её даже не спрашивали, просто увезли.`,
+      `Для ее семьи. Они, британцы, не имеют представления ни о Советском Союзе, ни об Израиле, ни о том, что значит быть "олим ходашим ми Русия" в Израиле.
+       На сколько Европа и мы имеем разную историю одних и тех же событий мне пришло в голову, когда я как-то сказала новым своим родственникам: мое свидетельство о рождении выдано в первый день Второй Мировой войны и меня спросили: сентябрь1939-ого. Вот так, для нас это июнь 1941-ого, а их уже 2 года бомбят. И - немного для тех, кто в России...`,
+      `Маша давно и упорно просила: "Пиши, как всё это было". Даже тетрадку для этого купила - очень красивую. Я начала писать и время от времени читала Маше. И однажды она сказала: "Я хочу сделать из этого фильм." Мы начали снимать, но, увы, вскоре пришли к выводу: Маша - не Стивен Спилберг, а я - не Морган Фриман. Так родился этот сайт "Каждый выбирает для себя". Я ходила и бормотала эти стихи  ("Каждый выбирает для себя" стихи Юрия Левитанского)  то так, то сяк. 
+      И вдруг осознала - ну так я последние тридцать лет и живу в стране, где у человека в самом деле есть выбор. Он - и только он - решает: "Дьяволу служить или пророку..." Я не хочу сказать, что в Израиле нет жуликов, ловкачей и прочих. Но здесь есть возможность жить без всего этого, и при этом не нужно быть ни героем, ни борцом, а просто - в лучшем смысле этого слова - обывателем.`,
       ` У нас есть возможность. Именно возможность. И уже наше дело - воспользоваться ею или нет.`,
     ],
 
@@ -34,7 +35,7 @@ const texts = {
       `Первая глава рассказывает о том, как ко мне пришло ощущение невозможности продолжать жить в России - стране с её законами, а точнее, с беззаконием, где несчастное, унижаемое на каждом шагу общество забыло о чувстве собственного достоинства.`,
       `Вторая глава посвящена нашему новому началу в другой стране - жизни, полной испытаний, но также чудес, красоты и открытий. Это была земля, где нам пришлось строить всё с нуля, но каждый маленький шаг вперёд ощущался как настоящая победа.`,
       `Третья глава - это сборник маленьких историй, рассказанных моей дочерью, - порой забавных, порой трогательных.`,
-      `И, наконец, последняя глава  принадлежит моей маме. Через её письма вы увидите наш путь её глазами. Эти письма совсем не похожи на послания старой, очень больной женщины, оказавшейся на склоне лет в совершенно ином мире: другой климат, еда, одежда, праздники - да и вообще всё, всё другое. Она нисколько не растеряна, с радостью подмечает всё хорошее, не жалуется и не сетует на вполне естественные трудности.`
+      `И, наконец, последняя глава  принадлежит моей маме. Через её письма вы увидите наш путь её глазами. Эти письма совсем не похожи на послания старой, очень больной женщины, оказавшейся на склоне лет в совершенно ином мире: другие климат, еда, одежда, праздники - да и вообще всё, всё другое. Она нисколько не растеряна, с радостью подмечает всё хорошее, не жалуется и не сетует на вполне естественные трудности.`
     ]
   },
 
@@ -52,7 +53,7 @@ const texts = {
 
     h1: `We’re given the opportunity, the real opportunity, and it’s up to us whether we use it or not.`,
    pBetween: [
-  `The title of my story, “Everybody Chooses for Oneself,” is inspired by the poignant poem “Каждый выбирает для себя” (“Everybody Chooses for Oneself...”) by Yuri Levitansky, a celebrated Soviet and Russian poet. His words remind me that each of us faces profound choices that shape our lives - and that no one else can make those decisions for us.`,
+  `The title of my story, “Everybody Chooses for themselves,” is inspired by the poignant poem “Каждый выбирает для себя” (“Everybody Chooses for themselves...”) by Yuri Levitansky, a celebrated Soviet and Russian poet. His words remind me that each of us faces profound choices that shape our lives - and that no one else can make those decisions for us.`,
   `This is my story: the journey I took when I decided to leave the Soviet Union, the challenges of my early years as an immigrant in Israel, and how I built a new life through courage and determination..`,
   `It is also a story shared by many - of people who make difficult choices in search of hope, belonging, and a new beginning.`
 ],
@@ -77,11 +78,11 @@ const texts = {
 
     h4: `Who is this written for?`,
     paragraphs2: [
-      `For Masha. She didn’t leave by choice - she was taken away.`,
+      `For Masha. After all, she didn’t leave on her own — at seven years old, no one even asked her; she was simply taken away.`,
       `For her family. They’re British and have no real understanding of the Soviet Union, Israel, or what it means to be “Olim chadashim mi-Russia” - new immigrants from Russia - in Israel.
-       I realized how differently Europe and we experience the same history when I told my new relatives: “My birth certificate was issued on the very first day of World War II,” and they asked, “September 1939?” Yes, for us, it was June 1941, but for them, the bombing had been going on for two years already. .
+       I realized how differently Europe and we experience the same history when I told my new relatives: “My birth certificate was issued on the very first day of World War II,” and they asked, “September 1939?” Yes, for us, it was June 1941, but for them, the bombing had been going on for two years already.
        `,
-      `And a bit for those who are still in Russia.`,
+      `And a bit for those who are still in Russia...`,
       `Masha had long and persistently asked me, “Write down how it all was.” She even bought a beautiful notebook for it. I started writing and would read bits to her now and then. One day, she said, “I want to make a film out of this.” We started filming, but sadly soon realized: Masha is not Steven Spielberg, and I’m not Morgan Freeman. And that’s how my website “Everybody chooses for oneself” came to life. I kept murmuring this poem (“Each Person Chooses for Themselves” by Yuri Levitansky). Then it hit me - for the last thirty years, I’ve been living in a country where a person truly has a choice. “He - and only he - decides: ‘To serve the devil or the prophet…’” I’m not saying there are no crooks, tricksters, and the like in Israel. But here, you have the chance to live without all that - and you don’t need to be a hero or a fighter, just an ordinary person in the best sense of the word.`,
       `We have the opportunity. The real opportunity. And it’s up to us to decide whether to use it or not.`
 
@@ -146,7 +147,7 @@ const texts = {
     h4: `ולמי כל זה נכתב? `,
     paragraphs2: [
       `למָאשָׁה.`,
-      `היא לא עזבה - לקחו אותה.  `,
+     `אחרי הכול, היא לא עזבה מרצונה - בגיל שבע אפילו לא שאלו אותה; פשוט לקחו אותה.`,
       `למשפחה שלה.  
 הם בריטים, ואין להם מושג אמיתי לא על ברית המועצות, לא על ישראל, ולא על מה פירוש להיות עולים חדשים מרוסיה בישראל.  
 `,
@@ -154,7 +155,7 @@ const texts = {
 הם שאלו: "ספטמבר 1939?"  
 עבורם המלחמה כבר נמשכה שנתיים - בשבילנו היא התחילה רק ביוני 1941. 
 `,
-       `וקצת - גם עבור אלה שעדיין ברוסיה.  `,
+       `וקצת - גם עבור אלה שעדיין ברוסיה...  `,
         `מָאשָׁה ביקשה ממני שוב ושוב: "תכתבי איך זה באמת היה."  
 אפילו קנתה בשביל זה מחברת יפהפייה.  
 `,

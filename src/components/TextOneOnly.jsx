@@ -61,7 +61,7 @@ const TextOneOnly = ({ lang = "ru" }) => {
 
 
           <h1>Everybody chooses </h1> 
-          <h2>For oneself</h2>
+          <h2>For themselves</h2>
           <h3>This is the story of how a difficult choice turned into unexpected, incredible happiness.</h3>
 
           <p>
@@ -73,7 +73,7 @@ const TextOneOnly = ({ lang = "ru" }) => {
           </p>
 
           <p>
-           I chose to call my story “Everybody chooses for oneself” because, in the end, no matter where we’re born or what we’re taught, each of us has to make our own choice. The choice between fear and courage, between silence and speaking out, between simply surviving and truly living!
+           I chose to call my story “Everybody chooses for themselves” because, in the end, no matter where we’re born or what we’re taught, each of us has to make our own choice. The choice between fear and courage, between silence and speaking out, between simply surviving and truly living!
           </p>
 
           <p>

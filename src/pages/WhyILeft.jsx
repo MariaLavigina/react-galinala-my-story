@@ -23,6 +23,26 @@ const navigate = useNavigate();
 
 
 
+// ⭐ Preload Chapter 1 hero images for all screen types
+useEffect(() => {
+  const imagesToPreload = [
+    "/images/desktop-images/chapter-01-desktop.webp",
+    "/images/mobile-images/chapter-01-mobile.webp"
+  ];
+
+  const links = imagesToPreload.map(src => {
+    const link = document.createElement("link");
+    link.rel = "preload";
+    link.as = "image";
+    link.href = src;
+    document.head.appendChild(link);
+    return link;
+  });
+
+  return () => {
+    links.forEach(link => document.head.removeChild(link));
+  };
+}, []);
 
 
 

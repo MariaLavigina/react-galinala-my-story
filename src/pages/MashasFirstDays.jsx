@@ -21,6 +21,41 @@ const [lang, setLang] = useState(() => {
 
   const navigate = useNavigate();
 
+
+
+
+
+
+// ⭐ Preload Chapter 3 hero images for all screen types
+useEffect(() => {
+  const imagesToPreload = [
+    "/images/desktop-images/chapter-03-desktop.webp",
+    "/images/mobile-images/chapter-03-mobile.webp"
+  ];
+
+  const links = imagesToPreload.map(src => {
+    const link = document.createElement("link");
+    link.rel = "preload";
+    link.as = "image";
+    link.href = src;
+    document.head.appendChild(link);
+    return link;
+  });
+
+  return () => {
+    links.forEach(link => document.head.removeChild(link));
+  };
+}, []);
+
+
+
+
+
+
+
+
+
+
 React.useEffect(() => {
   localStorage.setItem("lang", lang);
 }, [lang]);
