@@ -27,36 +27,6 @@ const [lang, setLang] = useState(() => {
 
 
 
-// ⭐ Preload hero image for current screen size
-  useEffect(() => {
-    const width = window.innerWidth;
-
-    let heroImg;
-    if (width >= 1024) {
-      heroImg = "/images/desktop-images/hero-index-desktop.webp";
-    } else if (width >= 768) {
-      heroImg = "/images/ipad-images/hero-index-ipad.webp";
-    } else {
-      heroImg = "/images/mobile-images/hero-index-mobile.webp";
-    }
-
-    const link = document.createElement("link");
-    link.rel = "preload";
-    link.as = "image";
-    link.href = heroImg;
-    document.head.appendChild(link);
-
-    return () => {
-      document.head.removeChild(link);
-    };
-  }, []);
-
-
-
-
-
-
-
 
 
 // Keep lang in localStorage

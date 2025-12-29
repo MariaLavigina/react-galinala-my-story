@@ -23,29 +23,6 @@ const navigate = useNavigate();
 
 
 
-// ⭐ Preload Chapter 1 hero image for current screen size
-useEffect(() => {
-  const width = window.innerWidth;
-
-  let heroImg;
-  if (width >= 1024) {
-    // Desktop
-    heroImg = "/images/desktop-images/chapter-01-desktop.webp";
-  } else {
-    // Mobile & iPad
-    heroImg = "/images/mobile-images/chapter-01-mobile.webp";
-  }
-
-  const link = document.createElement("link");
-  link.rel = "preload";
-  link.as = "image";
-  link.href = heroImg;
-  document.head.appendChild(link);
-
-  return () => {
-    document.head.removeChild(link);
-  };
-}, []);
 
 
 
