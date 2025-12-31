@@ -80,7 +80,7 @@ React.useEffect(() => {
           <h1 className="text-white text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] mb-8">{content.h1}</h1>
 
           <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
-            {content.paragraphs1.map((p, i) => <p key={i} className="mb-8">{p}</p>)}
+            {content.paragraphs1.map((p, i) => <p key={i} className="mb-8" >{p}</p>)}
           </div>
 
 
@@ -110,7 +110,14 @@ React.useEffect(() => {
                 <div key={idx} className={wrapperClass}>
                   {section.desktopSrc && <img src={section.desktopSrc} alt={section.alt} className={`w-full h-auto mt-[6px] ${section.mobileSrc ? "hidden sm:block" : "block"}`} />}
                   {section.mobileSrc && <img src={section.mobileSrc} alt={section.alt} className="w-full h-auto mb-4 block sm:hidden" />}
-                  {section.text && <p className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mb-8">{section.text}</p>}
+                 {section.text && (
+  <p
+    className={`text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mt-4 mb-8 ${isRTL ? "text-right" : "text-left"}`}
+  >
+    {section.text}
+  </p>
+)}
+
                 </div>
               );
             }

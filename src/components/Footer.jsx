@@ -29,16 +29,11 @@ If you have any questions, thoughts, or kind words, please write to me at:`,
     emailLabel: "Email",
     contactEmail: "galinala-mystory@gmail.com",
     copyright:
-      `© 2026 גלינה לביגינה - כל הזכויות שמורות.`,
+     `© 2026 גלינה לביגינה - כל הזכויות שמורות`,
     info1:
-       `נשמח אם הסיפור הזה ייגע בכם ותרצו לשתף אותו, לפרסם מחדש או להפיצו. בבקשה עשו זאת רק עם שמירה מדויקת על הטקסט וציון ברור של המחברת - גלינה לביגינה.
-אם יש לכם שאלות, מחשבות או מילים טובות - כתבו:`,
+       `נשמח אם הסיפור הזה ייגע בכם ותרצו לשתף אותו. בבקשה עשו זאת רק עם שמירה מדויקת על הטקסט וציון ברור של המחברת - גלינה לביגינה. אם יש לכם שאלות, מחשבות או מילים טובות - כתבו:`,
     privacy:
-      
-         `פרטיות ו-GDPR: 
-כאשר אתם פונים אלינו דרך הטופס או ג׳ימייל, אנו רואים רק את השם שלכם, האימייל וההודעה על מנת להשיב באופן אישי. הנתונים שלכם אינם נמסרים לצדדים שלישיים ומשמשים אך ורק למטרות תכתובת.
-`,
-      
+      `Privacy and GDPR: When you contact us via the form or Gmail, we only see your name, email, and message in order to reply personally. Your data is not shared with third parties and is used solely for correspondence.`,
   },
 };
 

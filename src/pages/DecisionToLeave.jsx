@@ -133,9 +133,16 @@ React.useEffect(() => {
                     <img src={section.mobileSrc} alt={section.alt} className="w-full h-auto mb-4 block sm:hidden" />
                   )}
                   {/* Optional caption */}
-                  {section.text && (
-                    <p className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mb-8">{section.text}</p>
-                  )}
+                 {section.text && (
+                     <p
+                  dir={isRTL ? "rtl" : "ltr"}          // Hebrew RTL, others LTR
+                  className={`text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mb-8 mt-4
+                  ${isRTL ? "text-right pr-4 sm:pr-6 md:pr-8" : "text-left"}`} // Hebrew right-aligned with gap, others left
+                   >
+                  {section.text}
+                  </p>
+                 )}
+
                 </div>
               );
             }

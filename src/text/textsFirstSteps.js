@@ -24,7 +24,7 @@ const textsFirstSteps = {
       text: [
         `Соседи как-то спросили меня, почему я хожу за растительным маслом в дальний супер, а не в ближайший. В ближнем тоже самое масло и даже в ту же цену. И тут я понимаю, что я не только это масло не видела, а ещё и многие другие товары не видела. Вместо отдельных предметов на полках я вижу только цветовые пятна, не воспринимая, не различая предметов. `,
         `
-По всей видимости, мой, никому не высказанный, в том числе и самой себе , стресс вот таким образом проявил себя. `,
+По всей видимости, мой, никому не высказанный, в том числе и самой себе , стресс вот таким образом проявлял себя. `,
         `Постепенно цветовое панно превратилось в нормальные магазинные полки.`
        
       ]
@@ -94,24 +94,24 @@ const textsFirstSteps = {
   {
     desktopSrc: "/images/desktop-images/tikoa-desktop.jpg",
     mobileSrc: null,
-    alt: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992.",
-    textDesktop: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992.",
+    alt: "Из Ткоа хорошо видна гора Иродион - рукотворная гора-крепость, построенная царем Иродом Великим. Мы с Машей любили по вечерам ходить рисовать  ее. Иродион в рисунках Маши, 1992.",
+    textDesktop: "Из Ткоа хорошо видна гора Иродион - рукотворная гора-крепость, построенная царем Иродом Великим. Мы с Машей любили по вечерам ходить рисовать  ее. Иродион в рисунках Маши, 1992.",
     textMobile: null
   },
   // Mobile-only
   {
     desktopSrc: null,
     mobileSrc: "/images/mobile-images/tikoa-drawing-01.jpg",
-    alt: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992.",
+    alt: "Из Ткоа хорошо видна гора Иродион - рукотворная гора-крепость, построенная царем Иродом Великим. Мы с Машей любили по вечерам ходить рисовать  ее. Иродион в рисунках Маши, 1992.",
     textDesktop: null,
-    textMobile: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992."
+    textMobile: "Из Ткоа хорошо видна гора Иродион - рукотворная гора-крепость, построенная царем Иродом Великим. Мы с Машей любили по вечерам ходить рисовать  ее. Иродион в рисунках Маши, 1992."
   },
   {
     desktopSrc: null,
     mobileSrc: "/images/mobile-images/tikoa-drawing-02.jpg",
-    alt: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992.",
+    alt: "Из Ткоа хорошо видна гора Иродион - рукотворная гора-крепость, построенная царем Иродом Великим. Мы с Машей любили по вечерам ходить рисовать  ее. Иродион в рисунках Маши, 1992.",
     textDesktop: null,
-    textMobile: "Мы с Машей по вечерам ходили и рисовали пейзажи горы Текоа - Иродион. Гора Текоа - Иродион в рисунках Маши, 1992."
+    textMobile: "Из Ткоа хорошо видна гора Иродион - рукотворная гора-крепость, построенная царем Иродом Великим. Мы с Машей любили по вечерам ходить рисовать  ее. Иродион в рисунках Маши, 1992."
   }
   ]
 },
@@ -243,24 +243,24 @@ const textsFirstSteps = {
   {
     desktopSrc: "/images/desktop-images/tikoa-desktop.jpg",
     mobileSrc: null,
-    alt: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע - הרודיון, 1992.",
-    textDesktop: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע - הרודיון, 1992.",
+    alt: ` הרודיון בציוריה של מאשה, 1992`,
+    textDesktop: `מטקוע רואים היטב את הרודיון - מבצר עצום שבנה המלך הורדוס על גבעה מלאכותית. המבצר נבנה בצורת גבעה, שבראשה עומד ארמון מבוצר עצום בגודלו וצורתו. אני ומאשה היינו אוהבות ללכת בערבים ולצייר אותו. הרודיון בציוריה של מאשה, 1992.`,
     textMobile: null
   },
   // Mobile-only
   {
     desktopSrc: null,
     mobileSrc: "/images/mobile-images/tikoa-drawing-01.jpg",
-    alt: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע - הרודיון, 1992.",
+    alt: ` הרודיון בציוריה של מאשה, 1992`,
     textDesktop: null,
-    textMobile: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע - הרודיון, 1992."
+    textMobile: `מטקוע רואים היטב את הרודיון - מבצר עצום שבנה המלך הורדוס על גבעה מלאכותית. המבצר נבנה בצורת גבעה, שבראשה עומד ארמון מבוצר עצום בגודלו וצורתו. אני ומאשה היינו אוהבות ללכת בערבים ולצייר אותו. הרודיון בציוריה של מאשה, 1992.`,
   },
   {
     desktopSrc: null,
     mobileSrc: "/images/mobile-images/tikoa-drawing-02.jpg",
-    alt: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע - הרודיון, 1992.",
+    alt: ` הרודיון בציוריה של מאשה, 1992`,
     textDesktop: null,
-    textMobile: "אני ומאשה בערבים היינו הולכות ומציירות נופים של הר טקוע - הרודיון, 1992."
+    textMobile: `מטקוע רואים היטב את הרודיון - מבצר עצום שבנה המלך הורדוס על גבעה מלאכותית. המבצר נבנה בצורת גבעה, שבראשה עומד ארמון מבוצר עצום בגודלו וצורתו. אני ומאשה היינו אוהבות ללכת בערבים ולצייר אותו. הרודיון בציוריה של מאשה, 1992.`,
   }
   ]
 },
@@ -412,27 +412,24 @@ Shapiro stipend. So really, I was a bargain.
   {
     desktopSrc: "/images/desktop-images/tikoa-desktop.jpg",
     mobileSrc: null,
-    alt: "---",
-    textDesktop: `In the evenings, Masha and I would go out and draw the landscapes of Mount Tekoa - Herodion.
-Herodion in Masha’s drawings 1992. `,
+    alt: "From Tekoa, you can clearly see Mount Herodion - a man-made fortress mountain built by King Herod the Great. In the evenings, Masha and I loved going there to draw it. Herodion in Masha’s drawings, 1992.",
+    textDesktop: `From Tekoa, you can clearly see Mount Herodion - a man-made fortress mountain built by King Herod the Great. In the evenings, Masha and I loved going there to draw it. Herodion in Masha’s drawings, 1992.`,
     textMobile: null
   },
   // Mobile-only
   {
     desktopSrc: null,
     mobileSrc: "/images/mobile-images/tikoa-drawing-01.jpg",
-    alt: "---",
+    alt: "From Tekoa, you can clearly see Mount Herodion - a man-made fortress mountain built by King Herod the Great. In the evenings, Masha and I loved going there to draw it. Herodion in Masha’s drawings, 1992.",
     textDesktop: null,
-    textMobile: `In the evenings, Masha and I would go out and draw the landscapes of Mount Tekoa - Herodion.
-Herodion in Masha’s drawings 1992. `,
+    textMobile: `From Tekoa, you can clearly see Mount Herodion - a man-made fortress mountain built by King Herod the Great. In the evenings, Masha and I loved going there to draw it. Herodion in Masha’s drawings, 1992.`,
   },
   {
     desktopSrc: null,
     mobileSrc: "/images/mobile-images/tikoa-drawing-02.jpg",
-    alt: "---",
+    alt: "From Tekoa, you can clearly see Mount Herodion - a man-made fortress mountain built by King Herod the Great. In the evenings, Masha and I loved going there to draw it. Herodion in Masha’s drawings, 1992.",
     textDesktop: null,
-    textMobile: `In the evenings, Masha and I would go out and draw the landscapes of Mount Tekoa - Herodion.
-Herodion in Masha’s drawings 1992. `,
+    textMobile: `From Tekoa, you can clearly see Mount Herodion - a man-made fortress mountain built by King Herod the Great. In the evenings, Masha and I loved going there to draw it. Herodion in Masha’s drawings, 1992.`,
   }
   ]
 },

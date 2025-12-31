@@ -105,7 +105,7 @@ ru: {
         type: "paragraphs",
    paragraphs: [
   `Нам повезло, визы мы получили примерно через полгода. 
-На нашу долю не выпали ни отказ, ни тьфу-тьфу, тюрьма, ни психбольница. `,
+На нашу долю не выпали ни отказ, ни, тьфу-тьфу, тюрьма, ни психбольница. `,
   `Отказников не брали на работу по специальности и многие работали дворниками. Если же вдруг чудом или по недосмотру органов им удавалось найти работу по специальности или близко к ней, то через некоторое время их настигало КГБ и требовало уволить отказника. `,
   `На одном из заводов работало несколько отказников, были они специалистами высшего класса. Они отлично наладили заводскую систему дигитального управления. Директор был счастлив, называл их “мои дорогие евреи”. Да и они сами радовались, видя плоды своих трудов. Но через некоторое время КГБ велел всех уволить. Директор был вынужден подчиниться приказу. `,
   `Раз в полгода отказники подавали новую просьбу на выезд и получали ответ “Ваш отъезд мы считаем нецелесообразным”. И так много лет. Я знаю таких, кто 9 лет был в отказе и таких, кто 16.`
@@ -117,7 +117,8 @@ ru: {
         mobileSrc: "/images/mobile-images/israel-visa-mobile.jpg",
         alt: "Наши выездные визы, которые мы получили в Советском Союзе; виза была для Израиля",
         text: null,
-        fullWidth: false
+        fullWidth: false,
+        text: `Три выездные визы, выданные нам - моей, моей маме и моей дочери Маше. В Советском Союзе уехать навсегда можно было только с официального разрешения властей.`
       },
       {
         type: "h4",
@@ -310,8 +311,8 @@ to the HR department.
                       `Every six months, refuseniks would reapply for permission to leave - and every time, they’d get the same cold response:`,
                        `“We consider your departure inadvisable.”`,
                         `And this went on for years.`,
-                               `I knew people who were refused for 9 years.`,
-                                     `Others - for 16.`
+                               `I knew people who were refused for 9 years. Others - for 16 years.`
+                                   
         ]
       },
       {
@@ -320,7 +321,8 @@ to the HR department.
         mobileSrc: "/images/mobile-images/israel-visa-mobile.jpg",
         alt: "Our exit visas, which we received in the Soviet Union; the visa was for Israel.",
         text: null,
-        fullWidth: false
+        fullWidth: false,
+        text: `Shown here are the three exit visas issued to us - mine, my mother’s, and Masha’s. In the Soviet Union, citizens could leave permanently only with official permission.`
       },
       {
         type: "h4",
@@ -515,7 +517,8 @@ to the HR department.
         mobileSrc: "/images/mobile-images/israel-visa-mobile.jpg",
         alt: "אלו היו ויזות היציאה שלנו מברית המועצות, שהונפקו למעבר שלנו לישראל",
         text: null,
-        fullWidth: false
+        fullWidth: false,
+        text: `שלוש ויזות יציאה שהונפקו לנו - לי, לאמא שלי ולבתי מאשה. בברית המועצות אפשר היה לעזוב את הארץ לצמיתות רק עם אישור רשמי מהשלטונות.`
       },
       {
         type: "h4",
@@ -526,9 +529,8 @@ to the HR department.
       {
         type: "paragraphs",
         paragraphs: [
-           `ארזנו את הדברים.`,
-              ` מַגָּזְנִיקִים הסכימו לקחת במטען שלהם (זוכרים את ה"לוקוביצה" של בורה?) קצת מכלים שלנו.`,
-                 ` אבל כעבור שנתיים, כשהגיעו לישראל, כמעט כל מה שקיבלנו היו שברים.`,
+           `ארזנו את הדברים שלנו.`,
+             `מַגָּזְנִיקִים הסכימו לקחת במטען שלהם קצת מכלים שלנו. אבל כעבור שנתיים, כשהגיעו לישראל, כמעט כל מה שקיבלנו היו שברים.`,
                     `הכלים האלו לא היו לנו רק כלי בית, אלא זיכרון חיים - חלק מההוויה שלנו.`,
                        ` זה היה סט כלים עדין ומעוצב, עם קומקום תה גדול - עדות לחגים שלנו, לארוחות המשותפות, ולחיים שהיו לנו.`,
                           `לכל סט כזה יש סיפור משלו:`,

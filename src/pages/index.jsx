@@ -395,7 +395,7 @@ const [lang, setLang] = useState(() => {
     {texts[lang].paragraphsBeforeH3 && (
       <div className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] mb-8 leading-relaxed">
         {texts[lang].paragraphsBeforeH3.map((p, i) => (
-          <p key={i} className="mb-6">{p}</p>
+          <p key={i} className="mb-6 italic">{p}</p>
         ))}
       </div>
     )}
