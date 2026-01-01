@@ -25,6 +25,20 @@ const [lang, setLang] = useState(() => {
 
 
 
+  // ✅ Preload images properly inside useEffect
+useEffect(() => {
+  const imagesToPreload = [
+    "/images/desktop-images/chapter-03-desktop.webp",
+    "/images/mobile-images/chapter-03-mobile.webp",
+  ];
+
+  imagesToPreload.forEach(src => {
+    const img = new Image();
+    img.src = src; 
+  });
+}, []);
+
+  // ✅ Preload images properly inside useEffect
 
 
 

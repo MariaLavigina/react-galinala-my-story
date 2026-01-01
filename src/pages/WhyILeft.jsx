@@ -27,9 +27,25 @@ const navigate = useNavigate();
 
 
 
-React.useEffect(() => {
-  localStorage.setItem("lang", lang);
-}, [lang]);
+  // ✅ Preload images properly inside useEffect
+useEffect(() => {
+  const imagesToPreload = [
+    "/images/desktop-images/chapter-01-desktop.webp",
+    "/images/mobile-images/chapter-01-mobile.webp",
+  ];
+
+  imagesToPreload.forEach(src => {
+    const img = new Image();
+    img.src = src; 
+  });
+}, []);
+
+  // ✅ Preload images properly inside useEffect
+
+
+
+
+
 
 
 

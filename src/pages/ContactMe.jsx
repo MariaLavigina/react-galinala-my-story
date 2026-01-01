@@ -31,6 +31,18 @@ export default function ContactMe() {
   const [name, setName] = useState("");
   const [lang, setLang] = useState(() => localStorage.getItem("lang") || "ru");
 
+
+
+
+  // ✅ Preload desktop background image
+  useEffect(() => {
+    const bgImage = new Image();
+    bgImage.src = "/images/bg-contact-me-desktop.webp"; 
+  }, []);
+
+
+
+
   useEffect(() => {
     localStorage.setItem("lang", lang);
   }, [lang]);
