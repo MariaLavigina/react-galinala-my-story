@@ -74,8 +74,18 @@ React.useEffect(() => {
 
 
 
+// ✅ Preload only .webp images for faster rendering
+useEffect(() => {
+  const images = [
+    "/images/desktop-images/chapter-01-desktop.webp",
+    "/images/mobile-images/chapter-01-mobile.webp",
+  ];
 
-
+  images.forEach((src) => {
+    const img = new Image();
+    img.src = src;
+  });
+}, []);
 
 
   
