@@ -125,7 +125,7 @@ const textsWeArrived = {
   
       image: {
      desktopSrc: "/images/Masha-and-the-kids-Rehovot.jpg",
-    mobileSrc: "/images/Masha-and-the-kids-Rehovot-mobile.jpg",
+    mobileSrc: "/images/Masha-and-the-kids-Rehovot.jpg",
     alt: "Маша и ребята из соседнего района - наши первые фотографии в нашем первом городе. Реховот, 1991",
     textDesktop: "Маша и ребята из соседнего района - наши первые фотографии в нашем первом городе. Реховот, 1991",
     textMobile: "Маша и ребята из соседнего района - наши первые фотографии в нашем первом городе. Реховот, 1991"
@@ -280,7 +280,7 @@ const textsWeArrived = {
    
       image: {
       desktopSrc: "/images/Masha-and-the-kids-Rehovot.jpg",
-      mobileSrc: "/images/Masha-and-the-kids-Rehovot-mobile.jpg",
+      mobileSrc: "/images/Masha-and-the-kids-Rehovot.jpg",
       alt: "מאשה וילדי השכונה - התמונות הראשונות שלנו בעירנו הראשונה. רחובות, 1991",
       textDesktop:  "מאשה וילדי השכונה - התמונות הראשונות שלנו בעירנו הראשונה. רחובות, 1991",
       textMobile:   "מאשה וילדי השכונה - התמונות הראשונות שלנו בעירנו הראשונה. רחובות, 1991"
@@ -446,11 +446,11 @@ olah hadasha - and they helped me with everything I needed.
                     `And then - even though I knew it made no sense - I pushed the door.`,
                      `And… it opened.`,
                          `
-That ridiculous moment - me, panicking in the Tel Aviv elevator - makes perfect sense when you realize where I came from.
-`,
+                      That ridiculous moment - me, panicking in the Tel Aviv elevator - makes perfect sense when you realize where I came from.
+                             `,
                              `Back in my university, the elevators had automatic doors. I had no idea you had to open them
-yourself.
-`
+                          yourself.`
+
                               
       ]
     },

@@ -75,20 +75,22 @@ export default function Footer({ lang = "ru" }) {
               className="w-10 h-10"
             />
           </a>
-          <a
-            href="https://api.whatsapp.com/send?text=https%3A%2F%2Fgalina-lavigina-my-story.netlify.app%2F"
-            aria-label="WhatsApp"
-          >
+         <a
+                 href="https://api.whatsapp.com/send?text=https%3A%2F%2Fmy-story-galina-lavigina.netlify.app%2F"
+                  aria-label="WhatsApp"
+                  >
+
             <img
               src="/images/social-sharing-buttons/whatsapp-brands-solid.svg"
               alt="WhatsApp"
               className="w-10 h-10"
             />
           </a>
-          <a
-            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgalina-lavigina-my-story.netlify.app%2F"
-            aria-label="Facebook"
-          >
+             <a
+          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmy-story-galina-lavigina.netlify.app%2F"
+           aria-label="Facebook"
+            >
+
             <img
               src="/images/social-sharing-buttons/facebook-brands-solid-full.svg"
               alt="Facebook"

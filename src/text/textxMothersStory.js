@@ -41,8 +41,9 @@ const textsMothersStory = {
 
       text: [
         
-        `Однажды в Бейт-Шемеше мама участвовала в выборах в городской совет. Завидев пожилую избирательницу,  агитаторы, почуяв лёгкую добычу,  наперебой бросились к ней, стараясь всучить бюллетени своих кандидатов. Но эта пожилая, "ола хадаша" оказалась не так беспомощна, несмотря на то, что прочитать имя кандидата написанное, естественно,  на иврите не могла. Накануне мы обсудили за кого будем голосовать. Имя его теперь не припомню, пусть будет Давид. Мама показывает бюллетень и спрашивает: "Это Давид?" Ей с готовностью отвечают - Да, Давид! Но и на другой и третий - тот же ответ. Мама понимает, что дело не чисто. Тогда меняет тактику и спрашивает: Это кто?" и быстро определяет нужный бюллетень.`,
+        `Однажды в Бейт-Шемеше мама участвовала в выборах в городской совет. Завидев пожилую избирательницу,  агитаторы, почуяв лёгкую добычу,  наперебой бросились к ней, стараясь всучить бюллетени своих кандидатов. Но эта пожилая, "ола хадаша" оказалась не так беспомощна, несмотря на то, что прочитать имя кандидата написанное, на иврите не могла. Накануне мы обсудили за кого будем голосовать. Имя его теперь не припомню, пусть будет Давид. Мама показывает бюллетень и спрашивает: "Это Давид?" Ей с готовностью отвечают - Да, Давид! Но и на другой и третий бюллетени - тот же ответ. Мама понимает, что дело не чисто. Тогда меняет тактику и спрашивает: Это кто?" и быстро определяет нужный бюллетень.`,
          `Мама скрупулезно записывала наши расходы/доходы. Возможно это в какой-то степени помогло нам скопить небольшую сумму, которая, когда мы покупали квартиру, очень нам помогла.Только из маминых писем я узнала, как нелегко давалась ей наша олимовская неустроенность. Мне она не пожаловалась ни разу. Ее стойкость, оптимизм, живость ума и доброжелательность притягивала людей. `,
+         `Соседка отдала нам платье вышедшее из моды. Оно никому не подошло и мама сшила из него 2 фартука. Сшила на руках. Я сейчас измерила длину швов - 3 метра. И все вручную и совсем незаметные.`,
           `Одна из наших знакомых говорила: "В доме чувствовалась какая-то особая атмосфера и было понятно,  что она исходит от мамы." Другая удивлялась: "Ваш дом совсем не похож на олимовский. Как-будто вы здесь давно."`,
            `Моя мама не оставила мне богатства, но пример жизни я получила редкостный.`,
             "DIVIDER" // <-- marker for divider
@@ -147,8 +148,8 @@ const textsMothersStory = {
       desktopSrc: "/images/Birthday-Magazines-01.jpg",
       mobileSrc: "/images/Birthday-Magazines-01.jpg",
       alt: "Юмористические газеты, сделанные вручную моей мамой из вырезанных заголовков и рисунков из газет и журналов, без личных фотографий.",
-      textDesktop: "Юмористические газеты, сделанные вручную моей мамой из вырезанных заголовков и рисунков из газет и журналов, без личных фотографий. Моя мама сделала их для моего дня рождения, уже будучи в конце своих 80-х, с большим теплом и любовью.",
-      textMobile: "Юмористические газеты, сделанные вручную моей мамой из вырезанных заголовков и рисунков из газет и журналов, без личных фотографий. Моя мама сделала их для моего дня рождения, уже будучи в конце своих 80-х, с большим теплом и любовью.",
+      textDesktop: "",
+      textMobile: "",
       fullWidth: true 
     },
     {
@@ -163,13 +164,20 @@ const textsMothersStory = {
       desktopSrc: "/images/Birthday-Magazines-02.jpg",
       mobileSrc: "/images/Birthday-Magazines-02.jpg",
       alt: "Юмористические газеты, сделанные вручную моей мамой из вырезанных заголовков и рисунков из газет и журналов, без личных фотографий.",
-      textDesktop: "Юмористические газеты, сделанные вручную моей мамой из вырезок заголовков и рисунков из газет и журналов. Эти газеты она сделала для Маши.",
-      textMobile: "Юмористические газеты, сделанные вручную моей мамой из вырезок заголовков и рисунков из газет и журналов. Эти газеты она сделала для Маши.",
+      textDesktop: "",
+      textMobile: "",
       fullWidth: true 
     }
   ], 
-  
 },
+
+      {
+      text: [
+        "DIVIDER", 
+        `Мамы не стало в 1995 году. Последнее время ее сердечные приступы участились и становились более продолжительными и очень болезненными. Мама знала, что любой из них может оказаться последним, знала это и я. Мама изо всех сил старалась не испугать меня, и только так сжимала руки, что ногти впечатывались в кожу. И как только боль начинала отпускать первым делом успокаивала меня: "Все,  Галочка, не волнуйся, проходит."`
+      
+      ]
+    },
 
 
 
@@ -238,6 +246,7 @@ const textsMothersStory = {
              ` אז היא משנה טקטיקה ושואלת: "מי זה?" ומזהה מהר את הפתק הנכון.`,
               `אמא הייתה רושמת בקפדנות את ההכנסות וההוצאות שלנו.  אולי זה במידה מסוימת עזר לנו לחסוך קצת כסף, שהשלים לנו הרבה כשקנינו דירה.`,
                `רק מהמכתבים שלה הבנתי כמה קשה לה הייתה ההתמודדות עם חוסר הוודאות שלנו כעולים.  לעולם היא לא התלוננה בפניי. החוסן, האופטימיות, החדות השכלית וטוב-ליבה משכו אנשים אליה.`,
+               `השכנה נתנה לנו שמלה שיצאה מהאופנה. היא לא התאימה לאף אחד, ואמא תפרה ממנה שני סינרים. תפרה ביד. עכשיו מדדתי את אורך התפרים - שלושה מטרים. והכול ביד, ותפרים עדינים שכמעט ואינם נראים.`,
                 `אחת מהכירות שלנו אמרה: "בבית שלכם הייתה אווירה מיוחדת, והיה ברור שהיא מגיעה מאמא."
                  אחרת התפלאה: "הבית שלכם בכלל לא מרגיש כמו בית עולים. כאילו אתם כאן כבר הרבה זמן."`,
                  `אמא שלי לא השאירה לי עושר חומרי, אבל היא השאירה לי דוגמה לחיים יוצאת דופן.`,
@@ -326,8 +335,8 @@ const textsMothersStory = {
           desktopSrc: "/images/Birthday-Magazines-01.jpg",
           mobileSrc: "/images/Birthday-Magazines-01.jpg",
           alt: "עיתונים הומוריסטיים, שנעשו בעבודת יד על ידי אמא שלי מתוך כותרות וציורים שנגזרו מעיתונים ומגזינים, ללא תמונות אישיות.",
-          textDesktop: "עיתונים הומוריסטיים, שנעשו בעבודת יד על ידי אמא שלי מתוך כותרות וציורים שנגזרו מעיתונים ומגזינים, ללא תמונות אישיות. אמא שלי הכינה אותם ליום ההולדת שלי, כבר בסוף שנות ה-80 שלה, עם הרבה חום ואהבה.",
-          textMobile: "עיתונים הומוריסטיים, שנעשו בעבודת יד על ידי אמא שלי מתוך כותרות וציורים שנגזרו מעיתונים ומגזינים, ללא תמונות אישיות. אמא שלי הכינה אותם ליום ההולדת שלי, כבר בסוף שנות ה-80 שלה, עם הרבה חום ואהבה.",
+          textDesktop: "",
+          textMobile: "",
 
           fullWidth: true 
         },
@@ -343,13 +352,23 @@ const textsMothersStory = {
           desktopSrc: "/images/Birthday-Magazines-03.jpg",
           mobileSrc: "/images/Birthday-Magazines-03.jpg",
           alt: "עיתונים הומוריסטיים, שנעשו בעבודת יד על ידי אמא שלי מתוך כותרות וציורים שנגזרו מעיתונים ומגזינים, ללא תמונות אישיות.",
-          textDesktop: "עיתונים הומוריסטיים, שנעשו בעבודת יד על ידי אמא שלי מתוך כותרות וציורים שנגזרו מעיתונים ומגזינים. את העיתונים האלה היא הכינה עבור מאשה.",
-          textMobile: "עיתונים הומוריסטיים, שנעשו בעבודת יד על ידי אמא שלי מתוך כותרות וציורים שנגזרו מעיתונים ומגזינים. את העיתונים האלה היא הכינה עבור מאשה.",
+          textDesktop: "",
+          textMobile: "",
 
           fullWidth: true 
         }
       ]
     },
+
+          {
+      text: [
+          "DIVIDER", 
+        `אמא שלי נפטרה בשנת 1995. לקראת הסוף, התקפי הלב שלה הפכו תכופים יותר, ארוכים וכואבים מאוד. היא ידעה שכל אחד מהם עלול להיות האחרון — ואני ידעתי את זה גם. היא התאמנה בכל כוחה לא להפחיד אותי, ולחצה את ידיה כל כך חזק שהציפורניים שלה נחרטו בעור. וכשכאב התחיל להקל, הדבר הראשון שהיא עשתה היה להרגיע אותי: 
+״הכל בסדר, גאלוצ’קה, אל תדאגי - זה עובר.״
+`
+      ]
+    },
+
   ],
 
   en: [
@@ -392,6 +411,7 @@ const textsMothersStory = {
         `Spotting an elderly voter, the campaigners - sensing an easy prey - rushed toward her, eager to slip her ballots for their candidates. But this elderly “new immigrant” was far from helpless. Although, naturally, she couldn’t read the candidate’s name in Hebrew, she was prepared. The day before, we had discussed who we would vote for. I don’t recall his name now - let’s call him David.`,
         `My mother held up the ballot and asked, “Is this David?” They readily replied, “Yes, David!” But it was the same on the second and third ballots. My mother sensed something was fishy. Then she changed tactics and asked, “Who is this?”- and quickly identified the correct candidate on the ballot.`,
         `My mother meticulously recorded our income and expenses. Perhaps in some small way, this helped us save a little money, which proved invaluable when we bought our apartment. Only through her letters did I truly realize how difficult our unsettled life as “Olim” had been for her.  (Olim - are Jewish immigrants who moved to Israel. The term literally means “those who ascend)  My mother never once complained to me. Her resilience, optimism, sharp mind, and kindness naturally drew people to her.`,
+           `A neighbor gave us a dress that had gone out of fashion. It didn’t fit anyone, so my mother made two aprons out of it. She sewed them by hand. I’ve just measured the length of the seams - three meters. And all of it was done by hand, with stitches so fine they’re almost invisible.`,
            `One acquaintance said, “There was a special atmosphere in your home, and it was clear that it came from your mother.” Another remarked, “Your home doesn’t feel like that of new immigrants at all. It’s as if you’ve been here for years.”`,
               `My mother didn’t leave me a fortune, but the example of her life was a rare and priceless inheritance.`,
              
@@ -465,8 +485,8 @@ const textsMothersStory = {
           desktopSrc: "/images/Birthday-Magazines-01.jpg",
           mobileSrc: "/images/Birthday-Magazines-01.jpg",
           alt: "Humorous newspapers, handmade by my mother from cut-out headlines and illustrations from newspapers and magazines, without personal photos.",
-          textDesktop: "Humorous newspapers, handmade by my mother from cut-out headlines and illustrations from newspapers and magazines, without personal photos. My mother made them for my birthday, already in her late 80s, with great warmth and love.",
-          textMobile: "Humorous newspapers, handmade by my mother from cut-out headlines and illustrations from newspapers and magazines, without personal photos. My mother made them for my birthday, already in her late 80s, with great warmth and love.",
+          textDesktop: "",
+          textMobile: "",
           fullWidth: true 
         },
         {
@@ -481,10 +501,17 @@ const textsMothersStory = {
           desktopSrc: "/images/Birthday-Magazines-03.jpg",
           mobileSrc: "/images/Birthday-Magazines-03.jpg",
           alt: "Humorous newspapers, handmade by my mother from cut-out headlines and illustrations from newspapers and magazines, without personal photos.",
-          textDesktop: "Humorous newspapers, handmade by my mother from cut-out headlines and illustrations from newspapers and magazines. She made these newspapers for Masha.",
-          textMobile: "Humorous newspapers, handmade by my mother from cut-out headlines and illustrations from newspapers and magazines. She made these newspapers for Masha.",
+          textDesktop: "",
+          textMobile: "",
           fullWidth: true 
         }
+      ]
+    },
+        {
+      text: [
+          "DIVIDER", 
+        `My mum passed away in 1995. Towards the end, her heart attacks became more frequent, lasted longer, and were very painful. She knew that any one of them could be the last — and I knew it too. She tried with all her strength not to frighten me, only squeezing her hands so tightly that her fingernails pressed into her skin. And as soon as the pain began to ease, the very first thing she did was calm me down:
+           “It’s okay, Galochka, don’t worry - it’s passing.”`
       ]
     },
   ],

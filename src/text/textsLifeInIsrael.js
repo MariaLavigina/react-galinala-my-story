@@ -266,13 +266,8 @@ const textsLifeInIsrael = {
       `ואז, יום אחד, נמרוד אומר: "גלינה, אין לי עבודה בשבילך." ליבי התכווץ. בהתמודדות עם הפחד והבושה, אני אומרת בקלילות: "אתה לא נגד אם אני אמשיך לבוא?" נמרוד לא יכול היה לסרב לי. המשכתי להגיע ולהתנסות. הרגשתי חושך בלב, אבל מדי פעם שכחתי מהמצב שלי – היה מרתק ללמוד את הכלי החדש.`,
       `ואז, ערב אחד, אחרי שנמרוד חזר, קראתי לו למחשב וביקשתי ממנו להכניס לכל מקום במסך מספר כלשהו. הוא הכניס - וראש הדמות הקטנה על המסך קפץ כמה פעמים שהכנסתי. הוא ניסה עוד ועוד, והדמות שלי קפצה בדיוק כפי שצריך, ללא טעויות. בתוכנית הפשוטה הזו השתמשתי בכל האלמנטים העיקריים של Toolbook, והראיתי שהצלחתי להבין את הכלי. ושני חודשים לפני סיום דמי האבטלה, נמרוד אומר: "גלינה, אל תלכי יותר לרישום בלישכת העבודה, אני פותח את החברה ומקבל אותך לעבודה."`,
       `זו היה שלוש שנים מאושרות. עבודה מרתקת, משכורת אמנם לא גבוהה, אך מספקת, ואווירה נפלאה בצוות. נמרוד היה נלהב על תכנות. העריך מקצועיות, יושרה, ללא תחרותיות, והייתה שמחה אמיתית מעבודה יפה.`,
-      `נמרוד, אשתו רונית והוריו דאגו גם לאמי ולמָאשָׁה. הם קיבלו אותנו למסיבות גדולות וקטנות, ומאמא חוותה בשמחה את השפה ששכחה מילדותה.`,
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
+      `נמרוד, אשתו רונית והוריו דאגו גם לאמי ולמָאשָׁה. הם קיבלו אותנו למסיבות גדולות וקטנות, ומאמא חוותה בשמחה את שפת ילדותה – יידיש, שלא דיברה במשך שנים.`,
+
       ]
     },
 
@@ -412,7 +407,8 @@ it probably ran all the way to your home.” Then he got serious, sighed, and sa
         `One evening, after Nimrod came back, I called him to the computer and asked him to type any number in a specific spot on the screen. He did - and the little character on the screen jumped that many times. He tried again and again, and the character obediently jumped exactly as many times as he entered - never missing a beat.`,
         `In that simple little program, I’d used all the main features of Toolbook, proving I had figured it out. And two months before my unemployment benefits ran out, Nimrod said, “Galina, don’t bother going to the job center anymore. I’m opening the company and hiring you.”`,
         `Those were three happy years. Fascinating work, a modest salary that kept me afloat, and a wonderful atmosphere in the team. Nimrod was passionate about programming. Professionalism and conscientiousness were highly valued, there was no competition, and everyone took joy in a job well done.`,
-        `Nimrod, his wife Ronit, and his parents didn’t forget my mom and Masha either. They invited them to both big and small gatherings. Mom joyfully immersed herself in the language of her childhood, which she hadn’t spoken in years, Yiddish. `
+        `Nimrod, his wife Ronit, and his parents didn’t forget my mom and Masha either. They invited them to both large and small gatherings. Mom would joyfully immerse herself in the language of her childhood - Yiddish - which she hadn’t spoken in years.
+`
       
       ]
     },

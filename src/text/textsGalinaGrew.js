@@ -26,7 +26,8 @@ const textsGalinaGrew = {
 `Наша маскира всё время намекала, что нужно устроить месибат прида (прощальную вечеринку). Конечно, я была не против, хотя её настойчивость немного удивляла.`,
 `И вот настал мой последний день. Все собрались в комнате для ешивот. Как положено, большой начальник произнёс официальную речь. Потом моя непосредственная руководительница сказала что-то более личное. А затем - погас свет, и на стене появился титр:`,
 `“Фильм о том, как Галина росла, а компьютеры, наоборот - уменьшались.”`,
-`Да, это был настоящий фильм! Девочки даже связались с Машей, которая в то время была в Лондоне, и она прислала им все мои фотографии, даже детские. (Перед отъездом в Лондон Маша отсканировала все наши фото на флешку.) Получилась целая история - не только обо мне, но и о развитии компьютерной техники. Многие в коллективе были молоды, и, возможно, впервые увидели, каких размеров были первые компьютеры.`
+`Да, это был настоящий фильм! Девочки даже связались с Машей, которая в то время была в Лондоне, и она прислала им все мои фотографии, даже детские. (Перед отъездом в Лондон Маша отсканировала все наши фото на флешку.) Получилась целая история - не только обо мне, но и о развитии компьютерной техники. Многие в коллективе были молоды, и, возможно, впервые увидели, каких размеров были первые компьютеры.`,
+`Сегодня, 2026 год. Я уже 11 лет, как не работаю. Делаю, что хочу и когда хочу. А потому все делаю с удовольствием.`
 
 
     
@@ -79,7 +80,8 @@ const textsGalinaGrew = {
     `ולבסוף הגיע היום האחרון. כולם התאספו בחדר ה“ישיבות” - חדר ישיבות עם שולחנות ארוכים, על שם בתי המדרש המסורתיים. כצפוי, הבוס הגדול נשא דברים רשמיים. אחריו הממונה הישיר שלי אמר משהו יותר אישי.`,
     `ואז - האורות כבו, ועל הקיר הופיע הכותרת:`,
      `“סרט על איך גלינה גדלה בזמן שמחשבים הצטמצמו.”`,
-      `כן, באמת היה סרט! הבנות אפילו יצרו קשר עם מאשה, שהייתה אז בלונדון, והיא שלחה להן את כל התמונות שלי. זה הפך לסיפור שלם - לא רק עליי, אלא גם על התפתחות הטכנולוגיה של המחשבים. הרבה מהעובדים במשרד היו צעירים, וככל הנראה זו הייתה הפעם הראשונה שהם ראו כמה המחשבים הראשונים היו עצומים.`
+      `כן, באמת היה סרט! הבנות אפילו יצרו קשר עם מאשה, שהייתה אז בלונדון, והיא שלחה להן את כל התמונות שלי. זה הפך לסיפור שלם - לא רק עליי, אלא גם על התפתחות הטכנולוגיה של המחשבים. הרבה מהעובדים במשרד היו צעירים, וככל הנראה זו הייתה הפעם הראשונה שהם ראו כמה המחשבים הראשונים היו עצומים.`,
+      `היום שנת 2026. כבר 11 שנים שאני לא עובדת. אני עושה מה שאני רוצה ומתי שאני רוצה, ולכן אני עושה הכול בהנאה.`
    
       ]
     },
@@ -122,20 +124,20 @@ urgently needed to fill a gap because two employees had left.
       text: [
         `In May 2014, I was let go from my job. At the same time, Masha, my daughter, was getting married. I joked then, “Galya was phased out, and Masha got married.”`,
          `Back in 2008, I almost lost my job too. That would have been a real tragedy - Masha was serving in the army, our mortgage wasn’t paid off yet, and we had barely enough to live on. The Ministry of Education - which was our main client and basically controlled all
-the hiring decisions - was shocked to hear about my difficult situation. They thought I was doing just fine. I guess I worked a little too hard at seeming calm and carefree. Thankfully, they canceled the dismissal.
-`,
+          the hiring decisions - was shocked to hear about my difficult situation. They thought I was doing just fine. I guess I worked a little too hard at seeming calm and carefree. Thankfully, they canceled the dismissal.
+          `,
           `But this time, I was genuinely relieved. I was already 73, and every day felt harder than the last. Early in the morning, dragging myself to the bus stop, I’d tell myself, “You’re walking? You haven’t fallen? Then just keep going.”`,
            `Now things were different: the mortgage was paid off, Masha had finished her army service, graduated from Shenkar College, and even completed a year with honors at the prestigious Saint Martin’s College in London. She was happy and full of hope. So, I took
-the dismissal as a kind of freedom.
-`,
+            the dismissal as a kind of freedom.`,
+
             `Usually, in the last month before leaving a job, people either take sick leave or start working “half-heartedly.” But I did the opposite - the joy of upcoming freedom gave me energy. I worked with pleasure, giving my time and effort generously.`,
              `Our office manager kept hinting that we should throw a “mesibat prida” - a farewell party. Of course, I was happy to have one, although her insistence surprised me a bit.`,
               `Finally, the last day arrived. Everyone gathered in the “yeshivot” room (a meeting room with long tables, named after traditional Jewish study halls). As expected, the big boss gave an official speech. Then my direct supervisor said something more personal.`,
                `And then - the lights went out, and on the wall appeared a title:`,
                 `“A Film About How Galina Grew Up While Computers Got Smaller.”`,
                  `Yes, it really was a film! The girls even contacted Masha, who was in London at the time, and she sent them all my photos. It became a whole story - not just about me, but about the evolution of computer technology. Many people in the office were young and probably
-saw for the first time how enormous the first computers used to be.
-`
+                 saw for the first time how enormous the first computers used to be.`,
+                  `It’s the year 2026. I haven’t worked for 11 years now. I do whatever I want, whenever I want, and that’s why everything I do is done with joy.`
               
   
       ]

@@ -478,16 +478,7 @@ React.useEffect(() => {
   )
 ))}
 
-
-
-
-
-
-
-
-
-
-          
+   
 
           {/* Images */}
           {block.image &&

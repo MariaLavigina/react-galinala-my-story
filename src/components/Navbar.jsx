@@ -5,6 +5,27 @@ const Navbar = ({ lang, setLang }) => {
   const [menuOpen, setMenuOpen] = React.useState(false);
   const toggleMenu = () => setMenuOpen((prev) => !prev);
 
+
+  // Close mobile menu when clicking outside
+React.useEffect(() => {
+  const handleClickOutside = (event) => {
+    const nav = document.querySelector("nav");
+    if (menuOpen && nav && !nav.contains(event.target)) {
+      setMenuOpen(false);
+    }
+  };
+
+  document.addEventListener("click", handleClickOutside);
+  return () => document.removeEventListener("click", handleClickOutside);
+}, [menuOpen]);
+ // Close mobile menu when clicking outside
+
+
+
+
+
+
+
   const navigate = useNavigate();
   const location = useLocation();
 
