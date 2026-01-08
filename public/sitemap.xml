@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://galina-lavigina.netlify.app/</loc>
+    <changefreq>never</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://galina-lavigina.netlify.app/why-i-left</loc>
+    <changefreq>never</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://galina-lavigina.netlify.app/decision-to-leave</loc>
+    <changefreq>never</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://galina-lavigina.netlify.app/our-journey</loc>
+    <changefreq>never</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://galina-lavigina.netlify.app/we-arrived</loc>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://galina-lavigina.netlify.app/first-steps</loc>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://galina-lavigina.netlify.app/life-in-israel</loc>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://galina-lavigina.netlify.app/galina-grew</loc>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://galina-lavigina.netlify.app/mashas-first-days</loc>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://galina-lavigina.netlify.app/mothers-story</loc>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://galina-lavigina.netlify.app/contact-me</loc>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://galina-lavigina.netlify.app/thank-you</loc>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

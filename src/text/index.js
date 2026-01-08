@@ -17,8 +17,8 @@ const texts = {
     ],
 
     h3_2: `Вот они эти три женщины`,
-    photoDesktop: "/images/desktop-images/threeWomen-desktop.jpg",
-    photoMobile: "/images/mobile-images/threeWomen-mobile.webp",
+    photoDesktop: "/images/desktop-images/three-women-01-desktop.webp",
+    photoMobile: "/images/mobile-images/three-women-01-mobile.webp",
 
     h4: `Для кого это написанно?`,
     paragraphs2: [
@@ -73,8 +73,8 @@ const texts = {
     ],
 
     h3_2: `Here are these three women`,
-    photoDesktop: "/images/desktop-images/threeWomen-desktop.jpg",
-    photoMobile: "/images/mobile-images/threeWomen-mobile.webp",
+    photoDesktop: "/images/desktop-images/three-women-01-desktop.webp",
+    photoMobile: "/images/mobile-images/three-women-01-mobile.webp",
 
     h4: `Who is this written for?`,
     paragraphs2: [
@@ -141,8 +141,8 @@ const texts = {
 
     h3_2: `הנה אנחנו - שלוש נשים, שלוש דורות, סיפור אחד. 
 `,
-    photoDesktop: "/images/desktop-images/threeWomen-desktop.jpg",
-    photoMobile: "/images/mobile-images/threeWomen-mobile.webp",
+    photoDesktop: "/images/desktop-images/three-women-01-desktop.webp",
+    photoMobile: "/images/mobile-images/three-women-01-mobile.webp",
 
     h4: `ולמי כל זה נכתב? `,
     paragraphs2: [
