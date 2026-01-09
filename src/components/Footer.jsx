@@ -6,7 +6,8 @@ const footerText = {
     emailLabel: "Email",
     contactEmail: "galinala-mystory@gmail.com",
     copyright:
-      "© 2026 Галина Лавыгина - все права защищены.",
+      "© 2026г Галина Лавыгина - все права защищены.",
+    designedBy: "Дизайн и разработка сайта: Мария Лавыгина", // new line
     info1:
       "Мы будем рады, если эта история затронет вас и вы захотите поделиться ею, перепостить или опубликовать. Пожалуйста, делайте это только с точным сохранением текста и с явным указанием автора - Галины Лавыгиной. Если у вас есть вопросы, мысли или добрые слова - пишите:",
     privacy:
@@ -18,6 +19,7 @@ const footerText = {
     contactEmail: "galinala-mystory@gmail.com",
     copyright:
       "© 2026 Galina Lavigina - All rights reserved.",
+       designedBy: "Website Designed & Developed by Maria Lavigina", // new line
     info1:
      `We would be delighted if this story touches you and you feel inspired to share it, repost it, or publish it. Please do so only with the text kept exactly as it is and with clear credit to the author - Galina Lavigina.
 If you have any questions, thoughts, or kind words, please write to me at:`,
@@ -30,6 +32,7 @@ If you have any questions, thoughts, or kind words, please write to me at:`,
     contactEmail: "galinala-mystory@gmail.com",
     copyright:
      `© 2026 גלינה לביגינה - כל הזכויות שמורות`,
+        designedBy: "עיצוב ופיתוח אתר: מריה לביגינה", // new line
     info1:
        `נשמח אם הסיפור הזה ייגע בכם ותרצו לשתף אותו. בבקשה עשו זאת רק עם שמירה מדויקת על הטקסט וציון ברור של המחברת - גלינה לביגינה. אם יש לכם שאלות, מחשבות או מילים טובות - כתבו:`,
     privacy:
@@ -104,6 +107,7 @@ export default function Footer({ lang = "ru" }) {
       <div className="px-[16px] sm:px-[24px] md:px-[32px] mt-[48px]">
         <div className="max-w-[720px] mx-auto text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-center">
           <p className="mb-8">{text.copyright}</p>
+          <p className="mb-8 text-sm">{text.designedBy}</p> {/* new line */}
           <p className="mb-8">{text.info1}</p>
           <p className="mb-16">
             <a href={`mailto:${text.contactEmail}`} className="underline hover:text-gray-300">

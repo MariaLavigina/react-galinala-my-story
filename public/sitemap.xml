@@ -61,6 +61,12 @@
     <priority>0.7</priority>
   </url>
 
+   <!-- <url>
+    <loc>https://galina-lavigina.netlify.app/afterword</loc>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url> -->
+
   <url>
     <loc>https://galina-lavigina.netlify.app/contact-me</loc>
     <changefreq>never</changefreq>

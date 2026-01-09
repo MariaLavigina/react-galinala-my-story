@@ -33,7 +33,7 @@ React.useEffect(() => {
       };
   
       const descriptions = {
-      ru: `Мое первое интервью и жизнь в еврейском поселении Текоа. `,
+      ru: `Мое первое интервью и жизнь в еврейском поселении Ткоа. `,
       en: `My first interview and life in the Jewish settlement of Tekoa.`,
       he: `הראיון הראשון שלי והחיים במושב תְּקוֹעַ`
       };

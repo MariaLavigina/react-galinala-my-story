@@ -10,7 +10,7 @@ import LifeInIsrael from './pages/LifeInIsrael.jsx';
 import GalinaGrew from './pages/GalinaGrew.jsx';
 import MashasFirstDays from './pages/MashasFirstDays.jsx';
 import MothersStory from './pages/MothersStory.jsx';
-// import MothersStory from './pages/Afterword.jsx';
+import Afterword from './pages/Afterword.jsx';
 import ContactMe from './pages/ContactMe.jsx';
 import ThankYou from './pages/ThankYou.jsx';
 import ScrollToTop from './components/ScrollToTop.jsx';
@@ -30,7 +30,7 @@ function App() {
     <Route path="/galina-grew" element={<GalinaGrew />} />
     <Route path="/mashas-first-days" element={<MashasFirstDays />} />
     <Route path="/mothers-story" element={<MothersStory />} />
-    {/* <Route path="/afterword" element={<Afterword />} /> */}
+    <Route path="/afterword" element={<Afterword />} />
     <Route path="/contact-me" element={<ContactMe />} />
     <Route path="/thank-you" element={<ThankYou />} /> 
                           

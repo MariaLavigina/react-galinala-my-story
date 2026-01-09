@@ -564,15 +564,15 @@ React.useEffect(() => {
 <div className="flex justify-center gap-4 mt-24">
   {lang === "he" ? (
     <>
-      {/* Hebrew: Backward on left, Forward on right */}
+      {/* Hebrew: Forward on left, Backward on right */}
+      <ForwardButton
+        onClick={() => navigate("/afterword")}
+        label="המשך"
+        isRtl={true}
+      />
       <BackwardButton
         onClick={() => navigate("/mashas-first-days")}
         label="חזרה"
-        isRtl={true}
-      />
-      <ForwardButton
-        onClick={() => navigate("/")}
-        label="דף הבית"
         isRtl={true}
       />
     </>
@@ -585,8 +585,8 @@ React.useEffect(() => {
         isRtl={false}
       />
       <ForwardButton
-        onClick={() => navigate("/")}
-        label={lang === "ru" ? "Главная" : "home"}
+        onClick={() => navigate("/afterword")}
+        label={lang === "ru" ? "Вперёд" : "Next"}
         isRtl={false}
       />
     </>
