@@ -43,43 +43,65 @@ const ChapterSectionMobile = ({ lang = "ru" }) => {
       {/* Content vertically centered over the SVG */}
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center gap-12">
         {currentChapters.map((chapter) => (
-          <div key={chapter.number} className="flex flex-col items-center text-center w-full">
-            {/* Text container limited to 95% */}
+          <Link
+            key={chapter.number}
+            to={chapter.link}
+            className="group flex flex-col items-center text-center w-full cursor-pointer"
+          >
+            {/* Text container */}
             <div className="w-[95%] mx-auto flex flex-col items-center">
               {/* Chapter Number */}
-              <h1 className="text-[5rem] sm:text-[7rem] font-bold mb-2 text-white">
+              <h1
+                className="
+                  text-[5rem] sm:text-[7rem] font-bold mb-2 text-white
+                  transition-transform duration-300 ease-out
+                  group-hover:scale-105
+                "
+              >
                 {chapter.number}
               </h1>
 
               {/* Chapter Title */}
-              <h2 className="text-[2rem] sm:text-[4rem] mb-4 text-white">
+              <h2
+                className="
+                  text-[2rem] sm:text-[4rem] mb-4 text-white
+                  transition-transform duration-300 ease-out
+                  group-hover:scale-105
+                "
+              >
                 {chapter.title}
               </h2>
 
               {/* Button */}
-   <Link to={chapter.link} className="mb-4 w-full flex justify-center">
-  <div
-    className="
-      group relative rounded-full text-white font-['Roboto'] bg-white/10 backdrop-blur-md border border-white/30 
-      tracking-wide transition-all duration-300 ease-in-out 
-      hover:bg-white/20 hover:scale-[1.03] active:bg-white/30 
-      px-[clamp(24px,6vw,40px)] py-[clamp(10px,3.5vw,20px)] text-[clamp(1.5rem,5vw,2.5rem)] text-center
-    "
-  >
-    {buttonText[lang]}
-  </div>
-</Link>
+              <div className="mb-4 w-full flex justify-center">
+                <div
+                  className="
+                    rounded-full text-white font-['Roboto']
+                    bg-white/10 backdrop-blur-md border border-white/30
+                    tracking-wide transition-all duration-300 ease-in-out
+                    group-hover:bg-white/20 group-hover:scale-[1.03]
+                    active:bg-white/30
+                    px-[clamp(24px,6vw,40px)]
+                    py-[clamp(10px,3.5vw,20px)]
+                    text-[clamp(1.5rem,5vw,2.5rem)]
+                    text-center
+                  "
+                >
+                  {buttonText[lang]}
+                </div>
+              </div>
             </div>
 
             {/* Chapter Image */}
-      <Link to={chapter.link} className="block w-full">
-  <img
-    src={chapter.img}
-    alt={chapter.alt}
-    className="w-full h-auto block transform transition-transform duration-300 hover:scale-105"
-  />
-</Link>
-          </div>
+            <img
+              src={chapter.img}
+              alt={chapter.alt}
+              className="
+                w-full h-auto block transform transition-transform duration-300
+                group-hover:scale-105
+              "
+            />
+          </Link>
         ))}
       </div>
     </div>
@@ -87,4 +109,3 @@ const ChapterSectionMobile = ({ lang = "ru" }) => {
 };
 
 export default ChapterSectionMobile;
-

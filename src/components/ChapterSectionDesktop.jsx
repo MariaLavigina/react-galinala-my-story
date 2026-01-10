@@ -42,43 +42,66 @@ const ChapterSectionDesktop = ({ lang = "ru" }) => {
 
       {/* Content centered over SVG */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 sm:px-8 lg:px-16 py-12">
-        {/* Chapters Grid */}
         <div className="flex justify-center gap-6 flex-wrap w-full max-w-[95vw]">
           {currentChapters.map((chapter) => (
-            <div key={chapter.number} className="flex flex-col items-center text-center w-[21%]">
+            <Link
+              key={chapter.number}
+              to={chapter.link}
+              className="group flex flex-col items-center text-center w-[21%] cursor-pointer"
+            >
               {/* Chapter Number */}
-              <h1 className="text-[clamp(40px,5vw,65px)] font-bold mb-1 text-white">
+              <h1
+                className="
+                  text-[clamp(40px,5vw,65px)] font-bold mb-1 text-white
+                  transition-transform duration-300 ease-out
+                  group-hover:scale-105
+                "
+              >
                 {chapter.number}
               </h1>
 
               {/* Chapter Title */}
-              <h2 className="text-sm md:text-[1rem] lg:text-[1.5rem] xl:text-[1.8rem] mb-2 text-white break-words min-h-[50px]">
+              <h2
+                className="
+                  text-sm md:text-[1rem] lg:text-[1.5rem] xl:text-[1.8rem]
+                  mb-2 text-white break-words min-h-[50px]
+                  transition-transform duration-300 ease-out
+                  group-hover:scale-105
+                "
+              >
                 {chapter.title}
               </h2>
 
-              {/* Button */}
-        <Link to={chapter.link} className="mb-2 mt-10 w-full flex justify-center">
-  <div
-    className="
-      group relative rounded-full text-white font-['Roboto'] bg-white/10 backdrop-blur-md border border-white/30 
-      tracking-wide transition-all duration-300 ease-in-out 
-      hover:bg-white/20 hover:scale-[1.03] active:bg-white/30 
-      px-6 py-3 text-sm lg:px-5 lg:py-2.5 lg:text-sm xl:px-6 xl:py-3 xl:text-base 2xl:px-7 2xl:py-3.5 2xl:text-lg text-center
-    "
-  >
-    {buttonText[lang]}
-  </div>
-</Link>
+              {/* Button (visual only, navigation handled by parent Link) */}
+              <div className="mb-2 mt-10 w-full flex justify-center">
+                <div
+                  className="
+                    rounded-full text-white font-['Roboto']
+                    bg-white/10 backdrop-blur-md border border-white/30
+                    tracking-wide transition-all duration-300 ease-in-out
+                    group-hover:bg-white/20 group-hover:scale-[1.03]
+                    active:bg-white/30
+                    px-6 py-3 text-sm lg:px-5 lg:py-2.5
+                    xl:px-6 xl:py-3 xl:text-base
+                    2xl:px-7 2xl:py-3.5 2xl:text-lg
+                    text-center
+                  "
+                >
+                  {buttonText[lang]}
+                </div>
+              </div>
 
               {/* Chapter Image */}
-         <Link to={chapter.link} className="block w-full mt-2">
-  <img
-    src={chapter.img}
-    alt={chapter.alt}
-    className="w-full h-auto transform transition-transform duration-300 hover:scale-105"
-  />
-</Link>
-            </div>
+              <img
+                src={chapter.img}
+                alt={chapter.alt}
+                className="
+                  w-full h-auto mt-2
+                  transform transition-transform duration-300
+                  group-hover:scale-105
+                "
+              />
+            </Link>
           ))}
         </div>
       </div>
