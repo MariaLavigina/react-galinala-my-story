@@ -5,7 +5,7 @@ const footerText = {
     button: "связаться со мной",
     emailLabel: "Email",
     contactEmail: "galinala-mystory@gmail.com",
-    pdfShort: "Скачать PDF сайта",
+    pdfShort: "Скачать сайт в PDF файл",
     pdfInfo:
       "Этот PDF содержит полный текст сайта с изображениями и всеми главами. Доступен только на русском языке. Рекомендуется просмотр на компьютере.",
     copyright:

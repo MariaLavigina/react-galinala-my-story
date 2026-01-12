@@ -22,12 +22,6 @@ const chapters = {
   ],
 };
 
-const buttonText = {
-  ru: "читать далее",
-  en: "Read more",
-  he: "לקרוא עוד",
-};
-
 const ChapterSectionMobile = ({ lang = "ru" }) => {
   const currentChapters = chapters[lang];
 
@@ -35,13 +29,13 @@ const ChapterSectionMobile = ({ lang = "ru" }) => {
     <div className="relative w-full block md:hidden overflow-hidden mt-4">
       {/* SVG Background */}
       <img
-        src="/images/mobile-images/index-chapters-mobile.svg"
+        src="/images/mobile-images/chapters-mobile.svg"
         alt="All Chapters Wave"
         className="w-full h-auto block"
       />
 
       {/* Content vertically centered over the SVG */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-center gap-12">
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center gap-10">
         {currentChapters.map((chapter) => (
           <Link
             key={chapter.number}
@@ -64,42 +58,20 @@ const ChapterSectionMobile = ({ lang = "ru" }) => {
               {/* Chapter Title */}
               <h2
                 className="
-                  text-[2rem] sm:text-[4rem] mb-4 text-white
+                  text-[2rem] sm:text-[4rem] mb-2 text-white
                   transition-transform duration-300 ease-out
                   group-hover:scale-105
                 "
               >
                 {chapter.title}
               </h2>
-
-              {/* Button */}
-              <div className="mb-4 w-full flex justify-center">
-                <div
-                  className="
-                    rounded-full text-white font-['Roboto']
-                    bg-white/10 backdrop-blur-md border border-white/30
-                    tracking-wide transition-all duration-300 ease-in-out
-                    group-hover:bg-white/20 group-hover:scale-[1.03]
-                    active:bg-white/30
-                    px-[clamp(24px,6vw,40px)]
-                    py-[clamp(10px,3.5vw,20px)]
-                    text-[clamp(1.5rem,5vw,2.5rem)]
-                    text-center
-                  "
-                >
-                  {buttonText[lang]}
-                </div>
-              </div>
             </div>
 
             {/* Chapter Image */}
             <img
               src={chapter.img}
               alt={chapter.alt}
-              className="
-                w-full h-auto block transform transition-transform duration-300
-                group-hover:scale-105
-              "
+              className="w-full h-auto block transform transition-transform duration-300 group-hover:scale-105"
             />
           </Link>
         ))}

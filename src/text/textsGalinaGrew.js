@@ -27,13 +27,24 @@ const textsGalinaGrew = {
 `И вот настал мой последний день. Все собрались в комнате для ешивот. Как положено, большой начальник произнёс официальную речь. Потом моя непосредственная руководительница сказала что-то более личное. А затем - погас свет, и на стене появился титр:`,
 `“Фильм о том, как Галина росла, а компьютеры, наоборот - уменьшались.”`,
 `Да, это был настоящий фильм! Девочки даже связались с Машей, которая в то время была в Лондоне, и она прислала им все мои фотографии, даже детские. (Перед отъездом в Лондон Маша отсканировала все наши фото на флешку.) Получилась целая история - не только обо мне, но и о развитии компьютерной техники. Многие в коллективе были молоды, и, возможно, впервые увидели, каких размеров были первые компьютеры.`,
+
+`Много еще израильских историй, событий, впечатлений не вошли в мой рассказ. Это о школе (приватные родительские собрания, ученики пишут свое мнение об учителях), об армии (возможность родителей связаться с командиром, еженедельные отпуска и прочее), как люди бросаются на помощь, а не бегут прочь.`,
+`Даже жулики другие - никакому жулику не придет в голову грабить прилюдно - знают, что вокруг народ неравнодушный и не пугливый ( в Ленинграде в автобусе грабители окружили иностранца, вытащили из его сумки доллары, силой открыли двери и выпрыгнули. Народ безмолствовал... )`,
+
+
 `Сегодня, 2026 год. Я уже 11 лет, как не работаю. Делаю, что хочу и когда хочу. А потому все делаю с удовольствием.`
-
-
-    
-       
+ 
       ]
     },
+
+
+
+    {
+      h1: `В Израиле есть всякие люди и плохие в том числе, но ОБЩЕСТВО - здоровое. В России много хороших людей, но ОБЩЕСТВО - больное.`,
+
+    },
+
+
 
 
 
@@ -81,10 +92,27 @@ const textsGalinaGrew = {
     `ואז - האורות כבו, ועל הקיר הופיע הכותרת:`,
      `“סרט על איך גלינה גדלה בזמן שמחשבים הצטמצמו.”`,
       `כן, באמת היה סרט! הבנות אפילו יצרו קשר עם מאשה, שהייתה אז בלונדון, והיא שלחה להן את כל התמונות שלי. זה הפך לסיפור שלם - לא רק עליי, אלא גם על התפתחות הטכנולוגיה של המחשבים. הרבה מהעובדים במשרד היו צעירים, וככל הנראה זו הייתה הפעם הראשונה שהם ראו כמה המחשבים הראשונים היו עצומים.`,
+      
+      `הרבה דברים מחיי בישראל לא נכנסו לסיפור שלי. בבית הספר, למשל - פגישות אישיות בין ההורים למורים. זה כשלעצמו היה עבורי גילוי גדול. ברוסיה, פגישות כאלה היו פומביות: המורה יכלה לומר דברים רעים על הילד מול כל הכיתה, לחשוף את כל “הלכלוך” שלו מול כולם.`,
+      `או שהתלמידים יכלו לכתוב בגלוי מה הם חושבים על המורים - משהו שהדהים אותי לגמרי. בברית המועצות, לבקר מורה לא היה סתם לא מקובל - זה פשוט לא היה אפשרי. המורה תמיד היה צודק, כברירת מחדל.`,
+      `גם הצבא - ההורים יכולים ליצור קשר עם מפקד היחידה. כשבתי אמרה לי שהיא הולכת למקום מסוים ואני לא הרגשתי נוח עם זה, התקשרתי למפקד שלה בעצמי ואמרתי בפשטות שאני לא רוצה שהיא תלך. ושזו שיחה אמיתית שהתרחשה. ברוסיה, אפילו בחלומות הכי פרועים שלך, לא היית יכול לדמיין לעשות שיחה כזו, ועד כמה ששמעו אותך.`,
+      `ואז יש את הדרך שבה אנשים רצים לעזור במקום לברוח. זה נותן תחושת ביטחון עמוקה - התחושה שמה שלא יקרה, סביבך יהיו אנשים שלא יעברו על זה לסדר היום, שיעזרו. אתה לא לבד.`,
+      `גם הפושעים שונים כאן. אף אחד לא היה חושב לשדוד מישהו בציבור - הם יודעים שהאנשים סביבם לא יהיו אדישים ולא יפחדו בקלות. (בלנינגרד, באוטובוס, פעם שודדים הקיפו זר, משכו דולרים מהתיק שלו, פתחו בכוח את הדלתות וקפצו החוצה. אף אחד לא הגיב.)`,
+      
+      
+      
       `היום שנת 2026. כבר 11 שנים שאני לא עובדת. אני עושה מה שאני רוצה ומתי שאני רוצה, ולכן אני עושה הכול בהנאה.`
    
       ]
     },
+
+
+      {
+      h1: `בישראל יש אנשים מכל הסוגים, גם רעים, אבל החברה בריאה. ברוסיה יש הרבה אנשים טובים, אבל החברה חולה.`,
+
+    },
+
+
     {
       image: [
         {
@@ -137,11 +165,27 @@ urgently needed to fill a gap because two employees had left.
                 `“A Film About How Galina Grew Up While Computers Got Smaller.”`,
                  `Yes, it really was a film! The girls even contacted Masha, who was in London at the time, and she sent them all my photos. It became a whole story - not just about me, but about the evolution of computer technology. Many people in the office were young and probably
                  saw for the first time how enormous the first computers used to be.`,
+
+                 `Many things about my life in Israel didn’t make it into my story. School, for instance - one-on-one parent–teacher meetings. That alone was a revelation to me. Back in Russia, such meetings were public: a teacher could openly humiliate a child in front of the entire class, airing all the “dirty laundry” for everyone to hear.`,
+                 `Or students openly writing what they think about their teachers - something that truly shocked me. In the Soviet Union, criticizing a teacher was not just discouraged; it was unthinkable. The teacher was always right, by definition.`,
+                 `The army, too - parents being able to contact a unit commander. When my daughter told me she was being sent somewhere and I wasn’t comfortable with it, I called her commander myself and said plainly that I did not want my daughter to go. And that conversation actually happened. Back in Russia, even in your wildest dreams, you couldn’t imagine making such a call, let alone being heard.`,
+                 `And then there’s the way people rush to help instead of running away. This creates a deep sense of safety - the feeling that wherever you are, there will be people around who won’t look away, who will step in. You’re not alone.`,
+                 `Even the criminals are different. No one would think of robbing someone in public - they know the people around them won’t stay indifferent and aren’t easily frightened. (In Leningrad, on a bus, robbers once surrounded a foreigner, pulled dollars from his bag, forced the doors open, and jumped out. No one reacted.)`,
+
+
                   `It’s the year 2026. I haven’t worked for 11 years now. I do whatever I want, whenever I want, and that’s why everything I do is done with joy.`
               
   
-      ]
-    },
+              ]
+             },
+
+
+              {
+                  h1: `There are all kinds of people in Israel, including bad ones, but the society itself is healthy. In Russia, there are many good people, yet the society is sick.`,
+
+                   },
+
+
     {
       image: [
         {

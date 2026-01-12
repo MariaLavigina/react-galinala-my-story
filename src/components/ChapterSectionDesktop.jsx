@@ -25,12 +25,6 @@ const chapters = {
 const ChapterSectionDesktop = ({ lang = "ru" }) => {
   const currentChapters = chapters[lang];
 
-  const buttonText = {
-    ru: "Читать далее",
-    en: "Read more",
-    he: "קרא עוד",
-  };
-
   return (
     <div className="relative w-full hidden md:block overflow-hidden">
       {/* SVG Background */}
@@ -64,32 +58,13 @@ const ChapterSectionDesktop = ({ lang = "ru" }) => {
               <h2
                 className="
                   text-sm md:text-[1rem] lg:text-[1.5rem] xl:text-[1.8rem]
-                  mb-2 text-white break-words min-h-[50px]
+                  mb-1 text-white break-words min-h-[50px]
                   transition-transform duration-300 ease-out
                   group-hover:scale-105
                 "
               >
                 {chapter.title}
               </h2>
-
-              {/* Button (visual only, navigation handled by parent Link) */}
-              <div className="mb-2 mt-10 w-full flex justify-center">
-                <div
-                  className="
-                    rounded-full text-white font-['Roboto']
-                    bg-white/10 backdrop-blur-md border border-white/30
-                    tracking-wide transition-all duration-300 ease-in-out
-                    group-hover:bg-white/20 group-hover:scale-[1.03]
-                    active:bg-white/30
-                    px-6 py-3 text-sm lg:px-5 lg:py-2.5
-                    xl:px-6 xl:py-3 xl:text-base
-                    2xl:px-7 2xl:py-3.5 2xl:text-lg
-                    text-center
-                  "
-                >
-                  {buttonText[lang]}
-                </div>
-              </div>
 
               {/* Chapter Image */}
               <img

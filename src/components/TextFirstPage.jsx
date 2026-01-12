@@ -47,7 +47,7 @@ const TextFirstPage = ({ lang = "ru" }) => {
     <p>ואז הגיע הנאום של גורבצ'וב, אותו כולם חיכו לו בתקווה גדולה, ובזמן שהאזנתי לו הבנתי שמה שהוא אומר לא משנה את המציאות – הכל נשאר אותו הדבר; במדינה הזו אין ולא יהיה מקום לאדם פשוט במובן הטוב של המילה, ואתה או נוכל גדול במעגל הכוח, או נוכל קטן שמגניב קצת, או קורבן של שניהם, לוחם או גיבור, עם כל ההשלכות הנלוות לכך.</p>
  <div className="mt-16">
   <p>
-*<em>מיכאיל גורבצ’וב היה המנהיג האחרון של ברית המועצות, מ־1985 עד 1991. הוא ניסה לשנות את המדינה עם שתי רפורמות עיקריות: פרסטרויקה – שינוי הכלכלה, ו־גלאסנוסט – פתיחות וחופש ביטוי. אנשים חשבו שזה אולי יאפשר חיים טובים יותר, לדבר בחופשיות ולחיות בלי פחד. אבל עבור רבים, כולל אותי, השינויים לא הספיקו. המערכת הממשלתית הייתה עדיין קשיחה ומסובכת, והחיים של אדם פשוט – בלי קשרים, כוח או השפעה – נשארו מוגבלים וקשים. במילים אחרות, חיים נורמליים, בטוחים וחופשיים, היו כמעט בלתי אפשריים עבור רוב האזרחים.</em>
+*<em>מיכאיל גורבצ'וב היה המנהיג האחרון של ברית המועצות. הוא ידוע בעיקר בזכות הרפורמות שלו, שהתמקדו בשיפור הכלכלה - פרסטרויקה ובקידום פתיחות רבה יותר וחופש הביטוי - גלאסנוסט .</em>
 
 
 
@@ -97,7 +97,7 @@ const TextFirstPage = ({ lang = "ru" }) => {
     
            <div className="mt-16">
   <p>
-   <em>*Mikhail Gorbachev was the last leader of the Soviet Union. He was mainly known for his reforms, Perestroika and Glasnost, which aimed to improve the economy and open the country to freedom of expression</em>
+   <em>*Mikhail Gorbachev was the last leader of the Soviet Union. He is best known for his reforms, which focused on improving the economy (Perestroika) and promoting greater openness and freedom of speech (Glasnost).</em>
 
   </p>
 </div>

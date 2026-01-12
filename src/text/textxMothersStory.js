@@ -43,7 +43,7 @@ const textsMothersStory = {
         
         `Однажды в Бейт-Шемеше мама участвовала в выборах в городской совет. Завидев пожилую избирательницу,  агитаторы, почуяв лёгкую добычу,  наперебой бросились к ней, стараясь всучить бюллетени своих кандидатов. Но эта пожилая, "ола хадаша" оказалась не так беспомощна, несмотря на то, что прочитать имя кандидата написанное, на иврите не могла. Накануне мы обсудили за кого будем голосовать. Имя его теперь не припомню, пусть будет Давид. Мама показывает бюллетень и спрашивает: "Это Давид?" Ей с готовностью отвечают - Да, Давид! Но и на другой и третий бюллетени - тот же ответ. Мама понимает, что дело не чисто. Тогда меняет тактику и спрашивает: Это кто?" и быстро определяет нужный бюллетень.`,
          `Мама скрупулезно записывала наши расходы/доходы. Возможно это в какой-то степени помогло нам скопить небольшую сумму, которая, когда мы покупали квартиру, очень нам помогла.Только из маминых писем я узнала, как нелегко давалась ей наша олимовская неустроенность. Мне она не пожаловалась ни разу. Ее стойкость, оптимизм, живость ума и доброжелательность притягивала людей. `,
-         `Соседка отдала нам платье вышедшее из моды. Оно никому не подошло и мама сшила из него 2 фартука. Сшила на руках. Я сейчас измерила длину швов - 3 метра. И все вручную и совсем незаметные.`,
+         `Соседка отдала нам платье вышедшее из моды. Оно никому не подошло и мама сшила из него 2 фартука. Сшила на руках. Я сейчас измерила длину швов - 3 метра. И все вручную и швы такие аккуратные, совсем незаметные.`,
           `Одна из наших знакомых говорила: "В доме чувствовалась какая-то особая атмосфера и было понятно,  что она исходит от мамы." Другая удивлялась: "Ваш дом совсем не похож на олимовский. Как-будто вы здесь давно."`,
            `Моя мама не оставила мне богатства, но пример жизни я получила редкостный.`,
             "DIVIDER" // <-- marker for divider
@@ -133,7 +133,7 @@ const textsMothersStory = {
 
    {
       h4: [
-    `Я вспомнила свои молодые, а протом и зрелые годы, когда была неоднократно членом редколегии стенной газеты. `, 
+    `Я вспомнила свои молодые, а потом и зрелые годы, когда была неоднократно членом редколегии стенной газеты. `, 
      `Тайком от Гали сделала юмористическую газету.`, 
       `Никаких фотографий типа в кругу родных, знакомых и т. п. Почти все заголовки подобрала и вырезала из газет и журналов, и к ним рисунки тоже оттуда. `, 
        `Газета всем понравилась, а Галя вообще была потрясена,  когда это я успела. Тем более, что за неделю до этого сделала газету для самой близкой подруги Гали.`, 
@@ -399,7 +399,7 @@ const textsMothersStory = {
         {
           desktopSrc: null,
           mobileSrc: "/images/mobile-images/documentations-mobile.jpg",
-          alt: "A picture of my mother’s brochure, where she managed and recorded all our expenses. My mother once asked me to buy her a notebook, and since then she kept track of everything we spent, like an accountant on a mission — even ice cream for 3 shekels was recorded.",
+          alt: "A picture of my mother’s brochure, where she managed and recorded all our expenses. My mother once asked me to buy her a notebook, and since then she kept track of everything we spent, like an accountant on a mission - even ice cream for 3 shekels was recorded.",
           textDesktop: null,
           textMobile: `My mother once asked me to buy her a notebook - since then she kept it with all our expenses, like an accountant on a mission. Even ice cream for 3 shekels made it in there.`,
         },
@@ -510,7 +510,7 @@ const textsMothersStory = {
         {
       text: [
           "DIVIDER", 
-        `My mum passed away in 1995. Towards the end, her heart attacks became more frequent, lasted longer, and were very painful. She knew that any one of them could be the last — and I knew it too. She tried with all her strength not to frighten me, only squeezing her hands so tightly that her fingernails pressed into her skin. And as soon as the pain began to ease, the very first thing she did was calm me down:
+        `My mum passed away in 1995. Towards the end, her heart attacks became more frequent, lasted longer, and were very painful. She knew that any one of them could be the last - and I knew it too. She tried with all her strength not to frighten me, only squeezing her hands so tightly that her fingernails pressed into her skin. And as soon as the pain began to ease, the very first thing she did was calm me down:
            “It’s okay, Galochka, don’t worry - it’s passing.”`
       ]
     },

@@ -78,7 +78,7 @@ const texts = {
 
     h4: `Who is this written for?`,
     paragraphs2: [
-      `For Masha. After all, she didn’t leave on her own — at seven years old, no one even asked her; she was simply taken away.`,
+      `For Masha. After all, she didn’t leave on her own - at seven years old, no one even asked her; she was simply taken away.`,
       `For her family. They’re British and have no real understanding of the Soviet Union, Israel, or what it means to be “Olim chadashim mi-Russia” - new immigrants from Russia - in Israel.
        I realized how differently Europe and we experience the same history when I told my new relatives: “My birth certificate was issued on the very first day of World War II,” and they asked, “September 1939?” Yes, for us, it was June 1941, but for them, the bombing had been going on for two years already.
        `,
