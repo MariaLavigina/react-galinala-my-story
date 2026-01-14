@@ -71,7 +71,7 @@ ru: {
       },
       {
         type: "image",
-        desktopSrc: "/images/visa.jpg",
+        desktopSrc: "/images/visa.webp",
         mobileSrc: null,
         alt: "Наши выездные визы, которые мы получили в Советском Союзе; виза была для Израиля",
         text: null,
@@ -113,12 +113,12 @@ ru: {
       },
       {
         type: "image",
-        desktopSrc: "/images/desktop-images/israel-visa-desktop.jpg",
-        mobileSrc: "/images/mobile-images/israel-visa-mobile.jpg",
+        desktopSrc: "/images/desktop-images/israel-visa-desktop.webp",
+        mobileSrc: "/images/mobile-images/israel-visa-mobile.webp",
         alt: "Наши выездные визы, которые мы получили в Советском Союзе; виза была для Израиля",
         text: null,
         fullWidth: false,
-        text: `Наши выездные визы. Из Советском Союзе выехать можно было только с официального разрешения властей.`
+        text: `Наши выездные визы. Из Советского Союза выехать можно было только с официального разрешения властей.`
       },
       {
         type: "h4",
@@ -254,7 +254,7 @@ to the HR department.
       },
       {
         type: "image",
-        desktopSrc: "/images/visa.jpg",
+        desktopSrc: "/images/visa.webp",
         mobileSrc: null,
         alt: "Our exit visas, which we received in the Soviet Union; the visa was for Israel.",
         text: null,
@@ -317,8 +317,8 @@ to the HR department.
       },
       {
         type: "image",
-        desktopSrc: "/images/desktop-images/israel-visa-desktop.jpg",
-        mobileSrc: "/images/mobile-images/israel-visa-mobile.jpg",
+        desktopSrc: "/images/desktop-images/israel-visa-desktop.webp",
+        mobileSrc: "/images/mobile-images/israel-visa-mobile.webp",
         alt: "Our exit visas, which we received in the Soviet Union; the visa was for Israel.",
         text: null,
         fullWidth: false,
@@ -459,7 +459,7 @@ to the HR department.
       },
       {
         type: "image",
-        desktopSrc: "/images/visa.jpg",
+        desktopSrc: "/images/visa.webp",
         mobileSrc: null,
         alt: "אשרות היציאה שלנו, שקיבלנו בברית המועצות; הוויזה הייתה לישראל.",
         text: null,
@@ -513,8 +513,8 @@ to the HR department.
       },
       {
         type: "image",
-        desktopSrc: "/images/desktop-images/israel-visa-desktop.jpg",
-        mobileSrc: "/images/mobile-images/israel-visa-mobile.jpg",
+        desktopSrc: "/images/desktop-images/israel-visa-desktop.webp",
+        mobileSrc: "/images/mobile-images/israel-visa-mobile.webp",
         alt: "אלו היו ויזות היציאה שלנו מברית המועצות, שהונפקו למעבר שלנו לישראל",
         text: null,
         fullWidth: false,

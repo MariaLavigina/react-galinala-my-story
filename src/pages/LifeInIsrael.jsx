@@ -190,8 +190,14 @@ React.useEffect(() => {
         </div>
       </section>
 
-      <ChapterSectionDesktop lang={lang}/>
-      <ChapterSectionMobile lang={lang}/>
+      <div id="chapters-desktop">
+  <ChapterSectionDesktop lang={lang} />
+</div>
+
+<div id="chapters-mobile">
+  <ChapterSectionMobile lang={lang} />
+</div>
+
      <Footer lang={lang} />
    </div>
   );

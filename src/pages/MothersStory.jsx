@@ -346,12 +346,13 @@ React.useEffect(() => {
     ? block.h4.map((line, idx) => {
         if (idx === block.h4.length - 1) {
           return (
-            <h4
-              key={idx}
-              className="text-[50px] sm:text-[60px] md:text-[70px] font-semibold text-center py-8"
-            >
-              {line}
-            </h4>
+          <h4
+  key={idx}
+  className="text-[30px] sm:text-[35px] md:text-[40px] font-semibold text-center py-4"
+>
+  {line}
+</h4>
+
           );
         }
         return (
@@ -561,24 +562,22 @@ React.useEffect(() => {
 
 
 {/* Navigation */}
-<div className="flex justify-center gap-4 mt-24">
+<div className="px-4 sm:px-6 md:px-8 max-w-[720px] mx-auto flex justify-center gap-4 mt-24">
   {lang === "he" ? (
     <>
-      {/* Hebrew: Forward on left, Backward on right */}
-      <ForwardButton
-        onClick={() => navigate("/afterword")}
-        label="המשך"
-        isRtl={true}
-      />
       <BackwardButton
         onClick={() => navigate("/mashas-first-days")}
         label="חזרה"
         isRtl={true}
       />
+      <ForwardButton
+        onClick={() => navigate("/afterword")}
+        label="המשך"
+        isRtl={true}
+      />
     </>
   ) : (
     <>
-      {/* LTR: Back on left, Forward on right */}
       <BackwardButton
         onClick={() => navigate("/mashas-first-days")}
         label={lang === "ru" ? "Назад" : "Back"}
@@ -592,7 +591,6 @@ React.useEffect(() => {
     </>
   )}
 </div>
-{/* Navigation */}
 
 
 

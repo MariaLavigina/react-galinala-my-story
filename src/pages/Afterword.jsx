@@ -9,6 +9,8 @@ import { useNavigate } from "react-router-dom";
 import textsAfterword from "../text/textsAfterword.js";
 import TextSixthPage from "../components/TextSixthPage.jsx";
 import ScrollDownButton from "../components/ScrollDownButton.jsx";
+import Divider from "../components/Divider.jsx";
+
 
 
 
@@ -456,21 +458,22 @@ useEffect(() => {
 
 
 
-
+{/* ---------- Divider ---------- */}
+<Divider />
 
 {/* Navigation */}
 <div className="flex justify-center gap-4 mt-24">
   {lang === "he" ? (
     <>
-      {/* Hebrew: Backward on left, Forward on right */}
-      <BackwardButton
-        onClick={() => navigate("/mothers-story")}
-        label="חזרה"
-        isRtl={true}
-      />
+      {/* Hebrew: Back on left, Home/Forward on right */}
       <ForwardButton
         onClick={() => navigate("/")}
         label="דף הבית"
+        isRtl={true}
+      />
+      <BackwardButton
+        onClick={() => navigate("/mothers-story")}
+        label="חזרה"
         isRtl={true}
       />
     </>
