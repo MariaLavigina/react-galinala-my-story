@@ -161,11 +161,17 @@ useEffect(() => {
 
 
 
-<div className="relative w-full -mt-[100px] sm:-mt-[150px] md:-mt-[200px] lg:-mt-[200px] xl:-mt-[280px]">
 
- <div className="w-full aspect-[1919/3117]">
+<div className="relative w-full -mt-[180px] sm:-mt-[200px] md:-mt-[300px] lg:-mt-[360px] xl:-mt-[420px]">
+
+
+
+ <div className="w-full aspect-[1918/2575]">
+ 
+
+
     <img
-      src="/images/desktop-images/entroPage-chapterOne-desktop.svg"
+      src="/images/desktop-images/entroPage-afterword-desktop.svg"
       alt="Wave"
        className="w-full h-full block"
         loading="eager"
@@ -252,9 +258,9 @@ useEffect(() => {
 
   
   <div className="relative w-full -mt-[170px]">
-        <div className="w-full aspect-[764/2209]">
+        <div className="w-full aspect-[764/1806]">
     <img
-      src="/images/ipad-images/way-i-left-ipad.svg"
+      src="/images/ipad-images/afterwords-ipad.svg"
       alt="Wave"
       className="w-full h-auto block"
       loading="eager"
@@ -335,10 +341,10 @@ useEffect(() => {
 
 
 
-  <div className="relative w-full -mt-[150px]">
-     <div className="w-full aspect-[390/2439]">
+  <div className="relative w-full -mt-[230px]">
+     <div className="w-full aspect-[380/1578]">
     <img
-      src="/images/mobile-images/whyILeft-entro-mobile.svg"
+      src="/images/mobile-images/afterword-mobile.svg"
       alt="Wave"
        className="w-full h-full block"
        loading="eager"
