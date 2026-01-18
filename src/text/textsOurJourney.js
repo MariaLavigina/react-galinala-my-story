@@ -203,7 +203,7 @@ The waiting line for customs stretched on for months.`
        `You could also send packages by mail, but the international post office had a strict list of prohibited items.`,
         `I asked a friend from the university where we studied together - to check the list of prohibited items. She lived close to the post office, so it was easy for her to do.`,
          `I asked her, “So, what can’t I send?”`,
-          `She said: “You can’t send anything made of cotton…  actually, almost everything is forbidden!”`,
+          `“You can’t send things made of cotton, you can’t send this, you can’t send this and that… in the end she got fed up and said, ‘Almost everything is forbidden!’”`,
            `I was shocked.`,
             `Then my friend added:`,
              `“Galya, you know… we don’t have enough for ourselves.”`,
@@ -412,7 +412,7 @@ to the HR department.
          `אני זוכרת איך אני אורזת את גרבי הניילון של מַאשָׁה בקופסה, שוקלת - ויש שוב עודף משקל… אנשים מנוסים מייעצים: הכי טוב להשתמש בקופסאות של ביצים - הן הכי קלות. אִיגוֹר, בעלי “מסדר” עם הסבל הקבוע של החנות  - שתמיד היה שיכור, והוא “מרשה” לנו לקחת כמה קופסאות.  אפשר גם לשלוח חבילות בדואר, אבל בדואר הבין־לאומי תלויה רשימה של חפצים שאסור לשלוח.`,
            `אני מבקשת מחברתי מהלימודים ב־МИХМ, - המכון למיכון כימי במוסקבה שבה למדנו יחד, לבדוק את הרשימה - היא גרה קרוב לדואר.`,
              ` אני שואלת אותה: “נו, מה כתוב שם?”`,
-               ` והיא עונה: “אסור לשלוח דברים מכותנה... בעצם כמעט הכול אסור.”`,
+                `“אסור לשלוח דברים מכותנה, אסור לשלוח זה, אסור לשלוח זה וגם זה… בסוף נמאס לה והיא אומרת: ‘כמעט הכל אסור!’”`,
                  `אני מתרעמת, ואז היא מוסיפה: “גליה, הרי גם לנו בעצמנו לא מספיק!`,
                   `ואני נדהמת.`,
                    ` מה פירוש לא מספיק לכם בעצמכם?`,
@@ -449,6 +449,7 @@ to the HR department.
  התנצלתי בפני חברתי על כך שהיא נאלצה לשמוע את זה.`,
          `בקיצור, על 30 שנות ותק קיבלתי פנסיה של 2,500 רובל - בערך 30 דולר לחודש.
  "אוי, כמה שאין לך בושה, אמא רוסיה!"`,
+ 
           `ובנוסף, הפנסיה שאמי עבדה כל חייה כדי להרוויח - נלקחה ממנה. `,
              `מקשישה בת 83!`
         ]

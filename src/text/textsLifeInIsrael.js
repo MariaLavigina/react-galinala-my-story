@@ -217,12 +217,13 @@ const textsLifeInIsrael = {
 
 {
   h4: `מי הם הז’ידים?`,
-  sidenote: `המילה “Zhid” ברוסית היא גנאי עמוק ופוגעני ליהודים. אמי, שהייתה אז רק ילדה, הייתה לעיתים קרובות מטרה לשנאה כזו - לפעמים אפילו מצד מבוגרים.`,
+  sidenote: 
+    `המילה “Zhid” ברוסית היא גנאי עמוק ופוגעני ליהודים. כשהייתי ילדה, הייתי לעיתים קרובות מטרה לשנאה כזו - לפעמים אפילו מצד מבוגרים.`,
   text: [
 `תמיד רציתי להסביר למָאשָׁה למה עזבנו את הבית הנוח שלנו, את מוסקבה היפה והגדולה, את העבודה הנהדרת של אמא ואת כל השאר, והגענו למדינה עם שפה שאיננה מובנת, בלי כסף, בלי קרובים ובלי חברים. רציתי להסביר לה כך שתבין ולא תסבול בגלל מה שהשארנו מאחור. אבל איך אפשר להסביר לילדה שהייתה רק בת שבע?`,
 `יום אחד, בערב, כשאני מטיילת איתה בבית-שמש, החלטתי להתחיל את השיחה הזו. אף על פי שהיא כבר הייתה יותר גדולה בשנתיים, החלטתי - אחרי שהבשיל בי במשך זמן רב - להסביר לילדה בת תשע.`,
 `ואני אומרת לה:`,
-` - את יודעת,מָאשׁוּשְׁקָה, ברוסיה לא התייחסו טוב ליהודים. אפילו הייתה בדיחה: “אם אין מים בברז - ז’ידים שתו אותם.”`,
+` - את יודעת, מָאשׁוּשְׁקָה, ברוסיה לא התייחסו טוב ליהודים. אפילו הייתה בדיחה: “אם אין מים בברז - ז’ידים שתו אותם.”`,
 `ואז מָאשָׁה שלי שואלת:`,
 `- מי הם הז’ידים?`,
 `אלוהים, הילדה שלי הגיעה לגיל תשע ולא שמעה אף פעם את המילה הזאת… רק בשביל זה היה שווה לעזוב.`,
@@ -261,13 +262,12 @@ const textsLifeInIsrael = {
       text: [
       `נמרוד היה זה שאליו המליץ לי אריה "ללכת". כן, מזלי היה גדול - לא רק שקיבלתי עבודה, אלא גם בוס ומורה נפלא.`,
       `אבל לא הכל היה חלק ומיידי. סיפרתי לו במה עבדתי באוניברסיטה במוסקבה, מה אני יודעת ומה אני יכולה. קורות החיים שלי בהחלט עשו על נמרוד רושם. בהסתכלו עלי בכבוד, הוא הזיז את המקלדת והמסך לכיווני, נתן לי את העכבר ואמר: "נו, תראי מה את יודעת."`,
-      `ואני, שעבדתי באוניברסיטה על מחשב גדול מסוג BESM-4,6, החזקתי את העכבר לראשונה בחיי. כמובן שהעכבר התחיל להסתובב על המסך כאוות נפשו, ואחר כך פשוט נעלם. נמרוד צחק ואמר: "כן, הוא ברח רחוק, כנראה לבית שלך." אחר כך הוא התעכב, נשף ואמר: "זה לוקח זמן."`,
+      `ואני, שעבדתי באוניברסיטה על מחשב גדול מסוג BESM-6, החזקתי את העכבר לראשונה בחיי. כמובן שהעכבר התחיל להסתובב על המסך כאוות נפשו, ואחר כך פשוט נעלם. נמרוד צחק ואמר: "כן, הוא ברח רחוק, כנראה לבית שלך." אחר כך הוא התעכב, נשף ואמר: "זה לוקח זמן."`,
       `ובכל זאת, הוא החליט לנסות. הוא הסביר שהחברה עדיין לא קיימת, אבל יש סיכוי להזמנה גדולה וטובה מחברה גדולה. בינתיים, אני יכולה להגיע, והוא יכיר אותי עם Toolbook - כלי התכנות שעליו יתבצע הפרויקט. הוא נתן לי ספר עבה באנגלית והציב את המשימה הראשונה. האנגלית שלי הייתה לא משהו, העברית - מינימלית, והשיטה החדשה בתכנות - לגמרי חדשה. אבל, כמו שאומרים, אין ברירה – חייבים לשרוד בג'ונגל הזה.`,
-      `ואז, יום אחד, נמרוד אומר: "גלינה, אין לי עבודה בשבילך." ליבי התכווץ. בהתמודדות עם הפחד והבושה, אני אומרת בקלילות: "אתה לא נגד אם אני אמשיך לבוא?" נמרוד לא יכול היה לסרב לי. המשכתי להגיע ולהתנסות. הרגשתי חושך בלב, אבל מדי פעם שכחתי מהמצב שלי – היה מרתק ללמוד את הכלי החדש.`,
+      `ואז, יום אחד, נמרוד אומר: "גלינה, אין לי עבודה בשבילך." ליבי התכווץ. בהתמודדות עם הפחד והבושה, אני אומרת בקלילות: "אתה לא תתנגד אם אני אמשיך לבוא?" נמרוד לא יכול היה לסרב לי. המשכתי להגיע ולהתנסות. הרגשתי חושך בלב, אבל מדי פעם שכחתי מהמצב שלי – היה מרתק ללמוד את הכלי החדש.`,
       `ואז, ערב אחד, אחרי שנמרוד חזר, קראתי לו למחשב וביקשתי ממנו להכניס לכל מקום במסך מספר כלשהו. הוא הכניס - וראש הדמות הקטנה על המסך קפץ כמה פעמים שהכנסתי. הוא ניסה עוד ועוד, והדמות שלי קפצה בדיוק כפי שצריך, ללא טעויות. בתוכנית הפשוטה הזו השתמשתי בכל האלמנטים העיקריים של Toolbook, והראיתי שהצלחתי להבין את הכלי. ושני חודשים לפני סיום דמי האבטלה, נמרוד אומר: "גלינה, אל תלכי יותר לרישום בלישכת העבודה, אני פותח את החברה ומקבל אותך לעבודה."`,
       `זו היה שלוש שנים מאושרות. עבודה מרתקת, משכורת אמנם לא גבוהה, אך מספקת, ואווירה נפלאה בצוות. נמרוד היה נלהב על תכנות. העריך מקצועיות, יושרה, ללא תחרותיות, והייתה שמחה אמיתית מעבודה יפה.`,
-      `נמרוד, אשתו רונית והוריו דאגו גם לאמי ולמָאשָׁה. הם קיבלו אותנו למסיבות גדולות וקטנות, ומאמא חוותה בשמחה את שפת ילדותה – יידיש, שלא דיברה במשך שנים.`,
-
+      `נמרוד, אשתו רונית והוריו דאגו גם לאמי ולמָאשָׁה. הם קיבלו אותנו למסיבות גדולות וקטנות, ושמחה גדולה מילאה את אמי כשחזרה לדבר את שפת ילדותה - יידיש, שלא דיברה במשך שנים.`
       ]
     },
 
@@ -278,7 +278,7 @@ const textsLifeInIsrael = {
  אתם בטח זוכרים - אז בכלל אי־אפשר היה לשלוח מטען, ובחנויות היו מדפים ריקים. במיוחד היה קשה עם נעליים.`,
 `כל הסתיו והחורף רצתי בגשם הישראלי השוטף עם מגפי גומי, שאליהן הייתה נכנסת מים מהמכוניות שחלפו במהירות בשלוליות. הרגליים שלי היו תמיד רטובות וקרות.`,
 `ואז, כשהתחלתי סוף סוף לקבל משכורת - לא דמי אבטלה - החלטתי: אני קונה לעצמי נעליים. הגיע הזמן ללכת עם רגליים יבשות וחמות.`,
-`נכנסתי ל"משביר" בירושלים. המוכרת - עולה חדשה לא צעירה - הביאה לי זוג אחר זוג, אבל שום דבר לא התאים. ופתאום היא הביאה זוג מגפיים - בדיוק במידה שלי! שנינו נשמנו לרווחה.`,
+`נכנסתי ל"משביר" בירושלים. המוכרת - עולה חדשה, כבר לא צעירה - הביאה לי זוג אחר זוג, אבל שום דבר לא התאים. ואז פתאום היא הביאה זוג מגפיים - שהתאימו לי בצורה מושלמת! שנינו נשמנו לרווחה.`,
 `אני הייתי מאושרת: מגפיים קלות, חמות, לא נרטבות. אני אפילו זוכרת את החברה - חברת Rohde הגרמנית.`,
 `המוכרת חייכה ואמרה באנחה קלה: "את לא מתארת לעצמך כמה אנשים מודדים, שואלים, מתלבטים - ובסוף לא קונים כלום..."`,
       ]
@@ -289,7 +289,7 @@ const textsLifeInIsrael = {
  
   en: [
     {
-      h1: `A new beginning`,
+      h1: `Our very own home - at last!`,
       text: [
         `In August 1992, we moved from Tekoa to Beit Shemesh - into an apartment we had bought.`,
          `I simply couldn’t accept that, because of our unsettled life, Masha had to change schools every year, and my mother had to change doctors.`,
@@ -349,9 +349,8 @@ I admit, I thought maybe he was saving it for “someone of his own.” But then
     {
       h4: `Who are “Zhidy”?`,
         sidenote: `
-The word “Zhidy” (жиды) is a deeply offensive, old Russian slur used historically to insult Jewish people. It’s rooted in anti-Semitism and carries a heavy, painful legacy. My mother, only a child at the time, was the target of this kind of hate often - sometimes
-from adults, too.
-`,
+       *The word “Zhidy” (жиды) is a deeply offensive, old Russian slur historically used to insult Jewish people. It’s rooted in anti-Semitism and carries a heavy, painful legacy. When I was a child, I was often the target of this kind of hate - sometimes even from adults.
+        `,
       text: [
       `I always wanted to explain to Masha why we left our comfortable home - our beautiful, big Moscow, my mom’s great job, and everything familiar- and ended up in a country where the language was strange, with no money, no family, and no friends. I wanted to explain
 it in a way she could understand without feeling hurt about what she’d left behind. But how do you explain something so complex to a seven-year-old?
@@ -396,7 +395,7 @@ tell her. So I said:
         `He was the person Ari advised me to “go see.” I was incredibly lucky - not only did I get a job, but I also got a wonderful boss and mentor.`,
         `But it wasn’t smooth sailing from the start. I told Nimrod about my experience at Moscow University, what I knew and could do. My CV clearly impressed him. Looking at me respectfully, he pushed the keyboard and monitor closer, handed me the mouse, and said:`,
         `“Alright, show me what you can do.”`,
-        `The thing was, at university I’d worked on a huge Soviet computer, the BESM-4 or BESM-6, and it was my first time holding a mouse. Naturally, the cursor started darting wildly across the screen and then disappeared altogether. Nimrod laughed and said: “Yeah,
+        `The thing was, at university I’d worked on a huge Soviet computer, BESM-6, and it was my first time holding a mouse. Naturally, the cursor started darting wildly across the screen and then disappeared altogether. Nimrod laughed and said: “Yeah,
 it probably ran all the way to your home.” Then he got serious, sighed, and said, “Yes, this takes time” (in Hebrew, זה לוקח זמן).
 `,
         `Still, he decided to give me a chance. He explained that the company didn’t officially exist yet but there was a promising big contract coming from a major firm. For now, I could come by and he’d introduce me to Toolbook - a software tool that the project would be built on. He handed me a thick book in English and gave me my first assignment.`,

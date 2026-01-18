@@ -71,9 +71,9 @@ const textsGalinaGrew = {
     {
       h1: `מטריקס`,
       text: [
-      `עבדתי אצל נמרוד שלוש שנים. בסוף השנה השלישית הרגשתי שהעבודה מתחילה להתדלדל - מגיעות אליי פחות ופחות משימות. חלק מהאנשים עזבו בעצמם, אחרים נמרוד פיטר. אבל הוא אף פעם לא הצליח לפטר אותי. הבנתי שלפחות בסופו של דבר זה יקרה גם לי. ולא רציתי לחכות, אז התחלתי לחפש עבודה חדשה.`,
+      `עבדתי אצל נמרוד שלוש שנים. בסוף השנה השלישית הרגשתי שהעבודה מתחילה להתדלדל - מגיעות אליי פחות ופחות משימות. חלק מהאנשים עזבו בעצמם, אחרים נמרוד פיטר. אבל לפטר אותי, כנראה, לא היה לו את הלב. הבנתי שלפחות בסופו של דבר זה יקרה גם לי. ולא רציתי לחכות, אז התחלתי לחפש עבודה חדשה.`,
       `הפעם לא הייתי צריכה להוכיח שאני טובה יותר מכולם. אמרתי בכנות למנהל החדש שלי שמעולם לא עבדתי עם השפה של המערכת שלהם. היא אמרה, “אין בעיה. עם הניסיון שלך, תלמדי מהר.” מאוחר יותר גיליתי שהמחלקה באמת הייתה במצב חירום - שני עובדים עזבו והיו צריכים מישהו במקום.`,
-      `המנהלת שלי, ז’יז’י (ככה קראנו לה), שלחה אותי לעובד מנוסה בשם יצחק ואמרה לו לשמור עליי. מול העיניים שלי היא אמרה: “אם היא מצליחה - מצוין. אם לא - לך הביתה.” - כלומר, אם לא אעמוד בציפיות, אני מפוטרת.`,
+      `המנהלת שלי, ז’יז’י (ככה קראנו לה), שלחה אותי לעובד מנוסה בשם יצחק והורתה לו להשגיח עליי. מול העיניים שלי היא אמרה: “אם היא מצליחה - מצוין. אם לא - לך הביתה.” - כלומר, אם לא אעמוד בציפיות, אני מפוטרת.`,
       `יצחק דיבר עליי היטב, ובסופו של דבר נשארתי שם 18 שנה.`,
       `מה שהרשים אותי הכי הרבה בצוות של מטריקס זה המקצועיות הגבוהה, המומחיות שלהם והיכולת הטבעית שלהם ללמוד במהירות טכנולוגיות חדשות.`
      
@@ -89,7 +89,7 @@ const textsGalinaGrew = {
     `הפעם הכל היה אחרת: המשכנתא נפרעה, מאשה סיימה את השירות בצבא, סיימה את לימודיה במכללת שנקר, ואפילו סיימה שנה עם הצטיינות במכללת סנט מרטין היוקרתית בלונדון. היא הייתה שמחה ומלאת תקווה. אז הפיטורים הרגישו לי כאילו הם סוג של חופש.`,
     `בדרך כלל, בחודש האחרון לפני שעוזבים עבודה, אנשים או לוקחים חופשת מחלה או פשוט לא ממש משקיעים. אבל אני עשיתי הפוך - השמחה על החופש הקרב נתנה לי כוח. עבדתי בכיף, עם כל הלב וכל הכוח שלי.`,
     `מנהלת המשרד שלנו רמזה שוב ושוב שכדאי לקיים “מסיבת פרידה.” כמובן ששמחתי שיהיה אירוע כזה, אם כי ההתעקשות שלה הפתיעה אותי קצת.`,
-    `ולבסוף הגיע היום האחרון. כולם התאספו בחדר ה“ישיבות” - חדר ישיבות עם שולחנות ארוכים, על שם בתי המדרש המסורתיים. כצפוי, הבוס הגדול נשא דברים רשמיים. אחריו הממונה הישיר שלי אמר משהו יותר אישי.`,
+    `ולבסוף הגיע היום האחרון. כולם התאספו בחדר הישיבות - כצפוי, הבוס הגדול נשא דברים רשמיים. אחריו הממונה הישיר שלי אמר משהו יותר אישי.`,
     `ואז - האורות כבו, ועל הקיר הופיע הכותרת:`,
      `“סרט על איך גלינה גדלה בזמן שמחשבים הצטמצמו.”`,
       `כן, באמת היה סרט! הבנות אפילו יצרו קשר עם מאשה, שהייתה אז בלונדון, והיא שלחה להן את כל התמונות שלי. זה הפך לסיפור שלם - לא רק עליי, אלא גם על התפתחות הטכנולוגיה של המחשבים. הרבה מהעובדים במשרד היו צעירים, וככל הנראה זו הייתה הפעם הראשונה שהם ראו כמה המחשבים הראשונים היו עצומים.`,
@@ -149,7 +149,7 @@ const textsGalinaGrew = {
       h1: `Matrix`,
       text: [
         `
-I worked for Nimrod for three years. By the end of the third year, I felt the work was drying up - fewer and fewer tasks were coming my way. Some people left on their own, others Nimrod let go. But he never seemed able to fire me. I realized sooner or later it
+I worked for Nimrod for three years. By the end of the third year, I felt the work was drying up - fewer and fewer tasks were coming my way. Some people left on their own, others Nimrod let go. But, apparently, he didn’t have the heart to fire me. I realized sooner or later it
 would be my turn. Not wanting to wait around, I started looking for a new job.
 `,
         `
@@ -178,9 +178,9 @@ urgently needed to fill a gap because two employees had left.
 
             `Usually, in the last month before leaving a job, people either take sick leave or start working “half-heartedly.” But I did the opposite - the joy of upcoming freedom gave me energy. I worked with pleasure, giving my time and effort generously.`,
              `Our office manager kept hinting that we should throw a “mesibat prida” - a farewell party. Of course, I was happy to have one, although her insistence surprised me a bit.`,
-              `Finally, the last day arrived. Everyone gathered in the “yeshivot” room (a meeting room with long tables, named after traditional Jewish study halls). As expected, the big boss gave an official speech. Then my direct supervisor said something more personal.`,
+              `Finally, the last day arrived. Everyone gathered in the conference room. As expected, the big boss gave an official speech. Then my direct supervisor said something more personal.`,
                `And then - the lights went out, and on the wall appeared a title:`,
-                `“A Film About How Galina Grew Up While Computers Got Smaller.”`,
+                `“A FILM ABOUT HOW GALINA GREW UP WHILE COMPUTERS GOT SMALLER”`,
                  `Yes, it really was a film! The girls even contacted Masha, who was in London at the time, and she sent them all my photos. It became a whole story - not just about me, but about the evolution of computer technology. Many people in the office were young and probably
                  saw for the first time how enormous the first computers used to be.`,
 

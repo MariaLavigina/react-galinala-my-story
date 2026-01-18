@@ -126,11 +126,10 @@ const textsFirstSteps = {
       h1:  `הראיון הראשון שלי `,
       text: [
     
-        `את הראיון הראשון שלי לעבודה סידר ליאִילוּשֶׁה, הבן של לִינָה. זה היה במוסד רציני בתעשיית התעופה. `,
+        `את הראיון הראשון שלי לעבודה סידר אִילוּשֶׁה, הבן של לִינָה. זה היה במוסד רציני בתעשיית התעופה. `,
          `העניין קרה בדצמבר, אבל היה חם כמו קיץ. אני זוכרת שהייתי לבושה בחולצת קְרֶפּ דֶה שִׁין. נכנסנו למעבדה, שומעים דיבור ברוסית, ועל השולחן - פטריות כבושות ובקבוק. ממש כמו אצלנו בכיתה 702 ביום הגיאולוג. נובמבר ודצמבר בישראל הם עונת הפטריות. הצברים (ילידי הארץ) לא ממש מכירים את הציד אחרי פטריות, אבל עבור “רוסים” זו חגיגה אמיתית. `,
           ` בהפסקת הצהריים לקחו אותי לארוחת עבודה. שולחן ערוך ומלא מנות - ממש כמו בחג.`,
-           `  אבל בראיון עצמו - אני פשוט נתקעתי, התבלבלתי אפילו במשוואות שלי, באותה שפה שלי.`
-          
+            `ובראיון נכשלתי, אפילו הסתבכתי בנוסחה שלי בשפת האם שלי.`,
       ]
     },
 
@@ -283,7 +282,7 @@ It was December, but the weather felt like summer. I remember I was wearing a li
      `During the lunch break, they took me to the employee cafeteria.
      The setup - the tablecloths, the wide variety of dishes - it looked more like a holiday celebration than a regular lunch.`,
      `As for the interview itself… I completely fell apart.`,
-     `I stumbled over everything - I even got confused trying to explain an equation I had practically invented myself.`,
+     `And at the interview, I messed up; I even got confused in my own equation in my native language.`,
   
       ]
     },
