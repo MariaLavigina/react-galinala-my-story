@@ -52,8 +52,22 @@ const textsGalinaGrew = {
 
 {
   text: [
-    `Много еще израильских историй, событий, впечатлений не вошли в мой рассказ. Это о школе (приватные родительские собрания, ученики пишут свое мнение об учителях), об армии (возможность родителей связаться с командиром, еженедельные отпуска и прочее), как люди бросаются на помощь, а не бегут прочь.`,
-`Даже жулики другие - никакому жулику не придет в голову грабить прилюдно - знают, что вокруг народ неравнодушный и не пугливый ( в Ленинграде в автобусе грабители окружили иностранца, вытащили из его сумки доллары, силой открыли двери и выпрыгнули. Народ безмолствовал... )`, 
+    `Много израильских историй, событий и впечатлений ещё не вошли в мой рассказ`,
+     `Например - о школе: `,
+      `В советской школе родительские собрания выглядели так: всех родителей собирали в классе, и учитель по очереди “разбирал” каждого ученика -  при всех. Унижение происходило открыто и считалось нормой.
+        И никто - ни родители, ни учителя - даже учителя искренне любившие детей и свою профессию - как-будто не сознавали, вопиющего попрания личного пространства и человеческого достоинства.
+          `,
+       `В израильской школе подобное немыслимо.`,
+        `В Израиле ни родители, ни ученики не потерпели бы подобного унижения. На родительском собрании учитель с каждым папой/мамой об их чаде будет  разговаривать исключительно индивидуально. Совершенно недопустимо нарушать личное пространство. Это знают и учителя, и родители и  израильские дети с самого малого возраста.`,
+         `Немного об армии. Родители имеют возможность связаться с командиром. Существуют еженедельные отпуска. Отношение общества к солдатам - первым делом они наши дети.`,
+          `Не могу забыть такой эпизод. В очереди к кассе стоит солдатик, собирается платить. Женщина, стоящая за ним, делает знак кассирше; та c пониманием кивает и принимает деньги за покупку солдата у женщины. Солдатик смущён. А женщина говорит солдату так проникновенно: “Ты, главное, к маме вернись”. Такая сцена - не редкость.`,
+           `И ещё - о том, как люди бросаются на помощь, а не бегут прочь. Как часто мы слышим: “прохожий пришёл на помощь”.`,
+            `Даже жулики здесь другие - ни одному из них не придёт в голову грабить прилюдно: они знают, что вокруг люди неравнодушные и не пугливые.
+Как-то раз я спросила свою знакомую, не жалеют ли она и её муж , а он этнически русский, что приехали в Израиль. Тогда она мне ничего не ответила. Я не настаивала. И вот спустя некоторое время, вернувшись из туристической поездки в Петербург, она сказала мне:
+- Галя, помните, вы спрашивали, жалею ли я? Теперь я готова ответить.
+Она рассказала: едут они в автобусе. Несколько парней, поняв, что они иностранцы, окружили её мужа, вытащили из его сумки доллары, силой открыли двери автобуса и выпрыгнули. Народ безмолствовал...  Как говорится, комментарии излишни.
+`
+           
   ]
 },
 {
@@ -123,11 +137,25 @@ const textsGalinaGrew = {
 
     {
   text: [
-      `הרבה דברים מחיי בישראל לא נכנסו לסיפור שלי. בבית הספר, למשל - פגישות אישיות בין ההורים למורים. זה כשלעצמו היה עבורי גילוי גדול. ברוסיה, פגישות כאלה היו פומביות: המורה יכלה לומר דברים רעים על הילד מול כל הכיתה, לחשוף את כל “הלכלוך” שלו מול כולם.`,
-      `או שהתלמידים יכלו לכתוב בגלוי מה הם חושבים על המורים - משהו שהדהים אותי לגמרי. בברית המועצות, לבקר מורה לא היה סתם לא מקובל - זה פשוט לא היה אפשרי. המורה תמיד היה צודק, כברירת מחדל.`,
-      `גם הצבא - ההורים יכולים ליצור קשר עם מפקד היחידה. כשבתי אמרה לי שהיא הולכת למקום מסוים ואני לא הרגשתי נוח עם זה, התקשרתי למפקד שלה בעצמי ואמרתי בפשטות שאני לא רוצה שהיא תלך. ושזו שיחה אמיתית שהתרחשה. ברוסיה, אפילו בחלומות הכי פרועים שלך, לא היית יכול לדמיין לעשות שיחה כזו, ועד כמה ששמעו אותך.`,
-      `ואז יש את הדרך שבה אנשים רצים לעזור במקום לברוח. זה נותן תחושת ביטחון עמוקה - התחושה שמה שלא יקרה, סביבך יהיו אנשים שלא יעברו על זה לסדר היום, שיעזרו. אתה לא לבד.`,
-      `גם הפושעים שונים כאן. אף אחד לא היה חושב לשדוד מישהו בציבור - הם יודעים שהאנשים סביבם לא יהיו אדישים ולא יפחדו בקלות. (בלנינגרד, באוטובוס, פעם שודדים הקיפו זר, משכו דולרים מהתיק שלו, פתחו בכוח את הדלתות וקפצו החוצה. אף אחד לא הגיב.)`,
+     `עוד הרבה מהחוויות, האירועים והסיפורים הישראליים לא נכנסו לסיפור שלי.`,
+     ` למשל - בית הספר.`,
+     `בבית הספר הסובייטי, מפגשי ההורים נראו כך: היו מכניסים את כל ההורים לכיתה, והמורה היה קורע את כל תלמיד לגזרים מול כולם, אחד אחרי השני. השפלה הייתה פומבית ונחשבה לנורמלית.
+ ואף אחד - לא ההורים, לא המורים – אפילו המורים שאהבו באמת את הילדים ואת המקצוע שלהם - לא שם לב להפרה המוחלטת של המרחב האישי והכבוד האנושי.`,
+     `בבית ספר בישראל דבר כזה פשוט לא יעלה על הדעת.`,
+     `כאן, גם ההורים וגם התלמידים לא היו סובלים אפילו חצי מההשפלה הזאת. במפגש הורים המורה מדבר עם כל הורה על הילד שלו לבד, באופן אישי. לפגוע במרחב האישי זה לחלוטין לא מקובל - זה מובן למורים, להורים ולילדים הישראלים כבר מגיל קטן.`,
+     `קצת על צבא. ההורים יכולים ליצור קשר עם המפקד. יש חופשות שבועיות. היחס של החברה לחיילים - קודם כל, הם הילדים שלנו.`,
+     `אני לא יכולה לשכוח סצנה אחת. בתור בקופה עומד חייל, מתכוון לשלם. האישה שמאחוריו מאותתת לקופאית; הקופאית מחייכת ומקבלת את התשלום מהאישה במקום החייל נבוך... והאישה אומרת לו באמפתיה: “הכי חשוב, תחזור הביתה בשלום לאמא שלך”. `,
+     `סצנה כזו - לא נדירה כאן.`,
+     `ועוד משהו - על איך אנשים ממהרים לעזור, ולא בורחים מהמצוקה. כמה פעמים אנחנו שומעים: “אדם זר הגיע לעזור”? `,
+     `גם הפושעים כאן שונים - אף אחד מהם לא יחשוב לשדוד בציבור: הם יודעים שסביבם יש אנשים אכפתיים ואמיצים.`,
+     `פעם שאלתי חברה שלי אם הם - היא ובעלה (שהוא רוסי אתני) - מתחרטים שהגיעו לישראל. היא לא ענתה אז, ולא התעקשתי.`,
+     `כמה זמן אחר כך, כשהיא חזרה מטיול תיירותי לסנקט פטרבורג, היא סיפרה לי:`,
+     `גליה, את זוכרת ששאלת אם אני מתחרטת? עכשיו אני יכולה לענות.`,
+     `היא סיפרה:`,
+     `הם נוסעים באוטובוס. כמה בחורים שמו לב שהם זרים, הקיפו את בעלה, שלפו לו מהתיק דולרים, בכוח פתחו את דלתות האוטובוס ויצאו. `,
+     `האנשים סביב לא עשו דבר.`,
+     `כמו שאומרים - כל מילה מיותרת…`,
+    
   ]
 },
 {
@@ -211,11 +239,24 @@ urgently needed to fill a gap because two employees had left.
 
    {
   text: [
-           `Many things about my life in Israel didn’t make it into my story. School, for instance - one-on-one parent–teacher meetings. That alone was a revelation to me. Back in Russia, such meetings were public: a teacher could openly humiliate a child in front of the entire class, airing all the “dirty laundry” for everyone to hear.`,
-                 `Or students openly writing what they think about their teachers - something that truly shocked me. In the Soviet Union, criticizing a teacher was not just discouraged; it was unthinkable. The teacher was always right, by definition.`,
-                 `The army, too - parents being able to contact a unit commander. When my daughter told me she was being sent somewhere and I wasn’t comfortable with it, I called her commander myself and said plainly that I did not want my daughter to go. And that conversation actually happened. Back in Russia, even in your wildest dreams, you couldn’t imagine making such a call, let alone being heard.`,
-                 `And then there’s the way people rush to help instead of running away. This creates a deep sense of safety - the feeling that wherever you are, there will be people around who won’t look away, who will step in. You’re not alone.`,
-                 `Even the criminals are different. No one would think of robbing someone in public - they know the people around them won’t stay indifferent and aren’t easily frightened. (In Leningrad, on a bus, robbers once surrounded a foreigner, pulled dollars from his bag, forced the doors open, and jumped out. No one reacted.)`,
+        `Many stories, events, and impressions about my life in Israel didn’t make it into my narrative.`,
+        `For example, school.`,
+        `In Soviet schools, parent-teacher meetings looked like this: all the parents were gathered into one classroom, and the teacher would “publicly tear apart” each student one by one - in front of everyone. The humiliation was public and considered normal.
+         And no one - neither parents nor teachers, even those who genuinely loved children and their profession - seemed to realize what a blatant violation of personal space and human dignity this was.`,
+        `In an Israeli school, such a thing is unthinkable.`,
+        `In Israel, neither parents nor students would tolerate that kind of humiliation. At a parent meeting, a teacher will speak with each mother or father about their child strictly in private. Violating personal boundaries is absolutely unacceptable. Teachers know this, parents know this, and Israeli children learn this from a very young age.`,
+        `A few words about the army. Parents are able to contact their child’s commanding officer. There are weekly leaves. And society’s attitude toward soldiers is very clear: first and foremost, they are our children.`,
+        `I can’t forget one particular scene. A young soldier is standing in line at the checkout, ready to pay. A woman behind him gives a sign to the cashier; the cashier nods in understanding and accepts the woman’s money to pay for the soldier’s purchase. The soldier is embarrassed. And the woman says to him, very softly and sincerely:
+        “The main thing is - come back to your mother.”`,
+        `Scenes like this are not rare.`,
+        `And there is also the way people rush to help rather than run away. How often do we hear: “Someone nearby stepped in to help”?`,
+        `Even the criminals here are different - it wouldn’t even occur to any of them to rob someone in public. They know that the people around them are not indifferent, and not fearful.`,
+        `Once I asked an acquaintance of mine whether she and her husband - he is ethnically Russian - regretted moving to Israel. At the time, she didn’t answer. I didn’t press her.
+        And then, some time later, after returning from a tourist trip to St. Petersburg, she said to me:`,
+        `“Galya, do you remember asking me whether I regretted it? Now I’m ready to answer.”`,
+        `And then she told me: `,
+        `They were riding on a bus. A group of young men realized they were foreigners, surrounded her husband, pulled dollars out of his bag, forced the bus doors open, and jumped out. The passengers stayed silent…`,
+        `As they say, no further comment is needed.`
   ]
 },
 {

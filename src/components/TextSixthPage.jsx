@@ -35,7 +35,7 @@ const TextSixthPage = ({ lang = "ru" }) => {
 
 
     <p>
-    בגילי, ובכל מה שעברנו, מאשה בת השבע שלי לא יכלה להבין, ובטח שלא להרגיש, את המשטר של המדינה בה נולדה. עולמה הילדותי היה יפה, מלא שלווה. ואז, פתאום, מתוך אותה ילדות תמימה, היא מצאה את עצמה בין זרים, בשפה שאינה מבינה, בלי בית, בלי חברים, בלי משפחה - בעולם מלא פיתויים ועוני מוחלט.
+     בשל גילה הצעיר ובזכות המאמצים שלנו, מאשה בת השבע שלי לא יכלה להבין, ובטח שלא להרגיש, את המשטר של המדינה בה נולדה. עולמה הילדותי היה יפה, מלא שלווה. ואז, פתאום, מתוך אותה ילדות תמימה, היא מצאה את עצמה בין זרים, בשפה שאינה מבינה, בלי בית, בלי חברים, בלי משפחה - בעולם מלא פיתויים ועוני מוחלט.
     </p>
 
        <p>
@@ -63,7 +63,7 @@ const TextSixthPage = ({ lang = "ru" }) => {
      
 
           <p>
-          Given my age and all we had thought, my 7-year-old Masha couldn’t understand or even feel the regime of the country she was born in. Her childhood world was beautiful. And then, suddenly, straight out of that peaceful childhood, she found herself among strangers speaking a language she didn’t understand, without a home, friends, or family - in a world full of temptations and complete poverty.
+           Due to her young age and our efforts, my seven-year-old Masha could not comprehend or feel the reality of the regime in the country where she was born. Her childhood world was beautiful and serene. And then, suddenly, emerging from that peaceful childhood, she found herself surrounded by strangers speaking a language she did not understand, without a home, friends, or family - in a world full of temptations and complete poverty.
           </p>
 
            <p>
