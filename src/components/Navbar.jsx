@@ -221,89 +221,105 @@ React.useEffect(() => {
           ></div>
         </div>
 
-        {/* ---------- Mobile Dropdown Menu ---------- */}
-        <div
-         dir={lang === "he" ? "rtl" : "ltr"}
-          className={`lg:hidden absolute top-16 left-4 w-80 bg-[#362222] shadow-2xl shadow-black/40 font-['Roboto'] text-white p-6 rounded-lg transition-transform duration-300 ease-in-out origin-top ${
-            menuOpen ? "scale-y-100" : "hidden scale-y-0"
-          }`}
+
+
+
+{/* ---------- Mobile Dropdown Menu ---------- */}
+<div
+  dir={lang === "he" ? "rtl" : "ltr"}
+  className={`lg:hidden absolute top-24 left-4 w-80
+    bg-[#362222]/90 backdrop-blur-md
+    shadow-xl shadow-black/30
+    font-['Roboto'] text-white
+    p-6 rounded-2xl z-40
+    transform transition-all duration-150 ease-out
+    ${
+      menuOpen
+        ? "opacity-100 translate-y-0 pointer-events-auto"
+        : "opacity-0 -translate-y-3 pointer-events-none"
+    }
+  `}
+>
+  <div className="flex flex-col divide-y divide-white/15 overscroll-contain">
+
+    {/* Home */}
+    <Link
+      to="/"
+      onClick={handleHomeClick}
+      className="
+        block
+        min-h-[48px]
+        py-4
+        px-4
+        text-lg
+        font-semibold
+        rounded-xl
+        transition-colors duration-150
+        hover:text-gray-300
+        active:bg-white/10
+        touch-manipulation
+      "
+    >
+      {navLabels[lang][0]}
+    </Link>
+
+    {/* Chapters */}
+    {chapterLabels[lang].map(([part, title], index) => {
+      const routes = [
+        "/why-i-left",
+        "/we-arrived",
+        "/mashas-first-days",
+        "/mothers-story",
+      ];
+
+      return (
+        <Link
+          key={index}
+          to={routes[index]}
+          className="
+            block
+            min-h-[48px]
+            py-4
+            px-4
+            text-[15px]
+            text-white/95
+            rounded-xl
+            transition-colors duration-150
+            hover:bg-white/10
+            active:bg-white/20
+            active:scale-[0.98]
+            touch-manipulation
+          "
         >
-          <div className="flex flex-col divide-y divide-white divide-opacity-20">
-            <Link
-              to="/"
-              onClick={handleHomeClick}
-              className="py-[15px] active:scale-95 active:bg-white/10 transition-transform duration-150 ease-in-out"
-            >
-              {navLabels[lang][0]}
-            </Link>
+          <span className="font-semibold">{part}</span> – {title}
+        </Link>
+      );
+    })}
 
-            <Link
-              to="#"
-              onClick={handleChaptersClick}
-              className="py-[15px] active:scale-95 active:bg-white/10 transition-transform duration-150 ease-in-out"
-            >
-              {navLabels[lang][1]}
-            </Link>
+    {/* Contact */}
+    <Link
+      to="/contact-me"
+      className="
+        block
+        mt-5
+        min-h-[48px]
+        py-3
+        text-center
+        rounded-full
+        bg-white/10
+        hover:bg-white/20
+        font-semibold
+        transition-all duration-150
+        active:scale-[0.97]
+        touch-manipulation
+      "
+    >
+      {navLabels[lang][2]}
+    </Link>
 
-            <Link
-              to="/contact-me"
-              className="py-[15px] active:scale-95 active:bg-white/10 transition-transform duration-150 ease-in-out"
-            >
-              {navLabels[lang][2]}
-            </Link>
+  </div>
 
-            {chapterLabels[lang].map(([part, title], index) => {
-              const routes = [
-                "/why-i-left",
-                "/we-arrived",
-                "/mashas-first-days",
-                "/mothers-story",
-              ];
-              return (
-                <Link
-                  key={index}
-                  to={routes[index]}
-                  className="py-[15px] active:scale-95 active:bg-white/10 transition-transform duration-150 ease-in-out"
-                >
-                  <span className="font-bold">{part}</span> – {title}
-                </Link>
-              );
-            })}
-          </div>
-
-          {/* ---------- Mobile Language toggle ---------- */}
-          <div className="flex flex-col lg:hidden justify-center gap-3 mt-4 text-base">
-            <button
-              onClick={() => setLang("ru")}
-              className={`px-4 py-3 rounded-full transition-all duration-200 ease-in-out transform ${
-                lang === "ru"
-                  ? "bg-white text-black"
-                  : "bg-gray-700 text-white hover:bg-gray-600 active:scale-95 active:shadow-inner"
-              }`}
-            >
-              Русский
-            </button>
-            <button
-              onClick={() => setLang("en")}
-              className={`px-4 py-3 rounded-full transition-all duration-200 ease-in-out transform ${
-                lang === "en"
-                  ? "bg-white text-black"
-                  : "bg-gray-700 text-white hover:bg-gray-600 active:scale-95 active:shadow-inner"
-              }`}
-            >
-              English
-            </button>
-            <button
-              onClick={() => setLang("he")}
-              className={`px-4 py-3 rounded-full transition-all duration-200 ease-in-out transform ${
-                lang === "he"
-                  ? "bg-white text-black"
-                  : "bg-gray-700 text-white hover:bg-gray-600 active:scale-95 active:shadow-inner"
-              }`}
-            >
-              עברית
-            </button>
-          </div>
+        
         </div>
       </div>
     </nav>

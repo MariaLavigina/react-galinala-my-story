@@ -41,7 +41,7 @@ const [lang, setLang] = useState(() => {
   // Set page title and meta description based on language
   useEffect(() => {
     const titles = {
-    ru: `Галина Лавигина, моя история Алия из СССР в Израиль, 1990`,
+    ru: `Галина Лавыгина, моя история Алия из СССР в Израиль, 1990`,
     en: `Galina Lavigina: My Story – Immigration from the USSR to Israel, 1990`,
     he: `גלינה לביגינה, הסיפור שלי: עליה מברית המועצות לישראל, 1990`
     };

@@ -2,7 +2,10 @@ const textsDecisionToLeave = {
   ru: {
   h1: `Итак решено - уезжаем!  Куда?`,
 paragraphs1: [
-  `Конечно в Америку. Решить то я решила, а страшно до жути. Снятся леденящие сны, будто падаю я в холодную, глубокую пропасть. Мама говорит, что если она там может быть мне в помощь, то она, конечно, со мной. Начинаем процесс, едем в американское посольство, стоим в какой-то очереди, заполняем какие-то бумаги. `
+     `Конечно в Америку. Решить то я решила, а страшно до жути. Снятся леденящие сны, будто падаю я в холодную, глубокую пропасть. `,
+     `Любой переезд связан с теми или иными трудностями. А переезд в другую страну, да ещё такую непохожую на прежнюю, и подавно. Но в нашем случае он приобретал по-настоящему трагический характер,  поскольку в  конце 80-х это было - “навсегда” и “никогда”. Отъезд приравнивался к измене Родины. Человека лишали гражданства, и он терял право на въезд в страну. Прощались навсегда, понимая, что больше никогда не смогут увидеть родных и друзей, навестить родные могилы.`,
+     `Мама говорит, что если она там может быть мне в помощь, то она, конечно, со мной. Начинаем процесс, едем в американское посольство, стоим в какой-то очереди, заполняем какие-то бумаги.`
+     
 ],
     sections: [
       {
@@ -91,16 +94,10 @@ text: `“давайте Галя я Вам погадаю...”`
 en: {
   h1:  `So, it’s decided - we’re leaving! Where to?`,
   paragraphs1: [
-    `Of course, to America.
-
-I made the decision, yes - but I was terrified.
-
-I kept having chilling dreams, like I was falling into a cold, deep abyss.
-
-My mother said that if she could be of any help to me there, then of course she would come with me.
-
-We started the process: went to the American embassy, stood in some line, filled out some paperwork...
-`
+   `Of course, to America.`,
+   `I made the decision, yes - but I was terrified. I kept having chilling dreams, like I was falling into a cold, deep abyss.`,
+   `Any move involves certain difficulties. Moving to another country - especially one so different from the previous one - is even more challenging. But in our case, it took on a truly tragic character, because in the late 1980s, such a move meant “forever” and “never.” Leaving was equated with betrayal of the homeland. A person would be stripped of their citizenship and returning became impossible. People said goodbye forever, knowing they would never again see their relatives and friends or visit the graves of their loved ones.`,
+   `My mother said that if she could be of any help to me there, then of course she would come with me. We started the process: went to the American embassy, stood in line, filled out paperwork...`
   ],
     sections: [
       {
@@ -211,11 +208,11 @@ Because of the denial, they became trapped: they couldn’t leave, but also coul
   he: {
    h1: `אז הוחלט - נוסעים!`,
 paragraphs1: [
-  `לאן? כמובן, לאמריקה.`,
-    `ההחלטה התקבלה - אני החלטתי, אבל הפחד היה עצום.
- חלומות קרים ומפחידים הציפו אותי, כאילו אני נופלת לתהום עמוק וקר.`,
-      `אמי אמרה שאם היא יכולה להיות שם כדי לעזור לי, היא כמובן תיסע איתי.`,
-        `התחלנו בתהליך: נסענו לשגרירות האמריקאית, עמדנו בתור כלשהו, ומילאנו מסמכים שונים.`
+      `לאן? כמובן, לאמריקה.`,
+       `ההחלטה התקבלה - אני החלטתי, אבל הפחד היה עצום. חלומות קרים ומפחידים הציפו אותי, כאילו אני נופלת לתהום עמוק וקר.`,
+        `כל מעבר כרוך בקשיים מסוימים. מעבר למדינה אחרת - ובמיוחד כזו ששונה כל כך מהקודמת - הוא אפילו יותר מורכב. במקרה שלנו, זה קיבל אופי באמת טראגי, כי בסוף שנות ה-80 זה היה - "לנצח" ו"לעולם לא". העזיבה נחשבה לבגידה במולדת. אדם חווה ביטול אזרחותו ואיבוד הזכות לשוב למדינה. נפרדו מהיקרים להם לנצח בידיעה שלעולם לא יוכלו עוד לראות את בני משפחתם וחבריהם או לבקר בקברי יקיריהם.`,
+         `אמי אמרה שאם היא יכולה להיות שם כדי לעזור לי, היא כמובן תיסע איתי.`,
+          `התחלנו בתהליך: נסענו לשגרירות האמריקאית, עמדנו בתור כלשהו, ומילאנו מסמכים שונים.`
 ],
     sections: [
       {

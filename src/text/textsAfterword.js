@@ -10,7 +10,7 @@ const textsAfterword = {
 
     h1: "Вот мы - эти три женщины 2026г",
  paragraphs1: [
-  `------------------------`
+  ``
 ],
 
     imageTextSections: [
@@ -62,7 +62,7 @@ he: {
 
   h1: `הנה אנחנו – שלוש נשים, שלוש דורות, סיפור אחד, 2026`,
   paragraphs1: [
-   `----`,
+   ``,
   ],
 
     imageTextSections: [
@@ -105,9 +105,9 @@ he: {
 
   },
 
-    h1: `Here we are – these three women, 2026.`,
+    h1: `Here we are - these three women, 2026.`,
     paragraphs1: [
-      `-----------------------`
+      ``
     ],
 
         imageTextSections: [
