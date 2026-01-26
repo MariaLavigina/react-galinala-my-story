@@ -1,5 +1,14 @@
 # about this site
 
+# Leaving Everything Behind: A Family Story
+
+In 1990, my mother made a life-changing decision: she left the Soviet Union forever, abandoning everything familiar to start a new life in a better country. This is not a story of politics or geography—it is a story about choice, dignity, and the courage to step into the unknown when there is no other way.
+
+For years, the story existed only in fragments at our family table, passed down through memory. Then my mother wrote it down, and I transformed it into a four-part website, available in **Russian, English, and Hebrew**. Through the eyes of three generations—my grandmother, my mother, and me—it reveals the challenges, the hope, and the emotional shifts that immigration brings.
+
+The full story, with chapters, photos, and historical context, can be read here:  
+[https://my-story-galina-lavigina.netlify.app/](https://my-story-galina-lavigina.netlify.app/)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

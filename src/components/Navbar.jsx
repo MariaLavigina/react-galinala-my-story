@@ -31,7 +31,7 @@ React.useEffect(() => {
 
   // Nav link labels in different languages
   const navLabels = {
-    ru: ["главная страница", "списки глав", "свяжитесь со мной"],
+    ru: ["главная", "оглавление", "связаться со мной"],
     en: ["Home", "Chapters", "Contact Me"],
     he: ["דף הבית", "פרקים", "צור קשר"],
   };
