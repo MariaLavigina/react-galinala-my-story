@@ -20,7 +20,7 @@ const texts = {
     photoDesktop: "/images/desktop-images/three-women-01-desktop.webp",
     photoMobile: "/images/mobile-images/three-women-01-mobile.webp",
 
-    h4: `Для кого это написанно?`,
+    h4: `Для кого это написано?`,
     paragraphs2: [
       `Для Маши. Она ведь не уехала - семилетнюю её даже не спрашивали, просто увезли.`,
       `Для ее семьи. Они - британцы, не имеющие представления ни о Советском Союзе, ни об Израиле, ни о том, что значит быть “олим ходашим ми Русия”.
