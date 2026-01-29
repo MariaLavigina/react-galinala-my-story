@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Navbar from '../components/Navbar';
+import Navbar from "../components/Navbar";
 
 // Translation labels
 const labels = {
@@ -8,40 +8,34 @@ const labels = {
     name: "Ваше имя",
     email: "Ваш email",
     message: "Ваше сообщение",
-    submit: "Отправить сообщение"
+    submit: "Отправить сообщение",
   },
   en: {
     contactTitle: "Contact Me",
     name: "Your Name",
     email: "Your Email",
     message: "Your Message",
-    submit: "Send Message"
+    submit: "Send Message",
   },
   he: {
     contactTitle: "צור קשר",
     name: "שמך",
     email: "האימייל שלך",
     message: "הודעה שלך",
-    submit: "שלח הודעה"
-  }
+    submit: "שלח הודעה",
+  },
 };
 
 export default function ContactMe() {
   const [opacity, setOpacity] = useState(0);
-  const [name, setName] = useState("");
   const [lang, setLang] = useState(() => localStorage.getItem("lang") || "ru");
+  const [name, setName] = useState("");
 
-
-
-
-  // ✅ Preload desktop background image
+  // Preload desktop background
   useEffect(() => {
     const bgImage = new Image();
-    bgImage.src = "/images/bg-contact-me-desktop.webp"; 
+    bgImage.src = "/images/bg-contact-me-desktop.webp";
   }, []);
-
-
-
 
   useEffect(() => {
     localStorage.setItem("lang", lang);
@@ -51,32 +45,6 @@ export default function ContactMe() {
     setOpacity(1);
   }, []);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const form = e.target;
-    const formData = new FormData(form);
-
-    // Convert FormData to URLSearchParams
-    const payload = new URLSearchParams();
-    formData.forEach((value, key) => {
-      payload.append(key, value);
-    });
-
-    try {
-      // Submit form to Netlify
-      await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: payload.toString(),
-      });
-
-      // Redirect to React thank-you page
-      window.location.href = `/thank-you?name=${encodeURIComponent(formData.get("name"))}`;
-    } catch (error) {
-      console.error("Form submission error:", error);
-    }
-  };
-
   return (
     <div style={{ opacity, transition: "opacity 0.3s ease-in-out" }} className="m-0 p-0">
       <Navbar lang={lang} setLang={setLang} />
@@ -84,13 +52,15 @@ export default function ContactMe() {
       <main lang={lang}>
         <div className="w-full min-h-screen flex items-start sm:items-center justify-center pt-12 sm:pt-0 bg-[#302024] sm:bg-[url('/images/bg-contact-me-desktop.webp')] sm:bg-cover sm:bg-center sm:bg-no-repeat">
           <div className="w-full max-w-[500px] mx-auto p-8 sm:bg-[#302024] sm:p-6 md:sm:p-8 lg:sm:p-10 sm:shadow-[0_0_25px_rgba(0,0,0,0.6)]">
+            
+            {/* ✅ Netlify Form */}
             <form
               name="contact"
               method="POST"
               data-netlify="true"
               netlify-honeypot="bot-field"
+              action="/thank-you" // Redirect after submission
               className="space-y-6"
-              onSubmit={handleSubmit}
             >
               <input type="hidden" name="form-name" value="contact" />
               <input type="hidden" name="bot-field" />
@@ -150,6 +120,7 @@ export default function ContactMe() {
                 </button>
               </div>
             </form>
+
           </div>
         </div>
       </main>

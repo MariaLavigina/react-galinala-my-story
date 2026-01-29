@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const footerText = {
   ru: {
@@ -61,20 +62,20 @@ export default function Footer({ lang = "ru" }) {
   return (
     <footer className="w-full bg-transparent text-white py-16">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 px-6">
-        {/* LEFT — Emotional / Action */}
+
         <div className="flex flex-col items-center lg:items-start space-y-6">
-          {/* Subtle contact button */}
-          <a
-            href="contact-me.html"
-            className={`
-              inline-flex items-center justify-center
-              px-8 py-3 rounded-full text-base font-medium text-white/90
-              bg-white/10 border border-white/25 backdrop-blur-sm
-              ${glowHoverStyle}
-            `}
-          >
-            {text.button}
-          </a>
+
+ <Link
+  to="/contact-me"
+  className={`
+    inline-flex items-center justify-center
+    px-8 py-3 rounded-full text-base font-medium text-white/90
+    bg-white/10 border border-white/25 backdrop-blur-sm
+    ${glowHoverStyle}
+  `}
+>
+  {text.button}
+</Link>
 
           {/* Social icons */}
           <div className="flex items-center space-x-6">
